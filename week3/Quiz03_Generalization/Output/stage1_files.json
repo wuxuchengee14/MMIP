@@ -1,0 +1,1451 @@
+{
+  "scope": "all_requirements_single_fold",
+  "files": [
+    {
+      "file": "outputs/all_models_comparison.csv",
+      "bytes": 474,
+      "sha256": "e7445dc58e977c288a6c1e148623cf14920ccf93ae2bb7ddd0667ef599cc5375",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\all_models_comparison.csv"
+    },
+    {
+      "file": "outputs/augmentation_analysis.md",
+      "bytes": 1890,
+      "sha256": "a4857e086cdd9722a37ee6ced0fdd5d7df4f2c5d7c69ea29ff5e8247c04ea56e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\augmentation_analysis.md"
+    },
+    {
+      "file": "outputs/augmentation_comparison.png",
+      "bytes": 40893,
+      "sha256": "d1a5f6a903305808096b328e01cea9cf60eb72a3e72b846bdf8b69c06a6b635b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\augmentation_comparison.png"
+    },
+    {
+      "file": "outputs/augmentation_deltas.csv",
+      "bytes": 196,
+      "sha256": "37adb2a871509f090cb1c463c7056d7916184cc742112f295ccbf0c2e1176395",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\augmentation_deltas.csv"
+    },
+    {
+      "file": "outputs/augmentation_examples.png",
+      "bytes": 1229852,
+      "sha256": "47729bedbac941d6074f93bb672034b4659188d021b5d52c2ccceea94431d08e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\augmentation_examples.png"
+    },
+    {
+      "file": "outputs/model_comparison.csv",
+      "bytes": 283,
+      "sha256": "cf0c046f171799aa1710af5ba7d014c713902170199d95125bf31a6245b9be9b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\model_comparison.csv"
+    },
+    {
+      "file": "outputs/paired_cv_deltas.csv",
+      "bytes": 275,
+      "sha256": "a1264b96fae7931e1496970b4298d1c93c5be7efa86458aeb8f70707e4326005",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\paired_cv_deltas.csv"
+    },
+    {
+      "file": "outputs/report.md",
+      "bytes": 2475,
+      "sha256": "2b03c197c4b3013719b9a658adc918dde1644b6b781553891bb9b067613f4457",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\report.md"
+    },
+    {
+      "file": "outputs/plain/cv_folds.csv",
+      "bytes": 215,
+      "sha256": "6a5962cbb637e222d48126ca90de9625b9b877f53f954476cc30ccacd9b4cc04",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\cv_folds.csv"
+    },
+    {
+      "file": "outputs/plain/hyperparameters.csv",
+      "bytes": 154,
+      "sha256": "78a024ba7fed03c33761cc22c2758ccdf3524bd8f6150efbd8b9faa5152f07dd",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\hyperparameters.csv"
+    },
+    {
+      "file": "outputs/plain/hyperparameter_comparison.png",
+      "bytes": 32121,
+      "sha256": "f33572571b6b430a132b6f8621c356cf48e167e4845a1681161961f6f0785d20",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\hyperparameter_comparison.png"
+    },
+    {
+      "file": "outputs/plain/selection.json",
+      "bytes": 1056,
+      "sha256": "d93dd2e08eaf2bea1907da5c7cfbaecb6677f5651cb604c937e9335f91013749",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\selection.json"
+    },
+    {
+      "file": "outputs/vgg19/cv_folds.csv",
+      "bytes": 215,
+      "sha256": "082aa108dad33b1196a27e96a41fdd4ddef467439e7bdcd93cb9cb1c18c4db34",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\cv_folds.csv"
+    },
+    {
+      "file": "outputs/vgg19/hyperparameters.csv",
+      "bytes": 155,
+      "sha256": "5428fc8cfd4e5476413cad4b78b647b468d5346805e21ed5f36372aeead45a94",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\hyperparameters.csv"
+    },
+    {
+      "file": "outputs/vgg19/hyperparameter_comparison.png",
+      "bytes": 33914,
+      "sha256": "094ff1e8d9d09215e84ebbb726c5b3a280cb4f3bd1b33a4dd5b11e5125d574f0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\hyperparameter_comparison.png"
+    },
+    {
+      "file": "outputs/vgg19/selection.json",
+      "bytes": 1060,
+      "sha256": "562ef8b0f75bb305ac55d420f8f332aa1756c9581e168a8861a6eeecde9cfc9f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\selection.json"
+    },
+    {
+      "file": "outputs/vgg19/selected/best.pt",
+      "bytes": 558475889,
+      "sha256": "c82b91e4630e541a0deec2589e866acf573e0a8db16908829e643103cc7016a0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\selected\\best.pt"
+    },
+    {
+      "file": "outputs/vgg19/selected/source.json",
+      "bytes": 64,
+      "sha256": "1a9dc731143baeecd072f0dd8ba0eb5e63ef4c70f1a05555da85df67ff0abe70",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\selected\\source.json"
+    },
+    {
+      "file": "outputs/vgg19/test/classification_report.csv",
+      "bytes": 1095,
+      "sha256": "28946f24be653604d8d4487490ff02f3a6b2ba632ba6e6e0eda46cf75b6cca28",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\classification_report.csv"
+    },
+    {
+      "file": "outputs/vgg19/test/confusion_matrix.csv",
+      "bytes": 532,
+      "sha256": "e7184d9d21cc52ab1b7becc95f25d4c61236205be098669ee19bf5d297fcf8f0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\confusion_matrix.csv"
+    },
+    {
+      "file": "outputs/vgg19/test/confusion_matrix.png",
+      "bytes": 126555,
+      "sha256": "7db73ee25668bc16ecc3753a80c4419efb68b104d2fbd12ff165f30054f6e46e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\confusion_matrix.png"
+    },
+    {
+      "file": "outputs/vgg19/test/error_examples.png",
+      "bytes": 108003,
+      "sha256": "d45e84f6777714b20040d369210f54812e077d74fcc1ff3fdaeaa88c1ab21557",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\error_examples.png"
+    },
+    {
+      "file": "outputs/vgg19/test/metrics.json",
+      "bytes": 920,
+      "sha256": "43c6322745e29b3cc77018dd110b5cd83039a269fdadb0f7abff3f3040ec5b60",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\metrics.json"
+    },
+    {
+      "file": "outputs/vgg19/test/predictions.csv",
+      "bytes": 3914073,
+      "sha256": "1ec21ec109a4e47ee70cc6c38f6ccfa8875fc5355702ea2644dddf37571396a7",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\predictions.csv"
+    },
+    {
+      "file": "outputs/vgg19/test/predictions.npz",
+      "bytes": 658672,
+      "sha256": "624d82547dcd6f2ee1f54339cda3ee2d15546ad2eb334334b9a34e5288fa7f91",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\predictions.npz"
+    },
+    {
+      "file": "outputs/vgg19/test/roc_per_class.png",
+      "bytes": 193362,
+      "sha256": "5a8c17e34d7a54aa7078078edf6e03769648d0b08406fadd121a049504b7c307",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\test\\roc_per_class.png"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/complete.json",
+      "bytes": 955,
+      "sha256": "b72f3130fd5b8f5e32f15a26e21b7c6615346916bf0964b0932534012ce881e0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\lr_0.0003\\fold_1\\complete.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/history.csv",
+      "bytes": 2286,
+      "sha256": "c567e45c2c747091cd1795ef2eaaf9296199a305b357f66b09a5d10d533fda9c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\lr_0.0003\\fold_1\\history.csv"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/learning_curves.png",
+      "bytes": 106126,
+      "sha256": "0b6b79a816ab6163603ca8b00eb4ffaf6fcb8bfb72c0b1d25bb951dfbd27e226",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\lr_0.0003\\fold_1\\learning_curves.png"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/run.json",
+      "bytes": 1051,
+      "sha256": "d894eea022d5b65368e1354099af0443fbb328a3547ac757574de2e8054af093",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\lr_0.0003\\fold_1\\run.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/validation_predictions.npz",
+      "bytes": 274339,
+      "sha256": "c8c8784c3e17752e94488c979a7bacbe38356018ac9af45a4f8f1358303e925d",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\vgg19\\lr_0.0003\\fold_1\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/plain/selected/best.pt",
+      "bytes": 1224307,
+      "sha256": "468b8baba878326b5353ee7d11d137059d3de4231889c2b6cbfe7bc835e79ac0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\selected\\best.pt"
+    },
+    {
+      "file": "outputs/plain/selected/source.json",
+      "bytes": 63,
+      "sha256": "d4a9cbaed6e0341c25750e74fd55c21af37fe7891e10ab24eb6b78daea639c92",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\selected\\source.json"
+    },
+    {
+      "file": "outputs/plain/test/classification_report.csv",
+      "bytes": 1092,
+      "sha256": "754b51d429d4f22f94c98d8c9e6393f13c1626151bf8278fdbcd3905b6055368",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\classification_report.csv"
+    },
+    {
+      "file": "outputs/plain/test/confusion_matrix.csv",
+      "bytes": 530,
+      "sha256": "adbe75c187799331ee9ba66b9b8c2c602f60d1cfddf1e9487593be95f49b531c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\confusion_matrix.csv"
+    },
+    {
+      "file": "outputs/plain/test/confusion_matrix.png",
+      "bytes": 122512,
+      "sha256": "a87528bd253eb23ba0741f295f2ceb4163648a046ef58c089e191df8fde5bf70",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\confusion_matrix.png"
+    },
+    {
+      "file": "outputs/plain/test/error_examples.png",
+      "bytes": 109175,
+      "sha256": "5d93c24ca562cdcf59904a74d96312cb345f3495957419ad4eb4a857fc8f0696",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\error_examples.png"
+    },
+    {
+      "file": "outputs/plain/test/metrics.json",
+      "bytes": 912,
+      "sha256": "7571655ac3d2345dd715a2132ec83c37b5cb4a4ad63a94f330b1322a14fb2128",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\metrics.json"
+    },
+    {
+      "file": "outputs/plain/test/predictions.csv",
+      "bytes": 4328772,
+      "sha256": "6305d0bf862079333c1217417e276e9687cc8c888022e6a5e019d2d1812072e5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\predictions.csv"
+    },
+    {
+      "file": "outputs/plain/test/predictions.npz",
+      "bytes": 794960,
+      "sha256": "8ef3246c359be67a688f13541208cf5e7efa45aa80138b6dbc8c684e1841b7c8",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\predictions.npz"
+    },
+    {
+      "file": "outputs/plain/test/roc_per_class.png",
+      "bytes": 182766,
+      "sha256": "6fe4bbdb4a98928e571110b097c5f8da93769d196d59486ab7549e18ed6ae532",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\test\\roc_per_class.png"
+    },
+    {
+      "file": "outputs/plain/lr_0.001/fold_1/complete.json",
+      "bytes": 950,
+      "sha256": "5d24fb30e8c4473d3daf378d64600ef12ffbf3e572a22a07128c30f583a748c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\lr_0.001\\fold_1\\complete.json"
+    },
+    {
+      "file": "outputs/plain/lr_0.001/fold_1/history.csv",
+      "bytes": 4115,
+      "sha256": "d3cfbb40ec319249fd69095df0385fcf3078489b66404d4de3725072c1e49de9",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\lr_0.001\\fold_1\\history.csv"
+    },
+    {
+      "file": "outputs/plain/lr_0.001/fold_1/learning_curves.png",
+      "bytes": 97642,
+      "sha256": "71d729ed61f6d8e7e6098cd50982831c6ee91ce0cc40dff10f9bbb150b74d986",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\lr_0.001\\fold_1\\learning_curves.png"
+    },
+    {
+      "file": "outputs/plain/lr_0.001/fold_1/run.json",
+      "bytes": 1051,
+      "sha256": "a723d92a1915150a645ae979c9520b7c31135d017467e5846ecdaefaae522176",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\lr_0.001\\fold_1\\run.json"
+    },
+    {
+      "file": "outputs/plain/lr_0.001/fold_1/validation_predictions.npz",
+      "bytes": 365367,
+      "sha256": "fdc8003810b008d8bd702c02ae1c1b8f2504a7676f4df1908c0d5138ffad032c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\plain\\lr_0.001\\fold_1\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_cases.csv",
+      "bytes": 1587,
+      "sha256": "cd417198ad0cccd32ba4e062cb5c90833b2c92bbca910ceddd7bd0068ab9daf3",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_cases.csv"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_0.npy",
+      "bytes": 200832,
+      "sha256": "303527f2d107aeb92e3aefa4814a2069e876a567ade43c7cd77fee67999589a5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_0.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_0.png",
+      "bytes": 414154,
+      "sha256": "6306213ed700dfe37d85f983373ad66bcb487ce95c4c86a8143d0104470932a1",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_0.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_1.npy",
+      "bytes": 200832,
+      "sha256": "dbbf2c5bc9eba307eefbc53b077fb577a8f26c283dab7783bb40852cb35d4ed7",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_1.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_1.png",
+      "bytes": 661942,
+      "sha256": "fd4974f914dce5b53c3659ffd2db8ad54a53fe0d7d877b633e9eaac33fd2d2d5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_1.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_107.npy",
+      "bytes": 200832,
+      "sha256": "ae2850c70f77ab9cc3e41d11ffab07be9f07cf59c3b5a75b72d2e2c5377b0f61",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_107.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_107.png",
+      "bytes": 480823,
+      "sha256": "cbc5a6e343ac40a3f9739bdf1e33ffa963975f54ac1184e42f09441d48e88446",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_107.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_108.npy",
+      "bytes": 200832,
+      "sha256": "11d34f75defeac1d3e342620a45877216eacde811c6d4e06d47e210094510a02",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_108.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_108.png",
+      "bytes": 394289,
+      "sha256": "c1eb2f6de1ec1dee30de04cff8c5cec75b40734f8ef9e15120699f73bbbc7a8f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_108.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_12.npy",
+      "bytes": 200832,
+      "sha256": "7a349ec0c8db90bc9eaaaddd10676340d2a5c4ca2c4bbd1ae131be261b210dab",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_12.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_12.png",
+      "bytes": 432969,
+      "sha256": "5d5b14ffad0e56169f3f98b11a36ba07dc4eab4d3cdccf0fd5d1f853346ea306",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_12.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_1293.npy",
+      "bytes": 200832,
+      "sha256": "2a5dcab0466cba31431c56f34e74e905ba1b1e3a05b4306b1c923ac6f9d37f7c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_1293.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_1293.png",
+      "bytes": 435682,
+      "sha256": "2fa5367b80bcb976e7f69a7faa6f4f4a2d8e2ced6a7dec13842a416cfb61e937",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_1293.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_1305.npy",
+      "bytes": 200832,
+      "sha256": "9103b4992b6ffb72693be5f05330fef4beb5b4804618344c62856598792929ad",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_1305.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_1305.png",
+      "bytes": 451568,
+      "sha256": "d57a443cf41544ce1fb07fefefb77d801bd1bc62ba2b22e4370e675066dbb2d2",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_1305.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_131.npy",
+      "bytes": 200832,
+      "sha256": "8e82e6f67478cd4253ce9777fb422cf3df6d01b3d5229b20c6ae087b3733b92e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_131.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_131.png",
+      "bytes": 359966,
+      "sha256": "8f79e7970403f73c2bab267c14ac8d2bbafea5c32b427408b2f49cb5bfbd8998",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_131.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_18.npy",
+      "bytes": 200832,
+      "sha256": "0954ff7d47b6b6f08bc44b20f74dd573e87e231497ffdce7759eec7e96bc1ba7",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_18.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_18.png",
+      "bytes": 497281,
+      "sha256": "b8e56fc44d79dc2baf2fa2cd4b0977d1a981564d3956eb1be632cad4da4d9e92",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_18.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_19.npy",
+      "bytes": 200832,
+      "sha256": "7346744012d1d190f642a7660bdcfd822bf7297d709356fcb887edef8fd89454",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_19.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_19.png",
+      "bytes": 257296,
+      "sha256": "76de9b18c94d2e5728cfbb799f391208be2b62cd7cd15e0ad73eae3118bb0d55",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_19.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_2.npy",
+      "bytes": 200832,
+      "sha256": "b0931c74ffe06a258999456f9a4e165fdeddb87658bc970106ee7e702ff7507c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_2.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_2.png",
+      "bytes": 337643,
+      "sha256": "a8d2c315aca8b8befb55575fb2ed5a6a33c180b9d5e645e128940a16b683dd3d",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_2.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_217.npy",
+      "bytes": 200832,
+      "sha256": "ebaa9b9af576f224c0904b1259bbab1552667557378222234594315bef4269b2",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_217.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_217.png",
+      "bytes": 229066,
+      "sha256": "537aab8ec3fb68c1d4c4ff26738bae2db81b8367f650c5536c9f0ead96badf77",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_217.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_225.npy",
+      "bytes": 200832,
+      "sha256": "287d08d8a2f7263bd78871eeb147596a71028ebad6761c587549331f102bc261",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_225.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_225.png",
+      "bytes": 357652,
+      "sha256": "67c3532a196d0948ae7abfafc0365f8b27b7a1401e2e99dca5e046e12c1d2147",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_225.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_26.npy",
+      "bytes": 200832,
+      "sha256": "f2eb59a91b46880772ce80587febfbae3885d2c44a7e5d7bb27c56278cc8647f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_26.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_26.png",
+      "bytes": 272295,
+      "sha256": "9ffc1315189f55765625f6d9a6118b6a80974fc3fd09a81a6edf8332b6169c52",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_26.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_3.npy",
+      "bytes": 200832,
+      "sha256": "dcc4556e5e484c774d982d3cf21e96dc0e50dfc9ed129642c7d06087fec9cd3a",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_3.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_3.png",
+      "bytes": 532949,
+      "sha256": "ff470d8e3471ecef569c44995846fd0b7d7ecb77796c47265c2bedd111db2fc5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_3.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_34.npy",
+      "bytes": 200832,
+      "sha256": "713397d11af6554a4ff43e89f3064ef87966a7017072d8884056eb534d7dc0a9",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_34.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_34.png",
+      "bytes": 531305,
+      "sha256": "310e478f360dfb32805fc52d226ce09c8ed6360f25b90aad6753647fffac8cd5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_34.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_4.npy",
+      "bytes": 200832,
+      "sha256": "6698326eeba3da3dbcf346eb9503514dc0f5dc85fa778ec55b4d4e95de407452",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_4.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_4.png",
+      "bytes": 324615,
+      "sha256": "d9d8fc07f0d91c16e2dba259548b08332fd88441da153d2dc90ebff75c2b73be",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_4.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_47.npy",
+      "bytes": 200832,
+      "sha256": "a29c0c0ff64af16c9a803beba33291e24507268fe55239539547a75262da7622",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_47.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_47.png",
+      "bytes": 461848,
+      "sha256": "dc8fa171cf406b6a086df3a9369d201ff1b9f6b60c1b6ff44cd24d50356662ac",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_47.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_7.npy",
+      "bytes": 200832,
+      "sha256": "a07771f441b880d7e6a29bcb3d524e4f487bb06789d96502cb96982a538ddaa2",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_7.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_7.png",
+      "bytes": 330998,
+      "sha256": "4a2c6c13735eb0bb4971c469e267fdc91fead27351cebc273d035a7f18c38eb0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_7.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_72.npy",
+      "bytes": 200832,
+      "sha256": "4561f78bd1bda1f4453792dab7f5616ced40f891fe328b3302b2c92f7662c96b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_72.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_72.png",
+      "bytes": 242312,
+      "sha256": "24d13228c80079c89f438c46624547f2ccdfcd61c3f815dd93ecd371343ce13a",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_72.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_81.npy",
+      "bytes": 200832,
+      "sha256": "194437a9ff81a3e2200bebccbd3b309fc134cae7987ecadd4a8fc1cb70e5e89c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_81.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_81.png",
+      "bytes": 249733,
+      "sha256": "88c3e4eb0d8aa39f4dd71122c0d0529298e4dc6bc0104669e81651752c0670c4",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_81.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_887.npy",
+      "bytes": 200832,
+      "sha256": "473c446f81bd41170bac206d3a3b3251a04b8cf05ec7ac7c709051c8c762f9b1",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_887.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/gradcam_test_887.png",
+      "bytes": 403543,
+      "sha256": "2a01b69484d8c7cbde14ba42073c3aa3f5ed5f45c3dae3a2269ee155d1e55ef7",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\gradcam_test_887.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/kernels_and_responses.png",
+      "bytes": 516249,
+      "sha256": "4d08b4a01e7be0df766655824034f692caa96066090c222498b43e9712573660",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\kernels_and_responses.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/kernel_analysis.md",
+      "bytes": 682,
+      "sha256": "b1c07688458ca2d7732a868a262141e45ab9146c1195ec0ffbd95ac87730b75f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\kernel_analysis.md"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/kernel_statistics.json",
+      "bytes": 448,
+      "sha256": "0f855c0141cc75fcad481fb91ed4b8b9d9d17ec9742bf713f01caf2702e119b1",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\kernel_statistics.json"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/kernel_weights.npz",
+      "bytes": 481,
+      "sha256": "7a3766df37369e313746ce64d63f31fcc36317a4f3f9fe984900278f5ed51833",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\kernel_weights.npz"
+    },
+    {
+      "file": "outputs/explanations/quiz3/plain/xai_analysis.md",
+      "bytes": 3697,
+      "sha256": "ce46305498a547d49872bdba72fb70e90bbbe09020d3a1a94f60224247facdf5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\plain\\xai_analysis.md"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_cases.csv",
+      "bytes": 1439,
+      "sha256": "5fd353d7166757d1ab2f7d2db88625bb7fa9cceb217e1de06677997dcff8e46c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_cases.csv"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_0.npy",
+      "bytes": 200832,
+      "sha256": "01b88055662b12a270cd00b7c22ffc70a2bc5e4087ee3e5e326f7b3122d326fc",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_0.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_0.png",
+      "bytes": 322104,
+      "sha256": "8afeceb58c2fd292921edf792ba1a8e96547cfd1941834aaabed377c33fd3eb7",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_0.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1.npy",
+      "bytes": 200832,
+      "sha256": "34f2e6b9013769c79e8d25e7388a2a3d88dbe92a0a70730936a13e4dda08132f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1.png",
+      "bytes": 376516,
+      "sha256": "d16494f71f758cb2118d537145b7b9dffe60e53e06cd0b9692e502a857aa1d01",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_10.npy",
+      "bytes": 200832,
+      "sha256": "b5ed03192b8499ad4042d7f4c33953c914157a2b281fb5f22a58eedc07392e7d",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_10.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_10.png",
+      "bytes": 391769,
+      "sha256": "0211b27bb782a62d8ed3236fd47c86b18969bd54e9ac9f0abe6a2f39c16539d1",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_10.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1044.npy",
+      "bytes": 200832,
+      "sha256": "df18ba29cfda6a9f763c14390e33f4e12072f43b09d6834c472d1a6685fea003",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1044.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1044.png",
+      "bytes": 418458,
+      "sha256": "ead109f2ec88244f1be5c89ed951481e92002138723ab3bf92cfa316107d9755",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1044.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_107.npy",
+      "bytes": 200832,
+      "sha256": "6ee1a9497abadbbf9b702ade20d8b6b44900fe83045c2db2b7b3d85bf457fe64",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_107.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_107.png",
+      "bytes": 309198,
+      "sha256": "e3e9a9b706a82a5a094668a12c7c2e9107e60c05edea8a0f249dbe7537f705ff",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_107.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1108.npy",
+      "bytes": 200832,
+      "sha256": "2c956466f99d3e6e273b9e306fcca165c74ac90ae89b32ffa848769aec8515cd",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1108.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1108.png",
+      "bytes": 361774,
+      "sha256": "6ba8ffb1782ca728f168aa9b42b74cc0d8ec884311feffb887c4b6c8bc32e811",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1108.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1749.npy",
+      "bytes": 200832,
+      "sha256": "fbebab95be721a3730b368e0d4bc8405ccdad7a95b2d052f6b5cb6594d081a9b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1749.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_1749.png",
+      "bytes": 232986,
+      "sha256": "6331a627478d20d89cd88739ab0b505e922aeded441686fa6b25ae80c0d2c05c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_1749.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_18.npy",
+      "bytes": 200832,
+      "sha256": "86b390ebd468a23f9343f8bae84c6dfced60b21495a12f391cfb50ad95775460",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_18.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_18.png",
+      "bytes": 416959,
+      "sha256": "492d57372a5bf258d98c99eb15e31b437defbaeeda3f818c421fb2b52bef1fb9",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_18.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_19.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_19.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_19.png",
+      "bytes": 253990,
+      "sha256": "5bfc6920ae2fe44c9559524a427ea6847004af386d194bc57a7f6052f7f3d17a",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_19.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_2.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_2.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_2.png",
+      "bytes": 222814,
+      "sha256": "12a8efe3bedfb9b2d21dc6301d7c2143e5dc7c8ea1c8d185ce375e5304582bf1",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_2.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_200.npy",
+      "bytes": 200832,
+      "sha256": "b3a9e90cc1845c7ade80165dc1bacb4ceb821e521b9be35a05f154fb85831e11",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_200.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_200.png",
+      "bytes": 446015,
+      "sha256": "59b4de5ca7dad849584e9583bf03a0228568aed72662f7cdee01991bebc2c922",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_200.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_26.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_26.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_26.png",
+      "bytes": 139265,
+      "sha256": "475496ddf4f6906ccf4313003fd119629d0b0411dd421881633b0d0689a5c47f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_26.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_3.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_3.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_3.png",
+      "bytes": 235796,
+      "sha256": "0f673f362b14f34027be3d464b9043b184ebe08afc09ddbd99a53bfb6ec37511",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_3.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_34.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_34.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_34.png",
+      "bytes": 290599,
+      "sha256": "001453d6d06bd84c7eae82ab8a58cb51cf9a8881d0ff2c1267322f4e12c5d361",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_34.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_4.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_4.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_4.png",
+      "bytes": 285106,
+      "sha256": "05e46d67261499f7a4b2408d4d91cf6eea128d740b935da596ab9013cac4de7b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_4.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_47.npy",
+      "bytes": 200832,
+      "sha256": "2f08b67e64ada54d0bc75edcf41875da8bfc9fa0be9b25f1ea1939524ac31c3b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_47.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_47.png",
+      "bytes": 451105,
+      "sha256": "8725ad16616419eabac520744d7adc4d0c5ebf4fcef89e146d13969c0a2151ad",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_47.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_5109.npy",
+      "bytes": 200832,
+      "sha256": "de4641d2354022d45461a4756cf17fedfb236b37fa37e75c49bdcbb8723590f4",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_5109.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_5109.png",
+      "bytes": 358956,
+      "sha256": "ec7c0b31b965bd0b1aa856a7b77b00a4991e71f5434a50c78a4a7997f2375aa5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_5109.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_554.npy",
+      "bytes": 200832,
+      "sha256": "c4906652ca26acb3e1818288edce1c523cd8dd5de8e66138286f8d083162aee2",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_554.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_554.png",
+      "bytes": 486247,
+      "sha256": "0ac855be1c0a0e629cfbc3c135deb53f1e5ecfc6eef5e97e72f426477b41220c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_554.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_7.npy",
+      "bytes": 200832,
+      "sha256": "23964260ea1f8220420b5ac00779d4b9cb50b696b57abd72edbcf275f702bb6b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_7.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_7.png",
+      "bytes": 269898,
+      "sha256": "e6a9f7e79aae48ff1172e6dc27b69e6f8de31647b765c970fa4b810d5dd44944",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_7.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_81.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_81.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_81.png",
+      "bytes": 247288,
+      "sha256": "b620d16fce3e0d85882eaf0157ce833119fa889cbb17bd7d478128213a8a969c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_81.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_96.npy",
+      "bytes": 200832,
+      "sha256": "ac248bb62c96da3a2494a0488675bb4b9264ea9cc1659ce746d4cc346b6b2363",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_96.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_96.png",
+      "bytes": 545130,
+      "sha256": "f0486df32343cbaec117c8bf9fe49f8957ceae8c5f4a872a768293d55b1ef3cd",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_96.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_962.npy",
+      "bytes": 200832,
+      "sha256": "76eefc6ca8d68f85ec730a257d8a5cf93c84a8c6e6a421e3aa75802baf8ad3a3",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_962.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/gradcam_test_962.png",
+      "bytes": 436263,
+      "sha256": "22b04b136e99dd868b8156c2e47e10ef63831257902468a9fe0bbe087850b1dd",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\gradcam_test_962.png"
+    },
+    {
+      "file": "outputs/explanations/quiz3/vgg19/xai_analysis.md",
+      "bytes": 3580,
+      "sha256": "844c6917a8f0e846f892650d25b70dbf30785dcf479c53404fcfeb8a4ae2aa46",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz3\\vgg19\\xai_analysis.md"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_cases.csv",
+      "bytes": 1609,
+      "sha256": "d1c3d8382d6cc2e1425cd17ae83754a8a8aa01efc80bae36ec7702f925fe32a3",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_cases.csv"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_0.npy",
+      "bytes": 200832,
+      "sha256": "ba06ac222a2cb08e8444875fb11f2deb2057b90f0fc7341c23ee540d79bcc282",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_0.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_0.png",
+      "bytes": 466165,
+      "sha256": "5d5a417114df192ebdd3b139a7061f53d5b1f6b691d1d06803d1de67e4ffdf78",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_0.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_1.npy",
+      "bytes": 200832,
+      "sha256": "4ee4343d9ddc23df055f9b4dade89a091794faf9b9e375bb5cf50f0b7bac6064",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_1.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_1.png",
+      "bytes": 545947,
+      "sha256": "bba12e9e10bd5d04f76ebb02c0a481291b6b12dd48c9fe97b3573b51bc53716c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_1.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_10.npy",
+      "bytes": 200832,
+      "sha256": "d601f506ac4004d4180519d8bf867e530f841d8ce85abfb6455c36bfc7628283",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_10.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_10.png",
+      "bytes": 344928,
+      "sha256": "9b580af85e55bdd1d4a5dab37783d7116c4f6cd77bbfa22f6d3c30e665ed9aa7",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_10.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_1175.npy",
+      "bytes": 200832,
+      "sha256": "206fbaec0c17cf56c9b24c524a284cc14913c27b1f8e73031d98ca4e84edc1ae",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_1175.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_1175.png",
+      "bytes": 427289,
+      "sha256": "0c16a1bb0c29f3d3f2a3fb46a1b716e8326b87e6f3377feee203720e2e9c49a8",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_1175.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_127.npy",
+      "bytes": 200832,
+      "sha256": "15904f2058461483b5cc02457e7c6a17289e4c51682005860bc63401ddaf9039",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_127.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_127.png",
+      "bytes": 628373,
+      "sha256": "360a7bb1968fb44c01f3aa1c57d4c91c31f4792c896818170e1180341d237b8f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_127.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_1293.npy",
+      "bytes": 200832,
+      "sha256": "c010e83d674b9c7fd18aa2b0047848b666569bfd138e7532a7ba03a83c67da97",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_1293.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_1293.png",
+      "bytes": 460583,
+      "sha256": "0c68178c9cb2b7da45cae46eac7e16f803334c83ef8bb7845da122f3db93b9c1",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_1293.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_170.npy",
+      "bytes": 200832,
+      "sha256": "a51278da9dc11ee65a0d6ca729732b9de0cf0365688613f1d0176ee7451302ed",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_170.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_170.png",
+      "bytes": 459187,
+      "sha256": "6b34619095a619a3ad3eb308ee01e6a216e2febb1af8524915559ba34c424074",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_170.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_18.npy",
+      "bytes": 200832,
+      "sha256": "c2bf269c6e8ab736b00fa93ba70d822d1e596480396d4fa272c8643449a81b12",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_18.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_18.png",
+      "bytes": 346842,
+      "sha256": "d5485b2a73f91a573073d9f74e0f9aec4f66c926e06ed556afb4f1008f302946",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_18.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_19.npy",
+      "bytes": 200832,
+      "sha256": "12951d2e2d5ca08abc755af84b21e2ea79d68cb160d3f1346f204d07eb5cd88c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_19.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_19.png",
+      "bytes": 259269,
+      "sha256": "4e77f398e6e7ff767c460fe1a6c13627f34bc57b7cebb7665dca29982b95ce1f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_19.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_2.npy",
+      "bytes": 200832,
+      "sha256": "adcf68eafdfd14541004b3eca917b34cbd8a63b807b41724119ce891468c34f5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_2.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_2.png",
+      "bytes": 299369,
+      "sha256": "2ab109950eb3e365c6fabe4c643a38bff1a5828dd9ba8f03f5cb52c7f403652d",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_2.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_217.npy",
+      "bytes": 200832,
+      "sha256": "49d33531ffff638ead72529139848ebb1cec65f6b654c3c6e393b9b27b3a99e4",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_217.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_217.png",
+      "bytes": 397088,
+      "sha256": "62697f14584c6fcab4c685fe0930f75698b1a08ca1adf3dc9ef9302a3a5395a5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_217.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_26.npy",
+      "bytes": 200832,
+      "sha256": "634ee55f28d8506d7ef099f074a12c9d8f2311054109b62522f8494457f45a4e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_26.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_26.png",
+      "bytes": 262437,
+      "sha256": "465c98637c5217026de94b24d2a122563f1e9db169de4cbb44f4f62e506fdb53",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_26.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_3.npy",
+      "bytes": 200832,
+      "sha256": "656fa3680095473d84f64aba788ef8ebe928e2ed0749815b405127b610ed8487",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_3.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_3.png",
+      "bytes": 334634,
+      "sha256": "1573ba0e492268eeb55fa83b4582c98c35a7860780a9923b327db17d3d37eafd",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_3.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_334.npy",
+      "bytes": 200832,
+      "sha256": "c7bdfcda3a5fd2461619d012148cf57f5fa3a62f5c27d10a4d34d90133e09109",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_334.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_334.png",
+      "bytes": 307624,
+      "sha256": "5af89dcb7b1d965dd0c26e3ff095ad193f213f4de9c7cda40b2bacf9d91090ca",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_334.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_34.npy",
+      "bytes": 200832,
+      "sha256": "a7a80a5a653baf40851e863ff20f1a0a5b30fa1f5f888c87fc8f47717dbed39d",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_34.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_34.png",
+      "bytes": 558448,
+      "sha256": "bf145378f62c516596d79c2548910b4076064bbd634a150c105b85a39d1e3943",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_34.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_4.npy",
+      "bytes": 200832,
+      "sha256": "d1fa85359f78b1d39eedf9e98dbd1d77907e803062a8bc6efabd54168f5b9e55",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_4.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_4.png",
+      "bytes": 485816,
+      "sha256": "c09a5c620e1916aa5a2e9a1bd67c9643d5eff71213990cfea10d149b682a2452",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_4.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_47.npy",
+      "bytes": 200832,
+      "sha256": "73d5de1fa7204efeeb2c855602fabd13b9c6cae3a022fcb04add950644e12a05",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_47.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_47.png",
+      "bytes": 480409,
+      "sha256": "bfe47d40308bae12709a44c7ab3e03037a9a30932ed9bba21ee3a85265f94418",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_47.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_7.npy",
+      "bytes": 200832,
+      "sha256": "1d088dcd33bd3719a1ab44f507dca70e2c1d529d1256add4c99ee0ee8a5e5720",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_7.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_7.png",
+      "bytes": 305042,
+      "sha256": "d95aece353d1bdc254b1cd172e8165accd15a741b36d97ef26fdd05be64d65a2",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_7.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_72.npy",
+      "bytes": 200832,
+      "sha256": "3b485974adfce86786d43ce80f1058017472223b1f26f3f14eaa3395c19b0e8b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_72.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_72.png",
+      "bytes": 516505,
+      "sha256": "6f703f28540054651674d2da793cc133c8916822f8b23d2668d46622a51e4224",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_72.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_81.npy",
+      "bytes": 200832,
+      "sha256": "b7abb2d71f2dcc5c49f8455b7a3402bdd998560517fe95a84140fc4355cf28ff",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_81.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_81.png",
+      "bytes": 272808,
+      "sha256": "6233ff8c234e87709af130c1123855e0a36964554dc1a2f38b0c214baf2e25cc",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_81.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_887.npy",
+      "bytes": 200832,
+      "sha256": "19ca7c13768a928ad9f512f4f98a1cbe172916cc89c88b2126184edc8944eaca",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_887.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_887.png",
+      "bytes": 479340,
+      "sha256": "54c10f9d0c7ac0942e7acda85a90ce4645b87a302318fdc1ee8f182a446e0262",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_887.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_952.npy",
+      "bytes": 200832,
+      "sha256": "391b4cac0e190fb714a4302080bd16b49fc1473e1e1f2df76cfa611bdcccdcef",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_952.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/gradcam_test_952.png",
+      "bytes": 416657,
+      "sha256": "352dface26d6e901f94ac270b3638842bc304405cc8d9faf83588d687de056d0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\gradcam_test_952.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/kernels_and_responses.png",
+      "bytes": 509376,
+      "sha256": "d80400881f79fec1c6e0a3fe796251d2fed9774db3f3e9a11e57b7fc99678b8a",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\kernels_and_responses.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/kernel_analysis.md",
+      "bytes": 682,
+      "sha256": "e550981bec53a3c5204c27c0ef0b02cc15a617c79a3a88bd33883ebef721cd90",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\kernel_analysis.md"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/kernel_statistics.json",
+      "bytes": 446,
+      "sha256": "5d56db2295e292fc55098abcaf8ce4a754e10369cc289d7f4c27e7c3af1a080f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\kernel_statistics.json"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/kernel_weights.npz",
+      "bytes": 481,
+      "sha256": "d08f5cc3baaa4dabdceb2f1597a4bdbd50477b6bd2f51e445a0d8aa2983a6d53",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\kernel_weights.npz"
+    },
+    {
+      "file": "outputs/explanations/quiz2/plain/xai_analysis.md",
+      "bytes": 3697,
+      "sha256": "7058116d89aacf5fac6adf6fdb3d10e8ecd71b88e60d232285ff19235af11336",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\plain\\xai_analysis.md"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_cases.csv",
+      "bytes": 1342,
+      "sha256": "e5e356ef820bd9de6220ca32dade17bd34f5b0b1a72edb6fe5c9d78e82a813f8",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_cases.csv"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_0.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_0.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_0.png",
+      "bytes": 278252,
+      "sha256": "566ce4af53464ea9fbc2259739787c116e80b4c8d9905859040e89ffac32b7ab",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_0.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_1.npy",
+      "bytes": 200832,
+      "sha256": "234ac65ed4c3b832f9673cde1cf424e517a29a47a1296d545a0ba4ca92811ed5",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_1.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_1.png",
+      "bytes": 436858,
+      "sha256": "c0f116a52e4c7c8f0a90a2f7a06a434fd6310cd7f2fde0cb39a25051e759701f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_1.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_107.npy",
+      "bytes": 200832,
+      "sha256": "239d7c8317bad05c499604d0b985b8da7f8283cdd98edd5d0c774569f4fad71d",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_107.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_107.png",
+      "bytes": 378838,
+      "sha256": "8c74e3527586babdccf976a940880ebad4994e547a5276dc9f14ca76c5072559",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_107.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_108.npy",
+      "bytes": 200832,
+      "sha256": "98c8b818e82294ca8044fe6254d6450c230c5b8b6f9786aef40fc782f83c33ad",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_108.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_108.png",
+      "bytes": 277161,
+      "sha256": "0840e5ce90e0538f23ff2b44f868f1c0826713d92987ea475b3fd30a1fa721e9",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_108.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_1108.npy",
+      "bytes": 200832,
+      "sha256": "262050ef4a35c0ca56c64dd4fee79900037584888fdd6e8399fc25273b52da6e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_1108.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_1108.png",
+      "bytes": 294219,
+      "sha256": "d6b04f386dbc28bf946431272dd0efd3a7edd0516f103bb656478388ca518ac2",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_1108.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_19.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_19.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_19.png",
+      "bytes": 253990,
+      "sha256": "5bfc6920ae2fe44c9559524a427ea6847004af386d194bc57a7f6052f7f3d17a",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_19.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_2.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_2.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_2.png",
+      "bytes": 222814,
+      "sha256": "12a8efe3bedfb9b2d21dc6301d7c2143e5dc7c8ea1c8d185ce375e5304582bf1",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_2.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_26.npy",
+      "bytes": 200832,
+      "sha256": "ad8209359f1854b5dc95dc60a4392e1f768370960eab87cf6643174ea15db374",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_26.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_26.png",
+      "bytes": 208154,
+      "sha256": "ee9f8c0672ce5f37df34371212e71b803f781f26d2a1446ba8fb3037a4ee5f5c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_26.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_268.npy",
+      "bytes": 200832,
+      "sha256": "29120ad22cf1551dcdc82db21c7438223d5f5092becdca53949ca65f0dbe5121",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_268.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_268.png",
+      "bytes": 267456,
+      "sha256": "874114d96126232466c0edfba3dbe4923618f3bba598c32d30a20f63ec12a613",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_268.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_2821.npy",
+      "bytes": 200832,
+      "sha256": "1b6929aa7be974d76b56b4661ba2d4cec4976dbdbc1d99fc69fdc344fff2a283",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_2821.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_2821.png",
+      "bytes": 467255,
+      "sha256": "710c70a139fcec405ac52e44261f8d7644e2d49f886d6032749bfd32c029ad02",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_2821.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_3.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_3.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_3.png",
+      "bytes": 235796,
+      "sha256": "0f673f362b14f34027be3d464b9043b184ebe08afc09ddbd99a53bfb6ec37511",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_3.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_34.npy",
+      "bytes": 200832,
+      "sha256": "4d18897a1df11a51daa32a0db7bbdc82bda0aab6cc8e9eb532eecff620b3f37b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_34.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_34.png",
+      "bytes": 304495,
+      "sha256": "729b31c62b8bf3afa7fe902491e56255c9276d3b1db5e3ed1587f974da843e4a",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_34.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_4.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_4.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_4.png",
+      "bytes": 285106,
+      "sha256": "05e46d67261499f7a4b2408d4d91cf6eea128d740b935da596ab9013cac4de7b",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_4.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_44.npy",
+      "bytes": 200832,
+      "sha256": "e04483664633f5743da9d0e5d58a85ff8151a32a615fbf61c75f71d0ec4f27e0",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_44.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_44.png",
+      "bytes": 422503,
+      "sha256": "5abcb730c823ddea8c8d47cfc1368b44547a34bfcaa9de7134d5d9805b6765d8",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_44.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_47.npy",
+      "bytes": 200832,
+      "sha256": "5687205ff6bdb81456af033d0883e26a4900dd7663e978c67e121eb9b372266e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_47.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_47.png",
+      "bytes": 375743,
+      "sha256": "e0e0be4ac89a75470d0a896cdddc542a9df160406f62226648bcce0e476a474a",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_47.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_5243.npy",
+      "bytes": 200832,
+      "sha256": "a11da4df517adc7daa3e1229682143658ef62cd7c1724fe37f33de13019de5cc",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_5243.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_5243.png",
+      "bytes": 391261,
+      "sha256": "63b54efd50df1242daa9a6d2b2d6083396e9d8beda0a6dd78912d189114743ea",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_5243.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_537.npy",
+      "bytes": 200832,
+      "sha256": "30d1418303bdbe4a2b1a6180128bbbb42a373f743a5b62b3f0d6ae4909e414e9",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_537.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_537.png",
+      "bytes": 232314,
+      "sha256": "06a677efeb1dfe6a245114db9067032872b065e523f7d0ee3437ef5f4f2e46dc",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_537.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_69.npy",
+      "bytes": 200832,
+      "sha256": "e00fd2f8faee66141f2828cab8467279bb3100ffa2f53b75772607ba049f07c6",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_69.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_69.png",
+      "bytes": 204179,
+      "sha256": "46e87117d6679f4be003dba068530a664d71cbc6f24a70e2279927767e1afe73",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_69.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_7.npy",
+      "bytes": 200832,
+      "sha256": "cbaa174c985256a45d91e4ee745c4eff24f1b464074629f1d77bef2516fc9f6d",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_7.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_7.png",
+      "bytes": 242500,
+      "sha256": "07d741592688d6f74a789f8464cf40dd593eca87ea3f4544c81c4bfb6818548f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_7.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_72.npy",
+      "bytes": 200832,
+      "sha256": "1e41e2ff1e057b88f7c036fdcc8a25cb45e1557709fdd319b0f32a0bd85b836e",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_72.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_72.png",
+      "bytes": 248364,
+      "sha256": "cb0d677ffe22a840ca62012cd7177069c7f00898661e78cd8448576a4a7522fa",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_72.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_73.npy",
+      "bytes": 200832,
+      "sha256": "cd9bd59833ea6fefc19eed707353f4c24f4470b98ca066c74b424cb0917bac0c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_73.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_73.png",
+      "bytes": 411866,
+      "sha256": "ef31d268b90a1ce2a5a7cf466b8877b35dd94e2fc163e4d36acf9cded1e6da5f",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_73.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_81.npy",
+      "bytes": 200832,
+      "sha256": "301527e8bf059f42f2d8e3780fbe9b87d39cd71a49b4c1dc9904aa16c437cab7",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_81.npy"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/gradcam_test_81.png",
+      "bytes": 258249,
+      "sha256": "34fd6d2e10214d4ee95aa16a14c6602374123cedb6caa7e359c574381cdb773c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\gradcam_test_81.png"
+    },
+    {
+      "file": "outputs/explanations/quiz2/vgg19/xai_analysis.md",
+      "bytes": 3582,
+      "sha256": "ce4f278e34711e507b82c8c348a9ced6c625f2fe73d374ff0ef46fefa045925c",
+      "source": "runs\\rtx5090_minimum\\quiz3\\outputs\\explanations\\quiz2\\vgg19\\xai_analysis.md"
+    },
+    {
+      "file": "outputs/stage1_config.json",
+      "bytes": 504,
+      "sha256": "e86433f7f8aa3536af8cf0366087d7bb3ec0dba0e3d83f1803307e060a598eba",
+      "source": "generated stage1 index/config"
+    },
+    {
+      "file": "outputs/stage1_protocol.json",
+      "bytes": 987,
+      "sha256": "854f87fcb75debf2a365806762239bdb8286d638b077fbcd9b6a1475893ea761",
+      "source": "generated stage1 index/config"
+    },
+    {
+      "file": "README_stage1.md",
+      "bytes": 2557,
+      "sha256": "0754198da85d08a19a085b240fbf98be74c4a93e4fb5a128629a1e6ad96c8885",
+      "source": "generated stage1 index/config"
+    }
+  ]
+}

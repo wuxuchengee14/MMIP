@@ -1,0 +1,33 @@
+{
+  "signature": "a2c9d6fe7d292b63fb6f9c339d48ef3a9f789b4aa81a384ebc474c8fc342cccb",
+  "best_epoch": 4,
+  "epochs_completed": 9,
+  "elapsed_seconds": 516.2638318000827,
+  "validation": {
+    "samples": 8211,
+    "top1": 0.989769820971867,
+    "top5": 0.999269272926562,
+    "macro_auc": 0.999831023266313,
+    "per_class_auc": {
+      "bladder": 0.9993757402988966,
+      "femur-left": 0.9999699564954447,
+      "femur-right": 0.9999879750843748,
+      "heart": 0.9999996579529029,
+      "kidney-left": 0.9996558044098738,
+      "kidney-right": 0.9996290316645509,
+      "liver": 0.9999979487684406,
+      "lung-left": 1.0,
+      "lung-right": 0.999980645400169,
+      "pancreas": 0.999701271030894,
+      "spleen": 0.9998432248238974
+    }
+  },
+  "total_parameters": 139615307,
+  "trainable_parameters": 129030155,
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1+cu128",
+    "device": "cuda"
+  }
+}

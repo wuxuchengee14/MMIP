@@ -1,0 +1,41 @@
+{
+  "model": "vgg19",
+  "config": {
+    "seed": 42,
+    "folds": 5,
+    "input_size": 224,
+    "batch_size": 32,
+    "num_workers": 4,
+    "patience": 5,
+    "weight_decay": 0.0001,
+    "dropout": 0.5,
+    "plain_max_epochs": 30,
+    "vgg19_max_epochs": 20,
+    "vgg19_warmup_epochs": 2,
+    "backbone_lr_ratio": 0.1,
+    "learning_rates": [
+      0.001,
+      0.0003,
+      0.0001
+    ],
+    "augmentation": {
+      "degrees": 10,
+      "translate": 0.05,
+      "scale": [
+        0.95,
+        1.05
+      ],
+      "brightness": 0.1,
+      "contrast": 0.1
+    }
+  },
+  "lr": 0.0001,
+  "augment": false,
+  "seed": 42,
+  "epochs": 20,
+  "dataset_signature": "bd22bff69083851c9b901d00addfb5c136e2eb1fcd7682326da1921a79678aa2",
+  "train_indices_hash": "af26f1486aa2d9810ec6894cbbcdd9962cfe487c8530a0c09ed288faa07a190d",
+  "val_indices_hash": "8b50d153e3ba97dfb3150caed23a3397acd9c82d447e5cf7acae55f28cb4b8bc",
+  "pretrained": true,
+  "signature": "a2c9d6fe7d292b63fb6f9c339d48ef3a9f789b4aa81a384ebc474c8fc342cccb"
+}

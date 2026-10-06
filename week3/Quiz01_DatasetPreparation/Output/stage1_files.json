@@ -1,0 +1,77 @@
+{
+  "scope": "all_requirements_single_fold",
+  "files": [
+    {
+      "file": "outputs/class_distribution.png",
+      "bytes": 51053,
+      "sha256": "9cb4aa3d217a9c0b8c172247bc42c8b266361b02a009f371b2913ea04c8afaf4",
+      "source": "quiz1\\outputs\\class_distribution.png"
+    },
+    {
+      "file": "outputs/class_examples.png",
+      "bytes": 63232,
+      "sha256": "22950088b4b71f83c4576de665bda300018597596e0df757b04ad5ca8c077f34",
+      "source": "quiz1\\outputs\\class_examples.png"
+    },
+    {
+      "file": "outputs/development_manifest.csv",
+      "bytes": 1209489,
+      "sha256": "34858881287809186200282c71eeb364ef0116f8b69c22c67072132c1b53687e",
+      "source": "quiz1\\outputs\\development_manifest.csv"
+    },
+    {
+      "file": "outputs/fold_class_counts.csv",
+      "bytes": 2454,
+      "sha256": "c8c17aa3e8055622aea2b2098b1ffcd417a0ba56698e7090b85cc2e8273b0f7a",
+      "source": "quiz1\\outputs\\fold_class_counts.csv"
+    },
+    {
+      "file": "outputs/official_class_counts.csv",
+      "bytes": 287,
+      "sha256": "47d7967c813f01737659fbec918d0a0087dd4ee6758bb45eacb63774cf527c4d",
+      "source": "quiz1\\outputs\\official_class_counts.csv"
+    },
+    {
+      "file": "outputs/report.md",
+      "bytes": 802,
+      "sha256": "ba28c3d27fdff15447087d8ff5b6ce9de20f67b1be47929394565da5896d7b9c",
+      "source": "quiz1\\outputs\\report.md"
+    },
+    {
+      "file": "outputs/dataset/organamnist.npz",
+      "bytes": 38247708,
+      "sha256": "7c8c8b0753e2c0d7f70928817eac02be7cbb09f6beff4346e9d0ea79ecb598bd",
+      "source": "data\\organamnist.npz"
+    },
+    {
+      "file": "outputs/dataset/folds.npz",
+      "bytes": 314976,
+      "sha256": "6e6ba6489419fb94d0b72ed4694ca9bb0b34cbb40315af619303ae26ece06cfd",
+      "source": "data\\folds.npz"
+    },
+    {
+      "file": "outputs/dataset/split_manifest.json",
+      "bytes": 1887,
+      "sha256": "f37ecae88549edd70438beecbe10a62bef82c745afae5369f6fd0f9d4b113f95",
+      "source": "data\\split_manifest.json"
+    },
+    {
+      "file": "outputs/stage1_config.json",
+      "bytes": 504,
+      "sha256": "e86433f7f8aa3536af8cf0366087d7bb3ec0dba0e3d83f1803307e060a598eba",
+      "source": "generated stage1 index/config"
+    },
+    {
+      "file": "outputs/stage1_protocol.json",
+      "bytes": 987,
+      "sha256": "854f87fcb75debf2a365806762239bdb8286d638b077fbcd9b6a1475893ea761",
+      "source": "generated stage1 index/config"
+    },
+    {
+      "file": "README_stage1.md",
+      "bytes": 1153,
+      "sha256": "16526dd03795361603b0f9eacd944dcba40229d7d7e3cee74c42ab061a7bc77c",
+      "source": "generated stage1 index/config"
+    }
+  ]
+}

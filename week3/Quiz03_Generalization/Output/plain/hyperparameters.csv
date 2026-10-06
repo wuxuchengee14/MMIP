@@ -1,0 +1,2 @@
+lr,best_epochs,top1_mean,top1_std,top5_mean,top5_std,macro_auc_mean,macro_auc_std
+0.001,[28],0.9764949458044088,,0.999756424308854,,0.9995004057935986,

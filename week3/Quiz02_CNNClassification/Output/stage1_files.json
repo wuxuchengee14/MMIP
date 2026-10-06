@@ -1,0 +1,383 @@
+{
+  "scope": "all_requirements_single_fold",
+  "files": [
+    {
+      "file": "outputs/model_comparison.csv",
+      "bytes": 285,
+      "sha256": "2ef2c06c04426b3652680a8d8c1aef54a67d365bca6c57be31b96b5ba534d505",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\model_comparison.csv"
+    },
+    {
+      "file": "outputs/report.md",
+      "bytes": 2697,
+      "sha256": "1f577869b8d6fa0718ac1613f95f5d5ea4c9b6de1aea12f462c02c9123ca9eff",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\report.md"
+    },
+    {
+      "file": "outputs/plain/cv_folds.csv",
+      "bytes": 450,
+      "sha256": "286fcdc12fec8150f444153e56a77b6d59e723fe672384b7600bf2f1d86a9e2e",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\cv_folds.csv"
+    },
+    {
+      "file": "outputs/plain/hyperparameters.csv",
+      "bytes": 297,
+      "sha256": "bb41aedac65f92c44fe336600e819d804150550d6cac20c8b05fc91a9fd57492",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\hyperparameters.csv"
+    },
+    {
+      "file": "outputs/plain/hyperparameter_comparison.png",
+      "bytes": 54316,
+      "sha256": "30c75cfc3174e6c6a31c8afd60eb60707798f9addc5119cbf015a08b66adcad7",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\hyperparameter_comparison.png"
+    },
+    {
+      "file": "outputs/plain/selection.json",
+      "bytes": 1616,
+      "sha256": "84bd238957af7836249b8d9cdceba801414a99e5971d6cf651383303ce8bc46c",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\selection.json"
+    },
+    {
+      "file": "outputs/vgg19/cv_folds.csv",
+      "bytes": 454,
+      "sha256": "f96815c68be46ab945328a5f366c9c6c44c1efc0514e72a00cbb44ee2f336449",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\cv_folds.csv"
+    },
+    {
+      "file": "outputs/vgg19/hyperparameters.csv",
+      "bytes": 294,
+      "sha256": "4083c1c9ad900ede45445374f2d9b588e72909b252882ad385c344110277d22e",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\hyperparameters.csv"
+    },
+    {
+      "file": "outputs/vgg19/hyperparameter_comparison.png",
+      "bytes": 44664,
+      "sha256": "2592c7f2fc8dc97219efd57598701ee9f37ef41393a2d44bd6863caed517f46a",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\hyperparameter_comparison.png"
+    },
+    {
+      "file": "outputs/vgg19/selection.json",
+      "bytes": 1626,
+      "sha256": "bfefae8574a895566e5b674ca8184f637a27ade127cded559c307b9bb1eec74e",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\selection.json"
+    },
+    {
+      "file": "outputs/vgg19/selected/best.pt",
+      "bytes": 558475889,
+      "sha256": "f4bea9adb7b65782ebf5dff32a9c88312397d66c77c369c02a49107c418eaaa5",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\selected\\best.pt"
+    },
+    {
+      "file": "outputs/vgg19/selected/source.json",
+      "bytes": 64,
+      "sha256": "5c7c1872df083ed2efcb9ac59119f2d1ebba130d041695007de6e7b9b05f90cc",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\selected\\source.json"
+    },
+    {
+      "file": "outputs/vgg19/test/classification_report.csv",
+      "bytes": 1094,
+      "sha256": "18389f58b645115a2a1798ab65d67aa3cfb617c67544ce610ac8a905b13ecb65",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\classification_report.csv"
+    },
+    {
+      "file": "outputs/vgg19/test/confusion_matrix.csv",
+      "bytes": 529,
+      "sha256": "c7ce79dcdacbe38c55eb7d0464eae953f4245964c61e5d004e9504ec688a5842",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\confusion_matrix.csv"
+    },
+    {
+      "file": "outputs/vgg19/test/confusion_matrix.png",
+      "bytes": 124942,
+      "sha256": "c71c27be29cbdf0762725a0917aa3b48666007173eb4726328e1e8d6f2162822",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\confusion_matrix.png"
+    },
+    {
+      "file": "outputs/vgg19/test/error_examples.png",
+      "bytes": 106012,
+      "sha256": "17a61f6cc7a5f97a328a42c03618a71aa78abb17107ee1046aa0970f2de78c1f",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\error_examples.png"
+    },
+    {
+      "file": "outputs/vgg19/test/metrics.json",
+      "bytes": 924,
+      "sha256": "37b0d7c9e8969ed50ae076fb728c630c95f6a4e73288f760a34338177bfbf42b",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\metrics.json"
+    },
+    {
+      "file": "outputs/vgg19/test/predictions.csv",
+      "bytes": 3643708,
+      "sha256": "c45f51ab3060ad60d2b6a53690635ff525ded43bfb431a9f85bf542af662075b",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\predictions.csv"
+    },
+    {
+      "file": "outputs/vgg19/test/predictions.npz",
+      "bytes": 568135,
+      "sha256": "835b72d25da7f48c1e91b76e52e9413a473ff84538a6b367acb0155252802642",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\predictions.npz"
+    },
+    {
+      "file": "outputs/vgg19/test/roc_per_class.png",
+      "bytes": 192666,
+      "sha256": "8a21092882d5f53b3ea13ce04f051550740d6b79045720a56bdbb80ef469094f",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\test\\roc_per_class.png"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.001/fold_1/complete.json",
+      "bytes": 971,
+      "sha256": "c8f88386cf0abb29857faadc82c28fc48c9469fe211f73e425f669503b501eb4",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.001\\fold_1\\complete.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.001/fold_1/history.csv",
+      "bytes": 1438,
+      "sha256": "947420992e8354bebd5630e8aa54ff31f015c8e7a8ae40bb32b15f2ea97c7269",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.001\\fold_1\\history.csv"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.001/fold_1/learning_curves.png",
+      "bytes": 116459,
+      "sha256": "01cef26a585bef969761c332aaeb5bb2ab065f35b6f30d7c8234e85738cf8d68",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.001\\fold_1\\learning_curves.png"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.001/fold_1/run.json",
+      "bytes": 1051,
+      "sha256": "e2cdb2ef21016d4f8acc14bb2bf4028e776df6ca37e89e9a4298387b2b565baa",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.001\\fold_1\\run.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.001/fold_1/validation_predictions.npz",
+      "bytes": 258683,
+      "sha256": "8219811b8c7708ca70f27690daaf3d535640af0fab7d3de1b4997e16c4b1d401",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.001\\fold_1\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/complete.json",
+      "bytes": 986,
+      "sha256": "d7a0d18a4dec4092f315d59cccb8bc871ddf330ce960cd6b3dff674cd0485bba",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0003\\fold_1\\complete.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/history.csv",
+      "bytes": 2136,
+      "sha256": "5de1d29ebf29de86ba93dd49068179a4fb4627ef86f555c6720884ae499b38f8",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0003\\fold_1\\history.csv"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/learning_curves.png",
+      "bytes": 113827,
+      "sha256": "80c6db4f090584089ac747adcbdeec694cffe6079d9edbbe338926d149bb6f19",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0003\\fold_1\\learning_curves.png"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/run.json",
+      "bytes": 1052,
+      "sha256": "32e66202ae1bfb84824b6f3dbe53f1def039363f58b4bf19456d2f9a9a698b08",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0003\\fold_1\\run.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0003/fold_1/validation_predictions.npz",
+      "bytes": 212181,
+      "sha256": "428adb107595948200609fa1bd2bd0de09a4ca6555a2d3f2b4e0a43b2a379cbc",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0003\\fold_1\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0001/fold_1/complete.json",
+      "bytes": 981,
+      "sha256": "90def900de5f6d60ec72ccbdb1ce44460c24939113045552640cd70bb8e80f4f",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0001\\fold_1\\complete.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0001/fold_1/history.csv",
+      "bytes": 1184,
+      "sha256": "7a05c572092dea26fbd62a0a15f8e3e864bb96bd8afbd9c4c16d9c8670cfc3e1",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0001\\fold_1\\history.csv"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0001/fold_1/learning_curves.png",
+      "bytes": 104958,
+      "sha256": "a06bbbab0138d4a719b3612f1ef6e14c6e43372951a612325f144273efdfa83f",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0001\\fold_1\\learning_curves.png"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0001/fold_1/run.json",
+      "bytes": 1052,
+      "sha256": "638c3354255c99df2c667f0d59c8090f539a22b6f25315193d60bf937eb0a8f7",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0001\\fold_1\\run.json"
+    },
+    {
+      "file": "outputs/vgg19/lr_0.0001/fold_1/validation_predictions.npz",
+      "bytes": 361840,
+      "sha256": "4e36c6643beb178cb1a637684572d6ae1391e896829aaea189f261cc11ce3d8c",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\vgg19\\lr_0.0001\\fold_1\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/plain/final/complete.json",
+      "bytes": 966,
+      "sha256": "7a073168ce1c52de1cbc920d619aefd41af0e098fdeeb55b77bd2dc7535c30f0",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\final\\complete.json"
+    },
+    {
+      "file": "outputs/plain/final/history.csv",
+      "bytes": 4133,
+      "sha256": "53709157fc41f2f750e3a076dee69624dea70981c95a81f3dba2dabcc6d94a97",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\final\\history.csv"
+    },
+    {
+      "file": "outputs/plain/final/learning_curves.png",
+      "bytes": 97851,
+      "sha256": "961bbce3e2730781a6b28605513c4edced60c868b6199e5b6e133503267c4e3a",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\final\\learning_curves.png"
+    },
+    {
+      "file": "outputs/plain/final/run.json",
+      "bytes": 1052,
+      "sha256": "c4b45f3b2073aa7ba9e032ae994875156ac04feab3d5d64efbaf0d239ba8f34d",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\final\\run.json"
+    },
+    {
+      "file": "outputs/plain/final/validation_predictions.npz",
+      "bytes": 353772,
+      "sha256": "d11065ff2c3c1ccd1ad1599bcb386b87a473e4f69c281882722e101da2ccaa7e",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\final\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/plain/selected/best.pt",
+      "bytes": 1224307,
+      "sha256": "1f93b8be02a37766561d0881bdbc4b1e000ee37be11a30739d1ca97e5dfa281f",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\selected\\best.pt"
+    },
+    {
+      "file": "outputs/plain/selected/source.json",
+      "bytes": 53,
+      "sha256": "37570a8fec60ab278924fc17b585e09ebc309a3f2c2c79f0dc4dd74ec01fd35e",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\selected\\source.json"
+    },
+    {
+      "file": "outputs/plain/test/classification_report.csv",
+      "bytes": 1090,
+      "sha256": "ddfab2ba5b258295527a808f033b5580694b1075922e9bbd081109c7de4d9fbf",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\classification_report.csv"
+    },
+    {
+      "file": "outputs/plain/test/confusion_matrix.csv",
+      "bytes": 527,
+      "sha256": "d89073b66ebbf432abb85f458b082de6dfe0c4a5f2aca7ab803b16f29e58e89f",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\confusion_matrix.csv"
+    },
+    {
+      "file": "outputs/plain/test/confusion_matrix.png",
+      "bytes": 123994,
+      "sha256": "250d180685528e43ac5b522fc784fec08da04549d391e52877bc564ce12aa133",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\confusion_matrix.png"
+    },
+    {
+      "file": "outputs/plain/test/error_examples.png",
+      "bytes": 106643,
+      "sha256": "86948eaecc8f91af4a6f25a529741fc59d8700992963a247a24964c5d2975d73",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\error_examples.png"
+    },
+    {
+      "file": "outputs/plain/test/metrics.json",
+      "bytes": 916,
+      "sha256": "a3558161dec7675d526c4fa611805ba625cfd51189d035a15e16d284bba38b47",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\metrics.json"
+    },
+    {
+      "file": "outputs/plain/test/predictions.csv",
+      "bytes": 4261120,
+      "sha256": "cbc62ddca222be5abd827802c836eefe1e785520f87ce74ce6fdcee467b0497d",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\predictions.csv"
+    },
+    {
+      "file": "outputs/plain/test/predictions.npz",
+      "bytes": 780661,
+      "sha256": "65942f143672ca91ccc3e968f4d5b68bd244dfe816149dfb13f479376f2dd07e",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\predictions.npz"
+    },
+    {
+      "file": "outputs/plain/test/roc_per_class.png",
+      "bytes": 187543,
+      "sha256": "449b1af41164ea8a405ae6d372c9ffa8009f2d1ff4f2b1fe8aeb70fecd12373b",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\test\\roc_per_class.png"
+    },
+    {
+      "file": "outputs/plain/lr_0.0003/fold_1/complete.json",
+      "bytes": 981,
+      "sha256": "af76b7cb5762f697e30e01306ab2b7a74947c1072b634c14eee424e12e55c0c3",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0003\\fold_1\\complete.json"
+    },
+    {
+      "file": "outputs/plain/lr_0.0003/fold_1/history.csv",
+      "bytes": 4133,
+      "sha256": "dafdd67c26808bdae3b9b320e384e0ba20bb56c088d542d73612d0dafa7e9d17",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0003\\fold_1\\history.csv"
+    },
+    {
+      "file": "outputs/plain/lr_0.0003/fold_1/learning_curves.png",
+      "bytes": 99037,
+      "sha256": "4a13302ca9666308e35f82103018700eae21c082e11d23e9be36ce79765d8dc6",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0003\\fold_1\\learning_curves.png"
+    },
+    {
+      "file": "outputs/plain/lr_0.0003/fold_1/run.json",
+      "bytes": 1053,
+      "sha256": "2636024d6592c76574ebd9eee1e8074500f8cb99405dc67747a38cb4b6f2831b",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0003\\fold_1\\run.json"
+    },
+    {
+      "file": "outputs/plain/lr_0.0003/fold_1/validation_predictions.npz",
+      "bytes": 366588,
+      "sha256": "94dc64b644a941adce2d2c44c2efca3ab4566e64c4b0d7337bf2d1d338417b8e",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0003\\fold_1\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/plain/lr_0.0001/fold_1/complete.json",
+      "bytes": 995,
+      "sha256": "a4c6c9fbb1ce922455abec7b824b3ea504546d109e1ce9129159d8fabec990eb",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0001\\fold_1\\complete.json"
+    },
+    {
+      "file": "outputs/plain/lr_0.0001/fold_1/history.csv",
+      "bytes": 4156,
+      "sha256": "42b034731828a11e8423a3d004bf2b34cd18885f994f8cfebd5a8b2f2ebc5b67",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0001\\fold_1\\history.csv"
+    },
+    {
+      "file": "outputs/plain/lr_0.0001/fold_1/learning_curves.png",
+      "bytes": 106767,
+      "sha256": "bbf41945b5465d5768fbe495c963cc4c51b3c979aef44637f1df000e2b1e2735",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0001\\fold_1\\learning_curves.png"
+    },
+    {
+      "file": "outputs/plain/lr_0.0001/fold_1/run.json",
+      "bytes": 1053,
+      "sha256": "cd9fdc50a5ee89ca4803ee82715b915b6b21500b3b3769fe0d8a339520a2fe27",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0001\\fold_1\\run.json"
+    },
+    {
+      "file": "outputs/plain/lr_0.0001/fold_1/validation_predictions.npz",
+      "bytes": 370769,
+      "sha256": "acc6850ab4a7a01711e35e45a0808e3a76ead55691a28eb7bcf005e5dbb6f3e9",
+      "source": "runs\\rtx5090_minimum\\quiz2\\outputs\\plain\\lr_0.0001\\fold_1\\validation_predictions.npz"
+    },
+    {
+      "file": "outputs/stage1_config.json",
+      "bytes": 504,
+      "sha256": "e86433f7f8aa3536af8cf0366087d7bb3ec0dba0e3d83f1803307e060a598eba",
+      "source": "generated stage1 index/config"
+    },
+    {
+      "file": "outputs/stage1_protocol.json",
+      "bytes": 987,
+      "sha256": "854f87fcb75debf2a365806762239bdb8286d638b077fbcd9b6a1475893ea761",
+      "source": "generated stage1 index/config"
+    },
+    {
+      "file": "README_stage1.md",
+      "bytes": 1809,
+      "sha256": "040e8b10d48abee01a7e9e0d6516f1b763587318a9593b5e665f8d9d8c32d976",
+      "source": "generated stage1 index/config"
+    }
+  ]
+}

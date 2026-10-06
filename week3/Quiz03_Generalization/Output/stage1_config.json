@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "folds": 5,
+  "input_size": 224,
+  "batch_size": 32,
+  "num_workers": 4,
+  "patience": 5,
+  "weight_decay": 0.0001,
+  "dropout": 0.5,
+  "plain_max_epochs": 30,
+  "vgg19_max_epochs": 20,
+  "vgg19_warmup_epochs": 2,
+  "backbone_lr_ratio": 0.1,
+  "learning_rates": [
+    0.001,
+    0.0003,
+    0.0001
+  ],
+  "augmentation": {
+    "degrees": 10,
+    "translate": 0.05,
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "brightness": 0.1,
+    "contrast": 0.1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "model": "plain",
+  "augmentation": false,
+  "selected_lr": 0.001,
+  "refit_epochs": 28,
+  "selected_cv": {
+    "lr": 0.001,
+    "best_epochs": [
+      28
+    ],
+    "top1_mean": 0.9835586408476434,
+    "top1_std": null,
+    "top5_mean": 0.999634636463281,
+    "top5_std": null,
+    "macro_auc_mean": 0.9997375000525182,
+    "macro_auc_std": null
+  },
+  "all_settings": [
+    {
+      "lr": 0.001,
+      "best_epochs": [
+        28
+      ],
+      "top1_mean": 0.9835586408476434,
+      "top1_std": null,
+      "top5_mean": 0.999634636463281,
+      "top5_std": null,
+      "macro_auc_mean": 0.9997375000525182,
+      "macro_auc_std": null
+    },
+    {
+      "lr": 0.0003,
+      "best_epochs": [
+        30
+      ],
+      "top1_mean": 0.9819753988551942,
+      "top1_std": null,
+      "top5_mean": 0.999634636463281,
+      "top5_std": null,
+      "macro_auc_mean": 0.9997047488394393,
+      "macro_auc_std": null
+    },
+    {
+      "lr": 0.0001,
+      "best_epochs": [
+        30
+      ],
+      "top1_mean": 0.9538424065278285,
+      "top1_std": null,
+      "top5_mean": 0.9991474850809889,
+      "top5_std": null,
+      "macro_auc_mean": 0.99830948303799,
+      "macro_auc_std": null
+    }
+  ],
+  "folds_evaluated": [
+    1
+  ],
+  "run_directories": {
+    "1": "final"
+  },
+  "experiment_identity": "bd22bff69083851c9b901d00addfb5c136e2eb1fcd7682326da1921a79678aa2",
+  "selection_rule": "Highest mean validation Top-1; median best epoch for refit.",
+  "limitation": "Selected-setting CV is used for model selection, not an unbiased final estimate."
+}

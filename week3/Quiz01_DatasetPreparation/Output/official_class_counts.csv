@@ -1,0 +1,12 @@
+,train,val,test
+bladder,1956,321,1036
+femur-left,1390,233,784
+femur-right,1357,225,793
+heart,1474,392,785
+kidney-left,3963,568,2064
+kidney-right,3817,637,1965
+liver,6164,1033,3285
+lung-left,3919,1033,1747
+lung-right,3929,1009,1813
+pancreas,3031,529,1622
+spleen,3561,511,1884

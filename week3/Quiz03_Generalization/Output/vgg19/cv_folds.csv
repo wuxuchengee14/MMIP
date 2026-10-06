@@ -1,0 +1,2 @@
+model,augmentation,lr,fold,best_epoch,samples,top1,top5,macro_auc,elapsed_seconds,run_directory
+vgg19,True,0.0003,1,12,8211,0.9930580928023384,0.999756424308854,0.9999404276555605,988.91805640026,lr_0.0003/fold_1

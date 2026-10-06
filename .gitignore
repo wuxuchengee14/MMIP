@@ -1,0 +1,9 @@
+**/[Dd]ata/**
+!**/[Dd]ata/
+!**/[Dd]ata/README.md
+!**/[Dd]ata/.gitkeep
+
+*.pt
+**/__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/

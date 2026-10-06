@@ -1,0 +1,41 @@
+{
+  "model": "plain",
+  "augmentation": true,
+  "selected_lr": 0.001,
+  "refit_epochs": 28,
+  "selected_cv": {
+    "lr": 0.001,
+    "best_epochs": [
+      28
+    ],
+    "top1_mean": 0.9764949458044088,
+    "top1_std": null,
+    "top5_mean": 0.999756424308854,
+    "top5_std": null,
+    "macro_auc_mean": 0.9995004057935986,
+    "macro_auc_std": null
+  },
+  "all_settings": [
+    {
+      "lr": 0.001,
+      "best_epochs": [
+        28
+      ],
+      "top1_mean": 0.9764949458044088,
+      "top1_std": null,
+      "top5_mean": 0.999756424308854,
+      "top5_std": null,
+      "macro_auc_mean": 0.9995004057935986,
+      "macro_auc_std": null
+    }
+  ],
+  "folds_evaluated": [
+    1
+  ],
+  "run_directories": {
+    "1": "lr_0.001/fold_1"
+  },
+  "experiment_identity": "bd22bff69083851c9b901d00addfb5c136e2eb1fcd7682326da1921a79678aa2",
+  "selection_rule": "Highest mean validation Top-1; median best epoch for refit.",
+  "limitation": "Selected-setting CV is used for model selection, not an unbiased final estimate."
+}

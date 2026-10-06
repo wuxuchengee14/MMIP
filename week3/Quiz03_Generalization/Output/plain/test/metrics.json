@@ -1,0 +1,29 @@
+{
+  "samples": 17778,
+  "top1": 0.9200134998312521,
+  "top5": 0.9961187985150186,
+  "macro_auc": 0.9953463477048591,
+  "per_class_auc": {
+    "bladder": 0.9976112604233498,
+    "femur-left": 0.9972605877704737,
+    "femur-right": 0.9948291664516685,
+    "heart": 0.9958082402607893,
+    "kidney-left": 0.9816174820162339,
+    "kidney-right": 0.989722534797198,
+    "liver": 0.99982628468832,
+    "lung-left": 0.9999338895372185,
+    "lung-right": 0.999968007788687,
+    "pancreas": 0.9955363725562326,
+    "spleen": 0.9966959984632799
+  },
+  "model": "plain",
+  "augmentation": true,
+  "lr": 0.001,
+  "protocol": "all_requirements_single_fold",
+  "best_epoch": 28,
+  "refit_epochs": 0,
+  "training_seconds": 1152.128883299185,
+  "experiment_identity": "bd22bff69083851c9b901d00addfb5c136e2eb1fcd7682326da1921a79678aa2",
+  "total_parameters": 304363,
+  "trainable_parameters": 304363
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "kernel": 0,
+    "weight_mean": 0.1154870092868805,
+    "weight_std": 0.17589762806892395,
+    "horizontal_weight_difference": 0.21818356215953827,
+    "vertical_weight_difference": 0.2464321404695511
+  },
+  {
+    "kernel": 1,
+    "weight_mean": 0.1547589898109436,
+    "weight_std": 0.16731534898281097,
+    "horizontal_weight_difference": 0.26903006434440613,
+    "vertical_weight_difference": 0.24337732791900635
+  }
+]
