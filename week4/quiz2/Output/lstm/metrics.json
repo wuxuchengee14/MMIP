@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.83376,
+  "macro_precision": 0.8362608857288404,
+  "macro_recall": 0.8337600000000001,
+  "macro_f1": 0.8334503284664089,
+  "top1": 0.83376,
+  "top5": 1.0,
+  "test_samples": 25000,
+  "macro_auc": 0.9013203008,
+  "positive_auc": 0.901322304
+}

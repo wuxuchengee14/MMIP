@@ -1,0 +1,169 @@
+{
+  "protocol": "manual-blinded-paired-greedy-v1",
+  "fingerprint": "69920c889c1a9eb9c0be6f7240e744cd54fc388f2908f7175e631f4c7e0f7931",
+  "images": 10,
+  "expected": 20,
+  "batches": [
+    {
+      "batch_id": "batch_01",
+      "entries": [
+        {
+          "image_id": "3385593926_d3e9c21170.jpg",
+          "image": "Flicker8k_Dataset/3385593926_d3e9c21170.jpg",
+          "image_sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319",
+          "candidates": {
+            "A": {
+              "model": "transformer",
+              "caption": "two brown dogs are running on the snow ."
+            },
+            "B": {
+              "model": "lstm",
+              "caption": "two dogs are running through the snow ."
+            }
+          }
+        },
+        {
+          "image_id": "2677656448_6b7e7702af.jpg",
+          "image": "Flicker8k_Dataset/2677656448_6b7e7702af.jpg",
+          "image_sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444",
+          "candidates": {
+            "A": {
+              "model": "lstm",
+              "caption": "a dog is swimming in a pool ."
+            },
+            "B": {
+              "model": "transformer",
+              "caption": "a dog swims in a pool ."
+            }
+          }
+        },
+        {
+          "image_id": "311146855_0b65fdb169.jpg",
+          "image": "Flicker8k_Dataset/311146855_0b65fdb169.jpg",
+          "image_sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d",
+          "candidates": {
+            "A": {
+              "model": "lstm",
+              "caption": "a man and woman sit on a bench ."
+            },
+            "B": {
+              "model": "transformer",
+              "caption": "a man in a blue shirt and blue shorts is standing in front of a crowd of people ."
+            }
+          }
+        },
+        {
+          "image_id": "1258913059_07c613f7ff.jpg",
+          "image": "Flicker8k_Dataset/1258913059_07c613f7ff.jpg",
+          "image_sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d",
+          "candidates": {
+            "A": {
+              "model": "transformer",
+              "caption": "a woman sits on a bench at a table ."
+            },
+            "B": {
+              "model": "lstm",
+              "caption": "a woman in a white shirt and a black jacket is sitting on a bench with a white dog ."
+            }
+          }
+        },
+        {
+          "image_id": "241347760_d44c8d3a01.jpg",
+          "image": "Flicker8k_Dataset/241347760_d44c8d3a01.jpg",
+          "image_sha256": "c5214b4a277f80ad14a5e6d568f01e0877689760fd7f5818526b70c52bca9fb1",
+          "candidates": {
+            "A": {
+              "model": "transformer",
+              "caption": "a football player in a red uniform is wearing a red jersey ."
+            },
+            "B": {
+              "model": "lstm",
+              "caption": "a football player in red is being tackled ."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_02",
+      "entries": [
+        {
+          "image_id": "2654514044_a70a6e2c21.jpg",
+          "image": "Flicker8k_Dataset/2654514044_a70a6e2c21.jpg",
+          "image_sha256": "ac5593a76a41e237f5414fe204e03397f2e4e3f6fa7cfaff36b164d54589d500",
+          "candidates": {
+            "A": {
+              "model": "transformer",
+              "caption": "two dogs run through a field ."
+            },
+            "B": {
+              "model": "lstm",
+              "caption": "a brown dog is running through a grassy field ."
+            }
+          }
+        },
+        {
+          "image_id": "138718600_f430ebca17.jpg",
+          "image": "Flicker8k_Dataset/138718600_f430ebca17.jpg",
+          "image_sha256": "6c3bad3cbac7079c78b8326aa3ef8dc842478485f9d8ce55322c82ee39caeea1",
+          "candidates": {
+            "A": {
+              "model": "transformer",
+              "caption": "a man in a green shirt and a bicycle is riding a bike ."
+            },
+            "B": {
+              "model": "lstm",
+              "caption": "a man is riding a bike down a dirt road ."
+            }
+          }
+        },
+        {
+          "image_id": "3214237686_6566b8b52f.jpg",
+          "image": "Flicker8k_Dataset/3214237686_6566b8b52f.jpg",
+          "image_sha256": "0045cc8ee6d295f5f6d5e833bb12e3f1b17d48e5d91e0a889864b90570dc2221",
+          "candidates": {
+            "A": {
+              "model": "lstm",
+              "caption": "a snowboarder is jumping over a snowy hill ."
+            },
+            "B": {
+              "model": "transformer",
+              "caption": "a snowboarder is doing a jump on a snowboard ."
+            }
+          }
+        },
+        {
+          "image_id": "3507076266_8b17993fbb.jpg",
+          "image": "Flicker8k_Dataset/3507076266_8b17993fbb.jpg",
+          "image_sha256": "d7f82e2c786952c857f3a4f6cea74ca97f79ca28f55dab2cf6985735ad21d62f",
+          "candidates": {
+            "A": {
+              "model": "lstm",
+              "caption": "a black horse is riding a horse on a dirt path ."
+            },
+            "B": {
+              "model": "transformer",
+              "caption": "a man and a woman are riding a horse ."
+            }
+          }
+        },
+        {
+          "image_id": "2647049174_0fb47cee2e.jpg",
+          "image": "Flicker8k_Dataset/2647049174_0fb47cee2e.jpg",
+          "image_sha256": "8ad0d64c4a76d36a3b4540b4a0fde365216daaf415d6d16ef105789a926fada0",
+          "candidates": {
+            "A": {
+              "model": "lstm",
+              "caption": "a baby is sitting on a bed with a blue shirt and a blue shirt and a blue shirt ."
+            },
+            "B": {
+              "model": "transformer",
+              "caption": "a boy in a blue shirt is sitting in a green chair ."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "selection_method": "purposive_case_study"
+}

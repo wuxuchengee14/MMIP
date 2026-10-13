@@ -1,0 +1,302 @@
+[
+  {
+    "image_id": "3385593926_d3e9c21170.jpg",
+    "candidate_id": "A",
+    "caption_model": "transformer",
+    "caption": "two brown dogs are running on the snow .",
+    "image_sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319",
+    "judgment": {
+      "verdict": "match",
+      "score": 4,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中可見兩隻棕色的狗在雪地上。雖然牠們的動作更像是在互相撲咬或玩耍，但描述為在雪地奔跑大致符合整體動態情境，主要內容準確。"
+    }
+  },
+  {
+    "image_id": "3385593926_d3e9c21170.jpg",
+    "candidate_id": "B",
+    "caption_model": "lstm",
+    "caption": "two dogs are running through the snow .",
+    "image_sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319",
+    "judgment": {
+      "verdict": "match",
+      "score": 4,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中確實有兩隻狗在雪地上活動，動作充滿活力，描述其穿梭於雪地中大致符合事實，僅動作細節（撲咬而非單純奔跑）有輕微不夠精確之處。"
+    }
+  },
+  {
+    "image_id": "2677656448_6b7e7702af.jpg",
+    "candidate_id": "A",
+    "caption_model": "lstm",
+    "caption": "a dog is swimming in a pool .",
+    "image_sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444",
+    "judgment": {
+      "verdict": "match",
+      "score": 5,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中明確顯示一隻狗正在藍色的水池中游泳，旁邊有一名男子的腿，描述完整且準確地捕捉了主體與動作。"
+    }
+  },
+  {
+    "image_id": "2677656448_6b7e7702af.jpg",
+    "candidate_id": "B",
+    "caption_model": "transformer",
+    "caption": "a dog swims in a pool .",
+    "image_sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444",
+    "judgment": {
+      "verdict": "match",
+      "score": 5,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片內容為一隻狗在水池裡游泳，該描述簡潔且完全符合圖片中的主體、動作與場景。"
+    }
+  },
+  {
+    "image_id": "311146855_0b65fdb169.jpg",
+    "candidate_id": "A",
+    "caption_model": "lstm",
+    "caption": "a man and woman sit on a bench .",
+    "image_sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d",
+    "judgment": {
+      "verdict": "mismatch",
+      "score": 1,
+      "subject_correct": true,
+      "action_correct": false,
+      "scene_correct": false,
+      "reason": "圖片中有一男一女，但他們是在街道上跳舞或表演，並非坐在長椅上。動作與場景描述完全錯誤。"
+    }
+  },
+  {
+    "image_id": "311146855_0b65fdb169.jpg",
+    "candidate_id": "B",
+    "caption_model": "transformer",
+    "caption": "a man in a blue shirt and blue shorts is standing in front of a crowd of people .",
+    "image_sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d",
+    "judgment": {
+      "verdict": "mismatch",
+      "score": 1,
+      "subject_correct": false,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中確實有人群，但前方的男子是赤裸上身且穿著綠黃色長褲，並未穿著藍色襯衫與藍色短褲。主體特徵描述出現嚴重錯誤與幻覺。"
+    }
+  },
+  {
+    "image_id": "1258913059_07c613f7ff.jpg",
+    "candidate_id": "A",
+    "caption_model": "transformer",
+    "caption": "a woman sits on a bench at a table .",
+    "image_sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d",
+    "judgment": {
+      "verdict": "match",
+      "score": 5,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中可見戶外遮陽傘下有一張木製野餐桌，確實有女子坐在桌旁的長椅上。描述簡單但完整準確。"
+    }
+  },
+  {
+    "image_id": "1258913059_07c613f7ff.jpg",
+    "candidate_id": "B",
+    "caption_model": "lstm",
+    "caption": "a woman in a white shirt and a black jacket is sitting on a bench with a white dog .",
+    "image_sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d",
+    "judgment": {
+      "verdict": "partial",
+      "score": 3,
+      "subject_correct": false,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中有一名穿白衣的女子與另一名穿深色上衣的女子坐在長椅上，但畫面中完全沒有看到白色的狗。描述包含了幻覺（無中生有的狗），僅部分符合。"
+    }
+  },
+  {
+    "image_id": "241347760_d44c8d3a01.jpg",
+    "candidate_id": "A",
+    "caption_model": "transformer",
+    "caption": "a football player in a red uniform is wearing a red jersey .",
+    "image_sha256": "c5214b4a277f80ad14a5e6d568f01e0877689760fd7f5818526b70c52bca9fb1",
+    "judgment": {
+      "verdict": "match",
+      "score": 5,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中是一名穿著紅色球衣（背號28號）與紅色頭盔的美式足球員。描述準確涵蓋了主體與穿著。"
+    }
+  },
+  {
+    "image_id": "241347760_d44c8d3a01.jpg",
+    "candidate_id": "B",
+    "caption_model": "lstm",
+    "caption": "a football player in red is being tackled .",
+    "image_sha256": "c5214b4a277f80ad14a5e6d568f01e0877689760fd7f5818526b70c52bca9fb1",
+    "judgment": {
+      "verdict": "partial",
+      "score": 2,
+      "subject_correct": true,
+      "action_correct": false,
+      "scene_correct": true,
+      "reason": "圖片中確實有一名穿紅衣的美式足球員，但他正獨自站立著，並沒有被擒抱（tackled）。動作描述完全錯誤，僅主體身分相符。"
+    }
+  },
+  {
+    "image_id": "2654514044_a70a6e2c21.jpg",
+    "candidate_id": "A",
+    "caption_model": "transformer",
+    "caption": "two dogs run through a field .",
+    "image_sha256": "ac5593a76a41e237f5414fe204e03397f2e4e3f6fa7cfaff36b164d54589d500",
+    "judgment": {
+      "verdict": "partial",
+      "score": 2,
+      "subject_correct": false,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中只有一隻狗，描述說有兩隻狗（two dogs），數量錯誤；但在草地奔跑的動作與場景大致符合。"
+    }
+  },
+  {
+    "image_id": "2654514044_a70a6e2c21.jpg",
+    "candidate_id": "B",
+    "caption_model": "lstm",
+    "caption": "a brown dog is running through a grassy field .",
+    "image_sha256": "ac5593a76a41e237f5414fe204e03397f2e4e3f6fa7cfaff36b164d54589d500",
+    "judgment": {
+      "verdict": "match",
+      "score": 5,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中確實有一隻棕色的狗正在草地上奔跑，主體、動作與場景皆完全正確。"
+    }
+  },
+  {
+    "image_id": "138718600_f430ebca17.jpg",
+    "candidate_id": "A",
+    "caption_model": "transformer",
+    "caption": "a man in a green shirt and a bicycle is riding a bike .",
+    "image_sha256": "6c3bad3cbac7079c78b8326aa3ef8dc842478485f9d8ce55322c82ee39caeea1",
+    "judgment": {
+      "verdict": "mismatch",
+      "score": 0,
+      "subject_correct": false,
+      "action_correct": false,
+      "scene_correct": false,
+      "reason": "圖片中是兩名女子坐在水邊草地上休息，旁邊停著腳踏車。並沒有穿綠襯衫的男子，也無人正在騎腳踏車，描述完全錯誤。"
+    }
+  },
+  {
+    "image_id": "138718600_f430ebca17.jpg",
+    "candidate_id": "B",
+    "caption_model": "lstm",
+    "caption": "a man is riding a bike down a dirt road .",
+    "image_sha256": "6c3bad3cbac7079c78b8326aa3ef8dc842478485f9d8ce55322c82ee39caeea1",
+    "judgment": {
+      "verdict": "mismatch",
+      "score": 0,
+      "subject_correct": false,
+      "action_correct": false,
+      "scene_correct": false,
+      "reason": "圖片中並無人在泥土路上騎腳踏車，腳踏車是停放在一旁的。主體、動作與場景皆與事實不符。"
+    }
+  },
+  {
+    "image_id": "3214237686_6566b8b52f.jpg",
+    "candidate_id": "A",
+    "caption_model": "lstm",
+    "caption": "a snowboarder is jumping over a snowy hill .",
+    "image_sha256": "0045cc8ee6d295f5f6d5e833bb12e3f1b17d48e5d91e0a889864b90570dc2221",
+    "judgment": {
+      "verdict": "match",
+      "score": 5,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中明確顯示一名單板滑雪者正在雪地上空跳躍騰空，描述非常精確。"
+    }
+  },
+  {
+    "image_id": "3214237686_6566b8b52f.jpg",
+    "candidate_id": "B",
+    "caption_model": "transformer",
+    "caption": "a snowboarder is doing a jump on a snowboard .",
+    "image_sha256": "0045cc8ee6d295f5f6d5e833bb12e3f1b17d48e5d91e0a889864b90570dc2221",
+    "judgment": {
+      "verdict": "match",
+      "score": 5,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": true,
+      "reason": "圖片中確實是一名單板滑雪者正在進行跳躍動作，描述與圖片內容完全相符。"
+    }
+  },
+  {
+    "image_id": "3507076266_8b17993fbb.jpg",
+    "candidate_id": "A",
+    "caption_model": "lstm",
+    "caption": "a black horse is riding a horse on a dirt path .",
+    "image_sha256": "d7f82e2c786952c857f3a4f6cea74ca97f79ca28f55dab2cf6985735ad21d62f",
+    "judgment": {
+      "verdict": "mismatch",
+      "score": 1,
+      "subject_correct": false,
+      "action_correct": false,
+      "scene_correct": true,
+      "reason": "圖片中是一名男子牽著一匹黑馬走在戶外。描述稱「黑馬騎著馬」語句不合理且動作錯誤，僅提到黑馬與戶外小徑部分相符。"
+    }
+  },
+  {
+    "image_id": "3507076266_8b17993fbb.jpg",
+    "candidate_id": "B",
+    "caption_model": "transformer",
+    "caption": "a man and a woman are riding a horse .",
+    "image_sha256": "d7f82e2c786952c857f3a4f6cea74ca97f79ca28f55dab2cf6985735ad21d62f",
+    "judgment": {
+      "verdict": "mismatch",
+      "score": 1,
+      "subject_correct": false,
+      "action_correct": false,
+      "scene_correct": false,
+      "reason": "圖片中只有一名男子在牽馬，並沒有女人，也沒有人騎在馬上。主體與動作描述錯誤。"
+    }
+  },
+  {
+    "image_id": "2647049174_0fb47cee2e.jpg",
+    "candidate_id": "A",
+    "caption_model": "lstm",
+    "caption": "a baby is sitting on a bed with a blue shirt and a blue shirt and a blue shirt .",
+    "image_sha256": "8ad0d64c4a76d36a3b4540b4a0fde365216daaf415d6d16ef105789a926fada0",
+    "judgment": {
+      "verdict": "partial",
+      "score": 2,
+      "subject_correct": true,
+      "action_correct": true,
+      "scene_correct": false,
+      "reason": "圖片中一名穿著藍色條紋衣的幼童蹲坐在地上。描述正確點出嬰孩與藍色上衣（雖字詞重複），但場景並非在床上，產生了場景幻覺。"
+    }
+  },
+  {
+    "image_id": "2647049174_0fb47cee2e.jpg",
+    "candidate_id": "B",
+    "caption_model": "transformer",
+    "caption": "a boy in a blue shirt is sitting in a green chair .",
+    "image_sha256": "8ad0d64c4a76d36a3b4540b4a0fde365216daaf415d6d16ef105789a926fada0",
+    "judgment": {
+      "verdict": "partial",
+      "score": 2,
+      "subject_correct": true,
+      "action_correct": false,
+      "scene_correct": false,
+      "reason": "圖片中穿著藍上衣的男童蹲在地上，並非坐在綠色椅子上。主體與穿著描述正確，但動作與場景完全錯誤。"
+    }
+  }
+]

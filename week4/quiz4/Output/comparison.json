@@ -1,0 +1,58 @@
+[
+  {
+    "model": "lstm",
+    "decoding": "greedy",
+    "bleu1": 0.6063156140643227,
+    "bleu2": 0.40087347034978776,
+    "bleu3": 0.26290375882796113,
+    "bleu4": 0.1737028643026643,
+    "decoder_mean_ms": 17.08169891498983,
+    "estimated_pipeline_mean_ms": 25.09006223020454,
+    "mean_generated_tokens": 12.1,
+    "training_seconds": 100.90067039942369,
+    "decoder_parameters": 5626324,
+    "total_parameters": 29134356
+  },
+  {
+    "model": "lstm",
+    "decoding": "beam",
+    "bleu1": 0.6392985611510792,
+    "bleu2": 0.43663769425334903,
+    "bleu3": 0.3009597385980671,
+    "bleu4": 0.20924318426201868,
+    "decoder_mean_ms": 22.527866639817756,
+    "estimated_pipeline_mean_ms": 30.536229955032468,
+    "mean_generated_tokens": 10.866666666666667,
+    "training_seconds": 100.90067039942369,
+    "decoder_parameters": 5626324,
+    "total_parameters": 29134356
+  },
+  {
+    "model": "transformer",
+    "decoding": "greedy",
+    "bleu1": 0.6221746575342466,
+    "bleu2": 0.42096902083160825,
+    "bleu3": 0.2848140595657579,
+    "bleu4": 0.1917595777793717,
+    "decoder_mean_ms": 26.94443112446202,
+    "estimated_pipeline_mean_ms": 34.95279443967674,
+    "mean_generated_tokens": 11.766666666666667,
+    "training_seconds": 54.03302079997957,
+    "decoder_parameters": 6431700,
+    "total_parameters": 29939732
+  },
+  {
+    "model": "transformer",
+    "decoding": "beam",
+    "bleu1": 0.6471747112026507,
+    "bleu2": 0.4462899828921224,
+    "bleu3": 0.30999034482219134,
+    "bleu4": 0.21334504978201713,
+    "decoder_mean_ms": 37.13094334945911,
+    "estimated_pipeline_mean_ms": 45.139306664673825,
+    "mean_generated_tokens": 11.0,
+    "training_seconds": 54.03302079997957,
+    "decoder_parameters": 6431700,
+    "total_parameters": 29939732
+  }
+]

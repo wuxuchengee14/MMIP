@@ -1,0 +1,105 @@
+{
+"batch_id": "batch_01",
+"judgments": [
+{
+"image_id": "3385593926_d3e9c21170.jpg",
+"candidate_id": "A",
+"verdict": "match",
+"score": 4,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中可見兩隻棕色的狗在雪地上。雖然牠們的動作更像是在互相撲咬或玩耍，但描述為在雪地奔跑大致符合整體動態情境，主要內容準確。"
+},
+{
+"image_id": "3385593926_d3e9c21170.jpg",
+"candidate_id": "B",
+"verdict": "match",
+"score": 4,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中確實有兩隻狗在雪地上活動，動作充滿活力，描述其穿梭於雪地中大致符合事實，僅動作細節（撲咬而非單純奔跑）有輕微不夠精確之處。"
+},
+{
+"image_id": "2677656448_6b7e7702af.jpg",
+"candidate_id": "A",
+"verdict": "match",
+"score": 5,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中明確顯示一隻狗正在藍色的水池中游泳，旁邊有一名男子的腿，描述完整且準確地捕捉了主體與動作。"
+},
+{
+"image_id": "2677656448_6b7e7702af.jpg",
+"candidate_id": "B",
+"verdict": "match",
+"score": 5,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片內容為一隻狗在水池裡游泳，該描述簡潔且完全符合圖片中的主體、動作與場景。"
+},
+{
+"image_id": "311146855_0b65fdb169.jpg",
+"candidate_id": "A",
+"verdict": "mismatch",
+"score": 1,
+"subject_correct": true,
+"action_correct": false,
+"scene_correct": false,
+"reason": "圖片中有一男一女，但他們是在街道上跳舞或表演，並非坐在長椅上。動作與場景描述完全錯誤。"
+},
+{
+"image_id": "311146855_0b65fdb169.jpg",
+"candidate_id": "B",
+"verdict": "mismatch",
+"score": 1,
+"subject_correct": false,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中確實有人群，但前方的男子是赤裸上身且穿著綠黃色長褲，並未穿著藍色襯衫與藍色短褲。主體特徵描述出現嚴重錯誤與幻覺。"
+},
+{
+"image_id": "1258913059_07c613f7ff.jpg",
+"candidate_id": "A",
+"verdict": "match",
+"score": 5,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中可見戶外遮陽傘下有一張木製野餐桌，確實有女子坐在桌旁的長椅上。描述簡單但完整準確。"
+},
+{
+"image_id": "1258913059_07c613f7ff.jpg",
+"candidate_id": "B",
+"verdict": "partial",
+"score": 3,
+"subject_correct": false,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中有一名穿白衣的女子與另一名穿深色上衣的女子坐在長椅上，但畫面中完全沒有看到白色的狗。描述包含了幻覺（無中生有的狗），僅部分符合。"
+},
+{
+"image_id": "241347760_d44c8d3a01.jpg",
+"candidate_id": "A",
+"verdict": "match",
+"score": 5,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中是一名穿著紅色球衣（背號28號）與紅色頭盔的美式足球員。描述準確涵蓋了主體與穿著。"
+},
+{
+"image_id": "241347760_d44c8d3a01.jpg",
+"candidate_id": "B",
+"verdict": "partial",
+"score": 2,
+"subject_correct": true,
+"action_correct": false,
+"scene_correct": true,
+"reason": "圖片中確實有一名穿紅衣的美式足球員，但他正獨自站立著，並沒有被擒抱（tackled）。動作描述完全錯誤，僅主體身分相符。"
+}
+]
+}

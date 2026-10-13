@@ -1,0 +1,6 @@
+{
+  "end_to_end_test_seconds": 1.0105896000750363,
+  "reviews_per_second": 24738.03411211015,
+  "batch_size": 128,
+  "includes": "loading + host transfer + forward + CPU probabilities"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "https://zenodo.org/records/10519652/files/organamnist.npz?download=1",
+  "sha256": "7c8c8b0753e2c0d7f70928817eac02be7cbb09f6beff4346e9d0ea79ecb598bd",
+  "counts": {
+    "train": 34561,
+    "val": 6491,
+    "test": 17778
+  },
+  "classes": [
+    "bladder",
+    "femur-left",
+    "femur-right",
+    "heart",
+    "kidney-left",
+    "kidney-right",
+    "liver",
+    "lung-left",
+    "lung-right",
+    "pancreas",
+    "spleen"
+  ],
+  "split": "Official train/val/test; same for ViT and ResNet",
+  "limitation": "28x28 resized to 224 adds no spatial detail; no patient IDs available here."
+}

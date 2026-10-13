@@ -1,0 +1,85 @@
+{
+  "imdb": {
+    "source": "https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz",
+    "signature": "ba8b1a970e78a391c9e06d6474b1f4681e51406cd652b50b76550197703c1a0a",
+    "classes": [
+      "negative",
+      "positive"
+    ],
+    "counts": {
+      "train": 20000,
+      "val": 5000,
+      "test": 25000
+    },
+    "vocab_size": 30000,
+    "vocab_sha256": "740ada70e3416078f62642e317b3fc2f3601ddb1e1a88a917d7d4fd71c1314bc",
+    "hashes": {
+      "train.pt": "cb8bda303a669c622880fd8000e77b22c35e8cfa991a80984618d2ecc44c7016",
+      "val.pt": "343862a7459cc7e9b3e53f06b8049a23e40be9cd7044e8600fc21edff4176fb3",
+      "test.pt": "7bbd2ca765aa20652c60f69278f88915fb1522907371f62d55661f1d323bcd94"
+    },
+    "examples": [
+      {
+        "text": "Many reviews I've read reveals that most people tend to like Part One better than Part Two. I feel exactly the opposite. Part One played around a bit much with trying to find different ways of showing Che Guevara's personality through different types of film stock, different locations, and cutting back and forth between an interview and the Cuban revolution. For the most part it was structured finely but somewhat distracting. In Part Two, Che enters Bolivia, and along with changing geographical ",
+        "label": 1
+      },
+      {
+        "text": "The effect achieved in this story about a psychiatrist who becomes involved with con artists is so mannered that I have to assume that that was the desired intent. The sets are artificial and at no time did I not feel that I was watching a movie. It seemed like the actors were just reading their lines, rather than responding to one another. While the film has elements of early film noir (except that it is in color) the approach is so exaggerated that I almost have to conclude that it is a parody",
+        "label": 0
+      },
+      {
+        "text": "I really enjoyed the performances of the main cast. Emma Lung is courageous and interesting. The director has developed performances where the characters are not one dimensional. A complex story with the changing between eras. Also appreciated the underlying story of the unions losing power and the effect of a large employer closing on a small town. I do not agree with the comment that the older man has to be attractive. There have be many relationships with older men and younger women - without",
+        "label": 1
+      },
+      {
+        "text": "'Midnight Cowboy' was rated X with the original release back in 1969. There are some scenes where you can understand that, just a little. The movie about Joe Buck (Jon Voight) coming from Texas to New York City to become a hustler is sometimes a little disturbing. Dressed up as a cowboy he tries to live as a hustler, making money by the act of love. It does not work out as he planned. After a guy named Rico 'Ratso' Rizzo (Dustin Hoffman) first pulled a trick on him and stole some money they beco",
+        "label": 1
+      }
+    ]
+  },
+  "organamnist": {
+    "source": "https://zenodo.org/records/10519652/files/organamnist.npz?download=1",
+    "sha256": "7c8c8b0753e2c0d7f70928817eac02be7cbb09f6beff4346e9d0ea79ecb598bd",
+    "counts": {
+      "train": 34561,
+      "val": 6491,
+      "test": 17778
+    },
+    "classes": [
+      "bladder",
+      "femur-left",
+      "femur-right",
+      "heart",
+      "kidney-left",
+      "kidney-right",
+      "liver",
+      "lung-left",
+      "lung-right",
+      "pancreas",
+      "spleen"
+    ],
+    "split": "Official train/val/test; same for ViT and ResNet",
+    "limitation": "28x28 resized to 224 adds no spatial detail; no patient IDs available here."
+  },
+  "flickr8k": {
+    "source": "https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/",
+    "counts": {
+      "train": 6000,
+      "val": 1000,
+      "test": 1000
+    },
+    "references_per_image": 5,
+    "vocab_size": 7380,
+    "vocab_sha256": "c0f6bdf11895631b932df548e7734676a6a62cac7c0ed35b85f0f5b86b37ddeb",
+    "max_length": 40,
+    "hashes": {
+      "train.json": "c89dd691e027756c3063829240aad58b769d6fe7565e20466e7cb24fbb047411",
+      "val.json": "62461dd53ee9b0fc70df38bf1baaf051b17483500725131054e762cf92b88cfe",
+      "test.json": "e13655b70bbe858425204f3057a7ddcc1160635c5b5877cdf9d079e1ebf7bd6d"
+    },
+    "archives": {
+      "Flickr8k_Dataset.zip": "61e4b111d32b24a55b69dafd91f4c3aec07391b7b9217face15dd35d517fe6de",
+      "Flickr8k_text.zip": "4992ddc8110e9aa49da5bf698522b0c8f11c448814a488584ee6bf040e5137e7"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "status": "complete",
+  "source": "manual_upload_gemini_web_case_study",
+  "protocol": "manual-blinded-paired-greedy-v1",
+  "session": {
+    "source": "manual_upload_gemini_web_case_study",
+    "evaluator_model_label": "3.1 pro",
+    "operator": "JerryWu",
+    "review_started_on": "2026-10-13",
+    "notes": "請填 Gemini 介面實際顯示的模型/模式名稱、操作人、開始日期 YYYY-MM-DD。不要猜測後端版本。"
+  },
+  "selection_method": "purposive_case_study",
+  "manifest_fingerprint": "69920c889c1a9eb9c0be6f7240e744cd54fc388f2908f7175e631f4c7e0f7931",
+  "expected": 20,
+  "successful": 20,
+  "comparison": [
+    {
+      "model": "lstm",
+      "successful": 10,
+      "expected": 10,
+      "mean_score_0_to_5": 2.8,
+      "match_rate": 0.4,
+      "partial_rate": 0.3,
+      "mismatch_rate": 0.3
+    },
+    {
+      "model": "transformer",
+      "successful": 10,
+      "expected": 10,
+      "mean_score_0_to_5": 3.0,
+      "match_rate": 0.5,
+      "partial_rate": 0.2,
+      "mismatch_rate": 0.3
+    }
+  ],
+  "scope": "Ten purposively selected test cases; blinded paired greedy captions; descriptive case study only, not a population accuracy estimate. API judgments excluded."
+}

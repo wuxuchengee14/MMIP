@@ -1,0 +1,7 @@
+{
+  "encoder_mean_ms": 8.008363315214712,
+  "encoder_p95_ms": 9.55753494054079,
+  "timing_images": 30,
+  "repeats": 3,
+  "includes": "image read + preprocessing + transfer + ResNet forward"
+}

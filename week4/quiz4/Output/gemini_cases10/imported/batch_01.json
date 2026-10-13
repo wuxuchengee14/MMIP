@@ -1,0 +1,160 @@
+{
+  "batch_id": "batch_01",
+  "session_identity": "e14e018e544b2f22707f9bdbfbdfcfd8fd59e6e9586312d0d6e09fa0c1a2aa6b",
+  "manifest_fingerprint": "69920c889c1a9eb9c0be6f7240e744cd54fc388f2908f7175e631f4c7e0f7931",
+  "response_sha256": "8eb448d6492210aff71956c9a76e8e15ec0455061525929b7755bef7092b914e",
+  "source_file": "responses\\batch_01.txt",
+  "imported_at": "2026-10-13T11:09:23.843704+00:00",
+  "records": [
+    {
+      "image_id": "3385593926_d3e9c21170.jpg",
+      "candidate_id": "A",
+      "caption_model": "transformer",
+      "caption": "two brown dogs are running on the snow .",
+      "image_sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319",
+      "judgment": {
+        "verdict": "match",
+        "score": 4,
+        "subject_correct": true,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片中可見兩隻棕色的狗在雪地上。雖然牠們的動作更像是在互相撲咬或玩耍，但描述為在雪地奔跑大致符合整體動態情境，主要內容準確。"
+      }
+    },
+    {
+      "image_id": "3385593926_d3e9c21170.jpg",
+      "candidate_id": "B",
+      "caption_model": "lstm",
+      "caption": "two dogs are running through the snow .",
+      "image_sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319",
+      "judgment": {
+        "verdict": "match",
+        "score": 4,
+        "subject_correct": true,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片中確實有兩隻狗在雪地上活動，動作充滿活力，描述其穿梭於雪地中大致符合事實，僅動作細節（撲咬而非單純奔跑）有輕微不夠精確之處。"
+      }
+    },
+    {
+      "image_id": "2677656448_6b7e7702af.jpg",
+      "candidate_id": "A",
+      "caption_model": "lstm",
+      "caption": "a dog is swimming in a pool .",
+      "image_sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444",
+      "judgment": {
+        "verdict": "match",
+        "score": 5,
+        "subject_correct": true,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片中明確顯示一隻狗正在藍色的水池中游泳，旁邊有一名男子的腿，描述完整且準確地捕捉了主體與動作。"
+      }
+    },
+    {
+      "image_id": "2677656448_6b7e7702af.jpg",
+      "candidate_id": "B",
+      "caption_model": "transformer",
+      "caption": "a dog swims in a pool .",
+      "image_sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444",
+      "judgment": {
+        "verdict": "match",
+        "score": 5,
+        "subject_correct": true,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片內容為一隻狗在水池裡游泳，該描述簡潔且完全符合圖片中的主體、動作與場景。"
+      }
+    },
+    {
+      "image_id": "311146855_0b65fdb169.jpg",
+      "candidate_id": "A",
+      "caption_model": "lstm",
+      "caption": "a man and woman sit on a bench .",
+      "image_sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d",
+      "judgment": {
+        "verdict": "mismatch",
+        "score": 1,
+        "subject_correct": true,
+        "action_correct": false,
+        "scene_correct": false,
+        "reason": "圖片中有一男一女，但他們是在街道上跳舞或表演，並非坐在長椅上。動作與場景描述完全錯誤。"
+      }
+    },
+    {
+      "image_id": "311146855_0b65fdb169.jpg",
+      "candidate_id": "B",
+      "caption_model": "transformer",
+      "caption": "a man in a blue shirt and blue shorts is standing in front of a crowd of people .",
+      "image_sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d",
+      "judgment": {
+        "verdict": "mismatch",
+        "score": 1,
+        "subject_correct": false,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片中確實有人群，但前方的男子是赤裸上身且穿著綠黃色長褲，並未穿著藍色襯衫與藍色短褲。主體特徵描述出現嚴重錯誤與幻覺。"
+      }
+    },
+    {
+      "image_id": "1258913059_07c613f7ff.jpg",
+      "candidate_id": "A",
+      "caption_model": "transformer",
+      "caption": "a woman sits on a bench at a table .",
+      "image_sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d",
+      "judgment": {
+        "verdict": "match",
+        "score": 5,
+        "subject_correct": true,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片中可見戶外遮陽傘下有一張木製野餐桌，確實有女子坐在桌旁的長椅上。描述簡單但完整準確。"
+      }
+    },
+    {
+      "image_id": "1258913059_07c613f7ff.jpg",
+      "candidate_id": "B",
+      "caption_model": "lstm",
+      "caption": "a woman in a white shirt and a black jacket is sitting on a bench with a white dog .",
+      "image_sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d",
+      "judgment": {
+        "verdict": "partial",
+        "score": 3,
+        "subject_correct": false,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片中有一名穿白衣的女子與另一名穿深色上衣的女子坐在長椅上，但畫面中完全沒有看到白色的狗。描述包含了幻覺（無中生有的狗），僅部分符合。"
+      }
+    },
+    {
+      "image_id": "241347760_d44c8d3a01.jpg",
+      "candidate_id": "A",
+      "caption_model": "transformer",
+      "caption": "a football player in a red uniform is wearing a red jersey .",
+      "image_sha256": "c5214b4a277f80ad14a5e6d568f01e0877689760fd7f5818526b70c52bca9fb1",
+      "judgment": {
+        "verdict": "match",
+        "score": 5,
+        "subject_correct": true,
+        "action_correct": true,
+        "scene_correct": true,
+        "reason": "圖片中是一名穿著紅色球衣（背號28號）與紅色頭盔的美式足球員。描述準確涵蓋了主體與穿著。"
+      }
+    },
+    {
+      "image_id": "241347760_d44c8d3a01.jpg",
+      "candidate_id": "B",
+      "caption_model": "lstm",
+      "caption": "a football player in red is being tackled .",
+      "image_sha256": "c5214b4a277f80ad14a5e6d568f01e0877689760fd7f5818526b70c52bca9fb1",
+      "judgment": {
+        "verdict": "partial",
+        "score": 2,
+        "subject_correct": true,
+        "action_correct": false,
+        "scene_correct": true,
+        "reason": "圖片中確實有一名穿紅衣的美式足球員，但他正獨自站立著，並沒有被擒抱（tackled）。動作描述完全錯誤，僅主體身分相符。"
+      }
+    }
+  ]
+}

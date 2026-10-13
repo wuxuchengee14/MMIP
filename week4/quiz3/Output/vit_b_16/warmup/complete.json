@@ -1,0 +1,29 @@
+{
+  "signature": "dc82fe0daee3ffb8b5ce84381922263c60f1dc9de931b73d35412a21a2dc4500",
+  "identity": {
+    "model": "vit_b_16",
+    "seed": 42,
+    "data": "bdf64d60b08812c6829ec43443316fa3b337239770c47b78dcfcb57a824c32db",
+    "weights": "ViT_B_16_Weights.IMAGENET1K_V1",
+    "preprocessing": "gray-to-RGB/224/tensor-bilinear-antialias/imagenet/no augmentation",
+    "phase": "head"
+  },
+  "settings": {
+    "batch_size": 128,
+    "epochs": 1,
+    "patience": 2,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "clip": 1.0,
+    "warmup_epochs": 1,
+    "warmup_lr": 0.001,
+    "image_size": 224
+  },
+  "best_epoch": 1,
+  "best_validation_score": 0.9460791865660145,
+  "selection_metric": "val_accuracy",
+  "training_seconds": 41.39995099976659,
+  "epochs_ran": 1,
+  "parameters": 85807115,
+  "trainable_parameters": 8459
+}

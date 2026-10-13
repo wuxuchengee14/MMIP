@@ -1,0 +1,105 @@
+{
+"batch_id": "batch_02",
+"judgments": [
+{
+"image_id": "2654514044_a70a6e2c21.jpg",
+"candidate_id": "A",
+"verdict": "partial",
+"score": 2,
+"subject_correct": false,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中只有一隻狗，描述說有兩隻狗（two dogs），數量錯誤；但在草地奔跑的動作與場景大致符合。"
+},
+{
+"image_id": "2654514044_a70a6e2c21.jpg",
+"candidate_id": "B",
+"verdict": "match",
+"score": 5,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中確實有一隻棕色的狗正在草地上奔跑，主體、動作與場景皆完全正確。"
+},
+{
+"image_id": "138718600_f430ebca17.jpg",
+"candidate_id": "A",
+"verdict": "mismatch",
+"score": 0,
+"subject_correct": false,
+"action_correct": false,
+"scene_correct": false,
+"reason": "圖片中是兩名女子坐在水邊草地上休息，旁邊停著腳踏車。並沒有穿綠襯衫的男子，也無人正在騎腳踏車，描述完全錯誤。"
+},
+{
+"image_id": "138718600_f430ebca17.jpg",
+"candidate_id": "B",
+"verdict": "mismatch",
+"score": 0,
+"subject_correct": false,
+"action_correct": false,
+"scene_correct": false,
+"reason": "圖片中並無人在泥土路上騎腳踏車，腳踏車是停放在一旁的。主體、動作與場景皆與事實不符。"
+},
+{
+"image_id": "3214237686_6566b8b52f.jpg",
+"candidate_id": "A",
+"verdict": "match",
+"score": 5,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中明確顯示一名單板滑雪者正在雪地上空跳躍騰空，描述非常精確。"
+},
+{
+"image_id": "3214237686_6566b8b52f.jpg",
+"candidate_id": "B",
+"verdict": "match",
+"score": 5,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": true,
+"reason": "圖片中確實是一名單板滑雪者正在進行跳躍動作，描述與圖片內容完全相符。"
+},
+{
+"image_id": "3507076266_8b17993fbb.jpg",
+"candidate_id": "A",
+"verdict": "mismatch",
+"score": 1,
+"subject_correct": false,
+"action_correct": false,
+"scene_correct": true,
+"reason": "圖片中是一名男子牽著一匹黑馬走在戶外。描述稱「黑馬騎著馬」語句不合理且動作錯誤，僅提到黑馬與戶外小徑部分相符。"
+},
+{
+"image_id": "3507076266_8b17993fbb.jpg",
+"candidate_id": "B",
+"verdict": "mismatch",
+"score": 1,
+"subject_correct": false,
+"action_correct": false,
+"scene_correct": false,
+"reason": "圖片中只有一名男子在牽馬，並沒有女人，也沒有人騎在馬上。主體與動作描述錯誤。"
+},
+{
+"image_id": "2647049174_0fb47cee2e.jpg",
+"candidate_id": "A",
+"verdict": "partial",
+"score": 2,
+"subject_correct": true,
+"action_correct": true,
+"scene_correct": false,
+"reason": "圖片中一名穿著藍色條紋衣的幼童蹲坐在地上。描述正確點出嬰孩與藍色上衣（雖字詞重複），但場景並非在床上，產生了場景幻覺。"
+},
+{
+"image_id": "2647049174_0fb47cee2e.jpg",
+"candidate_id": "B",
+"verdict": "partial",
+"score": 2,
+"subject_correct": true,
+"action_correct": false,
+"scene_correct": false,
+"reason": "圖片中穿著藍上衣的男童蹲在地上，並非坐在綠色椅子上。主體與穿著描述正確，但動作與場景完全錯誤。"
+}
+]
+}

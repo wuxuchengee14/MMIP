@@ -1,0 +1,12 @@
+﻿true_class,bladder,femur-left,femur-right,heart,kidney-left,kidney-right,liver,lung-left,lung-right,pancreas,spleen
+bladder,991,4,2,0,17,8,0,0,0,14,0
+femur-left,2,759,4,0,9,10,0,0,0,0,0
+femur-right,5,46,725,0,3,10,3,0,0,1,0
+heart,0,0,0,687,4,0,4,67,0,7,16
+kidney-left,24,2,0,0,1892,54,2,0,0,34,56
+kidney-right,12,0,1,0,98,1841,1,0,0,10,2
+liver,0,0,0,8,0,7,3255,0,7,7,1
+lung-left,0,0,0,0,0,0,0,1747,0,0,0
+lung-right,0,0,0,0,0,1,3,0,1809,0,0
+pancreas,12,0,0,0,49,6,1,0,0,1539,15
+spleen,0,0,0,0,75,6,0,15,0,2,1786

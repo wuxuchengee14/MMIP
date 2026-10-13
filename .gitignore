@@ -7,3 +7,14 @@
 **/__pycache__/
 *.py[cod]
 **/.ipynb_checkpoints/
+
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+.env
+*.env
+
+week4/logs/
+week4/hardware.json
+week4/week4_homework_submission_models/

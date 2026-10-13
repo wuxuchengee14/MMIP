@@ -1,0 +1,49 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "torch": "2.9.1+cu128",
+  "results": [
+    {
+      "model": "rnn",
+      "batch_size": 128,
+      "peak_allocated_gib": 0.34519100189208984,
+      "peak_reserved_gib": 0.544921875,
+      "single_step_with_initialization_seconds": 0.5683204000815749
+    },
+    {
+      "model": "lstm",
+      "batch_size": 128,
+      "peak_allocated_gib": 0.2781205177307129,
+      "peak_reserved_gib": 0.380859375,
+      "single_step_with_initialization_seconds": 0.03200310003012419
+    },
+    {
+      "model": "vit_b_16",
+      "batch_size": 128,
+      "peak_allocated_gib": 9.253532886505127,
+      "peak_reserved_gib": 9.640625,
+      "single_step_with_initialization_seconds": 0.6849355003796518
+    },
+    {
+      "model": "resnet50",
+      "batch_size": 128,
+      "peak_allocated_gib": 5.974031925201416,
+      "peak_reserved_gib": 6.072265625,
+      "single_step_with_initialization_seconds": 3.133403900079429
+    },
+    {
+      "model": "caption_lstm",
+      "batch_size": 128,
+      "peak_allocated_gib": 0.5571246147155762,
+      "peak_reserved_gib": 0.630859375,
+      "single_step_with_initialization_seconds": 0.03490540012717247
+    },
+    {
+      "model": "caption_transformer",
+      "batch_size": 128,
+      "peak_allocated_gib": 0.6852221488952637,
+      "peak_reserved_gib": 0.7421875,
+      "single_step_with_initialization_seconds": 0.04887840012088418
+    }
+  ],
+  "scope": "Random inputs, real six model architectures/configured batch sizes; one step each; not full training."
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "path": "analysis/audit_results.py",
+    "bytes": 12078,
+    "sha256": "78383cd574be2bb2149b447a2aac675c9b3b67a40f86b6eb163ae1c19332fe7e"
+  },
+  {
+    "path": "analysis/cases10_contact_sheet.jpg",
+    "bytes": 276165,
+    "sha256": "8057d754ba6c710c8cf450321b3d3f90729d7831802090f968d3e4a2b5341d56"
+  },
+  {
+    "path": "analysis/followup_checks.json",
+    "bytes": 8845,
+    "sha256": "4d5edfaab70ff54a87509f848e156e7071dd075a8c290fafa3364053f4399545"
+  },
+  {
+    "path": "analysis/followup_checks.py",
+    "bytes": 4918,
+    "sha256": "34e9b2e007d09cab199655f86fa143dcb520e764d0deb9dbd885bdc2d92250cf"
+  },
+  {
+    "path": "analysis/results_audit.json",
+    "bytes": 19485,
+    "sha256": "1b02ad064304bf21cb578ea5819ab8c95d1a9bd4080e8a1464157921dbe7f82e"
+  },
+  {
+    "path": "analysis/results_review.md",
+    "bytes": 11530,
+    "sha256": "254e95260edd046ae9d39e5ad8c9c77be9e4329bc5a3f1abb65a2244b4fad88d"
+  },
+  {
+    "path": "build_notebooks.py",
+    "bytes": 5225,
+    "sha256": "58b3cc0c746c08953b9405d17e43e672277f424a40999a1304a88534d306016c"
+  },
+  {
+    "path": "build_submission.py",
+    "bytes": 18306,
+    "sha256": "3b87735c1cfbf6991aea1e5086b92a07aa907715c46c8ce2cdd4ba0c12f740d7"
+  },
+  {
+    "path": "check_gpu.py",
+    "bytes": 1899,
+    "sha256": "1600197d2976b8dabeb236eefe5e91056cf524843c0e1039b1b8eb22eddfa062"
+  },
+  {
+    "path": "common/__init__.py",
+    "bytes": 58,
+    "sha256": "73054a8c075888254e81ef5b344ced954aa193a44062b111c14c55e0b64f7af7"
+  },
+  {
+    "path": "common/metrics.py",
+    "bytes": 3756,
+    "sha256": "a4c5478cb6d578b7711ae582cf7746b01cebd66d8bb48bfe10adfee0cb02f4f6"
+  },
+  {
+    "path": "common/network.py",
+    "bytes": 324,
+    "sha256": "37b412ec6bc3e15e56f9cc4e5a762ab3ffae3f967acd9768874263a6a5f0e89e"
+  },
+  {
+    "path": "common/training.py",
+    "bytes": 7041,
+    "sha256": "c1c62512f93058c49f22822b158b0cb96b6fc12caa13566966d6a778f80dc3c9"
+  },
+  {
+    "path": "common/utils.py",
+    "bytes": 3524,
+    "sha256": "62b02ded76152516d104b06a1a9ecf73895df3602171e6d7161abb8f3303b7f0"
+  },
+  {
+    "path": "completion.json",
+    "bytes": 2082,
+    "sha256": "934f1ad4dffd848329b15aca46fb82b54e9971cb45ad4111684337712d8d8656"
+  },
+  {
+    "path": "config.rtx5090.json",
+    "bytes": 1088,
+    "sha256": "803b39ffc2accfaa826a69d20e9149559666478064e163cb0bee7b8d9491885b"
+  },
+  {
+    "path": "environment.yml",
+    "bytes": 501,
+    "sha256": "f729e66bf5ff1510fd285c611e1908782576f12348b7d35e043836d5b7e00898"
+  },
+  {
+    "path": "hardware.json",
+    "bytes": 609,
+    "sha256": "786509b09fa08eb79fc819e3bd33c4f1bdd3cf67c1317c15e6197b0f871caabe"
+  },
+  {
+    "path": "logs/all_20261012_123001.log",
+    "bytes": 14193,
+    "sha256": "6a20db2a14bad7b63e731868bab27d30a59a84ca8da55ccb86a414da0c53d158"
+  },
+  {
+    "path": "logs/gemini_20261012_143921.log",
+    "bytes": 206,
+    "sha256": "440a5d09e9ef120fc0ce2a7e0f8a9d45913945648d94f2b92633447b4c3f5e82"
+  },
+  {
+    "path": "logs/gemini_20261013_170622.log",
+    "bytes": 207,
+    "sha256": "15e102f4ef4172efecc3cceec429514d38aa53fbf6c3dbdbb2e244efae258238"
+  },
+  {
+    "path": "logs/gemini_20261013_180114.log",
+    "bytes": 409,
+    "sha256": "3e8e6b786714f780717ba13b18283d12ea5c98b655f818f7f8d2c7ba8c212e5f"
+  },
+  {
+    "path": "quiz1/AI/AI_usage.md",
+    "bytes": 624,
+    "sha256": "ad81fb067a9623a44c2bab4288bd3c67fe0132e7dda15a2007d8b73d7322b63c"
+  },
+  {
+    "path": "quiz1/Code/__init__.py",
+    "bytes": 19,
+    "sha256": "20bc369ce6da7be6b1b74381c42d1b07b7e12665c13e550f81935485f21ed02c"
+  },
+  {
+    "path": "quiz1/Code/prepare.py",
+    "bytes": 13642,
+    "sha256": "4c66c37c8be9605d327082503298bab38dc54fbb49138aa5efc4fe237981a284"
+  },
+  {
+    "path": "quiz1/Code/quiz1.ipynb",
+    "bytes": 2186,
+    "sha256": "f5562f9d2e260fd50b7b7ccb6b1476ed4ee9c275c22b7824c580ee99576f6a85"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/1258913059_07c613f7ff.jpg",
+    "bytes": 127383,
+    "sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/138718600_f430ebca17.jpg",
+    "bytes": 217016,
+    "sha256": "6c3bad3cbac7079c78b8326aa3ef8dc842478485f9d8ce55322c82ee39caeea1"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/241347760_d44c8d3a01.jpg",
+    "bytes": 83434,
+    "sha256": "c5214b4a277f80ad14a5e6d568f01e0877689760fd7f5818526b70c52bca9fb1"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/2647049174_0fb47cee2e.jpg",
+    "bytes": 89152,
+    "sha256": "8ad0d64c4a76d36a3b4540b4a0fde365216daaf415d6d16ef105789a926fada0"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/2654514044_a70a6e2c21.jpg",
+    "bytes": 150115,
+    "sha256": "ac5593a76a41e237f5414fe204e03397f2e4e3f6fa7cfaff36b164d54589d500"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/2677656448_6b7e7702af.jpg",
+    "bytes": 138367,
+    "sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/311146855_0b65fdb169.jpg",
+    "bytes": 210684,
+    "sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/3214237686_6566b8b52f.jpg",
+    "bytes": 77186,
+    "sha256": "0045cc8ee6d295f5f6d5e833bb12e3f1b17d48e5d91e0a889864b90570dc2221"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/3385593926_d3e9c21170.jpg",
+    "bytes": 125514,
+    "sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flicker8k_Dataset/3507076266_8b17993fbb.jpg",
+    "bytes": 178330,
+    "sha256": "d7f82e2c786952c857f3a4f6cea74ca97f79ca28f55dab2cf6985735ad21d62f"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flickr_8k.devImages.txt",
+    "bytes": 25801,
+    "sha256": "18ba829f47f6df1cb830bf7f0506e2ddf333818925299babbd1bbcaf50fdc504"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flickr_8k.testImages.txt",
+    "bytes": 25775,
+    "sha256": "c0924146c131458ceba45da59670fe9520eadce1e5cafffa16a817672a9b1f17"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/Flickr_8k.trainImages.txt",
+    "bytes": 154678,
+    "sha256": "e330ddd5156a4c2d2e2b67bc587e70e588f2d132bd8a10dc54dcb71e58115d8e"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/test.json",
+    "bytes": 468313,
+    "sha256": "e13655b70bbe858425204f3057a7ddcc1160635c5b5877cdf9d079e1ebf7bd6d"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/train.json",
+    "bytes": 2802182,
+    "sha256": "c89dd691e027756c3063829240aad58b769d6fe7565e20466e7cb24fbb047411"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/val.json",
+    "bytes": 470510,
+    "sha256": "62461dd53ee9b0fc70df38bf1baaf051b17483500725131054e762cf92b88cfe"
+  },
+  {
+    "path": "quiz1/Data/flickr8k/vocab.json",
+    "bytes": 100440,
+    "sha256": "c0f6bdf11895631b932df548e7734676a6a62cac7c0ed35b85f0f5b86b37ddeb"
+  },
+  {
+    "path": "quiz1/Data/imdb/split_ids.json",
+    "bytes": 1440348,
+    "sha256": "86e05f40bdfe028b46053fc2d554cde6966df224395a86c44d36e17ab4035ce8"
+  },
+  {
+    "path": "quiz1/Data/imdb/vocab.json",
+    "bytes": 424226,
+    "sha256": "740ada70e3416078f62642e317b3fc2f3601ddb1e1a88a917d7d4fd71c1314bc"
+  },
+  {
+    "path": "quiz1/Data/PACKAGE_NOTE.md",
+    "bytes": 376,
+    "sha256": "55c27dfc75489db924f5fb71bb14e658a7212cbcf1df9c9ebf1b12115ea0f30d"
+  },
+  {
+    "path": "quiz1/Data/README.md",
+    "bytes": 155,
+    "sha256": "94583138f71fcbf6f01fbf7811c885baf250eee9227380c78c5633d8d334032c"
+  },
+  {
+    "path": "quiz1/Output/data_manifests/flickr8k.json",
+    "bytes": 814,
+    "sha256": "2e75ec2635a12b486f26865015f26ca88eb31381070c08effbbeec1f971d4e8d"
+  },
+  {
+    "path": "quiz1/Output/data_manifests/imdb.json",
+    "bytes": 2914,
+    "sha256": "06855b7c9ad653d93a08dd096a50b50a73797a108b53be9f3aed8dd43a9c25fd"
+  },
+  {
+    "path": "quiz1/Output/data_manifests/organamnist.json",
+    "bytes": 622,
+    "sha256": "5831e9a6672e0bc70066067059f8c65206b4e8825e2b635d185e9e2ba940e456"
+  },
+  {
+    "path": "quiz1/Output/datasets.json",
+    "bytes": 4563,
+    "sha256": "b9e6a60433bc9332b485530ca76d674b9d648f44126ddbd97882a8441bfb9295"
+  },
+  {
+    "path": "quiz1/Output/organ_class_counts.csv",
+    "bytes": 689,
+    "sha256": "4afbe5d33684b5358ca540287237250913a2db9cbcecb0f9530e097ae26ebe8e"
+  },
+  {
+    "path": "quiz1/Output/organ_examples.png",
+    "bytes": 40759,
+    "sha256": "b41eec51c72318ce753f8d96e45251c7d27c15c7950e7a1051b9c1b464c913d4"
+  },
+  {
+    "path": "quiz1/Output/README.md",
+    "bytes": 221,
+    "sha256": "704dce464cf058bf171476e6179e9a5510cf1ed2729fee3dd9f47ae3aa0b692b"
+  },
+  {
+    "path": "quiz1/Output/report.md",
+    "bytes": 1370,
+    "sha256": "3579b379547fd5e5a2d857f4fcd85de9540e24bc7f27db36cf1c3437e7687626"
+  },
+  {
+    "path": "quiz2/AI/AI_usage.md",
+    "bytes": 624,
+    "sha256": "a0568cd166fea3dad166b8643e3680673105f0625b47c7cad11bf8d1c35ca7a5"
+  },
+  {
+    "path": "quiz2/Code/__init__.py",
+    "bytes": 19,
+    "sha256": "1662127ee83b93deef1b1bcf69f1ac7b020f8ce86a6bbdf15398d48334ab0250"
+  },
+  {
+    "path": "quiz2/Code/models.py",
+    "bytes": 863,
+    "sha256": "738049377df69d891c90406da712785b0746a23ae716c1d667d8763f699adc37"
+  },
+  {
+    "path": "quiz2/Code/quiz2.ipynb",
+    "bytes": 2191,
+    "sha256": "1be1d42ab1c654b9b1f0871b30435f2d8faad94b758423a76a7228c5d4604307"
+  },
+  {
+    "path": "quiz2/Code/train.py",
+    "bytes": 6088,
+    "sha256": "5d1c36e054bab96afc77de2034aa300202048d06882f99b021c5ec8ec4d85919"
+  },
+  {
+    "path": "quiz2/Data/README.md",
+    "bytes": 126,
+    "sha256": "be68ba179d854d1ac76926d7771f558510a26c03dc071653fa42eb314c6494ea"
+  },
+  {
+    "path": "quiz2/Output/comparison.csv",
+    "bytes": 280,
+    "sha256": "a280a69553e9fe9941b9d1f77b9c883bc794bebf3b0d73f915e858d598255fa1"
+  },
+  {
+    "path": "quiz2/Output/lstm/class_auc.csv",
+    "bytes": 59,
+    "sha256": "875f1944cc34dd804f807a2e1d30ca171867016fd6318deea9a6f9b84218ae91"
+  },
+  {
+    "path": "quiz2/Output/lstm/classification_report.json",
+    "bytes": 627,
+    "sha256": "1b81e667c57d30247b2cefa02013277e6782d724672b6a32fa4849090e62e380"
+  },
+  {
+    "path": "quiz2/Output/lstm/complete.json",
+    "bytes": 723,
+    "sha256": "97e817fd7a9efe0aa61e386880b41d57b913c097353da24a6c9e0f5a2a987f07"
+  },
+  {
+    "path": "quiz2/Output/lstm/confusion_matrix.csv",
+    "bytes": 74,
+    "sha256": "229a83d3a4dc40595f19edb439ed7b0c21f46b80b06781d76f74847f33f82516"
+  },
+  {
+    "path": "quiz2/Output/lstm/confusion_matrix.png",
+    "bytes": 28962,
+    "sha256": "38e1c6856fdcf574f165e00264c738e61b7c5beb8d2fef59b8d54a6ae8bcaf3c"
+  },
+  {
+    "path": "quiz2/Output/lstm/examples.json",
+    "bytes": 19729,
+    "sha256": "f3c7b10d0bceb3b682116cf036aee83e74aca815323ba3e01452ac133a595ca0"
+  },
+  {
+    "path": "quiz2/Output/lstm/history.csv",
+    "bytes": 1189,
+    "sha256": "73eab0baa6f8e77b1669751bf438890139bd216ffd0f675108f02a851c95cf83"
+  },
+  {
+    "path": "quiz2/Output/lstm/learning_curves.png",
+    "bytes": 71318,
+    "sha256": "18ca7d40045d546e05fc3b4be961281b9a54ff660bf21b489190b42a47a30997"
+  },
+  {
+    "path": "quiz2/Output/lstm/metrics.json",
+    "bytes": 267,
+    "sha256": "1678960d65258b603094db7fdbc30f38da4431b86b4c049adc95d769ef5ea728"
+  },
+  {
+    "path": "quiz2/Output/lstm/predictions.csv",
+    "bytes": 1990627,
+    "sha256": "e46f4605ea08ce4e8117642a20c5c375955f543b7d23e73ac64120669016d8e1"
+  },
+  {
+    "path": "quiz2/Output/lstm/probabilities.npz",
+    "bytes": 127055,
+    "sha256": "d5c6f4f8e270e24e8fb2da0fd7f757a23b4302f3c86b3bb9250790356daf3919"
+  },
+  {
+    "path": "quiz2/Output/lstm/roc.png",
+    "bytes": 68708,
+    "sha256": "f047b213140238114f0b694c7e7cda83cbb8d7fd44367a71a0ca3e733ec70cd3"
+  },
+  {
+    "path": "quiz2/Output/lstm/roc_class_0.csv",
+    "bytes": 267776,
+    "sha256": "132abe4900742bdc4bfc2d2468d28825c944fc1b8f49268b6f3a8667bbe5f2d1"
+  },
+  {
+    "path": "quiz2/Output/lstm/roc_class_1.csv",
+    "bytes": 275800,
+    "sha256": "ba467a21a2bf7e9f7405054c175459f632d2eaa669e872ee868aa4ab7de15c4d"
+  },
+  {
+    "path": "quiz2/Output/lstm/timing.json",
+    "bytes": 191,
+    "sha256": "c4bc9b891e98513cb9b8d444b66ee7c7de8b81347acfc17151bfb0611586adaf"
+  },
+  {
+    "path": "quiz2/Output/README.md",
+    "bytes": 221,
+    "sha256": "4c860d4a37e020b4dabb102460f08f9816112dabcaafd6f44b503a203087ba97"
+  },
+  {
+    "path": "quiz2/Output/report.md",
+    "bytes": 1407,
+    "sha256": "275049eba433293acc69f240fa049a104029711c77dd41a369a8b09b97f4d8f4"
+  },
+  {
+    "path": "quiz2/Output/rnn/class_auc.csv",
+    "bytes": 66,
+    "sha256": "dc7a303a1756814c9fe29d314087a80301804fc2578856dc04ed6b75305fc500"
+  },
+  {
+    "path": "quiz2/Output/rnn/classification_report.json",
+    "bytes": 625,
+    "sha256": "a83692e840b7a636527abf316ba155fbdb4bd2deefa758ce797828beb97ffcdc"
+  },
+  {
+    "path": "quiz2/Output/rnn/complete.json",
+    "bytes": 719,
+    "sha256": "8593920ceaefa702b6de1cd57e98fb8606df125fdbd9550ccd0536c997aac0b8"
+  },
+  {
+    "path": "quiz2/Output/rnn/confusion_matrix.csv",
+    "bytes": 74,
+    "sha256": "34cd4ba9258866b0bf90b6daee8a91d9225ad09f6457562583fc5b3281e345a2"
+  },
+  {
+    "path": "quiz2/Output/rnn/confusion_matrix.png",
+    "bytes": 31703,
+    "sha256": "53c082a82a738adb73f704fa58aad91b2d5126b4c681aa6d61e0eed68de33a77"
+  },
+  {
+    "path": "quiz2/Output/rnn/examples.json",
+    "bytes": 18201,
+    "sha256": "c7602772be5651ddffd48f4a94c1829270be67f28f4be293cc49add2461d94a6"
+  },
+  {
+    "path": "quiz2/Output/rnn/history.csv",
+    "bytes": 734,
+    "sha256": "d467fb6044b1a0ac88051b58a461b043a71089e3d76ca898b695aea6db0785ff"
+  },
+  {
+    "path": "quiz2/Output/rnn/learning_curves.png",
+    "bytes": 78698,
+    "sha256": "db78bc8b4941ee5e4e09ff9f611b8b69b6e9121c198fe2f2d288ffe571467bd2"
+  },
+  {
+    "path": "quiz2/Output/rnn/metrics.json",
+    "bytes": 279,
+    "sha256": "e55c354ee82df49ab9ad46c51e8c2ec0668a01d811d022bd7fb633c9c82308c1"
+  },
+  {
+    "path": "quiz2/Output/rnn/predictions.csv",
+    "bytes": 1949880,
+    "sha256": "ffe98f8e5e6417eac673becff64de016649ecd30469f062c161a01f7066bde29"
+  },
+  {
+    "path": "quiz2/Output/rnn/probabilities.npz",
+    "bytes": 118252,
+    "sha256": "0db51c97c5089a0d3d2d2358e25db4e027c2f148d8eb1b804bc9d6ed88e828a9"
+  },
+  {
+    "path": "quiz2/Output/rnn/roc.png",
+    "bytes": 73560,
+    "sha256": "612dfd82146ca9b8b576e56d59078dccc043df6d76abca68082c945870789568"
+  },
+  {
+    "path": "quiz2/Output/rnn/roc_class_0.csv",
+    "bytes": 256334,
+    "sha256": "7c0e441556251ebaf8f24ba9fcc77a66b158def20f4e1545b8376f555c793fe6"
+  },
+  {
+    "path": "quiz2/Output/rnn/roc_class_1.csv",
+    "bytes": 256164,
+    "sha256": "b09886033f74e405b8abd536dea488694810aae1a3006cd0a5055ef85bfc551c"
+  },
+  {
+    "path": "quiz2/Output/rnn/timing.json",
+    "bytes": 193,
+    "sha256": "f784416a08e9d7ded448cccf0755aa71395575404a0bb1136205cec5420b6a16"
+  },
+  {
+    "path": "quiz3/AI/AI_usage.md",
+    "bytes": 624,
+    "sha256": "a5cc8140c1df97ad213e5a50d2f6faa2374f09f12fbb16ffa037ff1ab85413cd"
+  },
+  {
+    "path": "quiz3/Code/__init__.py",
+    "bytes": 19,
+    "sha256": "090693f16b9be3a894c69345a1d8bf1184682c5f68758333007fd9296aa1a97d"
+  },
+  {
+    "path": "quiz3/Code/quiz3.ipynb",
+    "bytes": 2188,
+    "sha256": "467b9cf024f6f23a8d6e4909d586e40dc6ea11919211c0b58bd17555221d7c7f"
+  },
+  {
+    "path": "quiz3/Code/train.py",
+    "bytes": 8065,
+    "sha256": "414c9f63cebe13277c25712a7787bd61a37f725a3151a86e9156f865898c8e49"
+  },
+  {
+    "path": "quiz3/Data/README.md",
+    "bytes": 126,
+    "sha256": "3da0c717df4f3c3c68514fdfcefa557b3735ad6475f1e359513dba72369f25ba"
+  },
+  {
+    "path": "quiz3/Output/comparison.csv",
+    "bytes": 357,
+    "sha256": "3abdbb494fa9abae2c25f199ee97e173ade9415a839de3e479ffee009451a747"
+  },
+  {
+    "path": "quiz3/Output/README.md",
+    "bytes": 221,
+    "sha256": "404a1772cc741f005cd2c9f50118d552b2e87219dfefb40b235d5994b174a384"
+  },
+  {
+    "path": "quiz3/Output/report.md",
+    "bytes": 1299,
+    "sha256": "706e51406d63a75b9f32846abc0320ba695cee89f442d669d707439474d8c379"
+  },
+  {
+    "path": "quiz3/Output/resnet50/class_auc.csv",
+    "bytes": 336,
+    "sha256": "a9841ff48d2b0df6769ffa26c06485c59ae8b130fb637ff06414911b4b00bfdc"
+  },
+  {
+    "path": "quiz3/Output/resnet50/classification_report.json",
+    "bytes": 2043,
+    "sha256": "882be234dd2fb05d822f9062f3dfbe22df5d3a2db45195e5d1b8e3c9a6bc2bec"
+  },
+  {
+    "path": "quiz3/Output/resnet50/complete.json",
+    "bytes": 865,
+    "sha256": "de3cea0f23059fed7dca407b7fb523cb0bf12fd52cf282665c7776784e240ce3"
+  },
+  {
+    "path": "quiz3/Output/resnet50/confusion_matrix.csv",
+    "bytes": 526,
+    "sha256": "ea491582195a5fcf458da27db7a8502bfc3abb0bb69c9a53f511f38117989bb7"
+  },
+  {
+    "path": "quiz3/Output/resnet50/confusion_matrix.png",
+    "bytes": 64811,
+    "sha256": "a9db24b3c5af5ec2ba28d8b07d0652dcb52b19020d9a631f216edde0e7789f2c"
+  },
+  {
+    "path": "quiz3/Output/resnet50/history.csv",
+    "bytes": 1076,
+    "sha256": "23324c0a6763b3359081affeb2fbab5306993aede0a583c68ae55efc50f49f6e"
+  },
+  {
+    "path": "quiz3/Output/resnet50/learning_curves.png",
+    "bytes": 62084,
+    "sha256": "ff356447a5e337b24c8767a6a32c42b5c8a6cdb4e9f23e6370d9092875a00f94"
+  },
+  {
+    "path": "quiz3/Output/resnet50/metrics.json",
+    "bytes": 277,
+    "sha256": "a66983f1fc352e1632ba307d66a9c4fd7eb7a9ea2a49b4ce7bd8f149feb66f1b"
+  },
+  {
+    "path": "quiz3/Output/resnet50/prediction_examples.png",
+    "bytes": 91100,
+    "sha256": "6c41d66366e9cf2462d11c74a93ebcaecb2947f6a078a93aca8f89f90f6a268a"
+  },
+  {
+    "path": "quiz3/Output/resnet50/predictions.csv",
+    "bytes": 4707175,
+    "sha256": "9ea3e6b6557d87fa294025047f8f0c570e112d167ef8ffaf210a447b4e1879e4"
+  },
+  {
+    "path": "quiz3/Output/resnet50/probabilities.npz",
+    "bytes": 736870,
+    "sha256": "1f5235c6b7679acac5a337f7b85c7689d19e7d801c948cf3f454c260797d0260"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc.png",
+    "bytes": 72877,
+    "sha256": "47182329fba1a22eb2e6281003de0e2f1ffa91c670e8bb8a4a0ccf381a2945e1"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_0.csv",
+    "bytes": 65423,
+    "sha256": "01d8eca3d64cfd262a9b332774dbe9fb92fe6296a9e228d472f7fc1da4abfd81"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_1.csv",
+    "bytes": 59560,
+    "sha256": "b1e852748cc25a606fa3bc3f2184c785cd3b28ec363d676167d384835c7ac221"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_10.csv",
+    "bytes": 73428,
+    "sha256": "eb70583574a0d6fdfcea7088cfbe550b15d84019539a1523d025de79c8ee799f"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_2.csv",
+    "bytes": 82615,
+    "sha256": "79eb304c8b426566635beab5b0c2d2d7a4e0b537a2d27b40a1c64483e2877355"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_3.csv",
+    "bytes": 73464,
+    "sha256": "adcaee374ecad2729a2db262e6d77c3917ae20fb0c2a801a1f1fbbef952c128f"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_4.csv",
+    "bytes": 89232,
+    "sha256": "4992efa5c91ff0836db314c7fc1477cb48329b5a130b22a1acaca90df1221383"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_5.csv",
+    "bytes": 72031,
+    "sha256": "0160621c5ebfa6738178ba9d04224c884f8aa909a05de84bffb9e5ce18527ca8"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_6.csv",
+    "bytes": 80405,
+    "sha256": "85e7aed3b964b0fe7c47434baea4645a425497d9ca71db7bba3253e3395f35e9"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_7.csv",
+    "bytes": 72367,
+    "sha256": "2ec9bdf7dd2d9fd8f73eb13e2481f2c4b4f6df83c92c1d9830f0c6c07515aa66"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_8.csv",
+    "bytes": 79301,
+    "sha256": "9e3480dd333819fea5b373164954c977fd9c889a2e4fb2bd018b650df9837a62"
+  },
+  {
+    "path": "quiz3/Output/resnet50/roc_class_9.csv",
+    "bytes": 79623,
+    "sha256": "eebfd71e149ce302da5c88a29bfd4169f63268e7829f643da1a979b9cefc726c"
+  },
+  {
+    "path": "quiz3/Output/resnet50/timing.json",
+    "bytes": 185,
+    "sha256": "8a253633d2430208623094eee9962fa1687cbd2b901c88332551f23a54a27020"
+  },
+  {
+    "path": "quiz3/Output/resnet50/warmup/complete.json",
+    "bytes": 850,
+    "sha256": "2801255f91f5fa45f32ad51fb4bea81c386be16075e334f11f077285556f3ac5"
+  },
+  {
+    "path": "quiz3/Output/resnet50/warmup/history.csv",
+    "bytes": 163,
+    "sha256": "ca862aabb5e85ad9daa99ff250001c6f9ed5233e312513d47a1b4edf7758bcd5"
+  },
+  {
+    "path": "quiz3/Output/resnet50/warmup/learning_curves.png",
+    "bytes": 38697,
+    "sha256": "1f141be96842e88491f11bd1d1f5dfb305997638c324fccbf9f10f4a369a8a8c"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/class_auc.csv",
+    "bytes": 336,
+    "sha256": "f2cfb90f4d2e335a26e54aba9645563d6e36432ce8181494a1c5fc0f9ce91f1d"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/classification_report.json",
+    "bytes": 2040,
+    "sha256": "328341d93350e5fc3aa736372870180ee00b2990bd65125c502898357c2c07a0"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/complete.json",
+    "bytes": 864,
+    "sha256": "2ba27a0ad270500c50961771d14850d8449521ebd8a22b90ac0f9a17a53abfc8"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/confusion_matrix.csv",
+    "bytes": 525,
+    "sha256": "704528f228e2da30fbd40c839bdc6f045e05b72b766afc4aa0a8326ff840583c"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/confusion_matrix.png",
+    "bytes": 64625,
+    "sha256": "f757c64155db7168b587937dcc4c356360e4c4f43d42f819032a43b519fd52d1"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/history.csv",
+    "bytes": 1683,
+    "sha256": "85c9fd3ec1d1db309d0f2cf1fa2f970a35bd603c391fc675cb5de63897ee25a8"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/learning_curves.png",
+    "bytes": 69357,
+    "sha256": "b5079e84f65d487a1c061ba66a248504210338172916c97ccb61657e6bf69d78"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/metrics.json",
+    "bytes": 275,
+    "sha256": "35c3de87ff2cce4ca56ab139552fdce0ae404366428f4a07045ef8f00721e3e9"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/prediction_examples.png",
+    "bytes": 91494,
+    "sha256": "6811a22a07372429cd2c3940da2075d2314b93604596e98fe7dffa853a96bcef"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/predictions.csv",
+    "bytes": 4670993,
+    "sha256": "129899153449df5845e1e1f124fc57d412c8b47d2e0e32e2f87fda625f8b85b7"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/probabilities.npz",
+    "bytes": 715182,
+    "sha256": "1d791ae0cac650538e944e2e4b7968dfe16f5cd9a0161b637191addb546d1825"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc.png",
+    "bytes": 71331,
+    "sha256": "8d72ffbc954b38ff6d37568ba04d9a6d070eb025d13676021087a5fe57331222"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_0.csv",
+    "bytes": 99845,
+    "sha256": "a101a3ff12f1559cc1d772441beffc31c2848ffec120a32ed6bd2b24ad580300"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_1.csv",
+    "bytes": 124037,
+    "sha256": "b5792b1a5dce54a3c9aeb70e356514924949b399ec31e6a3ce8b219824a8a4ea"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_10.csv",
+    "bytes": 121189,
+    "sha256": "0e87ac93baa42b62bd1e45c07c83f0457c7eeba622ead9c47f61135820331fa1"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_2.csv",
+    "bytes": 108795,
+    "sha256": "bacc7b87dbb95fcef354ba78a4b04fa0064daa91ff7a77b6c0e0211fe58cb80a"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_3.csv",
+    "bytes": 120591,
+    "sha256": "a0ef3f841ce1c7f2f1c89c5c77b730353b9906e12dd9c9faf8743ceac67a0ecf"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_4.csv",
+    "bytes": 145140,
+    "sha256": "9b676e36a0ce8028489797b1c75e6d4c67f332a62d7f728fc554cb07d4d46093"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_5.csv",
+    "bytes": 133177,
+    "sha256": "ba1f3cd6513b5344025fada9ae7f99759b445e33880fc66af2e40b6d61873a9c"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_6.csv",
+    "bytes": 69955,
+    "sha256": "5c35646db5dc47f0dfe6f8dad93ab51ab73d48497e43c40b67f779593c28cbee"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_7.csv",
+    "bytes": 86866,
+    "sha256": "c2f3558cc9767308535823542f9120aef82fa2ab9aed17d664cc1944721cd869"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_8.csv",
+    "bytes": 97887,
+    "sha256": "9ef7aa603628c37893974fe8c4680001154c75b97889659371d57b99f852d83b"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/roc_class_9.csv",
+    "bytes": 121517,
+    "sha256": "73261e150a89630852dcbb13ba354fa26d11f090211a4e89ffc5473a682068f1"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/timing.json",
+    "bytes": 185,
+    "sha256": "ab67ac48b4463656d0e096747714041b0357d3c79f67b6404a7c2400d701c0a9"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/warmup/complete.json",
+    "bytes": 849,
+    "sha256": "12aa1877ad85a366a2d912f4ba50cda426b40f1e79236159a08a90e13a3c88b1"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/warmup/history.csv",
+    "bytes": 164,
+    "sha256": "49d82ca4f7996a9f13490d63b5290ce61e7a804b06b50ddd35a33df0c395add2"
+  },
+  {
+    "path": "quiz3/Output/vit_b_16/warmup/learning_curves.png",
+    "bytes": 38511,
+    "sha256": "2e8afac620ab83968f092b8ccda066f8fd36a2dd0d200d91865f3f1409ace6ed"
+  },
+  {
+    "path": "quiz4/AI/AI_usage.md",
+    "bytes": 624,
+    "sha256": "0d7d21871fc22b3efea6f5c064425524a58a4582d5ab9081c9757774e732b3a2"
+  },
+  {
+    "path": "quiz4/Code/__init__.py",
+    "bytes": 19,
+    "sha256": "b707e70df95b8bb106223b564c417263c5ba7abcfacd13637a24a223fe85e5c8"
+  },
+  {
+    "path": "quiz4/Code/bleu.py",
+    "bytes": 1814,
+    "sha256": "6fef9ec5078a669a21cceb80ecd4a03a60cf988cf3b8380adb3a3fc142e70f67"
+  },
+  {
+    "path": "quiz4/Code/features.py",
+    "bytes": 3445,
+    "sha256": "53f81c10d154605ab474d506ffe82cb2acc66a052b159d4c44fc6c9124904ee4"
+  },
+  {
+    "path": "quiz4/Code/gemini.py",
+    "bytes": 8871,
+    "sha256": "242ec28883e1ff44e7f5907319c97b992a792484c25c153b34b27dd5a93d3c1c"
+  },
+  {
+    "path": "quiz4/Code/gemini_retry.py",
+    "bytes": 6154,
+    "sha256": "3c3ea20308ea51c10b65714a891fabff3aa3add7e6bd4f09f9679bcb444158e6"
+  },
+  {
+    "path": "quiz4/Code/manual_gemini.py",
+    "bytes": 20584,
+    "sha256": "1d148ba867bd527d4a2ee49bc1a509edf2367609af37741ce955bb5cd7ac74a1"
+  },
+  {
+    "path": "quiz4/Code/models.py",
+    "bytes": 4515,
+    "sha256": "872673e0c4b69ac4983a5b93542f7533439f12a092874659cc01f694ccf6d2bd"
+  },
+  {
+    "path": "quiz4/Code/quiz4.ipynb",
+    "bytes": 2564,
+    "sha256": "96e9086ee154bfab1b782986a93c6b49981a6f3987368107489c04ba4d7f76df"
+  },
+  {
+    "path": "quiz4/Code/train.py",
+    "bytes": 15711,
+    "sha256": "53cc9cd2f402bc7fc166b4b3e6616373ebea7991ce9667ff74fc9aa124cdaed2"
+  },
+  {
+    "path": "quiz4/Data/README.md",
+    "bytes": 221,
+    "sha256": "463e9e06e724b4b78d80b0abbb485a5376b8f57cb46bbc4e7ac0588f63215eaf"
+  },
+  {
+    "path": "quiz4/Output/comparison.csv",
+    "bytes": 871,
+    "sha256": "e86153d32704575d89ce1092c218959a7d87a5a4511a4204c6361d50505fd265"
+  },
+  {
+    "path": "quiz4/Output/comparison.json",
+    "bytes": 1825,
+    "sha256": "09cab49c610726b17f7559f923a5f44abc28dbbbff4131c3f8fcd37b7deafffb"
+  },
+  {
+    "path": "quiz4/Output/encoder_timing.json",
+    "bytes": 197,
+    "sha256": "a287dcf459a952a6cd53c3e0cffd21f513dd010bf59e769529c5cfead4f68705"
+  },
+  {
+    "path": "quiz4/Output/feature_extraction_metadata.json",
+    "bytes": 616,
+    "sha256": "2c5b3bd2837a95108ca2b4e45967ea8fbff7951c327a084efd7b3c1044d5eba3"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/CASES.md",
+    "bytes": 1466,
+    "sha256": "57abc33ecee920f3f36baf3928b1dfdc8b95f557ccb12b291f0f0569582ae371"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/cases_preview.jpg",
+    "bytes": 276165,
+    "sha256": "8057d754ba6c710c8cf450321b3d3f90729d7831802090f968d3e4a2b5341d56"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/errors.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/imported/batch_01.json",
+    "bytes": 6878,
+    "sha256": "ca769db9c044b96b3e3f78bfe1b84aa413d3ecbda033e7ed57d8a77541ed16ae"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/imported/batch_02.json",
+    "bytes": 6658,
+    "sha256": "e309d93aa04de7659681b2fb525cdb18f8a03287fe0ee232d5b5ee29c15c59a0"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/judgments.json",
+    "bytes": 12087,
+    "sha256": "6a71dc956a09171ce1edbc3a0bfa966d3ac47122a6121b5fd6e7ab112aeb8284"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/manifest.json",
+    "bytes": 6102,
+    "sha256": "abdfd8a6bebb77084871f6c2b3e4e86161ceb59c21df15f60c90b8765cc72d1c"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/README.md",
+    "bytes": 3297,
+    "sha256": "fa71cb6b65b9aaf41b1f5abe164c1ac2b1ce97ef7d2e311c7616f1e963ecef63"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/report.md",
+    "bytes": 1055,
+    "sha256": "afcec08a340ca6b30519a21d7d501103df18b8be4cc465130ff947f30cd710de"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/responses/batch_01.txt",
+    "bytes": 3567,
+    "sha256": "8eb448d6492210aff71956c9a76e8e15ec0455061525929b7755bef7092b914e"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/responses/batch_02.txt",
+    "bytes": 3334,
+    "sha256": "75b8e5872c08fca4d20c8e43aed101717d2a176ecaa8d92afe92eb5e0cb254a7"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/session.json",
+    "bytes": 296,
+    "sha256": "9929c8e0856ea88a69b5f7bf1d14f9ed0969456e25890e5537b7af651f80fae6"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/summary.json",
+    "bytes": 1265,
+    "sha256": "0b6af2b7aa58f5d9fe7d95e3e05195e1931a7c254037ce781033f27b33e14435"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_01/1258913059_07c613f7ff.jpg",
+    "bytes": 127383,
+    "sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_01/241347760_d44c8d3a01.jpg",
+    "bytes": 83434,
+    "sha256": "c5214b4a277f80ad14a5e6d568f01e0877689760fd7f5818526b70c52bca9fb1"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_01/2677656448_6b7e7702af.jpg",
+    "bytes": 138367,
+    "sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_01/311146855_0b65fdb169.jpg",
+    "bytes": 210684,
+    "sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_01/3385593926_d3e9c21170.jpg",
+    "bytes": 125514,
+    "sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_01/PROMPT.txt",
+    "bytes": 2864,
+    "sha256": "6bccdc37a21702768788cf880fb76cc205920cc8baae73e61e13ebf3a4c70ba2"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_02/138718600_f430ebca17.jpg",
+    "bytes": 217016,
+    "sha256": "6c3bad3cbac7079c78b8326aa3ef8dc842478485f9d8ce55322c82ee39caeea1"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_02/2647049174_0fb47cee2e.jpg",
+    "bytes": 89152,
+    "sha256": "8ad0d64c4a76d36a3b4540b4a0fde365216daaf415d6d16ef105789a926fada0"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_02/2654514044_a70a6e2c21.jpg",
+    "bytes": 150115,
+    "sha256": "ac5593a76a41e237f5414fe204e03397f2e4e3f6fa7cfaff36b164d54589d500"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_02/3214237686_6566b8b52f.jpg",
+    "bytes": 77186,
+    "sha256": "0045cc8ee6d295f5f6d5e833bb12e3f1b17d48e5d91e0a889864b90570dc2221"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_02/3507076266_8b17993fbb.jpg",
+    "bytes": 178330,
+    "sha256": "d7f82e2c786952c857f3a4f6cea74ca97f79ca28f55dab2cf6985735ad21d62f"
+  },
+  {
+    "path": "quiz4/Output/gemini_cases10/uploads/batch_02/PROMPT.txt",
+    "bytes": 2878,
+    "sha256": "002dc4dd04595bd49477440f49b4fc33fd5feba5190ebecf737133cee9478fc7"
+  },
+  {
+    "path": "quiz4/Output/lstm/beam/bleu.json",
+    "bytes": 221,
+    "sha256": "eaa76d73982ddc243cf1d2913c46f4a97402da660b38c485582c353f3f923be8"
+  },
+  {
+    "path": "quiz4/Output/lstm/beam/caption_examples.png",
+    "bytes": 4678451,
+    "sha256": "9ed63631be574d5c5dc4cbe2681f3d1bee80259f4f85c8a6bf5ecf3aa7fda91f"
+  },
+  {
+    "path": "quiz4/Output/lstm/beam/predictions.csv",
+    "bytes": 412597,
+    "sha256": "f6d2fe027637fb67d27e5441754cbebb88d3f8db6fb71baa4510e08f6cc05b7a"
+  },
+  {
+    "path": "quiz4/Output/lstm/beam/predictions.json",
+    "bytes": 537034,
+    "sha256": "f9a848031f05d8c0c22049258544e48aa92bf723f8105e6ab61077c1078c513e"
+  },
+  {
+    "path": "quiz4/Output/lstm/beam/timing.json",
+    "bytes": 444,
+    "sha256": "8eccce87c2190e8e13464dd6f8e1a7b088925940b1ade8d783aaf99a725edfa0"
+  },
+  {
+    "path": "quiz4/Output/lstm/complete.json",
+    "bytes": 1114,
+    "sha256": "88a5313993b6bb305edc6fbc32c7076eaeaf19d015dca2cd9768a6cbb3a1aa95"
+  },
+  {
+    "path": "quiz4/Output/lstm/greedy/bleu.json",
+    "bytes": 221,
+    "sha256": "398060dd940ad7e42d69ee387cf287322d57f733ab566418c6f77c322516331b"
+  },
+  {
+    "path": "quiz4/Output/lstm/greedy/caption_examples.png",
+    "bytes": 4715315,
+    "sha256": "2699942c427d173bcbc513141f4c4ee4a7ee7df7728aca8ba0eb066ccb71c50b"
+  },
+  {
+    "path": "quiz4/Output/lstm/greedy/predictions.csv",
+    "bytes": 416154,
+    "sha256": "98c7e46f427b72bc6299fd78567912b444ae443e92e3f8dc7ecb954c5692552c"
+  },
+  {
+    "path": "quiz4/Output/lstm/greedy/predictions.json",
+    "bytes": 540591,
+    "sha256": "eae7544e77406e62a932935de687d672bbce196ed47e77554d8e134fb7ff74c1"
+  },
+  {
+    "path": "quiz4/Output/lstm/greedy/timing.json",
+    "bytes": 429,
+    "sha256": "3ac2e1da5b494e1844477e0f3d5df183e20ba96eaca374d0452ff437abac7ac4"
+  },
+  {
+    "path": "quiz4/Output/lstm/history.csv",
+    "bytes": 3012,
+    "sha256": "a14fad64d3eacd5362c7dd410b57b2b0466e82d11cc4b8da9ea4344ae53606af"
+  },
+  {
+    "path": "quiz4/Output/lstm/learning_curves.png",
+    "bytes": 65744,
+    "sha256": "4b1dbf3165e0125fd2c8dbebd7c969b464b745b06fcd0626fccb96e1ee27e041"
+  },
+  {
+    "path": "quiz4/Output/README.md",
+    "bytes": 221,
+    "sha256": "c8c04a6a5ff313a417fe6ac40c7afc7a10bf1e635276e2a23c23a4aa46263375"
+  },
+  {
+    "path": "quiz4/Output/report.md",
+    "bytes": 3646,
+    "sha256": "bb987937ce7abfb3ed7986029909ab55f00538593d1f4dbad16ec91543c6ade4"
+  },
+  {
+    "path": "quiz4/Output/transformer/beam/bleu.json",
+    "bytes": 221,
+    "sha256": "e6bac7c4dd651bc45c6a37775d4ef7c2647a538369a43c51f84295d934ff2705"
+  },
+  {
+    "path": "quiz4/Output/transformer/beam/caption_examples.png",
+    "bytes": 4610531,
+    "sha256": "3a2b1e4b782b8753cde7ee35aba477393d7a7f5bd19eec3bdd28f00d2d1e7b16"
+  },
+  {
+    "path": "quiz4/Output/transformer/beam/predictions.csv",
+    "bytes": 413647,
+    "sha256": "70c5f52a1b83b1b9ad39ff903df2c8c061d5cbb2b1f7ad289f88619b2410817d"
+  },
+  {
+    "path": "quiz4/Output/transformer/beam/predictions.json",
+    "bytes": 538084,
+    "sha256": "3904b47fb3d6bfe1c01cf76bd6c934abd25f9c066d9c874d5652a8e2750ed367"
+  },
+  {
+    "path": "quiz4/Output/transformer/beam/timing.json",
+    "bytes": 429,
+    "sha256": "5f86af0d63105b760859fd63c36ba0873336e3d9245711d6732c05f5cfab293f"
+  },
+  {
+    "path": "quiz4/Output/transformer/complete.json",
+    "bytes": 1119,
+    "sha256": "ef28bc99ab8a741f89fbfca2721bfa6c9a6c35ddc2210ece3e5d028c1a76c9bd"
+  },
+  {
+    "path": "quiz4/Output/transformer/greedy/bleu.json",
+    "bytes": 220,
+    "sha256": "df8c9169fb12fcc9ddc1c0d2a06607ed1f436f8717eae773450568961ca5107f"
+  },
+  {
+    "path": "quiz4/Output/transformer/greedy/caption_examples.png",
+    "bytes": 4612478,
+    "sha256": "af4c68fe22f5c69457e33c26857c5430d559ccf63e7bfcd1257acf059f724ce8"
+  },
+  {
+    "path": "quiz4/Output/transformer/greedy/predictions.csv",
+    "bytes": 415682,
+    "sha256": "329e0b67e3b73c2d4300259c64ce1cdda35579c2ab31870acb91ed8939b0422b"
+  },
+  {
+    "path": "quiz4/Output/transformer/greedy/predictions.json",
+    "bytes": 540119,
+    "sha256": "191b0bb4ecc291d45d198c1af849a501a77711d0ae4255076918e5e8eefcaae4"
+  },
+  {
+    "path": "quiz4/Output/transformer/greedy/timing.json",
+    "bytes": 442,
+    "sha256": "e4e8b9302922727c4ad5a3daff8f7d28d981d294a02a93b28858b830da3f6abb"
+  },
+  {
+    "path": "quiz4/Output/transformer/history.csv",
+    "bytes": 1427,
+    "sha256": "687325f172751a8fa051af159d53e57d29664e43bd105fc0cefb4a011eedcf4e"
+  },
+  {
+    "path": "quiz4/Output/transformer/learning_curves.png",
+    "bytes": 64119,
+    "sha256": "f8e751dc62e0f0e3a05ab40d3e2484cb606474df50a13570ebf0eb521b582606"
+  },
+  {
+    "path": "README.md",
+    "bytes": 9030,
+    "sha256": "1be279521a30392ee89fbd11536790d8a1b7cecd060f6782d6dcb472fcd2e051"
+  },
+  {
+    "path": "REPORT.md",
+    "bytes": 837,
+    "sha256": "754492b2af96fb4cecaf1409add05c601192404cc5c687fd8eb3895d3046d7c8"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 294,
+    "sha256": "6ce3382771240e6370a1854ce1db7a9deefb40791f743e7e1752d4b0915d9822"
+  },
+  {
+    "path": "RUBRIC.md",
+    "bytes": 2259,
+    "sha256": "f4930cbf9b39551a63405290aaf853b98e2a31cca64c00be21d6cc81265a882c"
+  },
+  {
+    "path": "run_all.py",
+    "bytes": 7070,
+    "sha256": "429e18e145f57773c239d4b3c8aa61032a38570e52f7a31d67e7ef46d561ca4d"
+  },
+  {
+    "path": "START_HERE.md",
+    "bytes": 975,
+    "sha256": "58f229a993d50fc2468cd5d387fefca9bf16922ab746262d32a0740d5264db1d"
+  },
+  {
+    "path": "SUBMISSION_REPORT.md",
+    "bytes": 8754,
+    "sha256": "2f56fd645c5745e41d0d39f139b6cba140b75d7e0fed5c0606fb01188c0f391d"
+  },
+  {
+    "path": "tests/gpu_probe.py",
+    "bytes": 3663,
+    "sha256": "f7e63a0b010f1a5b4902ad96e039b8d7c31a8173677ef552158bf47542fb185a"
+  },
+  {
+    "path": "tests/gpu_probe_results.json",
+    "bytes": 1575,
+    "sha256": "b682edf220985a62fa0856911df75b2ca91f9b5c7e3f4a67f08d1533c3c816ff"
+  },
+  {
+    "path": "tests/test_gemini_retry.py",
+    "bytes": 7295,
+    "sha256": "97400a7ce85499f650b2e5830fdc5842ab13efad142ef24ad2a8f3d292ae7772"
+  },
+  {
+    "path": "tests/test_manual_gemini.py",
+    "bytes": 9235,
+    "sha256": "a0e4b4f1bc66c1a6098943effa0e2edaa254fe04bf22f1533fa4c49bbb2e41df"
+  },
+  {
+    "path": "tests/test_workflow.py",
+    "bytes": 12436,
+    "sha256": "c6094a9fda74e9039b7393b3e8d953743a749145889fbfd3527b9c4c70ade220"
+  },
+  {
+    "path": "tests/worker_probe.py",
+    "bytes": 1072,
+    "sha256": "8e71214834665fb5eb54f5bc424a8d05a53fbdd81e63d137911c1b99fadc3125"
+  },
+  {
+    "path": "train_rtx5090.ps1",
+    "bytes": 2068,
+    "sha256": "caae83887b50e56f22257777ff99924b2ba32be2162323e5c8f1d8703ebff42e"
+  },
+  {
+    "path": "train_rtx5090.sh",
+    "bytes": 3653,
+    "sha256": "f2944fdafb7b8f39a872d7629d1df0ff5497e7d586f671acc30bf43585336089"
+  },
+  {
+    "path": "VALIDATION.md",
+    "bytes": 3217,
+    "sha256": "1e5ecb41af268cca0e974f460d225c3fdcc7005392de2b33502ba6316586fedc"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "signature": "043b69a82f181e872619a0b5a843007b1ccd17861406987859270884cc9561c0",
+  "identity": {
+    "model": "lstm",
+    "seed": 42,
+    "features": "d0e4b3a7f01d230508770d9a8a666e24d55bd5ee425efa57fb3204d22d7c8b53",
+    "vocab": "a0d1473d68b6abad9e7f6b71675fadd065993721bb505631e0618878cea9c895"
+  },
+  "settings": {
+    "batch_size": 128,
+    "feature_batch_size": 128,
+    "epochs": 30,
+    "patience": 5,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "clip": 1.0,
+    "vocab_size": 8000,
+    "max_length": 40,
+    "dim": 256,
+    "layers": 2,
+    "heads": 8,
+    "dropout": 0.2,
+    "grid_size": 4,
+    "beam_width": 3,
+    "beam_length_penalty": 0.7,
+    "decode_batch_size": 128,
+    "timing_samples": 30,
+    "timing_repeats": 3,
+    "gemini_samples": 100,
+    "gemini_model": "gemini-3.8-flash",
+    "gemini_interval_seconds": 4.1
+  },
+  "best_epoch": 26,
+  "best_validation_score": 2.918045410898588,
+  "selection_metric": "val_loss",
+  "training_seconds": 100.90067039942369,
+  "epochs_ran": 30,
+  "parameters": 5626324,
+  "trainable_parameters": 5626324
+}

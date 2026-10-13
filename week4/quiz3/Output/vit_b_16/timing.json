@@ -1,0 +1,6 @@
+{
+  "end_to_end_test_seconds": 5.935773199889809,
+  "images_per_second": 2995.0605256161116,
+  "batch_size": 128,
+  "includes": "loading + transfer + forward + CPU probabilities"
+}

@@ -1,0 +1,13 @@
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1+cu128
+torchvision==0.24.1+cu128
+numpy>=2,<3
+scikit-learn>=1.6,<2
+matplotlib>=3.9,<4
+Pillow>=11,<13
+medmnist==3.0.2
+truststore>=0.10,<1
+nbformat>=5.10,<6
+ipykernel>=6,<8
+jupyterlab>=4.4,<5

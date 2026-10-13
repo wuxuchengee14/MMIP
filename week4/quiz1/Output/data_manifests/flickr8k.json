@@ -1,0 +1,21 @@
+{
+  "source": "https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/",
+  "counts": {
+    "train": 6000,
+    "val": 1000,
+    "test": 1000
+  },
+  "references_per_image": 5,
+  "vocab_size": 7380,
+  "vocab_sha256": "c0f6bdf11895631b932df548e7734676a6a62cac7c0ed35b85f0f5b86b37ddeb",
+  "max_length": 40,
+  "hashes": {
+    "train.json": "c89dd691e027756c3063829240aad58b769d6fe7565e20466e7cb24fbb047411",
+    "val.json": "62461dd53ee9b0fc70df38bf1baaf051b17483500725131054e762cf92b88cfe",
+    "test.json": "e13655b70bbe858425204f3057a7ddcc1160635c5b5877cdf9d079e1ebf7bd6d"
+  },
+  "archives": {
+    "Flickr8k_Dataset.zip": "61e4b111d32b24a55b69dafd91f4c3aec07391b7b9217face15dd35d517fe6de",
+    "Flickr8k_text.zip": "4992ddc8110e9aa49da5bf698522b0c8f11c448814a488584ee6bf040e5137e7"
+  }
+}

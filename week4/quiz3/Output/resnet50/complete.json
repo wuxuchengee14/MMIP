@@ -1,0 +1,29 @@
+{
+  "signature": "f3407ae3deffeb07322bfec2d4913768f1f133eb18b61f26a173c3ac2206e688",
+  "identity": {
+    "model": "resnet50",
+    "seed": 42,
+    "data": "bdf64d60b08812c6829ec43443316fa3b337239770c47b78dcfcb57a824c32db",
+    "weights": "ResNet50_Weights.IMAGENET1K_V1",
+    "preprocessing": "gray-to-RGB/224/tensor-bilinear-antialias/imagenet/no augmentation",
+    "phase": "full_finetune"
+  },
+  "settings": {
+    "batch_size": 128,
+    "epochs": 20,
+    "patience": 5,
+    "lr": 3e-05,
+    "weight_decay": 0.0001,
+    "clip": 1.0,
+    "warmup_epochs": 1,
+    "warmup_lr": 0.001,
+    "image_size": 224
+  },
+  "best_epoch": 5,
+  "best_validation_score": 0.9899861346479741,
+  "selection_metric": "val_accuracy",
+  "training_seconds": 198.27419329993427,
+  "epochs_ran": 10,
+  "parameters": 23530571,
+  "trainable_parameters": 23530571
+}

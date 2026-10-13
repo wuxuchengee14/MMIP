@@ -1,0 +1,21 @@
+{
+  "identity": "d0e4b3a7f01d230508770d9a8a666e24d55bd5ee425efa57fb3204d22d7c8b53",
+  "counts": {
+    "train": 6000,
+    "val": 1000,
+    "test": 1000
+  },
+  "extraction_seconds": 130.06335769966245,
+  "feature_shape": [
+    16,
+    2048
+  ],
+  "dtype": "float16",
+  "weights": "ResNet50_IMAGENET1K_V1",
+  "encoder_parameters": 23508032,
+  "hashes": {
+    "train": "7f39950c2154043b4e022f9b5d8eefee9358d475b34f57a37a0ba62bbf8bc04b",
+    "val": "75ce0c17d21df36aa21e0910fe447edc4f658641e1d236e095ff549bed5a0865",
+    "test": "9fa819c366c569f569c30b2f2e80ce4a3bcd532a7c1754caffc9b6586bb9d863"
+  }
+}

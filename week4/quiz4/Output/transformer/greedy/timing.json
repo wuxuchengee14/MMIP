@@ -1,0 +1,12 @@
+{
+  "decoder_mean_ms": 26.94443112446202,
+  "decoder_median_ms": 26.541550178080797,
+  "decoder_p95_ms": 41.8142500333488,
+  "mean_generated_tokens": 11.766666666666667,
+  "generated_tokens_per_second": 436.70124681103664,
+  "timing_images": 30,
+  "timing_repeats": 3,
+  "latency_batch_size": 1,
+  "estimated_pipeline_mean_ms": 34.95279443967674,
+  "note": "Pipeline mean is sum of separately measured encoder and decoder means."
+}
