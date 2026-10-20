@@ -1,0 +1,7 @@
+{
+  "encoder_mean_ms": 7.994031111916735,
+  "batch_size": 1,
+  "samples": 30,
+  "repeats": 3,
+  "includes": "image read, CLIP preprocessing, transfer, vision forward and pooling"
+}

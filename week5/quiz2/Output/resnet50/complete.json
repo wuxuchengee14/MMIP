@@ -1,0 +1,57 @@
+{
+  "signature": "5ac52aa6de8d340f63aa5fd79b145f1c4d4cca874ea7d97579b78a9b66a4337d",
+  "identity": {
+    "seed": 42,
+    "backbone": "resnet50",
+    "data": {
+      "signature": "65b5a4f72a41c55f243dc8860483e647b8a4a5800b0588e2883971ef754921e5",
+      "counts": {
+        "train": 4795,
+        "val": 1199,
+        "test": 5794
+      },
+      "classes": 200,
+      "captions_per_image": 10,
+      "image_root": "raw/CUB_200_2011",
+      "source": "https://www.vision.caltech.edu/datasets/cub_200_2011/",
+      "text_origin": "Reed et al. CVPR 2016 human descriptions, distributed in AttnGAN birds metadata",
+      "text_source": "https://github.com/taoxugit/AttnGAN",
+      "caption_root": "D:\\projects\\MMIP\\week5_homework\\quiz1\\Data\\cub\\captions\\birds\\text",
+      "split_hashes": {
+        "train": "d90696c9302089188653a8efd18c021f1f7357bfec6f54908d585a07e5a5f38d",
+        "val": "1a160b31793fd5609286f3a6de5c20d345f9d6f30442c35751f8b386065983cb",
+        "test": "a3c014ff0d451a182be4720f13e7ff4f837e614680729dec5502f85ea3a5220a"
+      },
+      "retrieval_splits_sha256": "e7998a9c0114251a790a4bfbb58c4acf2ef2aaf37152071cc3531033c9fed04c",
+      "classes_sha256": "e7f3f059f022d28fc482d150864f249a75f0dec3e1b80d6ade999dd47b0f4bd0",
+      "limitation": "CUB officially warns of ImageNet/Flickr pretraining overlap; no claim of pretraining-independent generalization"
+    },
+    "text_features": "670b8a13ceb99b2ab9f8d775ff8ad6d21571997c266ff7d74233eac251ea5a5e"
+  },
+  "settings": {
+    "backbones": [
+      "resnet50",
+      "vit_b_16"
+    ],
+    "text_model": "distilbert/distilbert-base-uncased",
+    "text_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "text_max_length": 64,
+    "text_feature_batch_size": 256,
+    "batch_size": 128,
+    "epochs": 20,
+    "patience": 5,
+    "lr": 3e-05,
+    "head_lr": 0.0003,
+    "weight_decay": 0.0001,
+    "clip": 1.0,
+    "fusion_dim": 256,
+    "dropout": 0.3
+  },
+  "best_epoch": 17,
+  "best_validation_score": 0.7264386989157632,
+  "selection_metric": "val_accuracy",
+  "training_seconds": 131.37617500004126,
+  "epochs_ran": 20,
+  "parameters": 24413192,
+  "trainable_parameters": 24413192
+}

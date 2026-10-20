@@ -1,0 +1,27 @@
+{
+  "scope": "real pretrained encoders and evaluator; tiny smoke inputs only, not final accuracy",
+  "distilbert": {
+    "pass": true,
+    "shape": [
+      2,
+      10,
+      768
+    ],
+    "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be"
+  },
+  "clip": {
+    "pass": true,
+    "shape": [
+      2,
+      16,
+      768
+    ],
+    "preprocessing_max_difference": 0.0,
+    "revision": null
+  },
+  "bertscore": {
+    "pass": true,
+    "identical_sentence_f1": 0.9999638795852661,
+    "hash": "FacebookAI/roberta-base_L10_no-idf_version=0.3.12(hug_trans=4.57.6)"
+  }
+}

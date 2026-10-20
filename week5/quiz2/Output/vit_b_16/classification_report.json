@@ -1,0 +1,1215 @@
+{
+  "001.Black_footed_Albatross": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 30.0
+  },
+  "002.Laysan_Albatross": {
+    "precision": 0.9545454545454546,
+    "recall": 0.7,
+    "f1-score": 0.8076923076923077,
+    "support": 30.0
+  },
+  "003.Sooty_Albatross": {
+    "precision": 0.5384615384615384,
+    "recall": 1.0,
+    "f1-score": 0.7,
+    "support": 28.0
+  },
+  "004.Groove_billed_Ani": {
+    "precision": 0.96,
+    "recall": 0.8,
+    "f1-score": 0.8727272727272727,
+    "support": 30.0
+  },
+  "005.Crested_Auklet": {
+    "precision": 0.6470588235294118,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.7096774193548387,
+    "support": 14.0
+  },
+  "006.Least_Auklet": {
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9090909090909091,
+    "support": 11.0
+  },
+  "007.Parakeet_Auklet": {
+    "precision": 0.9545454545454546,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.9333333333333333,
+    "support": 23.0
+  },
+  "008.Rhinoceros_Auklet": {
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7692307692307693,
+    "support": 18.0
+  },
+  "009.Brewer_Blackbird": {
+    "precision": 0.4594594594594595,
+    "recall": 0.5862068965517241,
+    "f1-score": 0.5151515151515151,
+    "support": 29.0
+  },
+  "010.Red_winged_Blackbird": {
+    "precision": 0.8928571428571429,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8620689655172413,
+    "support": 30.0
+  },
+  "011.Rusty_Blackbird": {
+    "precision": 0.6296296296296297,
+    "recall": 0.5666666666666667,
+    "f1-score": 0.5964912280701754,
+    "support": 30.0
+  },
+  "012.Yellow_headed_Blackbird": {
+    "precision": 0.9615384615384616,
+    "recall": 0.9615384615384616,
+    "f1-score": 0.9615384615384616,
+    "support": 26.0
+  },
+  "013.Bobolink": {
+    "precision": 0.8928571428571429,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8620689655172413,
+    "support": 30.0
+  },
+  "014.Indigo_Bunting": {
+    "precision": 0.9354838709677419,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9508196721311475,
+    "support": 30.0
+  },
+  "015.Lazuli_Bunting": {
+    "precision": 0.9615384615384616,
+    "recall": 0.8928571428571429,
+    "f1-score": 0.9259259259259259,
+    "support": 28.0
+  },
+  "016.Painted_Bunting": {
+    "precision": 0.9259259259259259,
+    "recall": 0.8928571428571429,
+    "f1-score": 0.9090909090909091,
+    "support": 28.0
+  },
+  "017.Cardinal": {
+    "precision": 0.92,
+    "recall": 0.8518518518518519,
+    "f1-score": 0.8846153846153846,
+    "support": 27.0
+  },
+  "018.Spotted_Catbird": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 15.0
+  },
+  "019.Gray_Catbird": {
+    "precision": 1.0,
+    "recall": 0.9310344827586207,
+    "f1-score": 0.9642857142857143,
+    "support": 29.0
+  },
+  "020.Yellow_breasted_Chat": {
+    "precision": 0.8076923076923077,
+    "recall": 0.7241379310344828,
+    "f1-score": 0.7636363636363637,
+    "support": 29.0
+  },
+  "021.Eastern_Towhee": {
+    "precision": 0.6041666666666666,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.7435897435897436,
+    "support": 30.0
+  },
+  "022.Chuck_will_Widow": {
+    "precision": 0.7777777777777778,
+    "recall": 0.8076923076923077,
+    "f1-score": 0.7924528301886793,
+    "support": 26.0
+  },
+  "023.Brandt_Cormorant": {
+    "precision": 0.8461538461538461,
+    "recall": 0.3793103448275862,
+    "f1-score": 0.5238095238095238,
+    "support": 29.0
+  },
+  "024.Red_faced_Cormorant": {
+    "precision": 0.8,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7619047619047619,
+    "support": 22.0
+  },
+  "025.Pelagic_Cormorant": {
+    "precision": 0.5348837209302325,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.6301369863013698,
+    "support": 30.0
+  },
+  "026.Bronzed_Cowbird": {
+    "precision": 0.5686274509803921,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.7160493827160493,
+    "support": 30.0
+  },
+  "027.Shiny_Cowbird": {
+    "precision": 0.6363636363636364,
+    "recall": 0.23333333333333334,
+    "f1-score": 0.34146341463414637,
+    "support": 30.0
+  },
+  "028.Brown_Creeper": {
+    "precision": 0.9615384615384616,
+    "recall": 0.8620689655172413,
+    "f1-score": 0.9090909090909091,
+    "support": 29.0
+  },
+  "029.American_Crow": {
+    "precision": 0.3,
+    "recall": 0.1,
+    "f1-score": 0.15,
+    "support": 30.0
+  },
+  "030.Fish_Crow": {
+    "precision": 0.2923076923076923,
+    "recall": 0.6333333333333333,
+    "f1-score": 0.4,
+    "support": 30.0
+  },
+  "031.Black_billed_Cuckoo": {
+    "precision": 0.9375,
+    "recall": 0.5,
+    "f1-score": 0.6521739130434783,
+    "support": 30.0
+  },
+  "032.Mangrove_Cuckoo": {
+    "precision": 0.7894736842105263,
+    "recall": 0.6521739130434783,
+    "f1-score": 0.7142857142857143,
+    "support": 23.0
+  },
+  "033.Yellow_billed_Cuckoo": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7586206896551724,
+    "f1-score": 0.7096774193548387,
+    "support": 29.0
+  },
+  "034.Gray_crowned_Rosy_Finch": {
+    "precision": 0.9642857142857143,
+    "recall": 0.9310344827586207,
+    "f1-score": 0.9473684210526315,
+    "support": 29.0
+  },
+  "035.Purple_Finch": {
+    "precision": 0.90625,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9354838709677419,
+    "support": 30.0
+  },
+  "036.Northern_Flicker": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 30.0
+  },
+  "037.Acadian_Flycatcher": {
+    "precision": 0.48717948717948717,
+    "recall": 0.6551724137931034,
+    "f1-score": 0.5588235294117647,
+    "support": 29.0
+  },
+  "038.Great_Crested_Flycatcher": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 30.0
+  },
+  "039.Least_Flycatcher": {
+    "precision": 0.3333333333333333,
+    "recall": 0.5172413793103449,
+    "f1-score": 0.40540540540540543,
+    "support": 29.0
+  },
+  "040.Olive_sided_Flycatcher": {
+    "precision": 0.6206896551724138,
+    "recall": 0.6,
+    "f1-score": 0.6101694915254238,
+    "support": 30.0
+  },
+  "041.Scissor_tailed_Flycatcher": {
+    "precision": 0.88,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8,
+    "support": 30.0
+  },
+  "042.Vermilion_Flycatcher": {
+    "precision": 0.8181818181818182,
+    "recall": 0.9,
+    "f1-score": 0.8571428571428571,
+    "support": 30.0
+  },
+  "043.Yellow_bellied_Flycatcher": {
+    "precision": 0.35714285714285715,
+    "recall": 0.3448275862068966,
+    "f1-score": 0.3508771929824561,
+    "support": 29.0
+  },
+  "044.Frigatebird": {
+    "precision": 0.9523809523809523,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7843137254901961,
+    "support": 30.0
+  },
+  "045.Northern_Fulmar": {
+    "precision": 0.6896551724137931,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6779661016949152,
+    "support": 30.0
+  },
+  "046.Gadwall": {
+    "precision": 0.8709677419354839,
+    "recall": 0.9,
+    "f1-score": 0.8852459016393442,
+    "support": 30.0
+  },
+  "047.American_Goldfinch": {
+    "precision": 0.9642857142857143,
+    "recall": 0.9,
+    "f1-score": 0.9310344827586207,
+    "support": 30.0
+  },
+  "048.European_Goldfinch": {
+    "precision": 1.0,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9830508474576272,
+    "support": 30.0
+  },
+  "049.Boat_tailed_Grackle": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1-score": 0.6,
+    "support": 30.0
+  },
+  "050.Eared_Grebe": {
+    "precision": 0.7586206896551724,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7457627118644068,
+    "support": 30.0
+  },
+  "051.Horned_Grebe": {
+    "precision": 0.7586206896551724,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7457627118644068,
+    "support": 30.0
+  },
+  "052.Pied_billed_Grebe": {
+    "precision": 0.8235294117647058,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.875,
+    "support": 30.0
+  },
+  "053.Western_Grebe": {
+    "precision": 0.9629629629629629,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9122807017543859,
+    "support": 30.0
+  },
+  "054.Blue_Grosbeak": {
+    "precision": 0.9259259259259259,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8771929824561403,
+    "support": 30.0
+  },
+  "055.Evening_Grosbeak": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 30.0
+  },
+  "056.Pine_Grosbeak": {
+    "precision": 0.875,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9032258064516129,
+    "support": 30.0
+  },
+  "057.Rose_breasted_Grosbeak": {
+    "precision": 0.967741935483871,
+    "recall": 1.0,
+    "f1-score": 0.9836065573770492,
+    "support": 30.0
+  },
+  "058.Pigeon_Guillemot": {
+    "precision": 0.78125,
+    "recall": 0.8928571428571429,
+    "f1-score": 0.8333333333333334,
+    "support": 28.0
+  },
+  "059.California_Gull": {
+    "precision": 0.5833333333333334,
+    "recall": 0.23333333333333334,
+    "f1-score": 0.3333333333333333,
+    "support": 30.0
+  },
+  "060.Glaucous_winged_Gull": {
+    "precision": 0.5588235294117647,
+    "recall": 0.6551724137931034,
+    "f1-score": 0.6031746031746031,
+    "support": 29.0
+  },
+  "061.Heermann_Gull": {
+    "precision": 0.896551724137931,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8813559322033898,
+    "support": 30.0
+  },
+  "062.Herring_Gull": {
+    "precision": 0.3870967741935484,
+    "recall": 0.4,
+    "f1-score": 0.39344262295081966,
+    "support": 30.0
+  },
+  "063.Ivory_Gull": {
+    "precision": 0.896551724137931,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8813559322033898,
+    "support": 30.0
+  },
+  "064.Ring_billed_Gull": {
+    "precision": 0.7391304347826086,
+    "recall": 0.5666666666666667,
+    "f1-score": 0.6415094339622641,
+    "support": 30.0
+  },
+  "065.Slaty_backed_Gull": {
+    "precision": 0.2765957446808511,
+    "recall": 0.65,
+    "f1-score": 0.3880597014925373,
+    "support": 20.0
+  },
+  "066.Western_Gull": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2,
+    "f1-score": 0.3076923076923077,
+    "support": 30.0
+  },
+  "067.Anna_Hummingbird": {
+    "precision": 0.76,
+    "recall": 0.6333333333333333,
+    "f1-score": 0.6909090909090909,
+    "support": 30.0
+  },
+  "068.Ruby_throated_Hummingbird": {
+    "precision": 0.6756756756756757,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.746268656716418,
+    "support": 30.0
+  },
+  "069.Rufous_Hummingbird": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8148148148148148,
+    "support": 30.0
+  },
+  "070.Green_Violetear": {
+    "precision": 0.9354838709677419,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9508196721311475,
+    "support": 30.0
+  },
+  "071.Long_tailed_Jaeger": {
+    "precision": 0.48,
+    "recall": 0.4,
+    "f1-score": 0.43636363636363634,
+    "support": 30.0
+  },
+  "072.Pomarine_Jaeger": {
+    "precision": 0.4745762711864407,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.6292134831460674,
+    "support": 30.0
+  },
+  "073.Blue_Jay": {
+    "precision": 0.9666666666666667,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9666666666666667,
+    "support": 30.0
+  },
+  "074.Florida_Jay": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 30.0
+  },
+  "075.Green_Jay": {
+    "precision": 0.9629629629629629,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9629629629629629,
+    "support": 27.0
+  },
+  "076.Dark_eyed_Junco": {
+    "precision": 0.9666666666666667,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9666666666666667,
+    "support": 30.0
+  },
+  "077.Tropical_Kingbird": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 30.0
+  },
+  "078.Gray_Kingbird": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8275862068965517,
+    "f1-score": 0.8421052631578947,
+    "support": 29.0
+  },
+  "079.Belted_Kingfisher": {
+    "precision": 0.5833333333333334,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.717948717948718,
+    "support": 30.0
+  },
+  "080.Green_Kingfisher": {
+    "precision": 0.8928571428571429,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8620689655172413,
+    "support": 30.0
+  },
+  "081.Pied_Kingfisher": {
+    "precision": 0.8709677419354839,
+    "recall": 0.9,
+    "f1-score": 0.8852459016393442,
+    "support": 30.0
+  },
+  "082.Ringed_Kingfisher": {
+    "precision": 0.8076923076923077,
+    "recall": 0.7,
+    "f1-score": 0.75,
+    "support": 30.0
+  },
+  "083.White_breasted_Kingfisher": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 30.0
+  },
+  "084.Red_legged_Kittiwake": {
+    "precision": 0.7916666666666666,
+    "recall": 0.8260869565217391,
+    "f1-score": 0.8085106382978723,
+    "support": 23.0
+  },
+  "085.Horned_Lark": {
+    "precision": 0.9629629629629629,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9122807017543859,
+    "support": 30.0
+  },
+  "086.Pacific_Loon": {
+    "precision": 0.8181818181818182,
+    "recall": 0.9,
+    "f1-score": 0.8571428571428571,
+    "support": 30.0
+  },
+  "087.Mallard": {
+    "precision": 0.9629629629629629,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9122807017543859,
+    "support": 30.0
+  },
+  "088.Western_Meadowlark": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.8888888888888888,
+    "support": 30.0
+  },
+  "089.Hooded_Merganser": {
+    "precision": 0.9615384615384616,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8928571428571429,
+    "support": 30.0
+  },
+  "090.Red_breasted_Merganser": {
+    "precision": 0.9629629629629629,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9122807017543859,
+    "support": 30.0
+  },
+  "091.Mockingbird": {
+    "precision": 0.59375,
+    "recall": 0.6333333333333333,
+    "f1-score": 0.6129032258064516,
+    "support": 30.0
+  },
+  "092.Nighthawk": {
+    "precision": 0.7931034482758621,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.7796610169491526,
+    "support": 30.0
+  },
+  "093.Clark_Nutcracker": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 30.0
+  },
+  "094.White_breasted_Nuthatch": {
+    "precision": 0.9310344827586207,
+    "recall": 0.9,
+    "f1-score": 0.9152542372881356,
+    "support": 30.0
+  },
+  "095.Baltimore_Oriole": {
+    "precision": 0.6585365853658537,
+    "recall": 0.9,
+    "f1-score": 0.7605633802816901,
+    "support": 30.0
+  },
+  "096.Hooded_Oriole": {
+    "precision": 0.9090909090909091,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7692307692307693,
+    "support": 30.0
+  },
+  "097.Orchard_Oriole": {
+    "precision": 0.9333333333333333,
+    "recall": 0.4827586206896552,
+    "f1-score": 0.6363636363636364,
+    "support": 29.0
+  },
+  "098.Scott_Oriole": {
+    "precision": 0.8275862068965517,
+    "recall": 0.8,
+    "f1-score": 0.8135593220338984,
+    "support": 30.0
+  },
+  "099.Ovenbird": {
+    "precision": 0.9629629629629629,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9122807017543859,
+    "support": 30.0
+  },
+  "100.Brown_Pelican": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30.0
+  },
+  "101.White_Pelican": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20.0
+  },
+  "102.Western_Wood_Pewee": {
+    "precision": 0.42857142857142855,
+    "recall": 0.4,
+    "f1-score": 0.41379310344827586,
+    "support": 30.0
+  },
+  "103.Sayornis": {
+    "precision": 0.6363636363636364,
+    "recall": 0.7,
+    "f1-score": 0.6666666666666666,
+    "support": 30.0
+  },
+  "104.American_Pipit": {
+    "precision": 0.575,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.6571428571428571,
+    "support": 30.0
+  },
+  "105.Whip_poor_Will": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7368421052631579,
+    "f1-score": 0.7,
+    "support": 19.0
+  },
+  "106.Horned_Puffin": {
+    "precision": 1.0,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9830508474576272,
+    "support": 30.0
+  },
+  "107.Common_Raven": {
+    "precision": 0.5789473684210527,
+    "recall": 0.36666666666666664,
+    "f1-score": 0.4489795918367347,
+    "support": 30.0
+  },
+  "108.White_necked_Raven": {
+    "precision": 0.88,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8,
+    "support": 30.0
+  },
+  "109.American_Redstart": {
+    "precision": 0.7428571428571429,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8,
+    "support": 30.0
+  },
+  "110.Geococcyx": {
+    "precision": 0.9310344827586207,
+    "recall": 0.9,
+    "f1-score": 0.9152542372881356,
+    "support": 30.0
+  },
+  "111.Loggerhead_Shrike": {
+    "precision": 0.49056603773584906,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.6265060240963856,
+    "support": 30.0
+  },
+  "112.Great_Grey_Shrike": {
+    "precision": 0.9333333333333333,
+    "recall": 0.4666666666666667,
+    "f1-score": 0.6222222222222222,
+    "support": 30.0
+  },
+  "113.Baird_Sparrow": {
+    "precision": 0.6153846153846154,
+    "recall": 0.8,
+    "f1-score": 0.6956521739130435,
+    "support": 20.0
+  },
+  "114.Black_throated_Sparrow": {
+    "precision": 0.9032258064516129,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9180327868852459,
+    "support": 30.0
+  },
+  "115.Brewer_Sparrow": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4827586206896552,
+    "f1-score": 0.56,
+    "support": 29.0
+  },
+  "116.Chipping_Sparrow": {
+    "precision": 0.7037037037037037,
+    "recall": 0.6333333333333333,
+    "f1-score": 0.6666666666666666,
+    "support": 30.0
+  },
+  "117.Clay_colored_Sparrow": {
+    "precision": 0.5588235294117647,
+    "recall": 0.6551724137931034,
+    "f1-score": 0.6031746031746031,
+    "support": 29.0
+  },
+  "118.House_Sparrow": {
+    "precision": 0.5384615384615384,
+    "recall": 0.7,
+    "f1-score": 0.6086956521739131,
+    "support": 30.0
+  },
+  "119.Field_Sparrow": {
+    "precision": 0.7727272727272727,
+    "recall": 0.5862068965517241,
+    "f1-score": 0.6666666666666666,
+    "support": 29.0
+  },
+  "120.Fox_Sparrow": {
+    "precision": 0.7333333333333333,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7333333333333333,
+    "support": 30.0
+  },
+  "121.Grasshopper_Sparrow": {
+    "precision": 0.7272727272727273,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.6153846153846154,
+    "support": 30.0
+  },
+  "122.Harris_Sparrow": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8,
+    "f1-score": 0.8275862068965517,
+    "support": 30.0
+  },
+  "123.Henslow_Sparrow": {
+    "precision": 0.9130434782608695,
+    "recall": 0.7,
+    "f1-score": 0.7924528301886793,
+    "support": 30.0
+  },
+  "124.Le_Conte_Sparrow": {
+    "precision": 0.875,
+    "recall": 0.4827586206896552,
+    "f1-score": 0.6222222222222222,
+    "support": 29.0
+  },
+  "125.Lincoln_Sparrow": {
+    "precision": 0.7333333333333333,
+    "recall": 0.7586206896551724,
+    "f1-score": 0.7457627118644068,
+    "support": 29.0
+  },
+  "126.Nelson_Sharp_tailed_Sparrow": {
+    "precision": 0.6190476190476191,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.7222222222222222,
+    "support": 30.0
+  },
+  "127.Savannah_Sparrow": {
+    "precision": 0.8421052631578947,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.6530612244897959,
+    "support": 30.0
+  },
+  "128.Seaside_Sparrow": {
+    "precision": 0.92,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.8363636363636363,
+    "support": 30.0
+  },
+  "129.Song_Sparrow": {
+    "precision": 0.5833333333333334,
+    "recall": 0.7,
+    "f1-score": 0.6363636363636364,
+    "support": 30.0
+  },
+  "130.Tree_Sparrow": {
+    "precision": 0.625,
+    "recall": 0.5,
+    "f1-score": 0.5555555555555556,
+    "support": 30.0
+  },
+  "131.Vesper_Sparrow": {
+    "precision": 0.5217391304347826,
+    "recall": 0.8,
+    "f1-score": 0.631578947368421,
+    "support": 30.0
+  },
+  "132.White_crowned_Sparrow": {
+    "precision": 0.8,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8615384615384616,
+    "support": 30.0
+  },
+  "133.White_throated_Sparrow": {
+    "precision": 0.9310344827586207,
+    "recall": 0.9,
+    "f1-score": 0.9152542372881356,
+    "support": 30.0
+  },
+  "134.Cape_Glossy_Starling": {
+    "precision": 0.8787878787878788,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9206349206349206,
+    "support": 30.0
+  },
+  "135.Bank_Swallow": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4666666666666667,
+    "f1-score": 0.5490196078431373,
+    "support": 30.0
+  },
+  "136.Barn_Swallow": {
+    "precision": 0.6785714285714286,
+    "recall": 0.6333333333333333,
+    "f1-score": 0.6551724137931034,
+    "support": 30.0
+  },
+  "137.Cliff_Swallow": {
+    "precision": 0.45454545454545453,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.5882352941176471,
+    "support": 30.0
+  },
+  "138.Tree_Swallow": {
+    "precision": 0.8928571428571429,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8620689655172413,
+    "support": 30.0
+  },
+  "139.Scarlet_Tanager": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 30.0
+  },
+  "140.Summer_Tanager": {
+    "precision": 0.9642857142857143,
+    "recall": 0.9,
+    "f1-score": 0.9310344827586207,
+    "support": 30.0
+  },
+  "141.Artic_Tern": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4827586206896552,
+    "f1-score": 0.56,
+    "support": 29.0
+  },
+  "142.Black_Tern": {
+    "precision": 0.6071428571428571,
+    "recall": 0.5666666666666667,
+    "f1-score": 0.5862068965517241,
+    "support": 30.0
+  },
+  "143.Caspian_Tern": {
+    "precision": 0.6363636363636364,
+    "recall": 0.4666666666666667,
+    "f1-score": 0.5384615384615384,
+    "support": 30.0
+  },
+  "144.Common_Tern": {
+    "precision": 0.28125,
+    "recall": 0.3,
+    "f1-score": 0.2903225806451613,
+    "support": 30.0
+  },
+  "145.Elegant_Tern": {
+    "precision": 0.5405405405405406,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.5970149253731343,
+    "support": 30.0
+  },
+  "146.Forsters_Tern": {
+    "precision": 0.52,
+    "recall": 0.43333333333333335,
+    "f1-score": 0.4727272727272727,
+    "support": 30.0
+  },
+  "147.Least_Tern": {
+    "precision": 0.65,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.7428571428571429,
+    "support": 30.0
+  },
+  "148.Green_tailed_Towhee": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 30.0
+  },
+  "149.Brown_Thrasher": {
+    "precision": 0.9285714285714286,
+    "recall": 0.896551724137931,
+    "f1-score": 0.9122807017543859,
+    "support": 29.0
+  },
+  "150.Sage_Thrasher": {
+    "precision": 0.84,
+    "recall": 0.7,
+    "f1-score": 0.7636363636363637,
+    "support": 30.0
+  },
+  "151.Black_capped_Vireo": {
+    "precision": 0.6785714285714286,
+    "recall": 0.9047619047619048,
+    "f1-score": 0.7755102040816326,
+    "support": 21.0
+  },
+  "152.Blue_headed_Vireo": {
+    "precision": 0.6875,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7096774193548387,
+    "support": 30.0
+  },
+  "153.Philadelphia_Vireo": {
+    "precision": 0.575,
+    "recall": 0.7931034482758621,
+    "f1-score": 0.6666666666666666,
+    "support": 29.0
+  },
+  "154.Red_eyed_Vireo": {
+    "precision": 0.9047619047619048,
+    "recall": 0.6333333333333333,
+    "f1-score": 0.7450980392156863,
+    "support": 30.0
+  },
+  "155.Warbling_Vireo": {
+    "precision": 0.7894736842105263,
+    "recall": 0.5,
+    "f1-score": 0.6122448979591837,
+    "support": 30.0
+  },
+  "156.White_eyed_Vireo": {
+    "precision": 0.8518518518518519,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.8070175438596491,
+    "support": 30.0
+  },
+  "157.Yellow_throated_Vireo": {
+    "precision": 0.7,
+    "recall": 0.7241379310344828,
+    "f1-score": 0.711864406779661,
+    "support": 29.0
+  },
+  "158.Bay_breasted_Warbler": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333334,
+    "support": 30.0
+  },
+  "159.Black_and_white_Warbler": {
+    "precision": 1.0,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9830508474576272,
+    "support": 30.0
+  },
+  "160.Black_throated_Blue_Warbler": {
+    "precision": 0.8285714285714286,
+    "recall": 1.0,
+    "f1-score": 0.90625,
+    "support": 29.0
+  },
+  "161.Blue_winged_Warbler": {
+    "precision": 0.625,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7142857142857143,
+    "support": 30.0
+  },
+  "162.Canada_Warbler": {
+    "precision": 0.896551724137931,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8813559322033898,
+    "support": 30.0
+  },
+  "163.Cape_May_Warbler": {
+    "precision": 0.8387096774193549,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8524590163934426,
+    "support": 30.0
+  },
+  "164.Cerulean_Warbler": {
+    "precision": 0.90625,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9354838709677419,
+    "support": 30.0
+  },
+  "165.Chestnut_sided_Warbler": {
+    "precision": 0.7575757575757576,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7936507936507936,
+    "support": 30.0
+  },
+  "166.Golden_winged_Warbler": {
+    "precision": 0.9285714285714286,
+    "recall": 0.896551724137931,
+    "f1-score": 0.9122807017543859,
+    "support": 29.0
+  },
+  "167.Hooded_Warbler": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8148148148148148,
+    "support": 30.0
+  },
+  "168.Kentucky_Warbler": {
+    "precision": 0.78125,
+    "recall": 0.8620689655172413,
+    "f1-score": 0.819672131147541,
+    "support": 29.0
+  },
+  "169.Magnolia_Warbler": {
+    "precision": 0.9666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.9830508474576272,
+    "support": 29.0
+  },
+  "170.Mourning_Warbler": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.75,
+    "support": 30.0
+  },
+  "171.Myrtle_Warbler": {
+    "precision": 0.8484848484848485,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8888888888888888,
+    "support": 30.0
+  },
+  "172.Nashville_Warbler": {
+    "precision": 0.625,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7142857142857143,
+    "support": 30.0
+  },
+  "173.Orange_crowned_Warbler": {
+    "precision": 0.8333333333333334,
+    "recall": 0.5,
+    "f1-score": 0.625,
+    "support": 30.0
+  },
+  "174.Palm_Warbler": {
+    "precision": 0.7857142857142857,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7586206896551724,
+    "support": 30.0
+  },
+  "175.Pine_Warbler": {
+    "precision": 0.9444444444444444,
+    "recall": 0.5666666666666667,
+    "f1-score": 0.7083333333333334,
+    "support": 30.0
+  },
+  "176.Prairie_Warbler": {
+    "precision": 0.8709677419354839,
+    "recall": 0.9,
+    "f1-score": 0.8852459016393442,
+    "support": 30.0
+  },
+  "177.Prothonotary_Warbler": {
+    "precision": 0.8055555555555556,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.8787878787878788,
+    "support": 30.0
+  },
+  "178.Swainson_Warbler": {
+    "precision": 0.9473684210526315,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.8,
+    "support": 26.0
+  },
+  "179.Tennessee_Warbler": {
+    "precision": 0.6551724137931034,
+    "recall": 0.6551724137931034,
+    "f1-score": 0.6551724137931034,
+    "support": 29.0
+  },
+  "180.Wilson_Warbler": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 30.0
+  },
+  "181.Worm_eating_Warbler": {
+    "precision": 0.9,
+    "recall": 0.9310344827586207,
+    "f1-score": 0.9152542372881356,
+    "support": 29.0
+  },
+  "182.Yellow_Warbler": {
+    "precision": 0.8620689655172413,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.847457627118644,
+    "support": 30.0
+  },
+  "183.Northern_Waterthrush": {
+    "precision": 0.7714285714285715,
+    "recall": 0.9,
+    "f1-score": 0.8307692307692308,
+    "support": 30.0
+  },
+  "184.Louisiana_Waterthrush": {
+    "precision": 0.9523809523809523,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7843137254901961,
+    "support": 30.0
+  },
+  "185.Bohemian_Waxwing": {
+    "precision": 0.9354838709677419,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9508196721311475,
+    "support": 30.0
+  },
+  "186.Cedar_Waxwing": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526315,
+    "support": 30.0
+  },
+  "187.American_Three_toed_Woodpecker": {
+    "precision": 0.85,
+    "recall": 0.85,
+    "f1-score": 0.85,
+    "support": 20.0
+  },
+  "188.Pileated_Woodpecker": {
+    "precision": 0.967741935483871,
+    "recall": 1.0,
+    "f1-score": 0.9836065573770492,
+    "support": 30.0
+  },
+  "189.Red_bellied_Woodpecker": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 30.0
+  },
+  "190.Red_cockaded_Woodpecker": {
+    "precision": 0.9615384615384616,
+    "recall": 0.8620689655172413,
+    "f1-score": 0.9090909090909091,
+    "support": 29.0
+  },
+  "191.Red_headed_Woodpecker": {
+    "precision": 0.9615384615384616,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8928571428571429,
+    "support": 30.0
+  },
+  "192.Downy_Woodpecker": {
+    "precision": 0.9310344827586207,
+    "recall": 0.9,
+    "f1-score": 0.9152542372881356,
+    "support": 30.0
+  },
+  "193.Bewick_Wren": {
+    "precision": 0.7931034482758621,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.7796610169491526,
+    "support": 30.0
+  },
+  "194.Cactus_Wren": {
+    "precision": 0.9285714285714286,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.896551724137931,
+    "support": 30.0
+  },
+  "195.Carolina_Wren": {
+    "precision": 0.8387096774193549,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8524590163934426,
+    "support": 30.0
+  },
+  "196.House_Wren": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.5925925925925926,
+    "support": 30.0
+  },
+  "197.Marsh_Wren": {
+    "precision": 0.7058823529411765,
+    "recall": 0.8,
+    "f1-score": 0.75,
+    "support": 30.0
+  },
+  "198.Rock_Wren": {
+    "precision": 0.8928571428571429,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8620689655172413,
+    "support": 30.0
+  },
+  "199.Winter_Wren": {
+    "precision": 0.75,
+    "recall": 0.9,
+    "f1-score": 0.8181818181818182,
+    "support": 30.0
+  },
+  "200.Common_Yellowthroat": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333334,
+    "support": 30.0
+  },
+  "accuracy": 0.7682084915429755,
+  "macro avg": {
+    "precision": 0.7907001668829404,
+    "recall": 0.7700035779127746,
+    "f1-score": 0.7680518900440135,
+    "support": 5794.0
+  },
+  "weighted avg": {
+    "precision": 0.7910687837963156,
+    "recall": 0.7682084915429755,
+    "f1-score": 0.7672231292164118,
+    "support": 5794.0
+  }
+}

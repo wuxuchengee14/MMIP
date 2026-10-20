@@ -1,0 +1,38 @@
+{
+  "signature": "66e73559e5b44cb75206fbdfd98bd135a9f1b6c8a2c990911ff04821836b2436",
+  "identity": {
+    "seed": 42,
+    "features": "071edd2077b8f8f819d83045fdc068631b4a7b96aca42b28ff365810a9196e81",
+    "vocab": "a0d1473d68b6abad9e7f6b71675fadd065993721bb505631e0618878cea9c895",
+    "model": "CLIP+Transformer"
+  },
+  "settings": {
+    "clip_model": "openai/clip-vit-base-patch32",
+    "clip_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "feature_batch_size": 128,
+    "batch_size": 128,
+    "epochs": 30,
+    "patience": 5,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "clip": 1.0,
+    "dim": 256,
+    "layers": 2,
+    "heads": 8,
+    "dropout": 0.2,
+    "max_length": 40,
+    "grid_size": 4,
+    "beam_width": 3,
+    "beam_length_penalty": 0.7,
+    "decode_batch_size": 128,
+    "timing_samples": 30,
+    "timing_repeats": 3
+  },
+  "best_epoch": 11,
+  "best_validation_score": 2.7580182368452744,
+  "selection_metric": "val_loss",
+  "training_seconds": 46.77742280001985,
+  "epochs_ran": 16,
+  "parameters": 6104020,
+  "trainable_parameters": 6104020
+}

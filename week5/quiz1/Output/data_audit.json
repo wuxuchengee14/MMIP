@@ -1,0 +1,23 @@
+{
+  "train": {
+    "images": 4795,
+    "classes": 200,
+    "duplicate_hash_groups": 1
+  },
+  "val": {
+    "images": 1199,
+    "classes": 200,
+    "duplicate_hash_groups": 0,
+    "query": 599,
+    "gallery": 600,
+    "query_gallery_hash_overlap": 0
+  },
+  "test": {
+    "images": 5794,
+    "classes": 200,
+    "duplicate_hash_groups": 0,
+    "query": 2878,
+    "gallery": 2916,
+    "query_gallery_hash_overlap": 0
+  }
+}

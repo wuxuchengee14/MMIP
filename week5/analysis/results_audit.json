@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "task": "retrieval",
+      "model": "resnet50",
+      "queries": 2878,
+      "map_at_10": 0.5303860206734226
+    },
+    {
+      "task": "retrieval",
+      "model": "vit_b_16",
+      "queries": 2878,
+      "map_at_10": 0.6588665361905708
+    },
+    {
+      "task": "multimodal",
+      "model": "resnet50",
+      "samples": 5794,
+      "accuracy": 0.7419744563341387
+    },
+    {
+      "task": "multimodal",
+      "model": "vit_b_16",
+      "samples": 5794,
+      "accuracy": 0.7682084915429755
+    },
+    {
+      "task": "caption",
+      "model": "week4/lstm/greedy",
+      "samples": 1000,
+      "bleu4": 0.1737028643026643,
+      "bertscore_f1": 0.923466682434082
+    },
+    {
+      "task": "caption",
+      "model": "week4/lstm/beam",
+      "samples": 1000,
+      "bleu4": 0.20924318426201868,
+      "bertscore_f1": 0.9252159595489502
+    },
+    {
+      "task": "caption",
+      "model": "week4/transformer/greedy",
+      "samples": 1000,
+      "bleu4": 0.1917595777793717,
+      "bertscore_f1": 0.9248457551002502
+    },
+    {
+      "task": "caption",
+      "model": "week4/transformer/beam",
+      "samples": 1000,
+      "bleu4": 0.21334504978201713,
+      "bertscore_f1": 0.9267029762268066
+    },
+    {
+      "task": "caption",
+      "model": "week5/clip_transformer/greedy",
+      "samples": 1000,
+      "bleu4": 0.23546225144302943,
+      "bertscore_f1": 0.9302656054496765
+    },
+    {
+      "task": "caption",
+      "model": "week5/clip_transformer/beam",
+      "samples": 1000,
+      "bleu4": 0.2627744184467893,
+      "bertscore_f1": 0.931175172328949
+    }
+  ],
+  "scope": "Saved outputs rechecked; no additional training or inference"
+}

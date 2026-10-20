@@ -1,0 +1,31 @@
+{
+  "scope": "random inputs, untrained weights; AMP backward/optimizer only",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "results": [
+    {
+      "model": "retrieval_resnet50",
+      "pass": true,
+      "peak_allocated_gib": 5.982550144195557
+    },
+    {
+      "model": "retrieval_vit_b_16",
+      "pass": true,
+      "peak_allocated_gib": 9.258310794830322
+    },
+    {
+      "model": "fusion_resnet50",
+      "pass": true,
+      "peak_allocated_gib": 5.514906406402588
+    },
+    {
+      "model": "fusion_vit_b_16",
+      "pass": true,
+      "peak_allocated_gib": 9.257708072662354
+    },
+    {
+      "model": "clip_transformer_decoder",
+      "pass": true,
+      "peak_allocated_gib": 0.5556659698486328
+    }
+  ]
+}

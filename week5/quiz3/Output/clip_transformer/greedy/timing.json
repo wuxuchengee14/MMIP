@@ -1,0 +1,10 @@
+{
+  "decoder_mean_ms": 26.076706663136267,
+  "decoder_p95_ms": 37.71374498028308,
+  "mean_generated_tokens": 11.533333333333333,
+  "batch_size": 1,
+  "timing_images": 30,
+  "timing_repeats": 3,
+  "estimated_pipeline_mean_ms": 34.070737775053004,
+  "note": "Sum of separately measured encoder/decoder means; not per-image end-to-end latency"
+}

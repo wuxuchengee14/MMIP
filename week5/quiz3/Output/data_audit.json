@@ -1,0 +1,16 @@
+{
+  "images": 8000,
+  "cross_split_exact_duplicates": 0,
+  "within_split_duplicate_groups": [
+    [
+      {
+        "id": "3050606344_af711c726c.jpg",
+        "split": "train"
+      },
+      {
+        "id": "2851198725_37b6027625.jpg",
+        "split": "train"
+      }
+    ]
+  ]
+}

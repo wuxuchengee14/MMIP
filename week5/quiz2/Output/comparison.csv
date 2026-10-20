@@ -1,0 +1,3 @@
+﻿image_backbone,text_backbone,accuracy,macro_f1,weighted_f1,samples,training_seconds,test_seconds,trainable_parameters,total_parameters_including_frozen_text
+resnet50,distilbert/distilbert-base-uncased,0.742147048671039,0.7417137993043685,0.7405192989426692,5794,131.37617500004126,21.07060229999479,24413192,90776072
+vit_b_16,distilbert/distilbert-base-uncased,0.7682084915429755,0.7680518900440135,0.7672231292164118,5794,170.82193269999698,19.98500270000659,86376136,152739016

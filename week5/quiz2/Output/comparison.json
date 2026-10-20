@@ -1,0 +1,26 @@
+[
+  {
+    "image_backbone": "resnet50",
+    "text_backbone": "distilbert/distilbert-base-uncased",
+    "accuracy": 0.742147048671039,
+    "macro_f1": 0.7417137993043685,
+    "weighted_f1": 0.7405192989426692,
+    "samples": 5794,
+    "training_seconds": 131.37617500004126,
+    "test_seconds": 21.07060229999479,
+    "trainable_parameters": 24413192,
+    "total_parameters_including_frozen_text": 90776072
+  },
+  {
+    "image_backbone": "vit_b_16",
+    "text_backbone": "distilbert/distilbert-base-uncased",
+    "accuracy": 0.7682084915429755,
+    "macro_f1": 0.7680518900440135,
+    "weighted_f1": 0.7672231292164118,
+    "samples": 5794,
+    "training_seconds": 170.82193269999698,
+    "test_seconds": 19.98500270000659,
+    "trainable_parameters": 86376136,
+    "total_parameters_including_frozen_text": 152739016
+  }
+]

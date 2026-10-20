@@ -1,0 +1,18 @@
+{
+  "identity": "beaa28513a686992e1c6ac70be99e95fc236ff5054e7cbd81c062c0a687ed191",
+  "precision": 0.9303471446037292,
+  "recall": 0.925000011920929,
+  "f1": 0.9252159595489502,
+  "hash": "FacebookAI/roberta-base_L10_no-idf_version=0.3.12(hug_trans=4.57.6)",
+  "settings": {
+    "model_type": "FacebookAI/roberta-base",
+    "num_layers": 10,
+    "batch_size": 64,
+    "idf": false,
+    "rescale_with_baseline": false,
+    "use_fast_tokenizer": false
+  },
+  "samples": 1000,
+  "multi_reference": "library maximum over five references separately for P/R/F1",
+  "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+}

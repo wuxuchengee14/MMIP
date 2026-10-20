@@ -1,0 +1,31 @@
+{
+  "all_requirements_complete": true,
+  "rubric_points_in_provided_slides": 95,
+  "checks": [
+    {
+      "requirement": "CUB image/text data and Flickr manifests",
+      "complete": true,
+      "missing": []
+    },
+    {
+      "requirement": "CNN and ViT retrieval",
+      "complete": true,
+      "missing": []
+    },
+    {
+      "requirement": "Two multimodal backbone combinations",
+      "complete": true,
+      "missing": []
+    },
+    {
+      "requirement": "Frozen CLIP + trained decoder captioning",
+      "complete": true,
+      "missing": []
+    },
+    {
+      "requirement": "Week4/Week5 BLEU and BERTScore comparison",
+      "complete": true,
+      "missing": []
+    }
+  ]
+}

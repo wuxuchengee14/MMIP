@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "retrieval_excludes_identical_gallery_image": true,
+  "multimodal_matches_saved_top1": true,
+  "caption": "two dogs playing in the snow .",
+  "caption_matches_batched_prediction": true,
+  "scope": "Three real command-line runs on trained checkpoints; no training"
+}

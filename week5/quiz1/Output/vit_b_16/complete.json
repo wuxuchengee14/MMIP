@@ -1,0 +1,67 @@
+{
+  "signature": "23190e47d5a08471a4ecf2283c6f2a7f0108c635b4e159ba0a51f0f764444d59",
+  "identity": {
+    "seed": 42,
+    "backbone": "vit_b_16",
+    "data": {
+      "signature": "65b5a4f72a41c55f243dc8860483e647b8a4a5800b0588e2883971ef754921e5",
+      "counts": {
+        "train": 4795,
+        "val": 1199,
+        "test": 5794
+      },
+      "classes": 200,
+      "captions_per_image": 10,
+      "image_root": "raw/CUB_200_2011",
+      "source": "https://www.vision.caltech.edu/datasets/cub_200_2011/",
+      "text_origin": "Reed et al. CVPR 2016 human descriptions, distributed in AttnGAN birds metadata",
+      "text_source": "https://github.com/taoxugit/AttnGAN",
+      "caption_root": "D:\\projects\\MMIP\\week5_homework\\quiz1\\Data\\cub\\captions\\birds\\text",
+      "split_hashes": {
+        "train": "d90696c9302089188653a8efd18c021f1f7357bfec6f54908d585a07e5a5f38d",
+        "val": "1a160b31793fd5609286f3a6de5c20d345f9d6f30442c35751f8b386065983cb",
+        "test": "a3c014ff0d451a182be4720f13e7ff4f837e614680729dec5502f85ea3a5220a"
+      },
+      "retrieval_splits_sha256": "e7998a9c0114251a790a4bfbb58c4acf2ef2aaf37152071cc3531033c9fed04c",
+      "classes_sha256": "e7f3f059f022d28fc482d150864f249a75f0dec3e1b80d6ade999dd47b0f4bd0",
+      "limitation": "CUB officially warns of ImageNet/Flickr pretraining overlap; no claim of pretraining-independent generalization"
+    },
+    "task": "SupCon+CE retrieval",
+    "selection_metric": "validation_mAP@10",
+    "accuracy_labels": [
+      "train classifier Top-1",
+      "validation mAP@10"
+    ]
+  },
+  "settings": {
+    "backbones": [
+      "resnet50",
+      "vit_b_16"
+    ],
+    "epochs": 20,
+    "patience": 5,
+    "lr": 3e-05,
+    "head_lr": 0.0003,
+    "weight_decay": 0.0001,
+    "clip": 1.0,
+    "classes_per_batch": 32,
+    "images_per_class": 4,
+    "eval_batch_size": 128,
+    "embedding_dim": 256,
+    "temperature": 0.1,
+    "classification_weight": 0.5,
+    "top_k": [
+      1,
+      5,
+      10
+    ],
+    "example_queries": 6
+  },
+  "best_epoch": 19,
+  "best_validation_score": 0.6956009133388098,
+  "selection_metric": "validation_mAP@10",
+  "training_seconds": 166.4640508001903,
+  "epochs_ran": 20,
+  "parameters": 86375112,
+  "trainable_parameters": 86375112
+}

@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "workers": 2,
+  "persistent": true,
+  "epoch_augmentation_reproducible": true,
+  "paired_text_features_aligned": true,
+  "scope": "synthetic loader fixture"
+}
