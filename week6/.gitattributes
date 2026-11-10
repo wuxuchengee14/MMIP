@@ -1,0 +1,5 @@
+# Preserve frozen benchmark/result bytes and their recorded SHA-256 on every OS.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Frozen examples contain intentional Markdown spaces/newlines; do not rewrite them.
+quiz*/Data/** -whitespace
+quiz*/Output/** -whitespace

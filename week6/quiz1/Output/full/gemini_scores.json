@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "questions_sha256": "f7d6833a1750c5c59ee7b9004e0d283c9fd9299dec3afa2bc4d38571085970cf",
+    "run_sha256": {
+      "bf16_basic": "602f4e82e1be37326949e207fd50b73b1776f4fcde0d5d382059f5d0a2e1069a",
+      "bf16_optimized": "44ded750ba535b8373bed916c94552b1341480c52cbea6a925066cbfd149c659",
+      "nf4_basic": "892ea2a3ab8177c708da069e1d29d0fa26a17787ed93af72175b45c4cbeb5bd0",
+      "nf4_optimized": "f00ac35625af3ca02887fbf6b176ea819e349ecad593e9d647489a395cc8c01d"
+    }
+  },
+  "model_label": "Claude Opus 5.5",
+  "review_date": "2026-11-03",
+  "scope": "Commercial judge, 20 questions per group; code questions are static review, not executed tests",
+  "groups": {
+    "bf16_basic": {
+      "questions": 20,
+      "score_100": 76.75,
+      "per_question": [
+        {
+          "id": "math_01",
+          "score": 0,
+          "reason": "回答4250與參考答案4330不符（5000×0.85=4250，漏加80元運費），精確比對不通過。"
+        },
+        {
+          "id": "math_02",
+          "score": 0,
+          "reason": "會至少一項者為40-7=33，交集為25+18-33=10；回答13錯誤。"
+        },
+        {
+          "id": "logic_01",
+          "score": 0,
+          "reason": "丁,乙,甲,丙違反丁排最後與乙在甲之後兩項條件，答案錯誤。"
+        },
+        {
+          "id": "logic_02",
+          "score": 1,
+          "reason": "合法JSON且無額外文字；兩欄值皆與參考答案一致。"
+        },
+        {
+          "id": "reading_01",
+          "score": 0.9,
+          "reason": "明確回答不能確定(0.4)；「未分離變數、無法排除加厚填充物的影響」點出混淆因素，但未明說兩者同時改變(約0.3/0.4)；一句繁中且未超過80字(0.2)。"
+        },
+        {
+          "id": "reading_02",
+          "score": 0,
+          "reason": "週三通過後最快次日週四可領，但週四不對外服務，故應為週五；回答週二甚至早於審核通過日，錯誤。"
+        },
+        {
+          "id": "classify_01",
+          "score": 1,
+          "reason": "合法JSON，五則標籤全部正確；D轉折後正向、E轉折後負向判斷正確。"
+        },
+        {
+          "id": "classify_02",
+          "score": 1,
+          "reason": "合法JSON，A帳務、B技術、C物流、D其他，四項全部正確。"
+        },
+        {
+          "id": "extract_01",
+          "score": 1,
+          "reason": "合法JSON，六欄位全部正確，未自行補充聯絡方式。"
+        },
+        {
+          "id": "extract_02",
+          "score": 0.9,
+          "reason": "格式、鍵集合與數字型別皆符合；order_id、recipient、兩個items的6個單位與shipping共9單位正確；total=245錯誤（應為80×2+35+40=235），得0.9。"
+        },
+        {
+          "id": "format_01",
+          "score": 1,
+          "reason": "格式與字數限制皆符合，無數字；限制存取、定期備份、加密傳輸三項合理且不同。"
+        },
+        {
+          "id": "format_02",
+          "score": 1,
+          "reason": "合法JSON，僅含title與body字串；title完全等於維護通知；body含週日、09:00、11:00、無法登入，無保證或永久，未新增事實。句尾無句號不影響。"
+        },
+        {
+          "id": "translate_01",
+          "score": 1,
+          "reason": "晚交扣分、10%、除非事先已獲延長時間批准，條件與時間先後皆正確，譯文清楚自然，無新增事實。"
+        },
+        {
+          "id": "translate_02",
+          "score": 1,
+          "reason": "與參考語意一致，轉折、尚未證實與比較條件皆保留，英文自然，無新增結論。"
+        },
+        {
+          "id": "summary_01",
+          "score": 1,
+          "reason": "兩句繁中；保留6/1–8/31期間、僅週三延長至21:00、僅限總館、試辦後評估是否續辦且尚未決定永久實施，無新增事實。"
+        },
+        {
+          "id": "summary_02",
+          "score": 1,
+          "reason": "三行條列，三項待辦負責人、工作與截止日皆正確，未把11月20日當截止日，未列未通過提案。"
+        },
+        {
+          "id": "code_01",
+          "score": 1,
+          "reason": "靜態審閱：僅函式定義、無import或測試呼叫；空list、負數、全重複等案例推演皆正確。"
+        },
+        {
+          "id": "code_02",
+          "score": 1,
+          "reason": "靜態審閱：同時修正迴圈範圍與比較條件，回傳整數計數，7個案例推演皆正確。"
+        },
+        {
+          "id": "grounding_01",
+          "score": 1,
+          "reason": "正確回答「資料不足」，精確比對通過。"
+        },
+        {
+          "id": "grounding_02",
+          "score": 0.55,
+          "reason": "指出A與B皆為BF16，但「4-bit的說法與前提不符」措辭略混亂，應為與紀錄不符(0.35/0.4)；未區分總容量與實際使用量(0/0.3)；結論正確但未說明缺乏實際使用量(0.1/0.2)；兩句、無新增數據(0.1)。"
+        }
+      ]
+    },
+    "bf16_optimized": {
+      "questions": 20,
+      "score_100": 76.25,
+      "per_question": [
+        {
+          "id": "math_01",
+          "score": 0,
+          "reason": "正確計算為1250×4×0.85+80=4330；回答3125數值錯誤，未通過精確比對。"
+        },
+        {
+          "id": "math_02",
+          "score": 0,
+          "reason": "回答22錯誤，正確為10，精確比對不通過。"
+        },
+        {
+          "id": "logic_01",
+          "score": 0,
+          "reason": "丁,乙,甲,丙違反丁排最後的條件，且乙不在甲之後，精確比對不通過。"
+        },
+        {
+          "id": "logic_02",
+          "score": 1,
+          "reason": "合法JSON，僅含report與slides；report=是、slides=無法判定，兩欄皆正確。多行縮排不影響JSON合法性。"
+        },
+        {
+          "id": "reading_01",
+          "score": 0.9,
+          "reason": "明確回答不能確定(0.4)；以「未隔離單一因素、無法排除加厚填充物影響」說明，隱含兩者同時改變且未分開測試，但未明說紙箱與填充物同時更換(約0.3/0.4)；一句繁中、未超過80字(0.2)。"
+        },
+        {
+          "id": "reading_02",
+          "score": 0,
+          "reason": "回答週二錯誤，正確為週五。"
+        },
+        {
+          "id": "classify_01",
+          "score": 1,
+          "reason": "合法JSON，鍵集合與值域符合，五則標籤全部正確。"
+        },
+        {
+          "id": "classify_02",
+          "score": 1,
+          "reason": "合法JSON，四項分類全部正確，無額外文字。"
+        },
+        {
+          "id": "extract_01",
+          "score": 1,
+          "reason": "合法JSON，六欄位齊全；日期與時間格式正確，contact為JSON null而非字串，全部正確。"
+        },
+        {
+          "id": "extract_02",
+          "score": 1,
+          "reason": "合法JSON，外層與items鍵集合、順序及數字型別皆正確；10個單位全部正確，total=235。"
+        },
+        {
+          "id": "format_01",
+          "score": 1,
+          "reason": "格式與字數限制皆符合（行尾空白計入後最多10字元），無數字；三項做法合理且不同。"
+        },
+        {
+          "id": "format_02",
+          "score": 1,
+          "reason": "合法JSON，四項規則全部符合，忠實保留維護時段與登入限制。"
+        },
+        {
+          "id": "translate_01",
+          "score": 0.95,
+          "reason": "正確表達逾期扣分、保留10%、保留除非事先獲准的例外與時間關係；「獲得延長的批准」略不自然（宜為獲准延期），自然度小扣。"
+        },
+        {
+          "id": "translate_02",
+          "score": 0.95,
+          "reason": "保留較少記憶體、尚未證實（not yet confirmed）與所有任務範圍；第二句以「As long as」直譯「只要」，英文中偏向「只要…就可以」語感，條件表達略不自然，小扣。"
+        },
+        {
+          "id": "summary_01",
+          "score": 1,
+          "reason": "兩句繁中，四項指定資訊完整保留，忠實原文、無新增事實。"
+        },
+        {
+          "id": "summary_02",
+          "score": 0.85,
+          "reason": "日期與負責人正確、未列預算提案；但第一項寫成「專案問卷」，缺少「完成」動作並加入原文沒有的「專案」；第三項只寫「彙整試辦回饋」漏掉「提交」，工作描述不完整，扣分。"
+        },
+        {
+          "id": "code_01",
+          "score": 1,
+          "reason": "靜態審閱：只含函式定義，以set記錄已見值並依序append，保留首次出現順序，不修改輸入；依5個案例推演皆正確。"
+        },
+        {
+          "id": "code_02",
+          "score": 1,
+          "reason": "靜態審閱：修正後邏輯正確、回傳int且不修改輸入，7個案例推演皆正確。"
+        },
+        {
+          "id": "grounding_01",
+          "score": 1,
+          "reason": "資料未提供成效，正確只回答「資料不足」，精確比對通過。"
+        },
+        {
+          "id": "grounding_02",
+          "score": 0.6,
+          "reason": "明確指出前提不一致、兩者皆BF16而非4-bit(0.4)；未區分GPU總容量與實際使用量(0/0.3)；未說明不能判斷的原因是缺乏實際使用量(0.1/0.2)；兩句繁中、無新增數據(0.1)。"
+        }
+      ]
+    },
+    "nf4_basic": {
+      "questions": 20,
+      "score_100": 75.75,
+      "per_question": [
+        {
+          "id": "math_01",
+          "score": 0,
+          "reason": "回答10730與4330相差甚遠，計算錯誤，精確比對不通過。"
+        },
+        {
+          "id": "math_02",
+          "score": 0,
+          "reason": "回答22錯誤，正確為25+18-(40-7)=10，精確比對不通過。"
+        },
+        {
+          "id": "logic_01",
+          "score": 0,
+          "reason": "回答把丁排第一，違反「丁排最後」；丙也未緊接在甲之後。正確為甲,丙,乙,丁。"
+        },
+        {
+          "id": "logic_02",
+          "score": 1,
+          "reason": "合法單行JSON，鍵集合與值域正確；report=是、slides=無法判定，兩欄皆正確。"
+        },
+        {
+          "id": "reading_01",
+          "score": 0.8,
+          "reason": "明確回答不能確定(0.4)；「未分離變數」對應未分開測試，但未明說紙箱與填充物同時改變(約0.25/0.4)；一句且字數符合，但加入材料未提及的「其它因素」，略超出材料(約0.15/0.2)。"
+        },
+        {
+          "id": "reading_02",
+          "score": 0,
+          "reason": "回答週二錯誤，未考慮週三才通過、次日起可領及週四休息，正確為週五。"
+        },
+        {
+          "id": "classify_01",
+          "score": 1,
+          "reason": "合法JSON（多行格式），五則標籤全部正確，值域符合。"
+        },
+        {
+          "id": "classify_02",
+          "score": 1,
+          "reason": "合法JSON，四項分類全部正確，無額外文字。"
+        },
+        {
+          "id": "extract_01",
+          "score": 1,
+          "reason": "合法JSON，六欄位全部正確，contact正確使用null。"
+        },
+        {
+          "id": "extract_02",
+          "score": 0.9,
+          "reason": "格式與型別正確，9個單位正確；total=215錯誤（應為80×2+35+40=235），得0.9。"
+        },
+        {
+          "id": "format_01",
+          "score": 1,
+          "reason": "恰三行、皆以「- 」開頭，無標題或空白行；前兩行行尾帶兩個空白，但計入後仍不超過12字元（10、9、8字元）且無阿拉伯數字；存取權限、備份、加密傳輸三項合理且彼此不同。"
+        },
+        {
+          "id": "format_02",
+          "score": 1,
+          "reason": "合法JSON，title正確，body包含全部指定字串且未新增日期或承諾。"
+        },
+        {
+          "id": "translate_01",
+          "score": 0.95,
+          "reason": "扣分、10%、事先獲准的例外條件皆正確；「延長的批准」措辭略生硬，自然度小扣。"
+        },
+        {
+          "id": "translate_02",
+          "score": 1,
+          "reason": "四項皆正確保留：較少記憶體、not yet confirmed、across all tasks、條件不同時不能直接比較速度；英文自然。"
+        },
+        {
+          "id": "summary_01",
+          "score": 0.9,
+          "reason": "期間、週三至21:00、僅限總館、尚未決定皆保留；但把原文「評估是否續辦」改寫為「決定是否永久實施」，混同續辦與永久實施，略改變原意(第5項扣0.1)。"
+        },
+        {
+          "id": "summary_02",
+          "score": 1,
+          "reason": "恰三行「- 」條列；怡君/問卷/11月10日、志豪/邀請/11月12日、怡君/彙整提交試辦回饋/11月22日皆正確；未列預算提案。行尾有空白但無額外內容。"
+        },
+        {
+          "id": "code_01",
+          "score": 1,
+          "reason": "靜態審閱：演算法正確，保留順序、不修改輸入；5個案例推演皆通過。"
+        },
+        {
+          "id": "code_02",
+          "score": 1,
+          "reason": "靜態審閱：修正range漏掉最後一項與>=0誤算0的兩個錯誤，改為遍歷全部元素並判斷>0；回傳int、不修改輸入，7個案例推演皆正確。"
+        },
+        {
+          "id": "grounding_01",
+          "score": 1,
+          "reason": "正確回答「資料不足」，未自行估計，精確比對通過。"
+        },
+        {
+          "id": "grounding_02",
+          "score": 0.6,
+          "reason": "清楚指出A與B均為BF16、4-bit前提與紀錄不符(0.4)；未提及GPU總容量與實際使用量的差別(0/0.3)；結論正確但未指出缺乏實際使用量(0.1/0.2)；兩句、無新增數據(0.1)。"
+        }
+      ]
+    },
+    "nf4_optimized": {
+      "questions": 20,
+      "score_100": 74.125,
+      "per_question": [
+        {
+          "id": "math_01",
+          "score": 0,
+          "reason": "回答2575錯誤，與4330不符，精確比對不通過。"
+        },
+        {
+          "id": "math_02",
+          "score": 0,
+          "reason": "回答22錯誤，正確為10，精確比對不通過。"
+        },
+        {
+          "id": "logic_01",
+          "score": 0,
+          "reason": "丁,乙,甲,丙違反題目限制，與唯一解甲,丙,乙,丁不符。"
+        },
+        {
+          "id": "logic_02",
+          "score": 1,
+          "reason": "合法JSON且無額外文字；report與slides皆正確。"
+        },
+        {
+          "id": "reading_01",
+          "score": 0.7,
+          "reason": "回答無法確定(0.4)；「未隔離單一因素」部分對應未分開測試(約0.2/0.4)；但結尾「可能為紙箱或填充物其中之一所致」暗示只有單一原因，忽略兩者共同作用的可能，屬材料未支持的推論(約0.1/0.2)。"
+        },
+        {
+          "id": "reading_02",
+          "score": 0,
+          "reason": "回答週二錯誤，正確為週五。"
+        },
+        {
+          "id": "classify_01",
+          "score": 1,
+          "reason": "合法JSON，鍵恰為A–E，五則標籤（正向、負向、中立、正向、負向）全部正確。"
+        },
+        {
+          "id": "classify_02",
+          "score": 1,
+          "reason": "合法JSON，四項分類全部正確，無額外文字。"
+        },
+        {
+          "id": "extract_01",
+          "score": 1,
+          "reason": "合法單行JSON，六欄位值與型別皆與參考一致，contact為null。"
+        },
+        {
+          "id": "extract_02",
+          "score": 0.9,
+          "reason": "格式與型別正確，9個單位正確；total=215錯誤，應為235，得0.9。"
+        },
+        {
+          "id": "format_01",
+          "score": 0.875,
+          "reason": "格式、字數（最多10字元）與無數字皆符合，三項皆為合理做法；但「限制資料存取權限」與「使用權限審核機制」都屬存取權限控制，重疊度高，彼此不同一項扣部分分數(0.125/0.25)。"
+        },
+        {
+          "id": "format_02",
+          "score": 1,
+          "reason": "合法JSON，title正確，body含全部指定字串，語意與原文一致且未新增承諾。"
+        },
+        {
+          "id": "translate_01",
+          "score": 1,
+          "reason": "逾期扣分、10%、除非事先已獲得延長許可，語意完整、自然流暢，只輸出譯文。"
+        },
+        {
+          "id": "translate_02",
+          "score": 0.95,
+          "reason": "語意完整且保留尚未證實語氣；「As long as the testing conditions differ」條件連接詞略不自然，小扣。"
+        },
+        {
+          "id": "summary_01",
+          "score": 0.9,
+          "reason": "四項資訊皆保留且精簡；但「評估是否永久實施」把續辦評估改成永久實施評估，略偏離原文(第5項扣0.1)。"
+        },
+        {
+          "id": "summary_02",
+          "score": 0.9,
+          "reason": "三項待辦的負責人、工作與日期皆對應正確，未列預算提案；但日期只寫「11月10日」等，未標明截止或「前」，期限語意較不明確，小扣。"
+        },
+        {
+          "id": "code_01",
+          "score": 1,
+          "reason": "靜態審閱：寫法與參考等價，回傳新list且不改動輸入；5個案例推演結果皆正確。"
+        },
+        {
+          "id": "code_02",
+          "score": 1,
+          "reason": "靜態審閱：修正正確，只含函式定義，空list與全0/負數案例回傳0，7個案例推演皆正確。"
+        },
+        {
+          "id": "grounding_01",
+          "score": 1,
+          "reason": "正確回答「資料不足」，精確比對通過。"
+        },
+        {
+          "id": "grounding_02",
+          "score": 0.6,
+          "reason": "明確指出前提不一致、A與B皆為BF16(0.4)；未區分32GB/24GB為GPU總容量而非實際使用量(0/0.3)；有說無法支持較省記憶體結論，但未說明原因是缺乏實際使用量(0.1/0.2)；兩句繁中、無新增數據(0.1)。"
+        }
+      ]
+    }
+  },
+  "response_sha256": {
+    "math_01": "69aaead873877d12ddd6871f6eba4e00f6b106f7bc0a83f61f30dec107858c16",
+    "math_02": "95e23ef33b33f3a12ac74bae40a2ee5ca175657521d1548571973c3c193ef40d",
+    "logic_01": "722d9e5b20b2c07eea88265b2b9fbb2d838161b3d7fe43e561b7beed45fa5563",
+    "logic_02": "5ee06b3e0bd5c6236cab577bfbcdef34111df0664e30ded62f41b3c2f13b1f6d",
+    "reading_01": "594804a8b899c5b0ac650276dbbe493de3599c8a78ce249cb327649ba2ea44fb",
+    "reading_02": "61c1c64d1fd2e1227b556b4bce28428019082106b16bf6ddfd075187f6170240",
+    "classify_01": "42e1d228b7183fba79eb8cb1c20615f49ac30004012637c13ca2262805432431",
+    "classify_02": "9de58b2c1a38d924bbff7faf1c471edb114db3d23dcead239a613f2d3bbdc586",
+    "extract_01": "b736b2908fc2c5b25004a8db932bd4ef1f0054b4f989f5351ab1ea01b135cf1d",
+    "extract_02": "45153dbf6404f19afec4b8fffb77638c4dae5fa0c3b427df1749f6179bba10d9",
+    "format_01": "f5c4140c9bde71857abde0e50006ffec0d23e5fa9903c1f1c2a87c99939003b8",
+    "format_02": "e8d4e052405ae8588e77cc8c6e24abf25f6fe50bce06cc78dc65cf0653073a5e",
+    "translate_01": "26d8fba200b120b81d2b35c4463491a7351f00d41db72ad84e92879fe8404f64",
+    "translate_02": "9b2e977224bbc91a73a8eddbe5aa969f5a49add41a917a988ad8b1edb4ff3180",
+    "summary_01": "075e556e7916663751366fbb0cadf5a96e14c46e0adda0ad5e87ad28ea9a79c1",
+    "summary_02": "9e0e5d59632551903e3e56d28fd360e9f2056b5fa09e7b3b610d9b96db4e6ea9",
+    "code_01": "0035c869797dc09e675b2d4c62286f0b9b7e05caf5be43e55593d7d3e2b2aa5d",
+    "code_02": "87b804adead692b10c7756f0ee03e07d551b3f288e74729fd07a2de375b61e8a",
+    "grounding_01": "f7dfd3980062f5ea67ce4686150d0aee0bf9ca625d47948ff0bd0d625a4e2b75",
+    "grounding_02": "29db9b1d3c77633116859234d735ecd9c22ad45a670a11a2600c71911aed29c8"
+  }
+}

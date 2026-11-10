@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_18",
+  "image_seen": true,
+  "image_observations": "Three adults sit at a wooden picnic table under a red-and-white 'LONDON PRIDE'/'FULLER'S' umbrella, outside a building painted with a Union Jack; drinks are on the table.",
+  "ratings": {
+    "A": {
+      "score": 0.5,
+      "reason": "Correctly describes people at an outdoor picnic table under a red-and-white umbrella beside a Union Jack building, but says 'a group of people' instead of the visible three people and adds an inferred 'enjoying' mood; a key detail is omitted."
+    },
+    "B": {
+      "score": 1,
+      "reason": "States three people at a table under a red-and-white umbrella; 'London Pride' text and the British-flag building are actually visible, so no invention."
+    }
+  }
+}

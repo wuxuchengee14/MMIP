@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_20",
+  "image_seen": true,
+  "image_observations": "A grey card titled 'Secret number card' with a solid black rectangle covering the digits; caption below reads 'Digits fully covered'.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "The digits are completely covered by the black block, so 'unknown' is correct and one word."
+    },
+    "B": {
+      "score": 0,
+      "reason": "'10000' guesses a number that cannot be seen; the digits are fully covered by the black block."
+    }
+  }
+}

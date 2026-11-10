@@ -1,0 +1,25 @@
+{
+  "question_id": "extract_01",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 1,
+      "reason": "合法JSON，六欄位齊全；日期與時間格式正確，contact為JSON null而非字串，全部正確。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "合法單行JSON，六欄位值與型別皆與參考一致，contact為null。"
+    },
+    {
+      "answer_id": "C",
+      "score": 1,
+      "reason": "合法JSON，六欄位全部正確，未自行補充聯絡方式。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "合法JSON，六欄位全部正確，contact正確使用null。"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "question_id": "classify_01",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 1,
+      "reason": "合法JSON，鍵恰為A–E，五則標籤（正向、負向、中立、正向、負向）全部正確。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "合法JSON（多行格式），五則標籤全部正確，值域符合。"
+    },
+    {
+      "answer_id": "C",
+      "score": 1,
+      "reason": "合法JSON，五則標籤全部正確；D轉折後正向、E轉折後負向判斷正確。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "合法JSON，鍵集合與值域符合，五則標籤全部正確。"
+    }
+  ]
+}

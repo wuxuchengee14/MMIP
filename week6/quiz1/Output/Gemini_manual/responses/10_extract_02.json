@@ -1,0 +1,25 @@
+{
+  "question_id": "extract_02",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 0.9,
+      "reason": "格式、鍵集合與數字型別皆符合；order_id、recipient、兩個items的6個單位與shipping共9單位正確；total=245錯誤（應為80×2+35+40=235），得0.9。"
+    },
+    {
+      "answer_id": "B",
+      "score": 0.9,
+      "reason": "格式與型別正確，9個單位正確；total=215錯誤（應為80×2+35+40=235），得0.9。"
+    },
+    {
+      "answer_id": "C",
+      "score": 0.9,
+      "reason": "格式與型別正確，9個單位正確；total=215錯誤，應為235，得0.9。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "合法JSON，外層與items鍵集合、順序及數字型別皆正確；10個單位全部正確，total=235。"
+    }
+  ]
+}

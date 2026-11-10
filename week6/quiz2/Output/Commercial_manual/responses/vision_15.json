@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_15",
+  "image_seen": true,
+  "image_observations": "A red rectangle in the upper-left/centre spanning about x 128–384 px and y 96–288 px of a 640×480 image (≈[200,200,600,600] normalized); a blue circle at lower right.",
+  "ratings": {
+    "A": {
+      "score": 0.5,
+      "reason": "The numbers 125,95,387,287 roughly match the red rectangle in pixel coordinates, so the target is right, but the output is a code-fenced nested array of strings, not a numeric [x_min,y_min,x_max,y_max] array, and it is not in the 0..1000 frame (as normalized it overlaps the true box with IoU≈0.08). Correct target, invalid format/frame."
+    },
+    "B": {
+      "score": 0,
+      "reason": "[0,0,1000,1000] is the whole image, not a localization of the red rectangle (IoU≈0.16 and it would equally 'cover' the blue circle); no usable box."
+    }
+  }
+}

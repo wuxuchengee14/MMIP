@@ -1,0 +1,192 @@
+[
+  {
+    "image": "images/image_01.png",
+    "kind": "Flickr8k photograph",
+    "source_file": "3385593926_d3e9c21170.jpg",
+    "source_sha256": "97fa9db7764063e1ab4f5aca570a667ae5073b8012d335a1b3c4478e5f66f319",
+    "download_mirror": "https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip",
+    "dataset_description": "https://www.tensorflow.org/text/tutorials/image_captioning",
+    "provenance": "Existing Week 4 Flickr8k test split; educational benchmark reuse. Original photographers retain rights."
+  },
+  {
+    "image": "images/image_02.png",
+    "kind": "Flickr8k photograph",
+    "source_file": "311146855_0b65fdb169.jpg",
+    "source_sha256": "4aecbd035204bbd14aba2e2aec1fd02d24f44663502442f6fa1462917cccdf6d",
+    "download_mirror": "https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip",
+    "dataset_description": "https://www.tensorflow.org/text/tutorials/image_captioning",
+    "provenance": "Existing Week 4 Flickr8k test split; educational benchmark reuse. Original photographers retain rights."
+  },
+  {
+    "image": "images/image_03.png",
+    "kind": "Flickr8k photograph",
+    "source_file": "2677656448_6b7e7702af.jpg",
+    "source_sha256": "3fcc6cfb35d4c4b75a5ea1c186e086de4dc54197d7ea44e6593d96e26d704444",
+    "download_mirror": "https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip",
+    "dataset_description": "https://www.tensorflow.org/text/tutorials/image_captioning",
+    "provenance": "Existing Week 4 Flickr8k test split; educational benchmark reuse. Original photographers retain rights."
+  },
+  {
+    "image": "images/image_04.png",
+    "kind": "Flickr8k photograph",
+    "source_file": "1258913059_07c613f7ff.jpg",
+    "source_sha256": "199effa71c1e68e2eedf48deccc10add66eaa397c5215540e5da597f28834d7d",
+    "download_mirror": "https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip",
+    "dataset_description": "https://www.tensorflow.org/text/tutorials/image_captioning",
+    "provenance": "Existing Week 4 Flickr8k test split; educational benchmark reuse. Original photographers retain rights."
+  },
+  {
+    "image": "images/image_05.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_06.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_07.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_08.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_09.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_10.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_11.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_12.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_13.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_14.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_15.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_16.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_19.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  {
+    "image": "images/image_20.png",
+    "kind": "Original deterministic diagram",
+    "creator": "Coursework benchmark code",
+    "source": "Code/prepare_benchmark.py",
+    "seed": "No randomness",
+    "dimensions": [
+      640,
+      480
+    ]
+  }
+]

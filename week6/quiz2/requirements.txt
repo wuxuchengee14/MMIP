@@ -1,0 +1,8 @@
+# Install into existing MMIP_LLM. Keep CUDA torch/torchvision matched; see README step 1.
+transformers==4.57.6
+huggingface-hub==0.36.2
+accelerate>=1.10,<2
+safetensors>=0.6
+Pillow>=11,<13
+num2words==0.5.14
+truststore>=0.10

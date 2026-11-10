@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_17",
+  "image_seen": true,
+  "image_observations": "Two Doberman-type dogs rear up and wrestle/play-fight on snowy ground; a green metal fence and bare trees on a snowy slope are behind them.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "Mentions two dogs, playful interaction (play-fighting is visible) and the snowy setting with fence and trees; no major hallucination."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Mentions two dogs wrestling in the snow with fence and trees in the background; all required elements are correct."
+    }
+  }
+}

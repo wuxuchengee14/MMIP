@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_08",
+  "image_seen": true,
+  "image_observations": "A green triangle near the top centre and a purple square directly below it near the bottom centre.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "The green triangle is above the purple square; correct, with only capitalization/period added."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Correct: the triangle is at the top and the square below it; exact one-word answer."
+    }
+  }
+}

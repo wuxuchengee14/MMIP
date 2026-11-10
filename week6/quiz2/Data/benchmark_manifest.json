@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "questions": 20,
+  "unique_images": 18,
+  "categories": {
+    "classification": 2,
+    "presence": 2,
+    "counting": 2,
+    "spatial": 2,
+    "attributes": 2,
+    "ocr": 2,
+    "chart": 2,
+    "grounding": 2,
+    "caption": 2,
+    "uncertainty": 2
+  },
+  "benchmark_sha256": "cb47f11490b88b8601205bd93290a258926f124e2f578291d5a1bebb802ac88f",
+  "task_digest": "98b8acc07e6e07248a2223fbc8846b1489b5f42fb0181d17a01bec0a0ba878bd",
+  "prompt_language": "English",
+  "font": "C:\\Windows\\Fonts\\arial.ttf",
+  "source_manifest_sha256": "47fc8bb69bdad3d7e1e4b35e1ea8cf4af5cbeceb915eaf9cb9fb4512ffc2bf2b",
+  "note": "Custom 20-question diagnostic benchmark; not a standard test set or proof of general performance. Four Flickr8k photos plus 14 diagrams; some photos reused across tasks."
+}

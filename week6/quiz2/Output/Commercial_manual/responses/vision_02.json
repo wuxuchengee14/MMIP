@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_02",
+  "image_seen": true,
+  "image_observations": "A shirtless man in green-and-yellow trousers kneels facing a woman in a feathered carnival costume on a paved street; drummers and spectators line the background.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "Costumed pair performing on an open street matches street_dance; the label is correct and only a trailing period is added."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Correct label for the dancers performing outdoors on a street, given in the exact requested form."
+    }
+  }
+}

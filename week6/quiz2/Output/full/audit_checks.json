@@ -1,0 +1,62 @@
+{
+  "all_checks_passed": true,
+  "checked_at_local": "2026-11-03T17:15:14.462817+08:00",
+  "questions": 20,
+  "categories": 10,
+  "unique_images": 18,
+  "commercial_reviews": 20,
+  "commercial_ratings": 40,
+  "evaluator_model_label_user_recorded": "Claude Opus 5.5",
+  "review_date_user_recorded": "2026-11-03",
+  "run_sha256": {
+    "qwen": "18410a16b656b99a65d78cdb0a0c1d33b8418fde846449962fb02eb82a00bad7",
+    "smol": "dbb10018b562aff8d4080a0f4cfcc8d7311e85513e656cac2d6dcc56ff825d2a"
+  },
+  "summary": {
+    "qwen": {
+      "answers": 20,
+      "objective_correct": 15,
+      "objective_count": 18,
+      "objective_percent": 83.33333333333334,
+      "commercial_ratings": 20,
+      "commercial_percent": 87.5,
+      "ocr_cer": 0.0,
+      "grounding_mean_iou": 0.0,
+      "generation_seconds": 6.296983700012788,
+      "preprocess_and_generation_seconds": 6.784446600591764,
+      "empty_answers": 0,
+      "token_limit_answers": 0
+    },
+    "smol": {
+      "answers": 20,
+      "objective_correct": 11,
+      "objective_count": 18,
+      "objective_percent": 61.111111111111114,
+      "commercial_ratings": 20,
+      "commercial_percent": 67.5,
+      "ocr_cer": 0.23076923076923078,
+      "grounding_mean_iou": 0.14,
+      "generation_seconds": 4.204871800262481,
+      "preprocess_and_generation_seconds": 7.436470099724829,
+      "empty_answers": 0,
+      "token_limit_answers": 0
+    }
+  },
+  "checks": [
+    "Two complete pinned BF16 VLM runs on the same GPU and package environment",
+    "20 tasks across 10 categories",
+    "Same literal user prompt and image bytes per question",
+    "20 review images match benchmark originals",
+    "Anonymous review prompts contain original model answers",
+    "20 image_seen declarations and visual observations, all 40 scores with reasons",
+    "Independent exact-match, edit-distance and bbox IoU calculations match stored scores",
+    "Raw review mapping and hashes agree with imported scores",
+    "Comparison JSON and CSV totals agree",
+    "Completion checklist is bound to current run and score hashes"
+  ],
+  "limitations": [
+    "Commercial model identity and image viewing are recorded by the user and review files; no external service logs were inspected.",
+    "Successful completion does not require perfect benchmark accuracy.",
+    "Strict bbox failures remain failures; no post-hoc conversion to pixels/alternative JSON was used."
+  ]
+}

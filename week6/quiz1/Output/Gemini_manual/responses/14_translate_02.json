@@ -1,0 +1,25 @@
+{
+  "question_id": "translate_02",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 0.95,
+      "reason": "保留較少記憶體、尚未證實（not yet confirmed）與所有任務範圍；第二句以「As long as」直譯「只要」，英文中偏向「只要…就可以」語感，條件表達略不自然，小扣。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "四項皆正確保留：較少記憶體、not yet confirmed、across all tasks、條件不同時不能直接比較速度；英文自然。"
+    },
+    {
+      "answer_id": "C",
+      "score": 0.95,
+      "reason": "語意完整且保留尚未證實語氣；「As long as the testing conditions differ」條件連接詞略不自然，小扣。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "與參考語意一致，轉折、尚未證實與比較條件皆保留，英文自然，無新增結論。"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_13",
+  "image_seen": true,
+  "image_observations": "Bar chart titled 'Units sold' with bars A≈3, B≈7, C≈5; B is the tallest.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "Bar B (≈7) is clearly the highest; correct single-letter answer."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Bar B is the highest; correct, with only a trailing period added."
+    }
+  }
+}

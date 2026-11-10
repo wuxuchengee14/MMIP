@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_19",
+  "image_seen": true,
+  "image_observations": "A closed brown cardboard box with a tape strip and the caption 'Sealed opaque box'; the contents are not visible.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "The box is sealed and opaque, so contents cannot be determined; 'unknown' is correct and in the one-word format."
+    },
+    "B": {
+      "score": 1,
+      "reason": "The box is sealed and opaque, so contents cannot be determined; 'unknown' is correct and in the one-word format."
+    }
+  }
+}

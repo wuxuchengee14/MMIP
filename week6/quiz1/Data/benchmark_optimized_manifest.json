@@ -1,0 +1,12 @@
+{
+  "variant": "optimized_prompt export",
+  "source": "benchmark.json",
+  "source_sha256": "f7d6833a1750c5c59ee7b9004e0d283c9fd9299dec3afa2bc4d38571085970cf",
+  "question_count": 20,
+  "sha256": "87327ad44df8aff5b7c63410c9e23a428121cf147984c3611c66c845f2dbf4cf",
+  "required_cli_flag": "--optimized",
+  "model_input_field": "optimized_prompt",
+  "basic_prompt_is_comparison_metadata_only": true,
+  "reference_and_grading_unchanged": true,
+  "model_inference_performed": false
+}

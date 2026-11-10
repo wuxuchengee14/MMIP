@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "questions_sha256": "f7d6833a1750c5c59ee7b9004e0d283c9fd9299dec3afa2bc4d38571085970cf",
+    "run_sha256": {
+      "bf16_basic": "602f4e82e1be37326949e207fd50b73b1776f4fcde0d5d382059f5d0a2e1069a",
+      "bf16_optimized": "44ded750ba535b8373bed916c94552b1341480c52cbea6a925066cbfd149c659",
+      "nf4_basic": "892ea2a3ab8177c708da069e1d29d0fa26a17787ed93af72175b45c4cbeb5bd0",
+      "nf4_optimized": "f00ac35625af3ca02887fbf6b176ea819e349ecad593e9d647489a395cc8c01d"
+    }
+  },
+  "rows": [
+    {
+      "group": "bf16_basic",
+      "objective_10_score": 59.0,
+      "commercial_20_score": 76.75,
+      "device_mean_GiB": 18.95589987729485,
+      "torch_allocated_mean_GiB": 15.292744791333979,
+      "torch_reserved_mean_GiB": 15.363888487662994,
+      "torch_peak_GiB": 15.321780681610107,
+      "generation_seconds": 23.61257159966044,
+      "tokens_per_second_including_prefill": 28.205314156022606,
+      "empty_answers": 0,
+      "token_limit_answers": 0
+    },
+    {
+      "group": "bf16_optimized",
+      "objective_10_score": 60.0,
+      "commercial_20_score": 76.25,
+      "device_mean_GiB": 19.012145649922278,
+      "torch_allocated_mean_GiB": 15.300929563286472,
+      "torch_reserved_mean_GiB": 15.412793446370623,
+      "torch_peak_GiB": 15.367927551269531,
+      "generation_seconds": 23.149708800250664,
+      "tokens_per_second_including_prefill": 28.207698232166504,
+      "empty_answers": 0,
+      "token_limit_answers": 0
+    },
+    {
+      "group": "nf4_basic",
+      "objective_10_score": 59.0,
+      "commercial_20_score": 75.75,
+      "device_mean_GiB": 10.806926350200937,
+      "torch_allocated_mean_GiB": 5.692600970075977,
+      "torch_reserved_mean_GiB": 7.202837862020335,
+      "torch_peak_GiB": 5.79990291595459,
+      "generation_seconds": 34.904254499590024,
+      "tokens_per_second_including_prefill": 19.28131712447561,
+      "empty_answers": 0,
+      "token_limit_answers": 0
+    },
+    {
+      "group": "nf4_optimized",
+      "objective_10_score": 59.0,
+      "commercial_20_score": 74.125,
+      "device_mean_GiB": 10.843533622230918,
+      "torch_allocated_mean_GiB": 5.7010169683466625,
+      "torch_reserved_mean_GiB": 7.229099439152434,
+      "torch_peak_GiB": 5.825937271118164,
+      "generation_seconds": 33.98048570030369,
+      "tokens_per_second_including_prefill": 19.09919727822489,
+      "empty_answers": 0,
+      "token_limit_answers": 0
+    }
+  ]
+}

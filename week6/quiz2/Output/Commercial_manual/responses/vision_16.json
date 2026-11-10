@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_16",
+  "image_seen": true,
+  "image_observations": "A green circle at upper right spanning about x 352–544 px and y 48–240 px of a 640×480 image (≈[550,100,850,500] normalized); a red square at lower left.",
+  "ratings": {
+    "A": {
+      "score": 0,
+      "reason": "[0,0,1000,1000] is the whole frame and does not localize the green circle (IoU≈0.12); no usable box."
+    },
+    "B": {
+      "score": 0.5,
+      "reason": "bbox [353,47,548,242] labelled 'green circle' matches the circle in pixel coordinates, so the target is right, but it is wrapped in a code fence and an object list instead of a bare array, and it is not normalized to 0..1000 (as normalized it does not overlap the true box). Correct target, wrong format/frame."
+    }
+  }
+}

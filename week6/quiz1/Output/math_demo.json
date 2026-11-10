@@ -1,0 +1,21 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "precision": "bf16",
+  "optimized": false,
+  "thinking": false,
+  "loaded_in_4bit": false,
+  "loaded_in_8bit": false,
+  "results": [
+    {
+      "id": "demo",
+      "prompt": "一本書120元，買3本共多少元？只輸出整數。",
+      "used_prompt": "一本書120元，買3本共多少元？只輸出整數。",
+      "answer": "360",
+      "seed": 42,
+      "input_tokens": 53,
+      "output_tokens": 4,
+      "generation_seconds": 1.212226500036195
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Add to the existing MMIP_LLM environment for GPU memory sampling.
+nvidia-ml-py>=12

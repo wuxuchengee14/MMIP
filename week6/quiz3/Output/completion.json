@@ -1,0 +1,39 @@
+{
+  "all_complete": true,
+  "covered_points": 40,
+  "maximum_points": 40,
+  "criteria": [
+    {
+      "requirement": "LLM 偏好資料至少 100 組",
+      "points": 5,
+      "complete": true
+    },
+    {
+      "requirement": "另外 100 題無關通用 Benchmark",
+      "points": 5,
+      "complete": true
+    },
+    {
+      "requirement": "實際微調 LLM，量化優化面向及通用能力變化",
+      "points": 10,
+      "complete": true
+    },
+    {
+      "requirement": "VLM 優化目標與偏好資料至少 100 組",
+      "points": 10,
+      "complete": true
+    },
+    {
+      "requirement": "實際微調 VLM 並量化前後成效",
+      "points": 5,
+      "complete": true
+    },
+    {
+      "requirement": "調整畫質與明暗，觀察平均表現",
+      "points": 5,
+      "complete": true
+    }
+  ],
+  "metrics_sha256": "daee0a593d2da4a32a5b433e0162f596fd030a1e45234a9c84c136fd14b9e9d0",
+  "note": "Evidence coverage, not a guarantee of grading or of positive performance gains. Synthetic rule-labelled preferences, DPO rather than PPO."
+}

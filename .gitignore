@@ -28,3 +28,13 @@ week5/**/embeddings.npz
 week5/**/*.pt.tmp
 week5/**/*.part
 week5/**/*.part.*
+
+# Week 6: small custom benchmarks are part of the submission.
+!week6/**/Data/**
+week6/**/models/
+week6/**/Output/**/adapter/
+week6/**/Output/**/trainer/
+week6/**/Output/**/processor/
+week6/**/Output/smoke*/
+week6/**/*.log
+week6/**/*.zip

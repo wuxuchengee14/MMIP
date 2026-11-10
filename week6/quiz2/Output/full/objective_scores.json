@@ -1,0 +1,306 @@
+{
+  "qwen": {
+    "objective_questions": 18,
+    "objective_accuracy_percent": 83.33333333333333,
+    "category_accuracy_percent": {
+      "classification": 100.0,
+      "presence": 100.0,
+      "counting": 50.0,
+      "spatial": 100.0,
+      "attributes": 100.0,
+      "ocr": 100.0,
+      "chart": 100.0,
+      "grounding": 0.0,
+      "uncertainty": 100.0
+    },
+    "ocr_character_error_rate": 0.0,
+    "grounding_mean_iou": 0.0,
+    "grounding_accuracy_iou_05": 0.0,
+    "generation_seconds_total": 6.296983700012788,
+    "preprocess_and_generation_seconds_total": 6.784446600591764,
+    "empty_answers": 0,
+    "hit_token_limit": 0,
+    "rows": [
+      {
+        "id": "vision_01",
+        "category": "classification",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_02",
+        "category": "classification",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_03",
+        "category": "presence",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_04",
+        "category": "presence",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_05",
+        "category": "counting",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_06",
+        "category": "counting",
+        "score": 0.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_07",
+        "category": "spatial",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_08",
+        "category": "spatial",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_09",
+        "category": "attributes",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_10",
+        "category": "attributes",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_11",
+        "category": "ocr",
+        "score": 1.0,
+        "method": "ocr",
+        "edit_distance": 0,
+        "reference_characters": 7,
+        "cer": 0.0
+      },
+      {
+        "id": "vision_12",
+        "category": "ocr",
+        "score": 1.0,
+        "method": "ocr",
+        "edit_distance": 0,
+        "reference_characters": 6,
+        "cer": 0.0
+      },
+      {
+        "id": "vision_13",
+        "category": "chart",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_14",
+        "category": "chart",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_15",
+        "category": "grounding",
+        "score": 0.0,
+        "method": "bbox",
+        "iou": 0.0
+      },
+      {
+        "id": "vision_16",
+        "category": "grounding",
+        "score": 0.0,
+        "method": "bbox",
+        "iou": 0.0
+      },
+      {
+        "id": "vision_17",
+        "category": "caption",
+        "score": null,
+        "method": "caption"
+      },
+      {
+        "id": "vision_18",
+        "category": "caption",
+        "score": null,
+        "method": "caption"
+      },
+      {
+        "id": "vision_19",
+        "category": "uncertainty",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_20",
+        "category": "uncertainty",
+        "score": 1.0,
+        "method": "exact"
+      }
+    ]
+  },
+  "smol": {
+    "objective_questions": 18,
+    "objective_accuracy_percent": 61.111111111111114,
+    "category_accuracy_percent": {
+      "classification": 100.0,
+      "presence": 100.0,
+      "counting": 0.0,
+      "spatial": 100.0,
+      "attributes": 100.0,
+      "ocr": 0.0,
+      "chart": 100.0,
+      "grounding": 0.0,
+      "uncertainty": 50.0
+    },
+    "ocr_character_error_rate": 0.23076923076923078,
+    "grounding_mean_iou": 0.14,
+    "grounding_accuracy_iou_05": 0.0,
+    "generation_seconds_total": 4.204871800262481,
+    "preprocess_and_generation_seconds_total": 7.436470099724829,
+    "empty_answers": 0,
+    "hit_token_limit": 0,
+    "rows": [
+      {
+        "id": "vision_01",
+        "category": "classification",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_02",
+        "category": "classification",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_03",
+        "category": "presence",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_04",
+        "category": "presence",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_05",
+        "category": "counting",
+        "score": 0.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_06",
+        "category": "counting",
+        "score": 0.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_07",
+        "category": "spatial",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_08",
+        "category": "spatial",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_09",
+        "category": "attributes",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_10",
+        "category": "attributes",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_11",
+        "category": "ocr",
+        "score": 0.0,
+        "method": "ocr",
+        "edit_distance": 1,
+        "reference_characters": 7,
+        "cer": 0.14285714285714285
+      },
+      {
+        "id": "vision_12",
+        "category": "ocr",
+        "score": 0.0,
+        "method": "ocr",
+        "edit_distance": 2,
+        "reference_characters": 6,
+        "cer": 0.3333333333333333
+      },
+      {
+        "id": "vision_13",
+        "category": "chart",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_14",
+        "category": "chart",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_15",
+        "category": "grounding",
+        "score": 0.0,
+        "method": "bbox",
+        "iou": 0.16
+      },
+      {
+        "id": "vision_16",
+        "category": "grounding",
+        "score": 0.0,
+        "method": "bbox",
+        "iou": 0.12
+      },
+      {
+        "id": "vision_17",
+        "category": "caption",
+        "score": null,
+        "method": "caption"
+      },
+      {
+        "id": "vision_18",
+        "category": "caption",
+        "score": null,
+        "method": "caption"
+      },
+      {
+        "id": "vision_19",
+        "category": "uncertainty",
+        "score": 1.0,
+        "method": "exact"
+      },
+      {
+        "id": "vision_20",
+        "category": "uncertainty",
+        "score": 0.0,
+        "method": "exact"
+      }
+    ]
+  }
+}

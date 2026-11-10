@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_09",
+  "image_seen": true,
+  "image_observations": "A yellow triangle on the left and a blue square on the right.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "The only triangle is yellow; correct single-word answer."
+    },
+    "B": {
+      "score": 1,
+      "reason": "The only triangle is yellow; correct single-word answer."
+    }
+  }
+}

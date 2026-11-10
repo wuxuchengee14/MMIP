@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_03",
+  "image_seen": true,
+  "image_observations": "A small wet dog swims in a blue pool; a person's hand, forearm and legs in yellow-black shorts are visible at the upper right, and another hand at the right edge.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "A human hand and legs are clearly visible at the top right, so yes is correct; capital letter and period are minor punctuation only."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Correct: human arm, hand and legs appear at the right side of the frame; answered with exactly 'yes'."
+    }
+  }
+}

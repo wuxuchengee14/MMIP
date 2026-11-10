@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_10",
+  "image_seen": true,
+  "image_observations": "A purple circle on the left and an orange square on the right.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "The orange shape is the square on the right; correct single-word answer."
+    },
+    "B": {
+      "score": 1,
+      "reason": "The orange shape is the square on the right; correct single-word answer."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_01",
+  "image_seen": true,
+  "image_observations": "Two black-and-tan Doberman-type dogs rear up and play-fight on snow in front of a green fence; no cats, horses or birds are visible.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "The only animals are two dogs in the centre of the frame; 'dogs' is correct and is exactly one word."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Correct category (two dogs dominate the image). The trailing period is minor punctuation, not an extra explanation, so the one-word format is effectively kept."
+    }
+  }
+}

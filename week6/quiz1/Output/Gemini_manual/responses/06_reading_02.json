@@ -1,0 +1,25 @@
+{
+  "question_id": "reading_02",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 0,
+      "reason": "週三通過後最快次日週四可領，但週四不對外服務，故應為週五；回答週二甚至早於審核通過日，錯誤。"
+    },
+    {
+      "answer_id": "B",
+      "score": 0,
+      "reason": "回答週二錯誤，未考慮週三才通過、次日起可領及週四休息，正確為週五。"
+    },
+    {
+      "answer_id": "C",
+      "score": 0,
+      "reason": "回答週二錯誤，正確為週五。"
+    },
+    {
+      "answer_id": "D",
+      "score": 0,
+      "reason": "回答週二錯誤，正確為週五。"
+    }
+  ]
+}

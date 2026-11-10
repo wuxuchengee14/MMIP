@@ -1,0 +1,4272 @@
+[
+  {
+    "id": "vlm_test_2000",
+    "split": "test",
+    "prompt": "How many purple triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2000.png",
+    "image_sha256": "1baf5503717eec7020cc77260dd0d6941a8a476ac151e9770211064af44e529e",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "purple",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          187,
+          289
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          108,
+          120
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          37,
+          119
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          33,
+          43
+        ],
+        "radius": 20
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          183,
+          37
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          187,
+          118
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          31,
+          200
+        ],
+        "radius": 21
+      }
+    ],
+    "chosen": "0",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2001",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2001.png",
+    "image_sha256": "40fdb91048e6c0465c5825102313d40dafe6b26d2c6d17e6c24360023ca9c8b7",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          190,
+          40
+        ],
+        "radius": 19
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          115,
+          286
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          259,
+          121
+        ],
+        "radius": 21
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          333,
+          41
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          341,
+          205
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "1",
+    "rejected": "2",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2002",
+    "split": "test",
+    "prompt": "How many orange triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2002.png",
+    "image_sha256": "f930150a54889b8a115de5b5747e9d26e4e2684b90aec7fc9fe3a9a3abfb53df",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "orange",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          262,
+          35
+        ],
+        "radius": 20
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          332,
+          199
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          337,
+          287
+        ],
+        "radius": 20
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          409,
+          202
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          114,
+          118
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          107,
+          207
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          412,
+          37
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          335,
+          42
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          37,
+          35
+        ],
+        "radius": 23
+      }
+    ],
+    "chosen": "2",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2003",
+    "split": "test",
+    "prompt": "How many purple triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2003.png",
+    "image_sha256": "93801dd0c1b6929bb44545c9eaa7f1a6d1860eb9af69b836f90663b42b9ca8af",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "purple",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          116,
+          43
+        ],
+        "radius": 24
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          32,
+          120
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          182,
+          207
+        ],
+        "radius": 18
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          109,
+          206
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          183,
+          124
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          406,
+          117
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          412,
+          41
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          414,
+          206
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          264,
+          284
+        ],
+        "radius": 24
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          335,
+          38
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "3",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2004",
+    "split": "test",
+    "prompt": "How many purple squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2004.png",
+    "image_sha256": "b3e4152248271fd042eed7c700204d29d1983ecf402bce3de7b5771cd56f94e0",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "purple",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          184,
+          125
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          263,
+          281
+        ],
+        "radius": 18
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          185,
+          287
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          34,
+          40
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          37,
+          117
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          409,
+          288
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          414,
+          37
+        ],
+        "radius": 19
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          266,
+          42
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          406,
+          123
+        ],
+        "radius": 20
+      }
+    ],
+    "chosen": "4",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2005",
+    "split": "test",
+    "prompt": "How many purple triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2005.png",
+    "image_sha256": "924deffbf996b2ec1218a6435b0a0d344553dfe21a8b9c8364f6b10db6c74b37",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "purple",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          416,
+          206
+        ],
+        "radius": 23
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          414,
+          285
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          412,
+          121
+        ],
+        "radius": 19
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          39,
+          199
+        ],
+        "radius": 21
+      }
+    ],
+    "chosen": "0",
+    "rejected": "1",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2006",
+    "split": "test",
+    "prompt": "How many purple circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2006.png",
+    "image_sha256": "56bae23ce32313565cf8913eadcb9e224e2b0acc64a0befdecf301acb29f4047",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "purple",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          331,
+          36
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          111,
+          122
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          259,
+          117
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          39,
+          124
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "1",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2007",
+    "split": "test",
+    "prompt": "How many orange circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2007.png",
+    "image_sha256": "693c6f24810852c658971b0b65e8ad7fdc8bb24d25cd27a66a7aa807aaae9aca",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "orange",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          264,
+          38
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          415,
+          199
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          191,
+          289
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          36,
+          121
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          408,
+          35
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          340,
+          287
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          260,
+          120
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "2",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2008",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2008.png",
+    "image_sha256": "da0681f83fcb5a7a329ba8d75b734d958b97e56263c592b5b1b3fd5753c39b9e",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          411,
+          36
+        ],
+        "radius": 19
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          263,
+          118
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          186,
+          287
+        ],
+        "radius": 20
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          338,
+          122
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          406,
+          204
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          258,
+          288
+        ],
+        "radius": 20
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          116,
+          39
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          260,
+          39
+        ],
+        "radius": 21
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          261,
+          199
+        ],
+        "radius": 21
+      }
+    ],
+    "chosen": "3",
+    "rejected": "0",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2009",
+    "split": "test",
+    "prompt": "How many blue triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2009.png",
+    "image_sha256": "29d87dfa2ff8b950f6a5d0611b2f426766898d5424ff6a52d9493a3cf2654ce2",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "blue",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          33,
+          282
+        ],
+        "radius": 22
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          408,
+          41
+        ],
+        "radius": 25
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          257,
+          119
+        ],
+        "radius": 23
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          112,
+          200
+        ],
+        "radius": 19
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          184,
+          121
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          339,
+          118
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          33,
+          40
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          260,
+          283
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          185,
+          283
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          263,
+          200
+        ],
+        "radius": 18
+      }
+    ],
+    "chosen": "4",
+    "rejected": "1",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2010",
+    "split": "test",
+    "prompt": "How many orange circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2010.png",
+    "image_sha256": "1ae02382dbf7e8d368778660a50d54285806d1b801e873135f9df5821dff953e",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "orange",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          107,
+          205
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          336,
+          203
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          258,
+          282
+        ],
+        "radius": 20
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          188,
+          118
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          40,
+          121
+        ],
+        "radius": 18
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          266,
+          121
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          110,
+          289
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "0",
+    "rejected": "1",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2011",
+    "split": "test",
+    "prompt": "How many green triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2011.png",
+    "image_sha256": "fd151eabcd0ec13b02654ef03bc7c901c6d3910b29e85d435e0cd0836fad978c",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "green",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          340,
+          121
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          106,
+          202
+        ],
+        "radius": 25
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          33,
+          199
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          190,
+          205
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          407,
+          41
+        ],
+        "radius": 19
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          262,
+          289
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "1",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2012",
+    "split": "test",
+    "prompt": "How many green squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2012.png",
+    "image_sha256": "b9110e96f4ed0b4000572dc4900853e067ae18eef22ddcc11ac08cd07cfd9f65",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "green",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          332,
+          38
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          31,
+          202
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          106,
+          282
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          107,
+          123
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          415,
+          37
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          115,
+          38
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          414,
+          202
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          189,
+          286
+        ],
+        "radius": 25
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          182,
+          43
+        ],
+        "radius": 20
+      }
+    ],
+    "chosen": "2",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2013",
+    "split": "test",
+    "prompt": "How many orange circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2013.png",
+    "image_sha256": "d784d59986eba8815367f1061dcc54c637ea33d2fe74c2b6720dd1d8f699731a",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "orange",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          185,
+          286
+        ],
+        "radius": 23
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          184,
+          117
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          406,
+          119
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          336,
+          205
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          116,
+          38
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          333,
+          38
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          107,
+          119
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          340,
+          286
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          264,
+          39
+        ],
+        "radius": 20
+      }
+    ],
+    "chosen": "3",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2014",
+    "split": "test",
+    "prompt": "How many orange circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2014.png",
+    "image_sha256": "4245bd6fbc576c8f8c32e1b295bd888d1c61b1b5fb6521639f76f867cb41a25d",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "orange",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          109,
+          36
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          188,
+          205
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          187,
+          281
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          114,
+          289
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          408,
+          36
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          407,
+          281
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          34,
+          207
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          261,
+          37
+        ],
+        "radius": 22
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          331,
+          117
+        ],
+        "radius": 21
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          40,
+          282
+        ],
+        "radius": 23
+      }
+    ],
+    "chosen": "4",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2015",
+    "split": "test",
+    "prompt": "How many blue squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2015.png",
+    "image_sha256": "5fe09698e0ada0f9b07ebbaa4f94be24b87ba115c01c7c0ef53af5553caabc21",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "blue",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          341,
+          204
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          114,
+          120
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          416,
+          37
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          31,
+          201
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          41,
+          284
+        ],
+        "radius": 23
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          412,
+          286
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          413,
+          199
+        ],
+        "radius": 23
+      }
+    ],
+    "chosen": "0",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2016",
+    "split": "test",
+    "prompt": "How many orange triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2016.png",
+    "image_sha256": "1c0419cddedaa5d5d35643047513d49e5ba88e8d9a836f624be2d702b04d6b45",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "orange",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          263,
+          42
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          32,
+          282
+        ],
+        "radius": 25
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          409,
+          121
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          337,
+          38
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          191,
+          281
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          109,
+          284
+        ],
+        "radius": 23
+      }
+    ],
+    "chosen": "1",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2017",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2017.png",
+    "image_sha256": "5fdef976bf35c82d4c26e503e240ad9e261ddfc48556e6da3ad50d085f8794c8",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          416,
+          206
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          39,
+          40
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          182,
+          124
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          259,
+          124
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          182,
+          35
+        ],
+        "radius": 22
+      }
+    ],
+    "chosen": "2",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2018",
+    "split": "test",
+    "prompt": "How many purple circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2018.png",
+    "image_sha256": "32bd2845b191901ef2868f904a6f2598cc5bd23943615cbfc04f8339530ca276",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "purple",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          184,
+          118
+        ],
+        "radius": 23
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          115,
+          118
+        ],
+        "radius": 20
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          37,
+          42
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          340,
+          205
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          40,
+          207
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          411,
+          281
+        ],
+        "radius": 23
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          261,
+          284
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "3",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2019",
+    "split": "test",
+    "prompt": "How many red triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2019.png",
+    "image_sha256": "d826f0faea845be307da60a74d5c0dbf932e802c4ade8ecdb14d39b3539d6168",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "red",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          191,
+          207
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          332,
+          121
+        ],
+        "radius": 23
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          190,
+          284
+        ],
+        "radius": 25
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          266,
+          203
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          181,
+          35
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          408,
+          283
+        ],
+        "radius": 23
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          184,
+          122
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          110,
+          207
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          33,
+          205
+        ],
+        "radius": 22
+      }
+    ],
+    "chosen": "4",
+    "rejected": "1",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2020",
+    "split": "test",
+    "prompt": "How many green circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2020.png",
+    "image_sha256": "c480373b868b0efedceeb7d2c976a18fe0193f1ebb9fe83154dbbd2469137e61",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "green",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          339,
+          123
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          114,
+          287
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          35,
+          200
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          109,
+          203
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          340,
+          41
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          185,
+          286
+        ],
+        "radius": 24
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          414,
+          283
+        ],
+        "radius": 22
+      }
+    ],
+    "chosen": "0",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2021",
+    "split": "test",
+    "prompt": "How many orange circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2021.png",
+    "image_sha256": "74138c58ec5ff6237d477f828b6c039f56885c778224ed2528540e052ffef2b2",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "orange",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          408,
+          204
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          184,
+          200
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          338,
+          39
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          182,
+          288
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "1",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2022",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2022.png",
+    "image_sha256": "2b1d93508cc4571240d6294ef692522156050743c4710f9c9561006ad8d7c66c",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          412,
+          121
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          256,
+          283
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          336,
+          124
+        ],
+        "radius": 21
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          184,
+          43
+        ],
+        "radius": 24
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          410,
+          201
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          108,
+          287
+        ],
+        "radius": 24
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          107,
+          39
+        ],
+        "radius": 19
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          184,
+          206
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "2",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2023",
+    "split": "test",
+    "prompt": "How many green squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2023.png",
+    "image_sha256": "55b53b32372d543f4b6c2a787c2731e0c7780935af66e57977efa898a3594a96",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "green",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          339,
+          35
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          111,
+          286
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          185,
+          207
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          39,
+          119
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          338,
+          281
+        ],
+        "radius": 21
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          182,
+          125
+        ],
+        "radius": 20
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          264,
+          202
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          410,
+          38
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          337,
+          121
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          188,
+          281
+        ],
+        "radius": 23
+      }
+    ],
+    "chosen": "3",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2024",
+    "split": "test",
+    "prompt": "How many blue triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2024.png",
+    "image_sha256": "cfd00aa6f348f89eb070f8206ecbd8e32a21b2e59a8ed369329412f994866302",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "blue",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          341,
+          35
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          340,
+          199
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          110,
+          288
+        ],
+        "radius": 23
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          337,
+          125
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          181,
+          283
+        ],
+        "radius": 24
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          337,
+          283
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          191,
+          202
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          113,
+          122
+        ],
+        "radius": 24
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          415,
+          38
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "4",
+    "rejected": "0",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2025",
+    "split": "test",
+    "prompt": "How many green squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2025.png",
+    "image_sha256": "9b61b4419cde19f952b92a9691c4cfc4acc6da034ce54fc9e28e38132f2e36d6",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "green",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          409,
+          125
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          40,
+          118
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          341,
+          39
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          115,
+          281
+        ],
+        "radius": 23
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          262,
+          42
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          333,
+          125
+        ],
+        "radius": 18
+      }
+    ],
+    "chosen": "0",
+    "rejected": "2",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2026",
+    "split": "test",
+    "prompt": "How many purple squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2026.png",
+    "image_sha256": "6502dd60c422042dda2fe9ebd6abc941acc588f313bd7a74a3609688b5708185",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "purple",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          33,
+          201
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          337,
+          205
+        ],
+        "radius": 22
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          38,
+          288
+        ],
+        "radius": 25
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          406,
+          285
+        ],
+        "radius": 18
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          263,
+          285
+        ],
+        "radius": 22
+      }
+    ],
+    "chosen": "1",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2027",
+    "split": "test",
+    "prompt": "How many green circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2027.png",
+    "image_sha256": "75eced8325171644f77f3bed1c169db833481d9d892c8040fc272425f80474d7",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "green",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          335,
+          38
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          335,
+          288
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          187,
+          124
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          409,
+          281
+        ],
+        "radius": 25
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          261,
+          285
+        ],
+        "radius": 19
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          410,
+          40
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "2",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2028",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2028.png",
+    "image_sha256": "28c2a9e1664e20986eaee3c4fdfd40852ce8de23b76f6bf1d6fbafaffb2e3b4a",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          260,
+          42
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          182,
+          117
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          183,
+          205
+        ],
+        "radius": 20
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          333,
+          200
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          32,
+          120
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          185,
+          41
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          416,
+          200
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          337,
+          287
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          40,
+          286
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          412,
+          287
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "3",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2029",
+    "split": "test",
+    "prompt": "How many green circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2029.png",
+    "image_sha256": "b3d31ddc97f943e20db1582633ceaf0321dd992182bfc3f366033cbcb47ca334",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "green",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          257,
+          36
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          33,
+          124
+        ],
+        "radius": 24
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          185,
+          201
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          256,
+          281
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          334,
+          199
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          256,
+          207
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          112,
+          118
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          32,
+          288
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          339,
+          120
+        ],
+        "radius": 22
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          184,
+          38
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "4",
+    "rejected": "0",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2030",
+    "split": "test",
+    "prompt": "How many red squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2030.png",
+    "image_sha256": "3ed3842170efe2c20215b87cb7196119415e5d5c8022868cfbc188baecb003d4",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "red",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          35,
+          201
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          110,
+          37
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          416,
+          119
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          256,
+          288
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          334,
+          281
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          340,
+          205
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          189,
+          200
+        ],
+        "radius": 18
+      }
+    ],
+    "chosen": "0",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2031",
+    "split": "test",
+    "prompt": "How many red triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2031.png",
+    "image_sha256": "4fe89e56fe147c27499be0b986908570f267b1a932eafa0867da3abbd7044b93",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "red",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          188,
+          283
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          40,
+          120
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          112,
+          38
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          182,
+          204
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          409,
+          201
+        ],
+        "radius": 23
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          116,
+          201
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          338,
+          206
+        ],
+        "radius": 22
+      }
+    ],
+    "chosen": "1",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2032",
+    "split": "test",
+    "prompt": "How many green squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2032.png",
+    "image_sha256": "e691dd4d524c6e54bbc4bb15c7c8454d22bbecdbaf85dcdb451ed2513aa473a1",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "green",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          35,
+          282
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          256,
+          39
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          181,
+          201
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          38,
+          43
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          409,
+          42
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          188,
+          35
+        ],
+        "radius": 23
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          115,
+          118
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          416,
+          125
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "2",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2033",
+    "split": "test",
+    "prompt": "How many purple squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2033.png",
+    "image_sha256": "9acae9223abf71a1dc85c6b84999aa12b5171ba07986053f07790d28d3f5c5c6",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "purple",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          265,
+          282
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          115,
+          124
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          36,
+          41
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          263,
+          205
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          188,
+          36
+        ],
+        "radius": 22
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          113,
+          200
+        ],
+        "radius": 18
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          187,
+          287
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          414,
+          38
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "3",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2034",
+    "split": "test",
+    "prompt": "How many purple triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2034.png",
+    "image_sha256": "b662836da0dbd425b6000e595c9596632f6982020899c7ddd6a411cb4eac3908",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "purple",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          111,
+          119
+        ],
+        "radius": 18
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          334,
+          119
+        ],
+        "radius": 18
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          407,
+          201
+        ],
+        "radius": 25
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          191,
+          207
+        ],
+        "radius": 20
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          41,
+          201
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          188,
+          35
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          411,
+          117
+        ],
+        "radius": 22
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          259,
+          207
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          262,
+          282
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "4",
+    "rejected": "0",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2035",
+    "split": "test",
+    "prompt": "How many orange squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2035.png",
+    "image_sha256": "915678de62b24fb2bb0523ee022d0339d9768e70be902429566f92fd3170b643",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "orange",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          337,
+          199
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          188,
+          200
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          416,
+          43
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          413,
+          287
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          187,
+          37
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "0",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2036",
+    "split": "test",
+    "prompt": "How many purple circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2036.png",
+    "image_sha256": "010adb674489ff2a030b3a5d7346ee1a2b486be3c9a9b23d3e28fde84f9f5c67",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "purple",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          261,
+          40
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          191,
+          42
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          35,
+          118
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          339,
+          41
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          263,
+          199
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "triangle",
+        "center": [
+          190,
+          286
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          34,
+          41
+        ],
+        "radius": 19
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          186,
+          117
+        ],
+        "radius": 21
+      }
+    ],
+    "chosen": "1",
+    "rejected": "2",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2037",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2037.png",
+    "image_sha256": "f34af5b5c095896a20c819205ee692ea4e13742f4644ad23fc6b633109fb93e6",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          116,
+          200
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          31,
+          36
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          262,
+          119
+        ],
+        "radius": 25
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          331,
+          287
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          331,
+          121
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          256,
+          207
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          414,
+          205
+        ],
+        "radius": 18
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          340,
+          206
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          114,
+          284
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "2",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2038",
+    "split": "test",
+    "prompt": "How many blue circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2038.png",
+    "image_sha256": "d2a09129cc196149dd3e42108ed9f21bf903f243b38d9c82493b4fd38e1fba66",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "blue",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          187,
+          121
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          183,
+          201
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          340,
+          122
+        ],
+        "radius": 23
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          190,
+          287
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          113,
+          122
+        ],
+        "radius": 19
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          341,
+          203
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          259,
+          36
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          407,
+          281
+        ],
+        "radius": 20
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          35,
+          122
+        ],
+        "radius": 22
+      }
+    ],
+    "chosen": "3",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2039",
+    "split": "test",
+    "prompt": "How many red squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2039.png",
+    "image_sha256": "e000bd79f5232abf25e82138677cd335acacd7d7d0a161fcd6997e143af14dfc",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "red",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          339,
+          121
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          33,
+          285
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          336,
+          287
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          108,
+          289
+        ],
+        "radius": 24
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          37,
+          206
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          261,
+          120
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          188,
+          288
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          35,
+          40
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          33,
+          122
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          409,
+          200
+        ],
+        "radius": 19
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          340,
+          42
+        ],
+        "radius": 21
+      }
+    ],
+    "chosen": "4",
+    "rejected": "1",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2040",
+    "split": "test",
+    "prompt": "How many blue triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2040.png",
+    "image_sha256": "b7d3734f32482ebf37386e350bb3782cc4478d6a664dd09bbb1fb1355875e626",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "blue",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          258,
+          200
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          112,
+          35
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          187,
+          288
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          408,
+          35
+        ],
+        "radius": 18
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          37,
+          39
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          189,
+          121
+        ],
+        "radius": 20
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          114,
+          122
+        ],
+        "radius": 23
+      }
+    ],
+    "chosen": "0",
+    "rejected": "3",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2041",
+    "split": "test",
+    "prompt": "How many orange squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2041.png",
+    "image_sha256": "a52777aa918f26b4fc26c6bbb4ba12aef3a24db06f8049d380bc6d7cc7a5774d",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "orange",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          259,
+          283
+        ],
+        "radius": 25
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          416,
+          42
+        ],
+        "radius": 22
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          33,
+          123
+        ],
+        "radius": 21
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          113,
+          42
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          36,
+          288
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          256,
+          40
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "1",
+    "rejected": "2",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2042",
+    "split": "test",
+    "prompt": "How many blue circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2042.png",
+    "image_sha256": "a882e0b3e32f6d9e6681e95019c6b7c963496cd5a79d5d93b518d0b892673b52",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "blue",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          108,
+          38
+        ],
+        "radius": 24
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          265,
+          38
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          265,
+          282
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          331,
+          205
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          36,
+          123
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          412,
+          199
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          340,
+          117
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          182,
+          122
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "2",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2043",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2043.png",
+    "image_sha256": "ae039261655279c90dd7b4b92ca431b4a2ee63da289fad66b6e470ad4b81a8e9",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          111,
+          284
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          340,
+          123
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          191,
+          125
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          36,
+          43
+        ],
+        "radius": 20
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          108,
+          119
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          259,
+          38
+        ],
+        "radius": 20
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          414,
+          199
+        ],
+        "radius": 25
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          341,
+          37
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          407,
+          287
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          181,
+          285
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "3",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2044",
+    "split": "test",
+    "prompt": "How many green squares are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2044.png",
+    "image_sha256": "3243d1a9d76ddba30d5ee310df4b62f218ecc061f0c4e50abf88fe1ad9f37948",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "green",
+    "target_shape": "square",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          191,
+          199
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          260,
+          201
+        ],
+        "radius": 22
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          35,
+          41
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          331,
+          43
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          37,
+          282
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          339,
+          204
+        ],
+        "radius": 20
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          415,
+          125
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          410,
+          206
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          41,
+          125
+        ],
+        "radius": 20
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          335,
+          117
+        ],
+        "radius": 20
+      }
+    ],
+    "chosen": "4",
+    "rejected": "0",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2045",
+    "split": "test",
+    "prompt": "How many blue triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2045.png",
+    "image_sha256": "6c9b25abb18c0bf60c508b3c34e5a7d71d79b17aba2d871304a78a6180020500",
+    "reference": "0",
+    "expected_count": 0,
+    "target_color": "blue",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          188,
+          37
+        ],
+        "radius": 22
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          38,
+          281
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          37,
+          201
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          109,
+          119
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          190,
+          281
+        ],
+        "radius": 24
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "center": [
+          265,
+          123
+        ],
+        "radius": 24
+      }
+    ],
+    "chosen": "0",
+    "rejected": "1",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2046",
+    "split": "test",
+    "prompt": "How many purple circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2046.png",
+    "image_sha256": "01766e8672906207f876cc379f433be043a16d0ad88e4f53b0e31e9c1fb9ab35",
+    "reference": "1",
+    "expected_count": 1,
+    "target_color": "purple",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          41,
+          39
+        ],
+        "radius": 25
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          266,
+          283
+        ],
+        "radius": 25
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          407,
+          122
+        ],
+        "radius": 19
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          108,
+          206
+        ],
+        "radius": 21
+      }
+    ],
+    "chosen": "1",
+    "rejected": "2",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2047",
+    "split": "test",
+    "prompt": "How many green triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2047.png",
+    "image_sha256": "d90a78df2a80e3bff6206a645b7282d714bff57ccbd73e36afe91ecab5d20619",
+    "reference": "2",
+    "expected_count": 2,
+    "target_color": "green",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          258,
+          43
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "center": [
+          114,
+          37
+        ],
+        "radius": 21
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          412,
+          125
+        ],
+        "radius": 24
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          31,
+          123
+        ],
+        "radius": 23
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "center": [
+          259,
+          203
+        ],
+        "radius": 24
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          189,
+          42
+        ],
+        "radius": 19
+      }
+    ],
+    "chosen": "2",
+    "rejected": "5",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2048",
+    "split": "test",
+    "prompt": "How many red triangles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2048.png",
+    "image_sha256": "d9679dcc27a6cebd0605667cae7127cef8b4abf8460afe4834f60daf4cf6533a",
+    "reference": "3",
+    "expected_count": 3,
+    "target_color": "red",
+    "target_shape": "triangle",
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          32,
+          42
+        ],
+        "radius": 18
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          182,
+          35
+        ],
+        "radius": 18
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "center": [
+          336,
+          200
+        ],
+        "radius": 20
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          416,
+          201
+        ],
+        "radius": 21
+      },
+      {
+        "color": "purple",
+        "shape": "circle",
+        "center": [
+          116,
+          122
+        ],
+        "radius": 21
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          410,
+          122
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "center": [
+          265,
+          288
+        ],
+        "radius": 25
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "center": [
+          188,
+          125
+        ],
+        "radius": 25
+      },
+      {
+        "color": "orange",
+        "shape": "square",
+        "center": [
+          265,
+          39
+        ],
+        "radius": 21
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "center": [
+          333,
+          287
+        ],
+        "radius": 20
+      }
+    ],
+    "chosen": "3",
+    "rejected": "4",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  },
+  {
+    "id": "vlm_test_2049",
+    "split": "test",
+    "prompt": "How many red circles are visible in this image? Count only objects matching both the color and shape. If none are visible, answer 0. Return only one integer, with no explanation.",
+    "image": "images/test/scene_2049.png",
+    "image_sha256": "78c62cd6869981dc2d6bc84e3e566d3e1e08ff8484df784792b981e0b9623e99",
+    "reference": "4",
+    "expected_count": 4,
+    "target_color": "red",
+    "target_shape": "circle",
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          38,
+          200
+        ],
+        "radius": 23
+      },
+      {
+        "color": "orange",
+        "shape": "circle",
+        "center": [
+          416,
+          201
+        ],
+        "radius": 22
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          186,
+          200
+        ],
+        "radius": 23
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          333,
+          117
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "triangle",
+        "center": [
+          116,
+          287
+        ],
+        "radius": 19
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "center": [
+          265,
+          283
+        ],
+        "radius": 20
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "center": [
+          264,
+          203
+        ],
+        "radius": 22
+      },
+      {
+        "color": "purple",
+        "shape": "square",
+        "center": [
+          116,
+          203
+        ],
+        "radius": 25
+      }
+    ],
+    "chosen": "4",
+    "rejected": "0",
+    "preference_reason": "Prefer the exact visible count, including 0 for absent targets; rejected count is incorrect",
+    "label_source": "Exact renderer object inventory, not natural-image pseudo-labels or human ratings"
+  }
+]

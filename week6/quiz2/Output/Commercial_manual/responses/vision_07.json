@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_07",
+  "image_seen": true,
+  "image_observations": "A red circle on the left side of the image and a blue square on the right, at the same height.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "The red circle is to the left of the blue square; correct, with only capitalization/period added."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Correct: the red circle sits left of the blue square; exact one-word answer."
+    }
+  }
+}

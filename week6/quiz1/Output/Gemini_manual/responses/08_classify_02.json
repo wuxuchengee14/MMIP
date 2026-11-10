@@ -1,0 +1,25 @@
+{
+  "question_id": "classify_02",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 1,
+      "reason": "合法JSON，A帳務、B技術、C物流、D其他，四項全部正確。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "合法JSON，四項分類全部正確，無額外文字。"
+    },
+    {
+      "answer_id": "C",
+      "score": 1,
+      "reason": "合法JSON，四項分類全部正確，無額外文字。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "合法JSON，四項分類全部正確，無額外文字。"
+    }
+  ]
+}

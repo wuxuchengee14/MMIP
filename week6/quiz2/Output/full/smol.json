@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "model_key": "smol",
+  "model_id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+  "revision": "482adb537c021c86670beed01cd58990d01e72e4",
+  "precision": "bf16",
+  "attention": "sdpa",
+  "batch_size": 1,
+  "seed": 42,
+  "generation_config": {
+    "max_new_tokens": 256,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true
+  },
+  "repetition_penalty": 1.0,
+  "length_penalty": 1.0,
+  "native_token_ids": {
+    "eos": 49279,
+    "bos": 0,
+    "pad": 2
+  },
+  "benchmark_digest": "98b8acc07e6e07248a2223fbc8846b1489b5f42fb0181d17a01bec0a0ba878bd",
+  "request_digest": "fba64dad3e1d224df53f8bbc4d5d0507e3aeb2be3cdcdb47bf2be2007d31ae3d",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "cuda_runtime": "12.8",
+  "parameter_count": 2246784880,
+  "packages": {
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1+cu128",
+    "transformers": "4.57.6",
+    "accelerate": "1.15.0",
+    "Pillow": "12.3.0",
+    "num2words": "0.5.14",
+    "huggingface-hub": "0.36.2"
+  },
+  "processor_class": "SmolVLMProcessor",
+  "image_processor": {
+    "_processor_class": "SmolVLMProcessor",
+    "image_processor_type": "SmolVLMImageProcessor",
+    "video_sampling": {
+      "fps": 1,
+      "max_frames": 64,
+      "video_size": {
+        "longest_edge": 384
+      }
+    },
+    "do_convert_rgb": true,
+    "do_resize": true,
+    "size": {
+      "longest_edge": 1536
+    },
+    "resample": 1,
+    "do_image_splitting": true,
+    "max_image_size": {
+      "longest_edge": 384
+    },
+    "do_rescale": true,
+    "rescale_factor": 0.00392156862745098,
+    "do_normalize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "do_pad": true
+  },
+  "chat_template": "<|im_start|>{% for message in messages %}{{message['role'] | capitalize}}{% if message['content'][0]['type'] == 'image' %}{{':'}}{% else %}{{': '}}{% endif %}{% for line in message['content'] %}{% if line['type'] == 'text' %}{{line['text']}}{% elif line['type'] == 'image' %}{{ '<image>' }}{% endif %}{% endfor %}<end_of_utterance>\n{% endfor %}{% if add_generation_prompt %}{{ 'Assistant:' }}{% endif %}",
+  "warmup_runs": 1,
+  "started_at_utc": "2026-11-03T08:58:29.024525+00:00",
+  "complete": true,
+  "results": [
+    {
+      "id": "vision_01",
+      "image_sha256": "c7d088f34dd67ff2dbd2cc9d71823266afcd3b6f65e0fc7673723598bbb0ced0",
+      "prompt": "Which animal category is most prominent? Answer with exactly one word: dogs, cats, horses, or birds.",
+      "answer": "dogs.",
+      "input_tokens": 1113,
+      "output_tokens": 3,
+      "generation_seconds": 0.15078429994173348,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4835671040,
+      "rendered_chat": "<|im_start|>User:<image>Which animal category is most prominent? Answer with exactly one word: dogs, cats, horses, or birds.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.3153645999263972,
+      "image_dimensions": [
+        500,
+        335
+      ]
+    },
+    {
+      "id": "vision_02",
+      "image_sha256": "b5e64c84865329d800546e6caffc3f324d9e5eada9330adfcfee0905d8f45a7f",
+      "prompt": "Which activity best matches the foreground people? Answer with exactly one label: street_dance, swimming, skiing, or indoor_cooking.",
+      "answer": "street_dance.",
+      "input_tokens": 1453,
+      "output_tokens": 6,
+      "generation_seconds": 0.21582209994085133,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4930921472,
+      "rendered_chat": "<|im_start|>User:<image>Which activity best matches the foreground people? Answer with exactly one label: street_dance, swimming, skiing, or indoor_cooking.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.422539200168103,
+      "image_dimensions": [
+        377,
+        480
+      ]
+    },
+    {
+      "id": "vision_03",
+      "image_sha256": "7bb9e5827cc74e9c1a30c9b1d100599628fd7a5f78cbca91a034142b689da80c",
+      "prompt": "Is any part of a human visible in this image? Answer only yes or no.",
+      "answer": "Yes.",
+      "input_tokens": 1108,
+      "output_tokens": 3,
+      "generation_seconds": 0.1452755001373589,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4834194432,
+      "rendered_chat": "<|im_start|>User:<image>Is any part of a human visible in this image? Answer only yes or no.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.30779489991255105,
+      "image_dimensions": [
+        500,
+        375
+      ]
+    },
+    {
+      "id": "vision_04",
+      "image_sha256": "56b335994b583e6ba1b146d3700fe59991b45168eee3c2964602fc729ae4f239",
+      "prompt": "Is a bicycle visible in this image? Answer only yes or no.",
+      "answer": "No.",
+      "input_tokens": 1105,
+      "output_tokens": 3,
+      "generation_seconds": 0.14224509987980127,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4833911808,
+      "rendered_chat": "<|im_start|>User:<image>Is a bicycle visible in this image? Answer only yes or no.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.29750059987418354,
+      "image_dimensions": [
+        500,
+        281
+      ]
+    },
+    {
+      "id": "vision_05",
+      "image_sha256": "7d15a3383a4d3030dea12ff9b32d2348db6ea845fd5e22727f3eb0e775d0dff6",
+      "prompt": "How many red circles are visible? Answer with an integer only.",
+      "answer": "7",
+      "input_tokens": 1104,
+      "output_tokens": 3,
+      "generation_seconds": 0.144087600056082,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4833816576,
+      "rendered_chat": "<|im_start|>User:<image>How many red circles are visible? Answer with an integer only.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.3016174999065697,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_06",
+      "image_sha256": "740a8a2868abd7aed4c8134cf44bb6800f7057ca474679f4a51c7865a8bd8665",
+      "prompt": "How many green triangles are visible? Answer with an integer only.",
+      "answer": "5",
+      "input_tokens": 1104,
+      "output_tokens": 3,
+      "generation_seconds": 0.1482472000643611,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4833816576,
+      "rendered_chat": "<|im_start|>User:<image>How many green triangles are visible? Answer with an integer only.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.3065249999053776,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_07",
+      "image_sha256": "ba114c70d2f2ea35fc0ab6be6a4d7ec045115e707c5b74dec3374d966d4d3c93",
+      "prompt": "Where is the red circle relative to the blue square? Answer only left or right.",
+      "answer": "Left.",
+      "input_tokens": 1108,
+      "output_tokens": 3,
+      "generation_seconds": 0.14376710006035864,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4834194432,
+      "rendered_chat": "<|im_start|>User:<image>Where is the red circle relative to the blue square? Answer only left or right.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.2993455999530852,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_08",
+      "image_sha256": "b69284aeca399564417c527f22bd0d5346b084e3033f13ed7f8505c4f70e6871",
+      "prompt": "Where is the green triangle relative to the purple square? Answer only above or below.",
+      "answer": "Above.",
+      "input_tokens": 1108,
+      "output_tokens": 3,
+      "generation_seconds": 0.14270540000870824,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4834194432,
+      "rendered_chat": "<|im_start|>User:<image>Where is the green triangle relative to the purple square? Answer only above or below.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.3003450999967754,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_09",
+      "image_sha256": "5ff8cdb640c548e155fa4f21dde04a07d6bdf77eedc9668cd48e752c2d4966f3",
+      "prompt": "What color is the triangle? Answer with exactly one word: red, blue, yellow, or green.",
+      "answer": "yellow",
+      "input_tokens": 1112,
+      "output_tokens": 2,
+      "generation_seconds": 0.1294480999931693,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4835588096,
+      "rendered_chat": "<|im_start|>User:<image>What color is the triangle? Answer with exactly one word: red, blue, yellow, or green.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.28794680000282824,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_10",
+      "image_sha256": "469d832ec37a22496885486646509c946ac3582fedab89035c0c0c51dfb17e52",
+      "prompt": "What shape is orange? Answer with exactly one word: circle, square, or triangle.",
+      "answer": "square",
+      "input_tokens": 1109,
+      "output_tokens": 2,
+      "generation_seconds": 0.1302046999335289,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4834289664,
+      "rendered_chat": "<|im_start|>User:<image>What shape is orange? Answer with exactly one word: circle, square, or triangle.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.28888250002637506,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_11",
+      "image_sha256": "cda06ac4b91bcb0d6c2270e6ee00e28ed8143197d7c19c013a8b22aa688abf5d",
+      "prompt": "Transcribe all the text on the dark sign exactly. Return only the text.",
+      "answer": "LAB204",
+      "input_tokens": 1108,
+      "output_tokens": 6,
+      "generation_seconds": 0.18370750010944903,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4834194432,
+      "rendered_chat": "<|im_start|>User:<image>Transcribe all the text on the dark sign exactly. Return only the text.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.3382467001210898,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_12",
+      "image_sha256": "86ac63a138332ec269ae48666a3a528dff4a7250badf1aed9dfec00b12011e27",
+      "prompt": "Read the price on the card, including the dollar sign. Return only the price.",
+      "answer": "1850",
+      "input_tokens": 1108,
+      "output_tokens": 6,
+      "generation_seconds": 0.1815492999739945,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4834194432,
+      "rendered_chat": "<|im_start|>User:<image>Read the price on the card, including the dollar sign. Return only the price.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.34265100001357496,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_13",
+      "image_sha256": "541696f31d51162364400d464fafaf17a078a60a7dd02bd8fc8acf5078ce758e",
+      "prompt": "Which category has the highest units sold in the bar chart? Answer only A, B, or C.",
+      "answer": "B.",
+      "input_tokens": 1112,
+      "output_tokens": 3,
+      "generation_seconds": 0.14127829996868968,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4835588096,
+      "rendered_chat": "<|im_start|>User:<image>Which category has the highest units sold in the bar chart? Answer only A, B, or C.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.30431630020029843,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_14",
+      "image_sha256": "93ec3f34ffed26106745da3a6a8533181a2e363739bc4fa0cd2ebbd7067e09fd",
+      "prompt": "In the bar chart, how many more units does category C have than category A? Answer with an integer only.",
+      "answer": "6",
+      "input_tokens": 1114,
+      "output_tokens": 3,
+      "generation_seconds": 0.1420934998895973,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4835752960,
+      "rendered_chat": "<|im_start|>User:<image>In the bar chart, how many more units does category C have than category A? Answer with an integer only.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.2957349999342114,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_15",
+      "image_sha256": "6c9b102db49bad830d726a5766ea8eac33fdcb9c6cda322da200da10f40fce42",
+      "prompt": "Locate the red rectangle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.",
+      "answer": "[0, 0, 1000, 1000]",
+      "input_tokens": 1159,
+      "output_tokens": 19,
+      "generation_seconds": 0.3544493999797851,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4845670912,
+      "rendered_chat": "<|im_start|>User:<image>Locate the red rectangle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.5121794999577105,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_16",
+      "image_sha256": "e1ce71d23485adf7606e8b955b9b6aba0d206f7074d8f49c876600ce99137d25",
+      "prompt": "Locate the green circle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.",
+      "answer": "[0, 0, 1000, 1000]",
+      "input_tokens": 1159,
+      "output_tokens": 19,
+      "generation_seconds": 0.3559238000307232,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4845670912,
+      "rendered_chat": "<|im_start|>User:<image>Locate the green circle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.5156489000655711,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_17",
+      "image_sha256": "c7d088f34dd67ff2dbd2cc9d71823266afcd3b6f65e0fc7673723598bbb0ced0",
+      "prompt": "Describe the visible scene in one English sentence. Mention the main subjects, their action, and the setting. Do not invent hidden details.",
+      "answer": "Two Doberman dogs are playfully wrestling in the snow, with a fence and trees in the background.",
+      "input_tokens": 1119,
+      "output_tokens": 23,
+      "generation_seconds": 0.4223339001182467,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4836163584,
+      "rendered_chat": "<|im_start|>User:<image>Describe the visible scene in one English sentence. Mention the main subjects, their action, and the setting. Do not invent hidden details.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.589236400090158,
+      "image_dimensions": [
+        500,
+        335
+      ]
+    },
+    {
+      "id": "vision_18",
+      "image_sha256": "56b335994b583e6ba1b146d3700fe59991b45168eee3c2964602fc729ae4f239",
+      "prompt": "Describe the visible scene in one English sentence. Mention the main subjects and setting. Do not invent names or relationships.",
+      "answer": "Three people are sitting at a table under a red and white umbrella with the words \"London Pride\" on it, in front of a building with a British flag painted on it.",
+      "input_tokens": 1115,
+      "output_tokens": 37,
+      "generation_seconds": 0.604455100139603,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4835834880,
+      "rendered_chat": "<|im_start|>User:<image>Describe the visible scene in one English sentence. Mention the main subjects and setting. Do not invent names or relationships.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.768437199993059,
+      "image_dimensions": [
+        500,
+        281
+      ]
+    },
+    {
+      "id": "vision_19",
+      "image_sha256": "e8cdab3a325cfa541b5a446d423fe2db7b686783353318c9269d3d1b337ed072",
+      "prompt": "What is inside the box? Answer with exactly one word: books, toys, shoes, or unknown. Choose unknown if the image does not provide enough evidence.",
+      "answer": "unknown",
+      "input_tokens": 1123,
+      "output_tokens": 2,
+      "generation_seconds": 0.1302251999732107,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4836492288,
+      "rendered_chat": "<|im_start|>User:<image>What is inside the box? Answer with exactly one word: books, toys, shoes, or unknown. Choose unknown if the image does not provide enough evidence.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.29110899986699224,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_20",
+      "image_sha256": "eee906400f8785cb0d7f183301c694d62d6a26ae41c0f8f850e462dd8c4e6095",
+      "prompt": "Read the number on the card. If the image does not reveal it, answer only unknown. Otherwise answer only the visible number.",
+      "answer": "10000",
+      "input_tokens": 1117,
+      "output_tokens": 7,
+      "generation_seconds": 0.1962687000632286,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 4835999744,
+      "rendered_chat": "<|im_start|>User:<image>Read the number on the card. If the image does not reveal it, answer only unknown. Otherwise answer only the visible number.<end_of_utterance>\nAssistant:",
+      "preprocess_and_generation_seconds": 0.3510482998099178,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    }
+  ]
+}

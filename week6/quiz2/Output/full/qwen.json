@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "model_key": "qwen",
+  "model_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+  "precision": "bf16",
+  "attention": "sdpa",
+  "batch_size": 1,
+  "seed": 42,
+  "generation_config": {
+    "max_new_tokens": 256,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true
+  },
+  "repetition_penalty": 1.0,
+  "length_penalty": 1.0,
+  "native_token_ids": {
+    "eos": [
+      151645,
+      151643
+    ],
+    "bos": 151643,
+    "pad": 151643
+  },
+  "benchmark_digest": "98b8acc07e6e07248a2223fbc8846b1489b5f42fb0181d17a01bec0a0ba878bd",
+  "request_digest": "fba64dad3e1d224df53f8bbc4d5d0507e3aeb2be3cdcdb47bf2be2007d31ae3d",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "cuda_runtime": "12.8",
+  "parameter_count": 8292166656,
+  "packages": {
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1+cu128",
+    "transformers": "4.57.6",
+    "accelerate": "1.15.0",
+    "Pillow": "12.3.0",
+    "num2words": "0.5.14",
+    "huggingface-hub": "0.36.2"
+  },
+  "processor_class": "Qwen2_5_VLProcessor",
+  "image_processor": {
+    "_processor_class": "Qwen2_5_VLProcessor",
+    "image_processor_type": "Qwen2VLImageProcessor",
+    "min_pixels": 50176,
+    "max_pixels": 401408,
+    "size": {
+      "shortest_edge": 3136,
+      "longest_edge": 12845056
+    },
+    "do_resize": true,
+    "resample": 3,
+    "do_rescale": true,
+    "rescale_factor": 0.00392156862745098,
+    "do_normalize": true,
+    "image_mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "image_std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "patch_size": 14,
+    "temporal_patch_size": 2,
+    "merge_size": 2,
+    "do_convert_rgb": true
+  },
+  "chat_template": "{% set image_count = namespace(value=0) %}{% set video_count = namespace(value=0) %}{% for message in messages %}{% if loop.first and message['role'] != 'system' %}<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n{% endif %}<|im_start|>{{ message['role'] }}\n{% if message['content'] is string %}{{ message['content'] }}<|im_end|>\n{% else %}{% for content in message['content'] %}{% if content['type'] == 'image' or 'image' in content or 'image_url' in content %}{% set image_count.value = image_count.value + 1 %}{% if add_vision_id %}Picture {{ image_count.value }}: {% endif %}<|vision_start|><|image_pad|><|vision_end|>{% elif content['type'] == 'video' or 'video' in content %}{% set video_count.value = video_count.value + 1 %}{% if add_vision_id %}Video {{ video_count.value }}: {% endif %}<|vision_start|><|video_pad|><|vision_end|>{% elif 'text' in content %}{{ content['text'] }}{% endif %}{% endfor %}<|im_end|>\n{% endif %}{% endfor %}{% if add_generation_prompt %}<|im_start|>assistant\n{% endif %}",
+  "warmup_runs": 1,
+  "started_at_utc": "2026-11-03T08:56:24.692102+00:00",
+  "complete": true,
+  "results": [
+    {
+      "id": "vision_01",
+      "image_sha256": "c7d088f34dd67ff2dbd2cc9d71823266afcd3b6f65e0fc7673723598bbb0ced0",
+      "prompt": "Which animal category is most prominent? Answer with exactly one word: dogs, cats, horses, or birds.",
+      "answer": "dogs",
+      "input_tokens": 259,
+      "output_tokens": 2,
+      "generation_seconds": 0.1464224001392722,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16654379520,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Which animal category is most prominent? Answer with exactly one word: dogs, cats, horses, or birds.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.16322430013678968,
+      "image_dimensions": [
+        500,
+        335
+      ]
+    },
+    {
+      "id": "vision_02",
+      "image_sha256": "b5e64c84865329d800546e6caffc3f324d9e5eada9330adfcfee0905d8f45a7f",
+      "prompt": "Which activity best matches the foreground people? Answer with exactly one label: street_dance, swimming, skiing, or indoor_cooking.",
+      "answer": "street_dance",
+      "input_tokens": 270,
+      "output_tokens": 4,
+      "generation_seconds": 0.17413770011626184,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16657818624,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Which activity best matches the foreground people? Answer with exactly one label: street_dance, swimming, skiing, or indoor_cooking.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.19075169996358454,
+      "image_dimensions": [
+        377,
+        480
+      ]
+    },
+    {
+      "id": "vision_03",
+      "image_sha256": "7bb9e5827cc74e9c1a30c9b1d100599628fd7a5f78cbca91a034142b689da80c",
+      "prompt": "Is any part of a human visible in this image? Answer only yes or no.",
+      "answer": "yes",
+      "input_tokens": 272,
+      "output_tokens": 2,
+      "generation_seconds": 0.13641369994729757,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16660255744,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Is any part of a human visible in this image? Answer only yes or no.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.1542867999523878,
+      "image_dimensions": [
+        500,
+        375
+      ]
+    },
+    {
+      "id": "vision_04",
+      "image_sha256": "56b335994b583e6ba1b146d3700fe59991b45168eee3c2964602fc729ae4f239",
+      "prompt": "Is a bicycle visible in this image? Answer only yes or no.",
+      "answer": "no",
+      "input_tokens": 215,
+      "output_tokens": 2,
+      "generation_seconds": 0.10545070003718138,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16642470912,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Is a bicycle visible in this image? Answer only yes or no.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.1184553001075983,
+      "image_dimensions": [
+        500,
+        281
+      ]
+    },
+    {
+      "id": "vision_05",
+      "image_sha256": "7d15a3383a4d3030dea12ff9b32d2348db6ea845fd5e22727f3eb0e775d0dff6",
+      "prompt": "How many red circles are visible? Answer with an integer only.",
+      "answer": "5",
+      "input_tokens": 425,
+      "output_tokens": 2,
+      "generation_seconds": 0.15892149996943772,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16711974912,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>How many red circles are visible? Answer with an integer only.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.1869157999753952,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_06",
+      "image_sha256": "740a8a2868abd7aed4c8134cf44bb6800f7057ca474679f4a51c7865a8bd8665",
+      "prompt": "How many green triangles are visible? Answer with an integer only.",
+      "answer": "3",
+      "input_tokens": 425,
+      "output_tokens": 2,
+      "generation_seconds": 0.16487429989501834,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16711974912,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>How many green triangles are visible? Answer with an integer only.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.19325709994882345,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_07",
+      "image_sha256": "ba114c70d2f2ea35fc0ab6be6a4d7ec045115e707c5b74dec3374d966d4d3c93",
+      "prompt": "Where is the red circle relative to the blue square? Answer only left or right.",
+      "answer": "left",
+      "input_tokens": 429,
+      "output_tokens": 2,
+      "generation_seconds": 0.16839720006100833,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16712823296,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Where is the red circle relative to the blue square? Answer only left or right.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.19635740015655756,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_08",
+      "image_sha256": "b69284aeca399564417c527f22bd0d5346b084e3033f13ed7f8505c4f70e6871",
+      "prompt": "Where is the green triangle relative to the purple square? Answer only above or below.",
+      "answer": "above",
+      "input_tokens": 429,
+      "output_tokens": 2,
+      "generation_seconds": 0.1674643000587821,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16712823296,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Where is the green triangle relative to the purple square? Answer only above or below.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.19518569996580482,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_09",
+      "image_sha256": "5ff8cdb640c548e155fa4f21dde04a07d6bdf77eedc9668cd48e752c2d4966f3",
+      "prompt": "What color is the triangle? Answer with exactly one word: red, blue, yellow, or green.",
+      "answer": "yellow",
+      "input_tokens": 433,
+      "output_tokens": 2,
+      "generation_seconds": 0.1671774999704212,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16713704448,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>What color is the triangle? Answer with exactly one word: red, blue, yellow, or green.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.194562999997288,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_10",
+      "image_sha256": "469d832ec37a22496885486646509c946ac3582fedab89035c0c0c51dfb17e52",
+      "prompt": "What shape is orange? Answer with exactly one word: circle, square, or triangle.",
+      "answer": "square",
+      "input_tokens": 430,
+      "output_tokens": 2,
+      "generation_seconds": 0.16817439999431372,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16713035776,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>What shape is orange? Answer with exactly one word: circle, square, or triangle.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.1956635001115501,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_11",
+      "image_sha256": "cda06ac4b91bcb0d6c2270e6ee00e28ed8143197d7c19c013a8b22aa688abf5d",
+      "prompt": "Transcribe all the text on the dark sign exactly. Return only the text.",
+      "answer": "LAB 204",
+      "input_tokens": 428,
+      "output_tokens": 6,
+      "generation_seconds": 0.2562442999333143,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16712610816,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Transcribe all the text on the dark sign exactly. Return only the text.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.28297309996560216,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_12",
+      "image_sha256": "86ac63a138332ec269ae48666a3a528dff4a7250badf1aed9dfec00b12011e27",
+      "prompt": "Read the price on the card, including the dollar sign. Return only the price.",
+      "answer": "$18.50",
+      "input_tokens": 429,
+      "output_tokens": 7,
+      "generation_seconds": 0.28667489998042583,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16712823296,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Read the price on the card, including the dollar sign. Return only the price.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.3160667000338435,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_13",
+      "image_sha256": "541696f31d51162364400d464fafaf17a078a60a7dd02bd8fc8acf5078ce758e",
+      "prompt": "Which category has the highest units sold in the bar chart? Answer only A, B, or C.",
+      "answer": "B",
+      "input_tokens": 433,
+      "output_tokens": 2,
+      "generation_seconds": 0.15959069994278252,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16713704448,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Which category has the highest units sold in the bar chart? Answer only A, B, or C.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.18819770007394254,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_14",
+      "image_sha256": "93ec3f34ffed26106745da3a6a8533181a2e363739bc4fa0cd2ebbd7067e09fd",
+      "prompt": "In the bar chart, how many more units does category C have than category A? Answer with an integer only.",
+      "answer": "6",
+      "input_tokens": 435,
+      "output_tokens": 2,
+      "generation_seconds": 0.16070270002819598,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16714326016,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>In the bar chart, how many more units does category C have than category A? Answer with an integer only.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.18742520012892783,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_15",
+      "image_sha256": "6c9b102db49bad830d726a5766ea8eac33fdcb9c6cda322da200da10f40fce42",
+      "prompt": "Locate the red rectangle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.",
+      "answer": "```json\n[\n  [\"125,95,387,287\", \"125,95,387,287\"]\n]\n```",
+      "input_tokens": 475,
+      "output_tokens": 40,
+      "generation_seconds": 1.0447426000609994,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16731896832,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Locate the red rectangle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 1.073232099879533,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_16",
+      "image_sha256": "e1ce71d23485adf7606e8b955b9b6aba0d206f7074d8f49c876600ce99137d25",
+      "prompt": "Locate the green circle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.",
+      "answer": "```json\n[\n\t{\"bbox_2d\": [353, 47, 548, 242], \"label\": \"green circle\"}\n]\n```",
+      "input_tokens": 475,
+      "output_tokens": 40,
+      "generation_seconds": 1.0598102998919785,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16731896832,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Locate the green circle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 1.0898930998519063,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_17",
+      "image_sha256": "c7d088f34dd67ff2dbd2cc9d71823266afcd3b6f65e0fc7673723598bbb0ced0",
+      "prompt": "Describe the visible scene in one English sentence. Mention the main subjects, their action, and the setting. Do not invent hidden details.",
+      "answer": "Two Doberman Pinschers are playfully interacting in a snowy outdoor setting with a fenced area and trees in the background.",
+      "input_tokens": 264,
+      "output_tokens": 25,
+      "generation_seconds": 0.6509105002041906,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16656632832,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Describe the visible scene in one English sentence. Mention the main subjects, their action, and the setting. Do not invent hidden details.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.6672897001262754,
+      "image_dimensions": [
+        500,
+        335
+      ]
+    },
+    {
+      "id": "vision_18",
+      "image_sha256": "56b335994b583e6ba1b146d3700fe59991b45168eee3c2964602fc729ae4f239",
+      "prompt": "Describe the visible scene in one English sentence. Mention the main subjects and setting. Do not invent names or relationships.",
+      "answer": "A group of people is seated at a picnic table under a red and white umbrella outside a building with a Union Jack design, enjoying a casual outdoor setting.",
+      "input_tokens": 224,
+      "output_tokens": 32,
+      "generation_seconds": 0.796014899853617,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16644554752,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Describe the visible scene in one English sentence. Mention the main subjects and setting. Do not invent names or relationships.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.8090534000657499,
+      "image_dimensions": [
+        500,
+        281
+      ]
+    },
+    {
+      "id": "vision_19",
+      "image_sha256": "e8cdab3a325cfa541b5a446d423fe2db7b686783353318c9269d3d1b337ed072",
+      "prompt": "What is inside the box? Answer with exactly one word: books, toys, shoes, or unknown. Choose unknown if the image does not provide enough evidence.",
+      "answer": "unknown",
+      "input_tokens": 444,
+      "output_tokens": 2,
+      "generation_seconds": 0.16401179996319115,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16718599168,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>What is inside the box? Answer with exactly one word: books, toys, shoes, or unknown. Choose unknown if the image does not provide enough evidence.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.19269479997456074,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "id": "vision_20",
+      "image_sha256": "eee906400f8785cb0d7f183301c694d62d6a26ae41c0f8f850e462dd8c4e6095",
+      "prompt": "Read the number on the card. If the image does not reveal it, answer only unknown. Otherwise answer only the visible number.",
+      "answer": "unknown",
+      "input_tokens": 438,
+      "output_tokens": 2,
+      "generation_seconds": 0.1608472999650985,
+      "hit_token_limit": false,
+      "peak_torch_allocated_bytes": 16715764736,
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>Read the number on the card. If the image does not reveal it, answer only unknown. Otherwise answer only the visible number.<|im_end|>\n<|im_start|>assistant\n",
+      "preprocess_and_generation_seconds": 0.18896020017564297,
+      "image_dimensions": [
+        640,
+        480
+      ]
+    }
+  ]
+}

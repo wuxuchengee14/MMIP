@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_04",
+  "image_seen": true,
+  "image_observations": "Three people sit at a wooden picnic table under a red-and-white umbrella in front of a building painted with a Union Jack; white plastic chairs and another table are visible, no bicycle.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "No bicycle appears anywhere in the scene (table, chairs, umbrellas, building only); 'no' in the exact format."
+    },
+    "B": {
+      "score": 1,
+      "reason": "Correct: no bicycle is visible; the capital letter and period are only minor punctuation."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "question_id": "format_02",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 1,
+      "reason": "合法JSON，僅含title與body字串；title完全等於維護通知；body含週日、09:00、11:00、無法登入，無保證或永久，未新增事實。句尾無句號不影響。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "合法JSON，四項規則全部符合，忠實保留維護時段與登入限制。"
+    },
+    {
+      "answer_id": "C",
+      "score": 1,
+      "reason": "合法JSON，title正確，body包含全部指定字串且未新增日期或承諾。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "合法JSON，title正確，body含全部指定字串，語意與原文一致且未新增承諾。"
+    }
+  ]
+}

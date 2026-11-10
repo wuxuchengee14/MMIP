@@ -1,0 +1,42 @@
+{
+  "all_complete": true,
+  "covered_points": 20,
+  "maximum_points": 20,
+  "criteria": [
+    {
+      "requirement": "Deploy and execute two open VLMs",
+      "points": 10,
+      "complete": true,
+      "evidence": [
+        "qwen.json",
+        "smol.json"
+      ]
+    },
+    {
+      "requirement": "Design 20 visual benchmark questions",
+      "points": 5,
+      "complete": true,
+      "evidence": [
+        "D:\\projects\\MMIP\\week6_homework\\quiz2\\Data\\benchmark.json",
+        "D:\\projects\\MMIP\\week6_homework\\quiz2\\Data\\sources.json"
+      ]
+    },
+    {
+      "requirement": "Same prompts/images; quantitative and commercial LLM evaluation",
+      "points": 5,
+      "complete": true,
+      "evidence": [
+        "objective_scores.json",
+        "commercial_scores.json",
+        "comparison.csv"
+      ]
+    }
+  ],
+  "run_sha256": {
+    "qwen": "18410a16b656b99a65d78cdb0a0c1d33b8418fde846449962fb02eb82a00bad7",
+    "smol": "dbb10018b562aff8d4080a0f4cfcc8d7311e85513e656cac2d6dcc56ff825d2a"
+  },
+  "benchmark_digest": "98b8acc07e6e07248a2223fbc8846b1489b5f42fb0181d17a01bec0a0ba878bd",
+  "commercial_scores_sha256": "2ebfbfd042f84c0b0a88cb3404dfc974631435fcd01a3f3d2769c76f61d92335",
+  "note": "Evidence coverage, not a guarantee of instructor grading. Commercial reviews are manually supplied; image_seen is a declaration, not API verification."
+}

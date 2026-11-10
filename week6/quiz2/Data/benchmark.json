@@ -1,0 +1,336 @@
+[
+  {
+    "id": "vision_01",
+    "category": "classification",
+    "title_zh": "自然照片：動物分類",
+    "image": "images/image_01.png",
+    "image_sha256": "c7d088f34dd67ff2dbd2cc9d71823266afcd3b6f65e0fc7673723598bbb0ced0",
+    "prompt": "Which animal category is most prominent? Answer with exactly one word: dogs, cats, horses, or birds.",
+    "reference": "dogs",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "dogs"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_02",
+    "category": "classification",
+    "title_zh": "自然照片：活動分類",
+    "image": "images/image_02.png",
+    "image_sha256": "b5e64c84865329d800546e6caffc3f324d9e5eada9330adfcfee0905d8f45a7f",
+    "prompt": "Which activity best matches the foreground people? Answer with exactly one label: street_dance, swimming, skiing, or indoor_cooking.",
+    "reference": "street_dance",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "street_dance"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_03",
+    "category": "presence",
+    "title_zh": "自然照片：人物存在",
+    "image": "images/image_03.png",
+    "image_sha256": "7bb9e5827cc74e9c1a30c9b1d100599628fd7a5f78cbca91a034142b689da80c",
+    "prompt": "Is any part of a human visible in this image? Answer only yes or no.",
+    "reference": "yes",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "yes"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_04",
+    "category": "presence",
+    "title_zh": "自然照片：排除不存在物件",
+    "image": "images/image_04.png",
+    "image_sha256": "56b335994b583e6ba1b146d3700fe59991b45168eee3c2964602fc729ae4f239",
+    "prompt": "Is a bicycle visible in this image? Answer only yes or no.",
+    "reference": "no",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "no"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_05",
+    "category": "counting",
+    "title_zh": "計數：圓形與干擾物",
+    "image": "images/image_05.png",
+    "image_sha256": "7d15a3383a4d3030dea12ff9b32d2348db6ea845fd5e22727f3eb0e775d0dff6",
+    "prompt": "How many red circles are visible? Answer with an integer only.",
+    "reference": "5",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "5"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_06",
+    "category": "counting",
+    "title_zh": "計數：三角形",
+    "image": "images/image_06.png",
+    "image_sha256": "740a8a2868abd7aed4c8134cf44bb6800f7057ca474679f4a51c7865a8bd8665",
+    "prompt": "How many green triangles are visible? Answer with an integer only.",
+    "reference": "4",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "4"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_07",
+    "category": "spatial",
+    "title_zh": "空間：左右關係",
+    "image": "images/image_07.png",
+    "image_sha256": "ba114c70d2f2ea35fc0ab6be6a4d7ec045115e707c5b74dec3374d966d4d3c93",
+    "prompt": "Where is the red circle relative to the blue square? Answer only left or right.",
+    "reference": "left",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "left"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_08",
+    "category": "spatial",
+    "title_zh": "空間：上下關係",
+    "image": "images/image_08.png",
+    "image_sha256": "b69284aeca399564417c527f22bd0d5346b084e3033f13ed7f8505c4f70e6871",
+    "prompt": "Where is the green triangle relative to the purple square? Answer only above or below.",
+    "reference": "above",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "above"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_09",
+    "category": "attributes",
+    "title_zh": "屬性：形狀對應顏色",
+    "image": "images/image_09.png",
+    "image_sha256": "5ff8cdb640c548e155fa4f21dde04a07d6bdf77eedc9668cd48e752c2d4966f3",
+    "prompt": "What color is the triangle? Answer with exactly one word: red, blue, yellow, or green.",
+    "reference": "yellow",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "yellow"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_10",
+    "category": "attributes",
+    "title_zh": "屬性：顏色對應形狀",
+    "image": "images/image_10.png",
+    "image_sha256": "469d832ec37a22496885486646509c946ac3582fedab89035c0c0c51dfb17e52",
+    "prompt": "What shape is orange? Answer with exactly one word: circle, square, or triangle.",
+    "reference": "square",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "square"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_11",
+    "category": "ocr",
+    "title_zh": "OCR：房號",
+    "image": "images/image_11.png",
+    "image_sha256": "cda06ac4b91bcb0d6c2270e6ee00e28ed8143197d7c19c013a8b22aa688abf5d",
+    "prompt": "Transcribe all the text on the dark sign exactly. Return only the text.",
+    "reference": "LAB 204",
+    "grading": {
+      "method": "ocr",
+      "accepted_answers": [
+        "LAB 204"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_12",
+    "category": "ocr",
+    "title_zh": "OCR：價格",
+    "image": "images/image_12.png",
+    "image_sha256": "86ac63a138332ec269ae48666a3a528dff4a7250badf1aed9dfec00b12011e27",
+    "prompt": "Read the price on the card, including the dollar sign. Return only the price.",
+    "reference": "$18.50",
+    "grading": {
+      "method": "ocr",
+      "accepted_answers": [
+        "$18.50"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_13",
+    "category": "chart",
+    "title_zh": "圖表：最大值",
+    "image": "images/image_13.png",
+    "image_sha256": "541696f31d51162364400d464fafaf17a078a60a7dd02bd8fc8acf5078ce758e",
+    "prompt": "Which category has the highest units sold in the bar chart? Answer only A, B, or C.",
+    "reference": "B",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "B"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_14",
+    "category": "chart",
+    "title_zh": "圖表：兩類差值",
+    "image": "images/image_14.png",
+    "image_sha256": "93ec3f34ffed26106745da3a6a8533181a2e363739bc4fa0cd2ebbd7067e09fd",
+    "prompt": "In the bar chart, how many more units does category C have than category A? Answer with an integer only.",
+    "reference": "6",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "6"
+      ]
+    },
+    "rubric": "1: correct and follows the requested format; 0.5: partially correct or correct content with an extra explanation; 0: wrong, unsupported, or empty."
+  },
+  {
+    "id": "vision_15",
+    "category": "grounding",
+    "title_zh": "物件定位：長方形",
+    "image": "images/image_15.png",
+    "image_sha256": "6c9b102db49bad830d726a5766ea8eac33fdcb9c6cda322da200da10f40fce42",
+    "prompt": "Locate the red rectangle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.",
+    "reference": [
+      200,
+      200,
+      600,
+      600
+    ],
+    "grading": {
+      "method": "bbox",
+      "expected_bbox": [
+        200,
+        200,
+        600,
+        600
+      ],
+      "coordinate_system": "xyxy normalized 0..1000",
+      "iou_threshold": 0.5
+    },
+    "rubric": "1: correct red target, valid xyxy JSON, IoU >=0.5; 0.5: correct target but inaccurate box or format; 0: wrong target or no usable box. Ground truth uses exclusive right/bottom pixel edges."
+  },
+  {
+    "id": "vision_16",
+    "category": "grounding",
+    "title_zh": "物件定位：圓形",
+    "image": "images/image_16.png",
+    "image_sha256": "e1ce71d23485adf7606e8b955b9b6aba0d206f7074d8f49c876600ce99137d25",
+    "prompt": "Locate the green circle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.",
+    "reference": [
+      550,
+      100,
+      850,
+      500
+    ],
+    "grading": {
+      "method": "bbox",
+      "expected_bbox": [
+        550,
+        100,
+        850,
+        500
+      ],
+      "coordinate_system": "xyxy normalized 0..1000",
+      "iou_threshold": 0.5
+    },
+    "rubric": "1: correct green target, valid xyxy JSON, IoU >=0.5; 0.5: correct target but inaccurate box or format; 0: wrong target or no usable box. Ground truth uses exclusive right/bottom pixel edges."
+  },
+  {
+    "id": "vision_17",
+    "category": "caption",
+    "title_zh": "照片描述：狗與雪地",
+    "image": "images/image_01.png",
+    "image_sha256": "c7d088f34dd67ff2dbd2cc9d71823266afcd3b6f65e0fc7673723598bbb0ced0",
+    "prompt": "Describe the visible scene in one English sentence. Mention the main subjects, their action, and the setting. Do not invent hidden details.",
+    "reference": "Two brown dogs play or wrestle in the snow near a fence.",
+    "grading": {
+      "method": "caption"
+    },
+    "rubric": "1: mentions two dogs, playing/wrestling, and snow; 0.5: identifies dogs and at least one of action/setting without a major hallucination; 0: wrong main subjects or major unsupported content. Do not require exact wording or an unobservable intention."
+  },
+  {
+    "id": "vision_18",
+    "category": "caption",
+    "title_zh": "照片描述：戶外桌旁人物",
+    "image": "images/image_04.png",
+    "image_sha256": "56b335994b583e6ba1b146d3700fe59991b45168eee3c2964602fc729ae4f239",
+    "prompt": "Describe the visible scene in one English sentence. Mention the main subjects and setting. Do not invent names or relationships.",
+    "reference": "Three people sit at an outdoor picnic table under a red-and-white umbrella, beside a building.",
+    "grading": {
+      "method": "caption"
+    },
+    "rubric": "1: mentions three people at an outdoor table with an umbrella; 0.5: identifies people at a table outdoors but omits a key visible detail without major invention; 0: incorrect main scene or invented identity/relationship. Paraphrases accepted."
+  },
+  {
+    "id": "vision_19",
+    "category": "uncertainty",
+    "title_zh": "視覺限制：不透明盒子",
+    "image": "images/image_19.png",
+    "image_sha256": "e8cdab3a325cfa541b5a446d423fe2db7b686783353318c9269d3d1b337ed072",
+    "prompt": "What is inside the box? Answer with exactly one word: books, toys, shoes, or unknown. Choose unknown if the image does not provide enough evidence.",
+    "reference": "unknown",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "unknown"
+      ]
+    },
+    "rubric": "1: unknown, recognizing hidden contents cannot be determined; 0: invented contents. Correct uncertainty with extra explanation gets 0.5."
+  },
+  {
+    "id": "vision_20",
+    "category": "uncertainty",
+    "title_zh": "視覺限制：完全遮蔽文字",
+    "image": "images/image_20.png",
+    "image_sha256": "eee906400f8785cb0d7f183301c694d62d6a26ae41c0f8f850e462dd8c4e6095",
+    "prompt": "Read the number on the card. If the image does not reveal it, answer only unknown. Otherwise answer only the visible number.",
+    "reference": "unknown",
+    "grading": {
+      "method": "exact",
+      "accepted_answers": [
+        "unknown"
+      ]
+    },
+    "rubric": "1: unknown; 0: guesses any hidden number; 0.5: correctly says cannot determine but does not follow the one-word format."
+  }
+]

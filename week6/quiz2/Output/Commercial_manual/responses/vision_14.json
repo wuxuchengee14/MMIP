@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_14",
+  "image_seen": true,
+  "image_observations": "Bar chart 'Units sold' with A=2, B=4, C=8 on gridlines at 0,2,4,6,8.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "C (8) minus A (2) = 6; correct integer only."
+    },
+    "B": {
+      "score": 1,
+      "reason": "C (8) minus A (2) = 6; correct integer only."
+    }
+  }
+}

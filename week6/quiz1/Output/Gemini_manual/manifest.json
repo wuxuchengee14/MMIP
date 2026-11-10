@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "questions_sha256": "f7d6833a1750c5c59ee7b9004e0d283c9fd9299dec3afa2bc4d38571085970cf",
+    "run_sha256": {
+      "bf16_basic": "602f4e82e1be37326949e207fd50b73b1776f4fcde0d5d382059f5d0a2e1069a",
+      "bf16_optimized": "44ded750ba535b8373bed916c94552b1341480c52cbea6a925066cbfd149c659",
+      "nf4_basic": "892ea2a3ab8177c708da069e1d29d0fa26a17787ed93af72175b45c4cbeb5bd0",
+      "nf4_optimized": "f00ac35625af3ca02887fbf6b176ea819e349ecad593e9d647489a395cc8c01d"
+    }
+  },
+  "entries": [
+    {
+      "question_id": "math_01",
+      "prompt": "prompts\\01_math_01.txt",
+      "response": "responses\\01_math_01.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "bf16_basic",
+        "C": "nf4_basic",
+        "D": "nf4_optimized"
+      }
+    },
+    {
+      "question_id": "math_02",
+      "prompt": "prompts\\02_math_02.txt",
+      "response": "responses\\02_math_02.json",
+      "answer_map": {
+        "A": "bf16_basic",
+        "B": "nf4_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_optimized"
+      }
+    },
+    {
+      "question_id": "logic_01",
+      "prompt": "prompts\\03_logic_01.txt",
+      "response": "responses\\03_logic_01.json",
+      "answer_map": {
+        "A": "nf4_basic",
+        "B": "bf16_optimized",
+        "C": "bf16_basic",
+        "D": "nf4_optimized"
+      }
+    },
+    {
+      "question_id": "logic_02",
+      "prompt": "prompts\\04_logic_02.txt",
+      "response": "responses\\04_logic_02.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "nf4_basic",
+        "C": "bf16_basic",
+        "D": "nf4_optimized"
+      }
+    },
+    {
+      "question_id": "reading_01",
+      "prompt": "prompts\\05_reading_01.txt",
+      "response": "responses\\05_reading_01.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "nf4_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_basic"
+      }
+    },
+    {
+      "question_id": "reading_02",
+      "prompt": "prompts\\06_reading_02.txt",
+      "response": "responses\\06_reading_02.json",
+      "answer_map": {
+        "A": "bf16_basic",
+        "B": "nf4_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_optimized"
+      }
+    },
+    {
+      "question_id": "classify_01",
+      "prompt": "prompts\\07_classify_01.txt",
+      "response": "responses\\07_classify_01.json",
+      "answer_map": {
+        "A": "nf4_optimized",
+        "B": "nf4_basic",
+        "C": "bf16_basic",
+        "D": "bf16_optimized"
+      }
+    },
+    {
+      "question_id": "classify_02",
+      "prompt": "prompts\\08_classify_02.txt",
+      "response": "responses\\08_classify_02.json",
+      "answer_map": {
+        "A": "bf16_basic",
+        "B": "bf16_optimized",
+        "C": "nf4_basic",
+        "D": "nf4_optimized"
+      }
+    },
+    {
+      "question_id": "extract_01",
+      "prompt": "prompts\\09_extract_01.txt",
+      "response": "responses\\09_extract_01.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "nf4_optimized",
+        "C": "bf16_basic",
+        "D": "nf4_basic"
+      }
+    },
+    {
+      "question_id": "extract_02",
+      "prompt": "prompts\\10_extract_02.txt",
+      "response": "responses\\10_extract_02.json",
+      "answer_map": {
+        "A": "bf16_basic",
+        "B": "nf4_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_optimized"
+      }
+    },
+    {
+      "question_id": "format_01",
+      "prompt": "prompts\\11_format_01.txt",
+      "response": "responses\\11_format_01.json",
+      "answer_map": {
+        "A": "nf4_basic",
+        "B": "bf16_optimized",
+        "C": "bf16_basic",
+        "D": "nf4_optimized"
+      }
+    },
+    {
+      "question_id": "format_02",
+      "prompt": "prompts\\12_format_02.txt",
+      "response": "responses\\12_format_02.json",
+      "answer_map": {
+        "A": "bf16_basic",
+        "B": "bf16_optimized",
+        "C": "nf4_basic",
+        "D": "nf4_optimized"
+      }
+    },
+    {
+      "question_id": "translate_01",
+      "prompt": "prompts\\13_translate_01.txt",
+      "response": "responses\\13_translate_01.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "nf4_basic",
+        "C": "bf16_basic",
+        "D": "nf4_optimized"
+      }
+    },
+    {
+      "question_id": "translate_02",
+      "prompt": "prompts\\14_translate_02.txt",
+      "response": "responses\\14_translate_02.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "nf4_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_basic"
+      }
+    },
+    {
+      "question_id": "summary_01",
+      "prompt": "prompts\\15_summary_01.txt",
+      "response": "responses\\15_summary_01.json",
+      "answer_map": {
+        "A": "bf16_basic",
+        "B": "nf4_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_optimized"
+      }
+    },
+    {
+      "question_id": "summary_02",
+      "prompt": "prompts\\16_summary_02.txt",
+      "response": "responses\\16_summary_02.json",
+      "answer_map": {
+        "A": "nf4_basic",
+        "B": "nf4_optimized",
+        "C": "bf16_basic",
+        "D": "bf16_optimized"
+      }
+    },
+    {
+      "question_id": "code_01",
+      "prompt": "prompts\\17_code_01.txt",
+      "response": "responses\\17_code_01.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "nf4_optimized",
+        "C": "bf16_basic",
+        "D": "nf4_basic"
+      }
+    },
+    {
+      "question_id": "code_02",
+      "prompt": "prompts\\18_code_02.txt",
+      "response": "responses\\18_code_02.json",
+      "answer_map": {
+        "A": "nf4_basic",
+        "B": "bf16_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_optimized"
+      }
+    },
+    {
+      "question_id": "grounding_01",
+      "prompt": "prompts\\19_grounding_01.txt",
+      "response": "responses\\19_grounding_01.json",
+      "answer_map": {
+        "A": "bf16_optimized",
+        "B": "nf4_basic",
+        "C": "nf4_optimized",
+        "D": "bf16_basic"
+      }
+    },
+    {
+      "question_id": "grounding_02",
+      "prompt": "prompts\\20_grounding_02.txt",
+      "response": "responses\\20_grounding_02.json",
+      "answer_map": {
+        "A": "nf4_optimized",
+        "B": "nf4_basic",
+        "C": "bf16_basic",
+        "D": "bf16_optimized"
+      }
+    }
+  ],
+  "commercial_model_label": null,
+  "review_date": null
+}

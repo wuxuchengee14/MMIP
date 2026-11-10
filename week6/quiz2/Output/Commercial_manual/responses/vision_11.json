@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_11",
+  "image_seen": true,
+  "image_observations": "A dark navy rounded rectangle with white text 'LAB 204', with a space between LAB and 204.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "Exact transcription 'LAB 204' including the space, with nothing else returned."
+    },
+    "B": {
+      "score": 0.5,
+      "reason": "Characters are right but the visible space between 'LAB' and '204' is dropped, so the transcription is not exact; partially correct."
+    }
+  }
+}

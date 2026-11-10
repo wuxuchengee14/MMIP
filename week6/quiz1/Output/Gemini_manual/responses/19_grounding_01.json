@@ -1,0 +1,25 @@
+{
+  "question_id": "grounding_01",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 1,
+      "reason": "資料未提供成效，正確只回答「資料不足」，精確比對通過。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "正確回答「資料不足」，未自行估計，精確比對通過。"
+    },
+    {
+      "answer_id": "C",
+      "score": 1,
+      "reason": "正確回答「資料不足」，精確比對通過。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "正確回答「資料不足」，精確比對通過。"
+    }
+  ]
+}

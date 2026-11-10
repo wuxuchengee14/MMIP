@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_12",
+  "image_seen": true,
+  "image_observations": "A white card with a black border showing 'ITEM PRICE' and below it '$18.50'.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "Exactly matches the printed price '$18.50' including the dollar sign; nothing extra."
+    },
+    "B": {
+      "score": 0,
+      "reason": "'1850' drops the required dollar sign and the decimal point, turning $18.50 into a different value (1850); wrong price."
+    }
+  }
+}

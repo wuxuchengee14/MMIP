@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "questions_sha256": "f7d6833a1750c5c59ee7b9004e0d283c9fd9299dec3afa2bc4d38571085970cf",
+    "run_sha256": {
+      "bf16_basic": "602f4e82e1be37326949e207fd50b73b1776f4fcde0d5d382059f5d0a2e1069a",
+      "bf16_optimized": "44ded750ba535b8373bed916c94552b1341480c52cbea6a925066cbfd149c659",
+      "nf4_basic": "892ea2a3ab8177c708da069e1d29d0fa26a17787ed93af72175b45c4cbeb5bd0",
+      "nf4_optimized": "f00ac35625af3ca02887fbf6b176ea819e349ecad593e9d647489a395cc8c01d"
+    }
+  },
+  "scope": "Ten exact-match/JSON questions only; not an overall 20-question accuracy",
+  "groups": {
+    "bf16_basic": {
+      "objective_questions": 10,
+      "score_100": 59.0,
+      "per_question": [
+        {
+          "id": "math_01",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "math_02",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "logic_01",
+          "category": "邏輯推理",
+          "score": 0.0
+        },
+        {
+          "id": "logic_02",
+          "category": "邏輯推理",
+          "score": 1.0
+        },
+        {
+          "id": "reading_02",
+          "category": "閱讀理解",
+          "score": 0.0
+        },
+        {
+          "id": "classify_01",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "classify_02",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "extract_01",
+          "category": "資訊抽取",
+          "score": 1.0
+        },
+        {
+          "id": "extract_02",
+          "category": "資訊抽取",
+          "score": 0.9
+        },
+        {
+          "id": "grounding_01",
+          "category": "資料依據與不確定性",
+          "score": 1.0
+        }
+      ]
+    },
+    "bf16_optimized": {
+      "objective_questions": 10,
+      "score_100": 60.0,
+      "per_question": [
+        {
+          "id": "math_01",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "math_02",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "logic_01",
+          "category": "邏輯推理",
+          "score": 0.0
+        },
+        {
+          "id": "logic_02",
+          "category": "邏輯推理",
+          "score": 1.0
+        },
+        {
+          "id": "reading_02",
+          "category": "閱讀理解",
+          "score": 0.0
+        },
+        {
+          "id": "classify_01",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "classify_02",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "extract_01",
+          "category": "資訊抽取",
+          "score": 1.0
+        },
+        {
+          "id": "extract_02",
+          "category": "資訊抽取",
+          "score": 1.0
+        },
+        {
+          "id": "grounding_01",
+          "category": "資料依據與不確定性",
+          "score": 1.0
+        }
+      ]
+    },
+    "nf4_basic": {
+      "objective_questions": 10,
+      "score_100": 59.0,
+      "per_question": [
+        {
+          "id": "math_01",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "math_02",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "logic_01",
+          "category": "邏輯推理",
+          "score": 0.0
+        },
+        {
+          "id": "logic_02",
+          "category": "邏輯推理",
+          "score": 1.0
+        },
+        {
+          "id": "reading_02",
+          "category": "閱讀理解",
+          "score": 0.0
+        },
+        {
+          "id": "classify_01",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "classify_02",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "extract_01",
+          "category": "資訊抽取",
+          "score": 1.0
+        },
+        {
+          "id": "extract_02",
+          "category": "資訊抽取",
+          "score": 0.9
+        },
+        {
+          "id": "grounding_01",
+          "category": "資料依據與不確定性",
+          "score": 1.0
+        }
+      ]
+    },
+    "nf4_optimized": {
+      "objective_questions": 10,
+      "score_100": 59.0,
+      "per_question": [
+        {
+          "id": "math_01",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "math_02",
+          "category": "數學計算",
+          "score": 0.0
+        },
+        {
+          "id": "logic_01",
+          "category": "邏輯推理",
+          "score": 0.0
+        },
+        {
+          "id": "logic_02",
+          "category": "邏輯推理",
+          "score": 1.0
+        },
+        {
+          "id": "reading_02",
+          "category": "閱讀理解",
+          "score": 0.0
+        },
+        {
+          "id": "classify_01",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "classify_02",
+          "category": "文字分類",
+          "score": 1.0
+        },
+        {
+          "id": "extract_01",
+          "category": "資訊抽取",
+          "score": 1.0
+        },
+        {
+          "id": "extract_02",
+          "category": "資訊抽取",
+          "score": 0.9
+        },
+        {
+          "id": "grounding_01",
+          "category": "資料依據與不確定性",
+          "score": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,905 @@
+[
+  {
+    "id": "general_001",
+    "category": "算術",
+    "prompt": "計算 (17 + 8) × 2。只輸出整數。",
+    "reference": "50",
+    "accepted_answers": [
+      "50"
+    ]
+  },
+  {
+    "id": "general_002",
+    "category": "算術",
+    "prompt": "計算 (24 + 11) × 3。只輸出整數。",
+    "reference": "105",
+    "accepted_answers": [
+      "105"
+    ]
+  },
+  {
+    "id": "general_003",
+    "category": "算術",
+    "prompt": "計算 (31 + 14) × 4。只輸出整數。",
+    "reference": "180",
+    "accepted_answers": [
+      "180"
+    ]
+  },
+  {
+    "id": "general_004",
+    "category": "算術",
+    "prompt": "計算 (38 + 17) × 5。只輸出整數。",
+    "reference": "275",
+    "accepted_answers": [
+      "275"
+    ]
+  },
+  {
+    "id": "general_005",
+    "category": "算術",
+    "prompt": "計算 (45 + 20) × 2。只輸出整數。",
+    "reference": "130",
+    "accepted_answers": [
+      "130"
+    ]
+  },
+  {
+    "id": "general_006",
+    "category": "算術",
+    "prompt": "計算 (52 + 23) × 3。只輸出整數。",
+    "reference": "225",
+    "accepted_answers": [
+      "225"
+    ]
+  },
+  {
+    "id": "general_007",
+    "category": "算術",
+    "prompt": "計算 (59 + 26) × 4。只輸出整數。",
+    "reference": "340",
+    "accepted_answers": [
+      "340"
+    ]
+  },
+  {
+    "id": "general_008",
+    "category": "算術",
+    "prompt": "計算 (66 + 29) × 5。只輸出整數。",
+    "reference": "475",
+    "accepted_answers": [
+      "475"
+    ]
+  },
+  {
+    "id": "general_009",
+    "category": "算術",
+    "prompt": "計算 (73 + 32) × 2。只輸出整數。",
+    "reference": "210",
+    "accepted_answers": [
+      "210"
+    ]
+  },
+  {
+    "id": "general_010",
+    "category": "算術",
+    "prompt": "計算 (80 + 35) × 3。只輸出整數。",
+    "reference": "345",
+    "accepted_answers": [
+      "345"
+    ]
+  },
+  {
+    "id": "general_011",
+    "category": "大小與邏輯",
+    "prompt": "甲有37顆球，乙比甲少12顆，丙比乙多15顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_012",
+    "category": "大小與邏輯",
+    "prompt": "甲有46顆球，乙比甲少13顆，丙比乙多16顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_013",
+    "category": "大小與邏輯",
+    "prompt": "甲有55顆球，乙比甲少14顆，丙比乙多17顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_014",
+    "category": "大小與邏輯",
+    "prompt": "甲有64顆球，乙比甲少15顆，丙比乙多18顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_015",
+    "category": "大小與邏輯",
+    "prompt": "甲有73顆球，乙比甲少16顆，丙比乙多19顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_016",
+    "category": "大小與邏輯",
+    "prompt": "甲有82顆球，乙比甲少17顆，丙比乙多20顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_017",
+    "category": "大小與邏輯",
+    "prompt": "甲有91顆球，乙比甲少18顆，丙比乙多21顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_018",
+    "category": "大小與邏輯",
+    "prompt": "甲有100顆球，乙比甲少19顆，丙比乙多22顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_019",
+    "category": "大小與邏輯",
+    "prompt": "甲有109顆球，乙比甲少20顆，丙比乙多23顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_020",
+    "category": "大小與邏輯",
+    "prompt": "甲有118顆球，乙比甲少21顆，丙比乙多24顆。誰最多？只回答甲、乙或丙。",
+    "reference": "丙",
+    "accepted_answers": [
+      "丙"
+    ]
+  },
+  {
+    "id": "general_021",
+    "category": "單位換算",
+    "prompt": "3小時10分鐘共有幾分鐘？只輸出整數。",
+    "reference": "190",
+    "accepted_answers": [
+      "190"
+    ]
+  },
+  {
+    "id": "general_022",
+    "category": "單位換算",
+    "prompt": "4小時11分鐘共有幾分鐘？只輸出整數。",
+    "reference": "251",
+    "accepted_answers": [
+      "251"
+    ]
+  },
+  {
+    "id": "general_023",
+    "category": "單位換算",
+    "prompt": "5小時12分鐘共有幾分鐘？只輸出整數。",
+    "reference": "312",
+    "accepted_answers": [
+      "312"
+    ]
+  },
+  {
+    "id": "general_024",
+    "category": "單位換算",
+    "prompt": "6小時13分鐘共有幾分鐘？只輸出整數。",
+    "reference": "373",
+    "accepted_answers": [
+      "373"
+    ]
+  },
+  {
+    "id": "general_025",
+    "category": "單位換算",
+    "prompt": "7小時14分鐘共有幾分鐘？只輸出整數。",
+    "reference": "434",
+    "accepted_answers": [
+      "434"
+    ]
+  },
+  {
+    "id": "general_026",
+    "category": "單位換算",
+    "prompt": "8小時15分鐘共有幾分鐘？只輸出整數。",
+    "reference": "495",
+    "accepted_answers": [
+      "495"
+    ]
+  },
+  {
+    "id": "general_027",
+    "category": "單位換算",
+    "prompt": "9小時16分鐘共有幾分鐘？只輸出整數。",
+    "reference": "556",
+    "accepted_answers": [
+      "556"
+    ]
+  },
+  {
+    "id": "general_028",
+    "category": "單位換算",
+    "prompt": "10小時17分鐘共有幾分鐘？只輸出整數。",
+    "reference": "617",
+    "accepted_answers": [
+      "617"
+    ]
+  },
+  {
+    "id": "general_029",
+    "category": "單位換算",
+    "prompt": "11小時18分鐘共有幾分鐘？只輸出整數。",
+    "reference": "678",
+    "accepted_answers": [
+      "678"
+    ]
+  },
+  {
+    "id": "general_030",
+    "category": "單位換算",
+    "prompt": "12小時19分鐘共有幾分鐘？只輸出整數。",
+    "reference": "739",
+    "accepted_answers": [
+      "739"
+    ]
+  },
+  {
+    "id": "general_031",
+    "category": "中英翻譯",
+    "prompt": "將「蘋果」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "apple",
+    "accepted_answers": [
+      "apple"
+    ]
+  },
+  {
+    "id": "general_032",
+    "category": "中英翻譯",
+    "prompt": "將「圖書館」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "library",
+    "accepted_answers": [
+      "library"
+    ]
+  },
+  {
+    "id": "general_033",
+    "category": "中英翻譯",
+    "prompt": "將「太陽」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "sun",
+    "accepted_answers": [
+      "sun"
+    ]
+  },
+  {
+    "id": "general_034",
+    "category": "中英翻譯",
+    "prompt": "將「月亮」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "moon",
+    "accepted_answers": [
+      "moon"
+    ]
+  },
+  {
+    "id": "general_035",
+    "category": "中英翻譯",
+    "prompt": "將「水」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "water",
+    "accepted_answers": [
+      "water"
+    ]
+  },
+  {
+    "id": "general_036",
+    "category": "中英翻譯",
+    "prompt": "將「學校」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "school",
+    "accepted_answers": [
+      "school"
+    ]
+  },
+  {
+    "id": "general_037",
+    "category": "中英翻譯",
+    "prompt": "將「醫生」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "doctor",
+    "accepted_answers": [
+      "doctor"
+    ]
+  },
+  {
+    "id": "general_038",
+    "category": "中英翻譯",
+    "prompt": "將「電腦」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "computer",
+    "accepted_answers": [
+      "computer"
+    ]
+  },
+  {
+    "id": "general_039",
+    "category": "中英翻譯",
+    "prompt": "將「貓」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "cat",
+    "accepted_answers": [
+      "cat"
+    ]
+  },
+  {
+    "id": "general_040",
+    "category": "中英翻譯",
+    "prompt": "將「山」翻成常用的英文單字，只輸出小寫英文。",
+    "reference": "mountain",
+    "accepted_answers": [
+      "mountain"
+    ]
+  },
+  {
+    "id": "general_041",
+    "category": "自然科學",
+    "prompt": "水的化學式是什麼？保留大小寫，只輸出化學式。",
+    "reference": "H2O",
+    "accepted_answers": [
+      "H2O"
+    ]
+  },
+  {
+    "id": "general_042",
+    "category": "自然科學",
+    "prompt": "氧的元素符號是什麼？只輸出符號。",
+    "reference": "O",
+    "accepted_answers": [
+      "O"
+    ]
+  },
+  {
+    "id": "general_043",
+    "category": "自然科學",
+    "prompt": "碳的元素符號是什麼？只輸出符號。",
+    "reference": "C",
+    "accepted_answers": [
+      "C"
+    ]
+  },
+  {
+    "id": "general_044",
+    "category": "自然科學",
+    "prompt": "地球的天然衛星是什麼？只回答兩個中文字。",
+    "reference": "月球",
+    "accepted_answers": [
+      "月球"
+    ]
+  },
+  {
+    "id": "general_045",
+    "category": "自然科學",
+    "prompt": "植物主要以何種作用將光能轉為化學能？只回答四個中文字。",
+    "reference": "光合作用",
+    "accepted_answers": [
+      "光合作用"
+    ]
+  },
+  {
+    "id": "general_046",
+    "category": "自然科學",
+    "prompt": "人體將血液泵送至全身的器官是什麼？只回答兩個中文字。",
+    "reference": "心臟",
+    "accepted_answers": [
+      "心臟"
+    ]
+  },
+  {
+    "id": "general_047",
+    "category": "自然科學",
+    "prompt": "海平面下一標準大氣壓時，純水的沸點攝氏幾度？只輸出整數。",
+    "reference": "100",
+    "accepted_answers": [
+      "100"
+    ]
+  },
+  {
+    "id": "general_048",
+    "category": "自然科學",
+    "prompt": "一個氧分子通常包含幾個氧原子？只輸出整數。",
+    "reference": "2",
+    "accepted_answers": [
+      "2"
+    ]
+  },
+  {
+    "id": "general_049",
+    "category": "自然科學",
+    "prompt": "光在真空中的速度與聲音在空氣中的速度相比，哪個較快？只回答光或聲音。",
+    "reference": "光",
+    "accepted_answers": [
+      "光"
+    ]
+  },
+  {
+    "id": "general_050",
+    "category": "自然科學",
+    "prompt": "攝氏零度是一標準大氣壓下純水的冰點嗎？只回答是或否。",
+    "reference": "是",
+    "accepted_answers": [
+      "是"
+    ]
+  },
+  {
+    "id": "general_051",
+    "category": "地理",
+    "prompt": "日本的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "東京",
+    "accepted_answers": [
+      "東京"
+    ]
+  },
+  {
+    "id": "general_052",
+    "category": "地理",
+    "prompt": "法國的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "巴黎",
+    "accepted_answers": [
+      "巴黎"
+    ]
+  },
+  {
+    "id": "general_053",
+    "category": "地理",
+    "prompt": "英國的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "倫敦",
+    "accepted_answers": [
+      "倫敦"
+    ]
+  },
+  {
+    "id": "general_054",
+    "category": "地理",
+    "prompt": "德國的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "柏林",
+    "accepted_answers": [
+      "柏林"
+    ]
+  },
+  {
+    "id": "general_055",
+    "category": "地理",
+    "prompt": "義大利的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "羅馬",
+    "accepted_answers": [
+      "羅馬"
+    ]
+  },
+  {
+    "id": "general_056",
+    "category": "地理",
+    "prompt": "加拿大的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "渥太華",
+    "accepted_answers": [
+      "渥太華"
+    ]
+  },
+  {
+    "id": "general_057",
+    "category": "地理",
+    "prompt": "澳洲的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "坎培拉",
+    "accepted_answers": [
+      "坎培拉",
+      "坎培拉市",
+      "堪培拉"
+    ]
+  },
+  {
+    "id": "general_058",
+    "category": "地理",
+    "prompt": "埃及的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "開羅",
+    "accepted_answers": [
+      "開羅"
+    ]
+  },
+  {
+    "id": "general_059",
+    "category": "地理",
+    "prompt": "泰國的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "曼谷",
+    "accepted_answers": [
+      "曼谷"
+    ]
+  },
+  {
+    "id": "general_060",
+    "category": "地理",
+    "prompt": "韓國的首都是哪裡？只輸出繁體中文城市名。",
+    "reference": "首爾",
+    "accepted_answers": [
+      "首爾"
+    ]
+  },
+  {
+    "id": "general_061",
+    "category": "資訊基礎",
+    "prompt": "二進位 1010 換成十進位是多少？只輸出整數。",
+    "reference": "10",
+    "accepted_answers": [
+      "10"
+    ]
+  },
+  {
+    "id": "general_062",
+    "category": "資訊基礎",
+    "prompt": "HTTP 與 HTTPS 中，哪個使用 TLS 保護傳輸？只輸出協定名稱。",
+    "reference": "HTTPS",
+    "accepted_answers": [
+      "HTTPS"
+    ]
+  },
+  {
+    "id": "general_063",
+    "category": "資訊基礎",
+    "prompt": "Python 中 len([2,4,6,8]) 的結果為何？只輸出整數。",
+    "reference": "4",
+    "accepted_answers": [
+      "4"
+    ]
+  },
+  {
+    "id": "general_064",
+    "category": "資訊基礎",
+    "prompt": "Python 中 9 // 2 的結果為何？只輸出整數。",
+    "reference": "4",
+    "accepted_answers": [
+      "4"
+    ]
+  },
+  {
+    "id": "general_065",
+    "category": "資訊基礎",
+    "prompt": "Python 中 9 % 2 的結果為何？只輸出整數。",
+    "reference": "1",
+    "accepted_answers": [
+      "1"
+    ]
+  },
+  {
+    "id": "general_066",
+    "category": "資訊基礎",
+    "prompt": "在電腦中，一個 byte 有幾個 bit？只輸出整數。",
+    "reference": "8",
+    "accepted_answers": [
+      "8"
+    ]
+  },
+  {
+    "id": "general_067",
+    "category": "資訊基礎",
+    "prompt": "SQL 中查詢資料通常使用哪個關鍵字？只輸出大寫英文。",
+    "reference": "SELECT",
+    "accepted_answers": [
+      "SELECT"
+    ]
+  },
+  {
+    "id": "general_068",
+    "category": "資訊基礎",
+    "prompt": "FIFO 表示先進先出嗎？只回答是或否。",
+    "reference": "是",
+    "accepted_answers": [
+      "是"
+    ]
+  },
+  {
+    "id": "general_069",
+    "category": "資訊基礎",
+    "prompt": "二元搜尋要求資料已排序嗎？只回答是或否。",
+    "reference": "是",
+    "accepted_answers": [
+      "是"
+    ]
+  },
+  {
+    "id": "general_070",
+    "category": "資訊基礎",
+    "prompt": "CPU 與 RAM 中，哪個主要負責執行指令？只輸出縮寫。",
+    "reference": "CPU",
+    "accepted_answers": [
+      "CPU"
+    ]
+  },
+  {
+    "id": "general_071",
+    "category": "排序",
+    "prompt": "將 19,3,42,11 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "3,11,19,42",
+    "accepted_answers": [
+      "3,11,19,42"
+    ]
+  },
+  {
+    "id": "general_072",
+    "category": "排序",
+    "prompt": "將 20,4,43,12 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "4,12,20,43",
+    "accepted_answers": [
+      "4,12,20,43"
+    ]
+  },
+  {
+    "id": "general_073",
+    "category": "排序",
+    "prompt": "將 21,5,44,13 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "5,13,21,44",
+    "accepted_answers": [
+      "5,13,21,44"
+    ]
+  },
+  {
+    "id": "general_074",
+    "category": "排序",
+    "prompt": "將 22,6,45,14 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "6,14,22,45",
+    "accepted_answers": [
+      "6,14,22,45"
+    ]
+  },
+  {
+    "id": "general_075",
+    "category": "排序",
+    "prompt": "將 23,7,46,15 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "7,15,23,46",
+    "accepted_answers": [
+      "7,15,23,46"
+    ]
+  },
+  {
+    "id": "general_076",
+    "category": "排序",
+    "prompt": "將 24,8,47,16 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "8,16,24,47",
+    "accepted_answers": [
+      "8,16,24,47"
+    ]
+  },
+  {
+    "id": "general_077",
+    "category": "排序",
+    "prompt": "將 25,9,48,17 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "9,17,25,48",
+    "accepted_answers": [
+      "9,17,25,48"
+    ]
+  },
+  {
+    "id": "general_078",
+    "category": "排序",
+    "prompt": "將 26,10,49,18 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "10,18,26,49",
+    "accepted_answers": [
+      "10,18,26,49"
+    ]
+  },
+  {
+    "id": "general_079",
+    "category": "排序",
+    "prompt": "將 27,11,50,19 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "11,19,27,50",
+    "accepted_answers": [
+      "11,19,27,50"
+    ]
+  },
+  {
+    "id": "general_080",
+    "category": "排序",
+    "prompt": "將 28,12,51,20 由小到大排序，只輸出數字並以英文逗號分隔，不加空格。",
+    "reference": "12,20,28,51",
+    "accepted_answers": [
+      "12,20,28,51"
+    ]
+  },
+  {
+    "id": "general_081",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「服務非常貼心，我很滿意。」",
+    "reference": "正面",
+    "accepted_answers": [
+      "正面"
+    ]
+  },
+  {
+    "id": "general_082",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「產品壞了，客服也不處理，令人失望。」",
+    "reference": "負面",
+    "accepted_answers": [
+      "負面"
+    ]
+  },
+  {
+    "id": "general_083",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「這次旅程很愉快，風景也很美。」",
+    "reference": "正面",
+    "accepted_answers": [
+      "正面"
+    ]
+  },
+  {
+    "id": "general_084",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「等了一小時還沒上菜，太糟糕了。」",
+    "reference": "負面",
+    "accepted_answers": [
+      "負面"
+    ]
+  },
+  {
+    "id": "general_085",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「品質很棒，值得推薦。」",
+    "reference": "正面",
+    "accepted_answers": [
+      "正面"
+    ]
+  },
+  {
+    "id": "general_086",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「包裹破損，裡面物品也不見了。」",
+    "reference": "負面",
+    "accepted_answers": [
+      "負面"
+    ]
+  },
+  {
+    "id": "general_087",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「老師講解清楚，我學到很多。」",
+    "reference": "正面",
+    "accepted_answers": [
+      "正面"
+    ]
+  },
+  {
+    "id": "general_088",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「房間骯髒又吵鬧，完全不想再來。」",
+    "reference": "負面",
+    "accepted_answers": [
+      "負面"
+    ]
+  },
+  {
+    "id": "general_089",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「工作人員熱心協助，真的很感謝。」",
+    "reference": "正面",
+    "accepted_answers": [
+      "正面"
+    ]
+  },
+  {
+    "id": "general_090",
+    "category": "情感分類",
+    "prompt": "判斷下句的情感，只回答正面或負面：「軟體一直當機，使用體驗很差。」",
+    "reference": "負面",
+    "accepted_answers": [
+      "負面"
+    ]
+  },
+  {
+    "id": "general_091",
+    "category": "詞義",
+    "prompt": "「高」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "低",
+    "accepted_answers": [
+      "低"
+    ]
+  },
+  {
+    "id": "general_092",
+    "category": "詞義",
+    "prompt": "「大」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "小",
+    "accepted_answers": [
+      "小"
+    ]
+  },
+  {
+    "id": "general_093",
+    "category": "詞義",
+    "prompt": "「快」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "慢",
+    "accepted_answers": [
+      "慢"
+    ]
+  },
+  {
+    "id": "general_094",
+    "category": "詞義",
+    "prompt": "「冷」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "熱",
+    "accepted_answers": [
+      "熱"
+    ]
+  },
+  {
+    "id": "general_095",
+    "category": "詞義",
+    "prompt": "「多」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "少",
+    "accepted_answers": [
+      "少"
+    ]
+  },
+  {
+    "id": "general_096",
+    "category": "詞義",
+    "prompt": "「遠」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "近",
+    "accepted_answers": [
+      "近"
+    ]
+  },
+  {
+    "id": "general_097",
+    "category": "詞義",
+    "prompt": "「長」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "短",
+    "accepted_answers": [
+      "短"
+    ]
+  },
+  {
+    "id": "general_098",
+    "category": "詞義",
+    "prompt": "「黑」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "白",
+    "accepted_answers": [
+      "白"
+    ]
+  },
+  {
+    "id": "general_099",
+    "category": "詞義",
+    "prompt": "「開」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "關",
+    "accepted_answers": [
+      "關"
+    ]
+  },
+  {
+    "id": "general_100",
+    "category": "詞義",
+    "prompt": "「進」常見的反義詞是什麼？只回答一個中文字。",
+    "reference": "退",
+    "accepted_answers": [
+      "退",
+      "出"
+    ]
+  }
+]

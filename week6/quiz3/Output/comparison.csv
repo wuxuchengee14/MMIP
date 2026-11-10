@@ -1,0 +1,8 @@
+﻿kind,group,before_accuracy_percent,after_accuracy_percent,delta_percentage_points,ci95_low,ci95_high,before_content_accuracy_percent,after_content_accuracy_percent,before_format_valid_percent,after_format_valid_percent
+llm,target,85.0,93.0,8.0,-1.0,17.0,,,,
+llm,general,71.0,67.0,-4.0,-11.0,3.0,,,,
+vlm,original,0.0,30.0,30.0,18.0,42.0,30.0,30.0,0.0,62.0
+vlm,jpeg_q15,0.0,26.0,26.0,14.0,38.0,34.0,26.0,0.0,56.0
+vlm,lowres_64,0.0,22.0,22.0,12.0,34.0,28.0,24.0,0.0,54.0
+vlm,dark_050,0.0,26.0,26.0,14.0,38.0,26.0,26.0,0.0,62.0
+vlm,bright_150,2.0,18.0,16.0,4.0,28.0,32.0,18.0,2.0,44.0

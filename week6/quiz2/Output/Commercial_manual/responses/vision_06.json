@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_06",
+  "image_seen": true,
+  "image_observations": "White background with four green triangles (three in the top row, one in the centre of the bottom row) and two blue circles.",
+  "ratings": {
+    "A": {
+      "score": 0,
+      "reason": "Answer 5 over-counts; only four green triangles are visible (3 top, 1 bottom centre)."
+    },
+    "B": {
+      "score": 0,
+      "reason": "Answer 3 misses the bottom-centre triangle; four green triangles are visible."
+    }
+  }
+}

@@ -1,0 +1,3894 @@
+{
+  "schema_version": 1,
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "precision": "nf4",
+  "optimized": false,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "gpu_uuid": "GPU-5c969662-af8d-7e2f-7b3b-303bd4d0809c",
+  "nvml_index": 0,
+  "sample_interval_ms": 50,
+  "idle_device_used_bytes_before_loading": 3295715328,
+  "note": "NVML is whole-device usage including desktop/other apps; PyTorch metrics are allocator-specific. Idle subtraction is an estimate.",
+  "windows": [
+    {
+      "summary": {
+        "duration_seconds": 0.370361499954015,
+        "sample_count": 8,
+        "device_used_bytes_mean": 11573994406.236708,
+        "device_used_bytes_peak": 11577528320,
+        "torch_allocated_bytes_mean": 6099681984.47733,
+        "torch_allocated_bytes_peak": 6106181120,
+        "torch_reserved_bytes_mean": 7703715276.401104,
+        "torch_reserved_bytes_peak": 7707033600
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11562061824,
+          "torch_allocated_bytes": 6083149312,
+          "torch_reserved_bytes": 7694450688
+        },
+        {
+          "seconds": 0.055379899917170405,
+          "device_used_bytes": 11564945408,
+          "torch_allocated_bytes": 6095123968,
+          "torch_reserved_bytes": 7694450688
+        },
+        {
+          "seconds": 0.11898009991273284,
+          "device_used_bytes": 11575431168,
+          "torch_allocated_bytes": 6099357696,
+          "torch_reserved_bytes": 7704936448
+        },
+        {
+          "seconds": 0.18126589991152287,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6099772928,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.24451970006339252,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6104309760,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.3055280998814851,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6106181120,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.3687984000425786,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6101692928,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.370361499954015,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6083150336,
+          "torch_reserved_bytes": 7707033600
+        }
+      ],
+      "id": "math_01",
+      "torch_peak_allocated_bytes": 6206879232
+    },
+    {
+      "summary": {
+        "duration_seconds": 0.17666939995251596,
+        "sample_count": 4,
+        "device_used_bytes_mean": 11577528320.0,
+        "device_used_bytes_peak": 11577528320,
+        "torch_allocated_bytes_mean": 6104784329.489546,
+        "torch_allocated_bytes_peak": 6132021760,
+        "torch_reserved_bytes_mean": 7707033600.0,
+        "torch_reserved_bytes_peak": 7707033600
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6083150336,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.05745719978585839,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6132021760,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.11949869990348816,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6098283008,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.17666939995251596,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6083151360,
+          "torch_reserved_bytes": 7707033600
+        }
+      ],
+      "id": "math_02",
+      "torch_peak_allocated_bytes": 6205237760
+    },
+    {
+      "summary": {
+        "duration_seconds": 0.4277725999709219,
+        "sample_count": 8,
+        "device_used_bytes_mean": 11579163069.389347,
+        "device_used_bytes_peak": 11579625472,
+        "torch_allocated_bytes_mean": 6100279660.391775,
+        "torch_allocated_bytes_peak": 6106293248,
+        "torch_reserved_bytes_mean": 7708668349.389347,
+        "torch_reserved_bytes_peak": 7709130752
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6083150336,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.06311340001411736,
+          "device_used_bytes": 11577528320,
+          "torch_allocated_bytes": 6102588928,
+          "torch_reserved_bytes": 7707033600
+        },
+        {
+          "seconds": 0.12552640005014837,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6101937664,
+          "torch_reserved_bytes": 7709130752
+        },
+        {
+          "seconds": 0.1880206000059843,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6102172160,
+          "torch_reserved_bytes": 7709130752
+        },
+        {
+          "seconds": 0.25142910005524755,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6102338048,
+          "torch_reserved_bytes": 7709130752
+        },
+        {
+          "seconds": 0.31380350003018975,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6102537728,
+          "torch_reserved_bytes": 7709130752
+        },
+        {
+          "seconds": 0.37636430002748966,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6106293248,
+          "torch_reserved_bytes": 7709130752
+        },
+        {
+          "seconds": 0.4277725999709219,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6083151360,
+          "torch_reserved_bytes": 7709130752
+        }
+      ],
+      "id": "logic_01",
+      "torch_peak_allocated_bytes": 6210370048
+    },
+    {
+      "summary": {
+        "duration_seconds": 0.7446769999805838,
+        "sample_count": 14,
+        "device_used_bytes_mean": 11584670754.86657,
+        "device_used_bytes_peak": 11585916928,
+        "torch_allocated_bytes_mean": 6108161011.274112,
+        "torch_allocated_bytes_peak": 6114387456,
+        "torch_reserved_bytes_mean": 7714176034.86657,
+        "torch_reserved_bytes_peak": 7715422208
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6083151360,
+          "torch_reserved_bytes": 7709130752
+        },
+        {
+          "seconds": 0.0554473998490721,
+          "device_used_bytes": 11579625472,
+          "torch_allocated_bytes": 6105102336,
+          "torch_reserved_bytes": 7709130752
+        },
+        {
+          "seconds": 0.11576529988087714,
+          "device_used_bytes": 11581722624,
+          "torch_allocated_bytes": 6107712000,
+          "torch_reserved_bytes": 7711227904
+        },
+        {
+          "seconds": 0.1787896000314504,
+          "device_used_bytes": 11583819776,
+          "torch_allocated_bytes": 6106835456,
+          "torch_reserved_bytes": 7713325056
+        },
+        {
+          "seconds": 0.24044919991865754,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6113319424,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.3029577999841422,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6107712000,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.36481840000487864,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6107363840,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.42781669995747507,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6109661696,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.49057050002738833,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6108801536,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.5533938000444323,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6114387456,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.6148546999320388,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6111291904,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.676794899860397,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6109342208,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.7398417999502271,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6108459520,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.7446769999805838,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6083152896,
+          "torch_reserved_bytes": 7715422208
+        }
+      ],
+      "id": "logic_02",
+      "torch_peak_allocated_bytes": 6218286080
+    },
+    {
+      "summary": {
+        "duration_seconds": 1.5744827999733388,
+        "sample_count": 27,
+        "device_used_bytes_mean": 11587766131.545076,
+        "device_used_bytes_peak": 11588014080,
+        "torch_allocated_bytes_mean": 6110592762.246699,
+        "torch_allocated_bytes_peak": 6116563456,
+        "torch_reserved_bytes_mean": 7717321381.89345,
+        "torch_reserved_bytes_peak": 7717519360
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.05446220003068447,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6116248064,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.11701239994727075,
+          "device_used_bytes": 11585916928,
+          "torch_allocated_bytes": 6106952704,
+          "torch_reserved_bytes": 7715422208
+        },
+        {
+          "seconds": 0.18026040005497634,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6108199936,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.24303269991651177,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6107343872,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.30470389989204705,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6107757568,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.3662270999047905,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6116563456,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.42919120006263256,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6114308608,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.49255109997466207,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6114335744,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.5552429999224842,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6108236800,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.6181065998971462,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6108406784,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.681212600087747,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6111738880,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.7425458999350667,
+          "device_used_bytes": 11588014080,
+          "torch_allocated_bytes": 6108759040,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.8057228000834584,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6108945920,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.8682220000773668,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6115887104,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.9307245998643339,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6115597312,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.9939242999535054,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6110514176,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.0560820000246167,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6109637632,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.1185949998907745,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6109808128,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.1806667998898774,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6116297728,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.2441924000158906,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6112250880,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.3067572999279946,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6110338048,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.3680942999199033,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6110535168,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.4309855999890715,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6110958592,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.4934918999206275,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6110892032,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.5545024999883026,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6111079936,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 1.5744827999733388,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6083153408,
+          "torch_reserved_bytes": 7717519360
+        }
+      ],
+      "id": "reading_01",
+      "torch_peak_allocated_bytes": 6218729984
+    },
+    {
+      "summary": {
+        "duration_seconds": 0.17781110014766455,
+        "sample_count": 4,
+        "device_used_bytes_mean": 11587915776.0,
+        "device_used_bytes_peak": 11587915776,
+        "torch_allocated_bytes_mean": 6099497541.670238,
+        "torch_allocated_bytes_peak": 6107741696,
+        "torch_reserved_bytes_mean": 7717519360.0,
+        "torch_reserved_bytes_peak": 7717519360
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.05437840009108186,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6107741696,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.11606450006365776,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6107122688,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.17781110014766455,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6083153408,
+          "torch_reserved_bytes": 7717519360
+        }
+      ],
+      "id": "reading_02",
+      "torch_peak_allocated_bytes": 6218952192
+    },
+    {
+      "summary": {
+        "duration_seconds": 2.250103000085801,
+        "sample_count": 38,
+        "device_used_bytes_mean": 11593030620.053862,
+        "device_used_bytes_peak": 11596304384,
+        "torch_allocated_bytes_mean": 6116803126.307516,
+        "torch_allocated_bytes_peak": 6137843712,
+        "torch_reserved_bytes_mean": 7722659857.3923645,
+        "torch_reserved_bytes_peak": 7725907968
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.05980199994519353,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6137843712,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.12197929993271828,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6113553920,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.18402349995449185,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6112787968,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.2462822999805212,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6116109312,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.30916519998572767,
+          "device_used_bytes": 11587915776,
+          "torch_allocated_bytes": 6113381376,
+          "torch_reserved_bytes": 7717519360
+        },
+        {
+          "seconds": 0.3703809001017362,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6113563648,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.43319149990566075,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6114541568,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.49552130000665784,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6121739264,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.5584621999878436,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6114910208,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.621882600011304,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6114039808,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.6833689000923187,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6114486784,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.7459974999073893,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6114381824,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.8075013000052422,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6120886272,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.8705639999825507,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6114752512,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.9331803999375552,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6114915840,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 0.9961786998901516,
+          "device_used_bytes": 11590012928,
+          "torch_allocated_bytes": 6116126720,
+          "torch_reserved_bytes": 7719616512
+        },
+        {
+          "seconds": 1.058574999915436,
+          "device_used_bytes": 11594207232,
+          "torch_allocated_bytes": 6115266560,
+          "torch_reserved_bytes": 7723810816
+        },
+        {
+          "seconds": 1.1223798000719398,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6115449856,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.1847453999798745,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6118793216,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.2473462000489235,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6115794944,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.3105276999995112,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6119108608,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.3734450999181718,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6116163584,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.435903700068593,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6116335616,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.4980115999933332,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6116947968,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.5604210998862982,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6125589504,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.6235360000282526,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6116843520,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.6857610000297427,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6117058560,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.7492651001084596,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6117249024,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.8117050998844206,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6117435392,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.8761863000690937,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6117574656,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.937142400071025,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6117785600,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.9991673999466002,
+          "device_used_bytes": 11596304384,
+          "torch_allocated_bytes": 6117979648,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.060649699997157,
+          "device_used_bytes": 11596042240,
+          "torch_allocated_bytes": 6118171136,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.122473099967465,
+          "device_used_bytes": 11596042240,
+          "torch_allocated_bytes": 6118284288,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.1854040001053363,
+          "device_used_bytes": 11596042240,
+          "torch_allocated_bytes": 6118471168,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.2477323000784963,
+          "device_used_bytes": 11596042240,
+          "torch_allocated_bytes": 6118662656,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.250103000085801,
+          "device_used_bytes": 11596042240,
+          "torch_allocated_bytes": 6083153920,
+          "torch_reserved_bytes": 7725907968
+        }
+      ],
+      "id": "classify_01",
+      "torch_peak_allocated_bytes": 6227154432
+    },
+    {
+      "summary": {
+        "duration_seconds": 1.3777933998499066,
+        "sample_count": 24,
+        "device_used_bytes_mean": 11590362753.214237,
+        "device_used_bytes_peak": 11596042240,
+        "torch_allocated_bytes_mean": 6117751359.541647,
+        "torch_allocated_bytes_peak": 6134591488,
+        "torch_reserved_bytes_mean": 7725907968.0,
+        "torch_reserved_bytes_peak": 7725907968
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11596042240,
+          "torch_allocated_bytes": 6083152384,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.05584950000047684,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6134591488,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.11779229994863272,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6112841216,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.17992319981567562,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6113029632,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.2419765000231564,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6113455104,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.3050316998269409,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6113375232,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.3674641998950392,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6124733440,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.4298222998622805,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6113726976,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.4928885998670012,
+          "device_used_bytes": 11592896512,
+          "torch_allocated_bytes": 6116024832,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.556174400029704,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6114095616,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.6190748999360949,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115332608,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.6823193999007344,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6114505216,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.7443047999404371,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6122960896,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.8073426999617368,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6123211776,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.8684009998105466,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6118154752,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.9298572998959571,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115165184,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.9921724998857826,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6123859968,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.053709999890998,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115525632,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.116749499924481,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6122000896,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.17977249994874,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115869184,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.2419920999091119,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6124774912,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.304386500036344,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6124933632,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.366117199882865,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6118502912,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.3777933998499066,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6083154432,
+          "torch_reserved_bytes": 7725907968
+        }
+      ],
+      "id": "classify_02",
+      "torch_peak_allocated_bytes": 6227598336
+    },
+    {
+      "summary": {
+        "duration_seconds": 3.293187700212002,
+        "sample_count": 54,
+        "device_used_bytes_mean": 11588702208.0,
+        "device_used_bytes_peak": 11588702208,
+        "torch_allocated_bytes_mean": 6112556914.650265,
+        "torch_allocated_bytes_peak": 6125774336,
+        "torch_reserved_bytes_mean": 7725907968.0,
+        "torch_reserved_bytes_peak": 7725907968
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6083152384,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.06327610020525753,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6114824192,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.12654850003309548,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6107276800,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.18907409999519587,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6107782656,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.25086130015552044,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110817792,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.31339930021204054,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6107852288,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.3740813999902457,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6114477056,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.43690080009400845,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6108450304,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.49780920008197427,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6108385792,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.5603870002087206,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109900288,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.6239724000915885,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6108734976,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.6868018000386655,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109785088,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.74843839998357,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109093376,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.8101882000919431,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109273600,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.8732365001924336,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109441536,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.9358082001563162,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109617664,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.9982839000876993,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109785600,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.059957800200209,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110210560,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.1223280001431704,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110371328,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.184986000182107,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110307840,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.2481243000365794,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110723584,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.311192800058052,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110618112,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.3726206000428647,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110802432,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.4359414000064135,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110963200,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.497215500101447,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6113259008,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.5579898001160473,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6111363072,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.6214646000880748,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6111540736,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.6845159002114087,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6114860544,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.7483978001400828,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6112163328,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.8093563001602888,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6112108032,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.8720015999861062,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6112277504,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.935006899992004,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6112468992,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.996587400091812,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6112677376,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.0590361000504345,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115978752,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.1221084999851882,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6119337472,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.1851898999884725,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115290624,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.2474486001301557,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6113440256,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.3112277002073824,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6116749824,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.372256200062111,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6113777152,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.4351870000828058,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6116045312,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.4973821002058685,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6114134016,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.5593001001980156,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6125774336,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.6208128000143915,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6120776192,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.6830240001436323,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6114673152,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.745635700179264,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6121165312,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.8080823000054806,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6118232576,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.870302200084552,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115258880,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.9327211000490934,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6116471296,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.994892300106585,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115593728,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.0573997001629323,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6116798976,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.11918370006606,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6115947520,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.180057500023395,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6116127232,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.2433015001006424,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6116303360,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.293187700212002,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6083154432,
+          "torch_reserved_bytes": 7725907968
+        }
+      ],
+      "id": "extract_01",
+      "torch_peak_allocated_bytes": 6219173888
+    },
+    {
+      "summary": {
+        "duration_seconds": 5.385386999929324,
+        "sample_count": 88,
+        "device_used_bytes_mean": 11588505274.0894,
+        "device_used_bytes_peak": 11602989056,
+        "torch_allocated_bytes_mean": 6118019846.001572,
+        "torch_allocated_bytes_peak": 6134536704,
+        "torch_reserved_bytes_mean": 7727958556.796492,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6083152384,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.05568169988691807,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6124900864,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.11886260006576777,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6112349696,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.18135689990594983,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109322752,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.2436893000267446,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110596608,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.3067985998932272,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109723136,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.36935000005178154,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6109913600,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.43211350007914007,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110342656,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.49441269994713366,
+          "device_used_bytes": 11588702208,
+          "torch_allocated_bytes": 6110293504,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.5558865999337286,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6110468096,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.6192339998669922,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6110662144,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.6809807999525219,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6113955328,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.7437571999616921,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6111002112,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.8060234000440687,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6111157760,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.8681067998986691,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6111340032,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.9305738999973983,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6111514112,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 0.994175500003621,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6111719424,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.0552660999819636,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6112939520,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.1179378000088036,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6118350336,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.1806562999263406,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6112251392,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.2428105000872165,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6114520576,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.3054646998643875,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6112865280,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.3685985999181867,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6112813056,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.4314802999142557,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6113228288,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.4936393999960274,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6113189376,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.5575802999082953,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6113337856,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.6208103999961168,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6113550848,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.682006699964404,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6113731072,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.7447319000493735,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6113899520,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.807338499929756,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6114036736,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.8686293000355363,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6115303936,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.9306336999870837,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6120747520,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 1.993423799984157,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6114638336,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.0550863000098616,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6114816512,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.117389200022444,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6117073408,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.1801672999281436,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6115179008,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.2429362998809665,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6118535680,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.304844999918714,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6115537408,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.3662125000264496,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6115742208,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.429600599920377,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6115922432,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.49310060008429,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6118191616,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.555556699866429,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6116254208,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.619074299931526,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6116477440,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.6819611000828445,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6117093888,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.743654199875891,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6120002048,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.8061468000523746,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6117278208,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.8693456000182778,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6117196288,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.9322081999853253,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6122824192,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 2.9948591999709606,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6117560832,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.0559153999201953,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6117822976,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.118396000005305,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6124241408,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.1810218000318855,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6118115840,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.2424576999619603,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6131290624,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.304986200062558,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6118490624,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.368335400009528,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6118679552,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.430919300066307,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6119911936,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.4923199000768363,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6132352512,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.5548841999843717,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6120108544,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.6185063999146223,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6122594816,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.6810747999697924,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6119629312,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.7442196998745203,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6119804928,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.806012700079009,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6119989760,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.8675661000888795,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6120162304,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.9300029000733048,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6120327680,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 3.991989600006491,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6120535552,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 4.0548280999064445,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6121755136,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 4.117413399973884,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6120822272,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 4.17964980006218,
+          "device_used_bytes": 11586211840,
+          "torch_allocated_bytes": 6121054720,
+          "torch_reserved_bytes": 7725907968
+        },
+        {
+          "seconds": 4.241737300064415,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6121235456,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.303255799924955,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6121399296,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.366613799938932,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6122648064,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.429011299973354,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6121767936,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.492545200046152,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6121951232,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.555603199871257,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6122152960,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.617344100028276,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6122365440,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.679986499948427,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6122498560,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.742578000063077,
+          "device_used_bytes": 11588308992,
+          "torch_allocated_bytes": 6133199360,
+          "torch_reserved_bytes": 7728005120
+        },
+        {
+          "seconds": 4.805433500092477,
+          "device_used_bytes": 11596697600,
+          "torch_allocated_bytes": 6134536704,
+          "torch_reserved_bytes": 7736393728
+        },
+        {
+          "seconds": 4.868276200024411,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6129370624,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 4.930645999964327,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6123238912,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 4.991749400040135,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6123423232,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 5.054315499961376,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6124119552,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 5.115930499974638,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6123789824,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 5.177645199932158,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6123955712,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 5.241169299930334,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6130415104,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 5.304844700032845,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6124333568,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 5.367134999949485,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6124520960,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 5.385386999929324,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6083154944,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "extract_02",
+      "torch_peak_allocated_bytes": 6222056448
+    },
+    {
+      "summary": {
+        "duration_seconds": 1.3367781999986619,
+        "sample_count": 23,
+        "device_used_bytes_mean": 11605341876.27552,
+        "device_used_bytes_peak": 11606069248,
+        "torch_allocated_bytes_mean": 6104928722.552275,
+        "torch_allocated_bytes_peak": 6111948288,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.055105899926275015,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6105842688,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.11688749981112778,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6102250496,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.17802120000123978,
+          "device_used_bytes": 11602989056,
+          "torch_allocated_bytes": 6107448320,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.24072509980760515,
+          "device_used_bytes": 11605413888,
+          "torch_allocated_bytes": 6102600704,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.3031275998800993,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6103261184,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.36590249999426305,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6103947264,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.42850999999791384,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6106245120,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.4900224998127669,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6103308800,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5526044999714941,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6103480832,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6148757999762893,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6105720832,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6791107999160886,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6104881152,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7408328999299556,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6103989248,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8030728998128325,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6109577216,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.864539299858734,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6111948288,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9280977000016719,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6104521728,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.991149399895221,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6107876352,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0516069999430329,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6108019712,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.114729599794373,
+          "device_used_bytes": 11605741568,
+          "torch_allocated_bytes": 6105064448,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1773548999335617,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6105196032,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2391509998124093,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6108564480,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3017111998051405,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6105830400,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3367781999986619,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6083153408,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "format_01",
+      "torch_peak_allocated_bytes": 6210782208
+    },
+    {
+      "summary": {
+        "duration_seconds": 2.1276595999952406,
+        "sample_count": 36,
+        "device_used_bytes_mean": 11610195920.237595,
+        "device_used_bytes_peak": 11615703040,
+        "torch_allocated_bytes_mean": 6112039429.437779,
+        "torch_allocated_bytes_peak": 6140685824,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.053323499858379364,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6140685824,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.11653160001151264,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6107366400,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.1778555999044329,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6113944576,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.24136230000294745,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6107499520,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.30456990003585815,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6107919360,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.36717740003950894,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6108097536,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.4290964000392705,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6108293120,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.49143119994550943,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6111374336,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5540799999143928,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6108397056,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6166699999012053,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6115208192,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6781094998586923,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6109030400,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7409918999765068,
+          "device_used_bytes": 11606069248,
+          "torch_allocated_bytes": 6112107520,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8031395999714732,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6109137920,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8654328000266105,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6109787136,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9281387999653816,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6115761152,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9905566999223083,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6109633536,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0529737998731434,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6109818880,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1139316000044346,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6110026752,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1764460999984294,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6117249536,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2386178998276591,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6110596096,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.30184519989416,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6113684480,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3647920999210328,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6110946304,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4280872999224812,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6118161408,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.491870200028643,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6111069696,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.5532718999311328,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6111222784,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6153773998375982,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6111910912,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.677136099897325,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6112087040,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7412246000021696,
+          "device_used_bytes": 11611574272,
+          "torch_allocated_bytes": 6114933760,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8053649999201298,
+          "device_used_bytes": 11613409280,
+          "torch_allocated_bytes": 6111955968,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8681017998605967,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6113180672,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.9303064998239279,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6112273408,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.993509299820289,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6113553408,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.0568283000029624,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6115822592,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.1194396999198943,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6112899072,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.1276595999952406,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6083153408,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "format_02",
+      "torch_peak_allocated_bytes": 6218952192
+    },
+    {
+      "summary": {
+        "duration_seconds": 1.2621893999166787,
+        "sample_count": 22,
+        "device_used_bytes_mean": 11616796168.021793,
+        "device_used_bytes_peak": 11617996800,
+        "torch_allocated_bytes_mean": 6099898628.238903,
+        "torch_allocated_bytes_peak": 6104757248,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6083150848,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.06327319983392954,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6101140480,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.12588299997150898,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6098912256,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.18812559987418354,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6099092480,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.2500957997981459,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6098229248,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.31310239993035793,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6101603328,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.376919399946928,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6098586624,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.43943629995919764,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6104757248,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.502515799831599,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6098994176,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5666182998102158,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6100218880,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6297865998931229,
+          "device_used_bytes": 11615703040,
+          "torch_allocated_bytes": 6100395008,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6915590998250991,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6099502080,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7544062999077141,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6099688448,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8159776998218149,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6099873280,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8790307999588549,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100048384,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.94075069995597,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100210688,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0040557999163866,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6103360512,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.067076499806717,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100546560,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.129474899964407,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100716544,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1919294998515397,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100890624,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2549986999947578,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6101081088,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2621893999166787,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "translate_01",
+      "torch_peak_allocated_bytes": 6204621824
+    },
+    {
+      "summary": {
+        "duration_seconds": 1.7317781001329422,
+        "sample_count": 29,
+        "device_used_bytes_mean": 11617996800.0,
+        "device_used_bytes_peak": 11617996800,
+        "torch_allocated_bytes_mean": 6103423567.57893,
+        "torch_allocated_bytes_peak": 6110905856,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6083150336,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.06627200008369982,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100674048,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.12725890008732677,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6104689152,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.18970820005051792,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100686848,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.25272640003822744,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6100865536,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.3142240000888705,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6104224256,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.37566199991852045,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6101211648,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.4390292000025511,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6101377536,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5016076001338661,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6106479104,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5636939001269639,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6101955072,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6251495000906289,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6101891584,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6882360000163317,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6105207296,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7501892000436783,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6102505984,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8147055001463741,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6102447104,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8781147999688983,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6102602240,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9407917999196798,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6102798848,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0032460000365973,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6102987264,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0664866000879556,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6104199680,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1286407001316547,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6103310848,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1923362000379711,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6103496192,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2551015000790358,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6103684096,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3177058999426663,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6104920576,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.380165999988094,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6107203072,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4433957000728697,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6104223232,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.5063318000175059,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6109840896,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.569577099988237,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6110905856,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6312560001388192,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6110338048,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6937905000522733,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6105003520,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7317781001329422,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "translate_02",
+      "torch_peak_allocated_bytes": 6208316928
+    },
+    {
+      "summary": {
+        "duration_seconds": 2.8429478998295963,
+        "sample_count": 47,
+        "device_used_bytes_mean": 11617996800.0,
+        "device_used_bytes_peak": 11617996800,
+        "torch_allocated_bytes_mean": 6114278484.328132,
+        "torch_allocated_bytes_peak": 6120439808,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.05149480002000928,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6111334912,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.1139997998252511,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6109793792,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.17719489987939596,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112037888,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.23964789998717606,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6117212672,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.3019136998336762,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6120231424,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.36375280003994703,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6110499840,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.42584269982762635,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6111726592,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.48964889999479055,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6110870528,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.551917799981311,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6111063552,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.61331079993397,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112279552,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6754133999347687,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112291328,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7371810998301953,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112652288,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7986775999888778,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6119306752,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.861413799924776,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6118239232,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9240594999864697,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112130048,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9863026000093669,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115470336,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0484464999753982,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112485888,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.111688100034371,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112685056,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1743409999180585,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6113104896,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2367358000483364,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6113042432,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2987581000197679,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6113207296,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3624191998969764,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6116560896,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4258430998306721,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114619392,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4888165998272598,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6113784320,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.5513818999752402,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6113949696,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6131480999756604,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114197504,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6752919999416918,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115344384,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7360131999012083,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114488832,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7984779998660088,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114633216,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.860065900022164,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114852864,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.9224894000217319,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115284992,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.9849071998614818,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115469312,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.0474276999011636,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115410432,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.109466699883342,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115999744,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.1718438998796046,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115790848,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.2340893999207765,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115967488,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.2965489998459816,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6116403712,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.358211699873209,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6116314112,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.420766199938953,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6116524032,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.483229500008747,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6119854080,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.545814899960533,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6116837376,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.608769099926576,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6117070848,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.6722329000476748,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6120439808,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.735314699821174,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6117450752,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.7977547999471426,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6117877760,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.8429478998295963,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6083153920,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "summary_01",
+      "torch_peak_allocated_bytes": 6222942720
+    },
+    {
+      "summary": {
+        "duration_seconds": 3.3269438999705017,
+        "sample_count": 55,
+        "device_used_bytes_mean": 11618603068.985287,
+        "device_used_bytes_peak": 11618979840,
+        "torch_allocated_bytes_mean": 6118601303.089187,
+        "torch_allocated_bytes_peak": 6131034112,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6083152384,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.05727400002069771,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6118807552,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.11892579984851182,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112648704,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.18121059983968735,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112566784,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.24340849998407066,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6112779776,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.3053967000450939,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6119247360,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.36686889990232885,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6113132544,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.42995009990409017,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6113295872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.49167599994689226,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114359808,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5557754000183195,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115766784,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6189428998623043,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114890240,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.680063699837774,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114015232,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.742836499819532,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114193920,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8057768999133259,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6117532160,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8684040999505669,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6122854400,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9303860999643803,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115754496,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.994300999911502,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6114906624,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0567912999540567,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115123712,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1173439000267535,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115519488,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1818335999269038,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115460608,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2442391999065876,
+          "device_used_bytes": 11617996800,
+          "torch_allocated_bytes": 6115656192,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.306004999903962,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6120956416,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3691082999575883,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119137792,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.432661899831146,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6124930560,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4958164000418037,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119526912,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.5591722000390291,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6128824832,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.622767899883911,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6116725760,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.685378700029105,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117411328,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.748256699880585,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6126094336,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8107355998363346,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117282304,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8726088998373598,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6120620544,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.935179099906236,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119473664,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.9981270998250693,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117814784,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.0602185998577625,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6118513152,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.1214317998383194,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119203328,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.184744499856606,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6118618112,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.2469361999537796,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6118524928,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.3091129998210818,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6118728192,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.3720913999713957,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6118900224,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.4345417998265475,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119106048,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.497822699835524,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119271936,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.559488099999726,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119453184,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.6227380000054836,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6119899648,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.6856096999254078,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6120092160,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.7491066998336464,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6126322176,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.8111781999468803,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6120450560,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.8720875999424607,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6120382976,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.9343612999655306,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6121048576,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.996505699818954,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6130805248,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 3.0600401000119746,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6131034112,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 3.1221407998818904,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6124265984,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 3.184288099873811,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6121310720,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 3.2471987998578697,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6122557952,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 3.3103994999546558,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6121710080,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 3.3269438999705017,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083154432,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "summary_02",
+      "torch_peak_allocated_bytes": 6226933760
+    },
+    {
+      "summary": {
+        "duration_seconds": 2.11537090013735,
+        "sample_count": 35,
+        "device_used_bytes_mean": 11618979840.0,
+        "device_used_bytes_peak": 11618979840,
+        "torch_allocated_bytes_mean": 6107057713.702272,
+        "torch_allocated_bytes_peak": 6113216512,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083151360,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.061985400039702654,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6106846720,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.12431280012242496,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6103569920,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.18648090003989637,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6105884160,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.2498475001193583,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6103974912,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.31298570008948445,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6105197056,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.3741588999982923,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6104338944,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.4361404001247138,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6104513024,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.49770890013314784,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111021568,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5593769000843167,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6104906240,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6208038001786917,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6105057792,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6833423001226038,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6105502208,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7469781001564115,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108568064,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8103414999786764,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111405568,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.872700999956578,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6105792000,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9343757000751793,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111831552,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9975036000832915,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6106156032,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0582094001583755,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6106292736,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1209052000194788,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6106491392,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1827873999718577,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112740864,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2457441000733525,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6106840064,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3082880000583827,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113216512,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3711239001713693,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6107192320,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4343294999562204,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6107352064,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4969025000464171,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108592640,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.559166100108996,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6107740672,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.620874100131914,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109198848,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6829751001205295,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108080640,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7449803999625146,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111439360,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8070722999982536,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108436992,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8696131000760943,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108617216,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.933376400033012,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108816384,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.9950429999735206,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109015552,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.0576545000076294,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111267328,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.11537090013735,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083152896,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "code_01",
+      "torch_peak_allocated_bytes": 6212630016
+    },
+    {
+      "summary": {
+        "duration_seconds": 1.7647116999141872,
+        "sample_count": 30,
+        "device_used_bytes_mean": 11618979840.000002,
+        "device_used_bytes_peak": 11618979840,
+        "torch_allocated_bytes_mean": 6111481248.999692,
+        "torch_allocated_bytes_peak": 6117826560,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.06097969994880259,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113555456,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.12298409990034997,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109830144,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.18588189990259707,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6114349568,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.247240100055933,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117137408,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.3101188999135047,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108276736,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.37430100003257394,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6115053568,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.43822539993561804,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108651008,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.502706800121814,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112005120,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.5644614000339061,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6115776512,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6278594001196325,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113544192,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6909723000135273,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112545792,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7524349999148399,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109545472,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8150003999471664,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109731840,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8776529999449849,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109936640,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9406316000968218,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110104576,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.002666600048542,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110281216,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.0654068000148982,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110444544,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.126135200029239,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117826560,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1883433999028057,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110794752,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2505747000686824,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110998016,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3107129998970777,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112164864,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3727049001026899,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6114475008,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4350503999739885,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111497216,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.498173400061205,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111698432,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.5612131000962108,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112124416,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6227078998927027,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112408576,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6857292999047786,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112263168,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7487931998912245,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112422912,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7647116999141872,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083153408,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "code_02",
+      "torch_peak_allocated_bytes": 6219838976
+    },
+    {
+      "summary": {
+        "duration_seconds": 0.1764761998783797,
+        "sample_count": 4,
+        "device_used_bytes_mean": 11618979840.0,
+        "device_used_bytes_peak": 11618979840,
+        "torch_allocated_bytes_mean": 6098606866.611485,
+        "torch_allocated_bytes_peak": 6107274240,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.05483429995365441,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6104658432,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.11719659995287657,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6107274240,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.1764761998783797,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083153408,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "grounding_01",
+      "torch_peak_allocated_bytes": 6217622016
+    },
+    {
+      "summary": {
+        "duration_seconds": 2.4522937999572605,
+        "sample_count": 41,
+        "device_used_bytes_mean": 11618979840.0,
+        "device_used_bytes_peak": 11618979840,
+        "torch_allocated_bytes_mean": 6113366659.988405,
+        "torch_allocated_bytes_peak": 6125965312,
+        "torch_reserved_bytes_mean": 7742685184.0,
+        "torch_reserved_bytes_peak": 7742685184
+      },
+      "samples": [
+        {
+          "seconds": 0.0,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083151872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.05989969987422228,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117285376,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.12162469979375601,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6108732928,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.18407149985432625,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111820800,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.24679040000773966,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6115551744,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.3092476997990161,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6115777024,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.37088299985043705,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109167616,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.43388609983958304,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6115703808,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.49573559989221394,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6109575168,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.558880299795419,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110272512,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6208706998731941,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6116887552,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.6844479998108,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111521792,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.7460754998028278,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117412352,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8091374998912215,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110473728,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.8712765998207033,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6110660608,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9333112998865545,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6118109184,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 0.9974235999397933,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111276032,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.060623199911788,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113278976,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1221745999064296,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111376384,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.1831735998857766,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111542272,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.2462031999602914,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111714816,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3076621999498457,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6111919104,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.3702175999060273,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112066560,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.432336599798873,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112271872,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.4941103998571634,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6114548736,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.5567453999537975,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113684480,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6197471998166293,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6112805888,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.6813089000061154,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113248256,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.7435207997914404,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113177600,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8060432998463511,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113361920,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.8690252997912467,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113794048,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.9317623998504132,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6113727488,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 1.9953621998429298,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117076992,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.0568663999438286,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6114091520,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.1200250999536365,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6114287616,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.1830366998910904,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6125965312,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.2456131998915225,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6114676736,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.308684399817139,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6117994496,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.3723163998220116,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6118158336,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.4357279997784644,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6115203072,
+          "torch_reserved_bytes": 7742685184
+        },
+        {
+          "seconds": 2.4522937999572605,
+          "device_used_bytes": 11618979840,
+          "torch_allocated_bytes": 6083153920,
+          "torch_reserved_bytes": 7742685184
+        }
+      ],
+      "id": "grounding_02",
+      "torch_peak_allocated_bytes": 6220946944
+    }
+  ],
+  "summary": {
+    "generation_seconds": 34.91539519978687,
+    "windows": 20,
+    "device_used_bytes_mean": 11603848811.098417,
+    "device_used_bytes_peak": 11618979840,
+    "torch_allocated_bytes_mean": 6112383748.913549,
+    "torch_allocated_bytes_peak": 6140685824,
+    "torch_reserved_bytes_mean": 7733988263.941975,
+    "torch_reserved_bytes_peak": 7742685184,
+    "torch_peak_allocated_bytes": 6227598336,
+    "scope": "Time-weighted over generation windows, including prefill and KV cache; excludes loading, warmup, tokenization and between-question I/O",
+    "estimated_device_bytes_above_idle_mean": 8308133483.098417
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "question_id": "code_01",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 1,
+      "reason": "靜態審閱：只含函式定義，以set記錄已見值並依序append，保留首次出現順序，不修改輸入；依5個案例推演皆正確。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "靜態審閱：寫法與參考等價，回傳新list且不改動輸入；5個案例推演結果皆正確。"
+    },
+    {
+      "answer_id": "C",
+      "score": 1,
+      "reason": "靜態審閱：僅函式定義、無import或測試呼叫；空list、負數、全重複等案例推演皆正確。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "靜態審閱：演算法正確，保留順序、不修改輸入；5個案例推演皆通過。"
+    }
+  ]
+}

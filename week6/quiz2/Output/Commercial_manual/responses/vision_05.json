@@ -1,0 +1,15 @@
+{
+  "question_id": "vision_05",
+  "image_seen": true,
+  "image_observations": "White background with five red circles (three in the top row, two in the middle row) and three blue squares.",
+  "ratings": {
+    "A": {
+      "score": 1,
+      "reason": "There are exactly five red circles (3 top, 2 middle); answered with the integer only."
+    },
+    "B": {
+      "score": 0,
+      "reason": "Answer 7 is wrong: only five red circles are visible; the three blue squares should not be counted."
+    }
+  }
+}

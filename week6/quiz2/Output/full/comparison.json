@@ -1,0 +1,655 @@
+{
+  "objective": {
+    "qwen": {
+      "objective_questions": 18,
+      "objective_accuracy_percent": 83.33333333333333,
+      "category_accuracy_percent": {
+        "classification": 100.0,
+        "presence": 100.0,
+        "counting": 50.0,
+        "spatial": 100.0,
+        "attributes": 100.0,
+        "ocr": 100.0,
+        "chart": 100.0,
+        "grounding": 0.0,
+        "uncertainty": 100.0
+      },
+      "ocr_character_error_rate": 0.0,
+      "grounding_mean_iou": 0.0,
+      "grounding_accuracy_iou_05": 0.0,
+      "generation_seconds_total": 6.296983700012788,
+      "preprocess_and_generation_seconds_total": 6.784446600591764,
+      "empty_answers": 0,
+      "hit_token_limit": 0,
+      "rows": [
+        {
+          "id": "vision_01",
+          "category": "classification",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_02",
+          "category": "classification",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_03",
+          "category": "presence",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_04",
+          "category": "presence",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_05",
+          "category": "counting",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_06",
+          "category": "counting",
+          "score": 0.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_07",
+          "category": "spatial",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_08",
+          "category": "spatial",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_09",
+          "category": "attributes",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_10",
+          "category": "attributes",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_11",
+          "category": "ocr",
+          "score": 1.0,
+          "method": "ocr",
+          "edit_distance": 0,
+          "reference_characters": 7,
+          "cer": 0.0
+        },
+        {
+          "id": "vision_12",
+          "category": "ocr",
+          "score": 1.0,
+          "method": "ocr",
+          "edit_distance": 0,
+          "reference_characters": 6,
+          "cer": 0.0
+        },
+        {
+          "id": "vision_13",
+          "category": "chart",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_14",
+          "category": "chart",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_15",
+          "category": "grounding",
+          "score": 0.0,
+          "method": "bbox",
+          "iou": 0.0
+        },
+        {
+          "id": "vision_16",
+          "category": "grounding",
+          "score": 0.0,
+          "method": "bbox",
+          "iou": 0.0
+        },
+        {
+          "id": "vision_17",
+          "category": "caption",
+          "score": null,
+          "method": "caption"
+        },
+        {
+          "id": "vision_18",
+          "category": "caption",
+          "score": null,
+          "method": "caption"
+        },
+        {
+          "id": "vision_19",
+          "category": "uncertainty",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_20",
+          "category": "uncertainty",
+          "score": 1.0,
+          "method": "exact"
+        }
+      ]
+    },
+    "smol": {
+      "objective_questions": 18,
+      "objective_accuracy_percent": 61.111111111111114,
+      "category_accuracy_percent": {
+        "classification": 100.0,
+        "presence": 100.0,
+        "counting": 0.0,
+        "spatial": 100.0,
+        "attributes": 100.0,
+        "ocr": 0.0,
+        "chart": 100.0,
+        "grounding": 0.0,
+        "uncertainty": 50.0
+      },
+      "ocr_character_error_rate": 0.23076923076923078,
+      "grounding_mean_iou": 0.14,
+      "grounding_accuracy_iou_05": 0.0,
+      "generation_seconds_total": 4.204871800262481,
+      "preprocess_and_generation_seconds_total": 7.436470099724829,
+      "empty_answers": 0,
+      "hit_token_limit": 0,
+      "rows": [
+        {
+          "id": "vision_01",
+          "category": "classification",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_02",
+          "category": "classification",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_03",
+          "category": "presence",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_04",
+          "category": "presence",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_05",
+          "category": "counting",
+          "score": 0.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_06",
+          "category": "counting",
+          "score": 0.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_07",
+          "category": "spatial",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_08",
+          "category": "spatial",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_09",
+          "category": "attributes",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_10",
+          "category": "attributes",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_11",
+          "category": "ocr",
+          "score": 0.0,
+          "method": "ocr",
+          "edit_distance": 1,
+          "reference_characters": 7,
+          "cer": 0.14285714285714285
+        },
+        {
+          "id": "vision_12",
+          "category": "ocr",
+          "score": 0.0,
+          "method": "ocr",
+          "edit_distance": 2,
+          "reference_characters": 6,
+          "cer": 0.3333333333333333
+        },
+        {
+          "id": "vision_13",
+          "category": "chart",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_14",
+          "category": "chart",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_15",
+          "category": "grounding",
+          "score": 0.0,
+          "method": "bbox",
+          "iou": 0.16
+        },
+        {
+          "id": "vision_16",
+          "category": "grounding",
+          "score": 0.0,
+          "method": "bbox",
+          "iou": 0.12
+        },
+        {
+          "id": "vision_17",
+          "category": "caption",
+          "score": null,
+          "method": "caption"
+        },
+        {
+          "id": "vision_18",
+          "category": "caption",
+          "score": null,
+          "method": "caption"
+        },
+        {
+          "id": "vision_19",
+          "category": "uncertainty",
+          "score": 1.0,
+          "method": "exact"
+        },
+        {
+          "id": "vision_20",
+          "category": "uncertainty",
+          "score": 0.0,
+          "method": "exact"
+        }
+      ]
+    }
+  },
+  "commercial": {
+    "schema_version": 1,
+    "evaluator_model_label": "Claude Opus 5.5",
+    "review_date": "2026-11-03",
+    "run_sha256": {
+      "qwen": "18410a16b656b99a65d78cdb0a0c1d33b8418fde846449962fb02eb82a00bad7",
+      "smol": "dbb10018b562aff8d4080a0f4cfcc8d7311e85513e656cac2d6dcc56ff825d2a"
+    },
+    "benchmark_digest": "98b8acc07e6e07248a2223fbc8846b1489b5f42fb0181d17a01bec0a0ba878bd",
+    "session_sha256": "5af2f47c6e3c0a958874a0b2294697694950629d003fa0f466b471c97121d41a",
+    "reviews": [
+      {
+        "id": "vision_01",
+        "image_observations": "Two black-and-tan Doberman-type dogs rear up and play-fight on snow in front of a green fence; no cats, horses or birds are visible.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "The only animals are two dogs in the centre of the frame; 'dogs' is correct and is exactly one word."
+          },
+          "smol": {
+            "score": 1,
+            "reason": "Correct category (two dogs dominate the image). The trailing period is minor punctuation, not an extra explanation, so the one-word format is effectively kept."
+          }
+        },
+        "response_sha256": "4911b27c935503b07d584eaf87f75b67878449cc2a0439c1cafeda47e6e6ab13"
+      },
+      {
+        "id": "vision_02",
+        "image_observations": "A shirtless man in green-and-yellow trousers kneels facing a woman in a feathered carnival costume on a paved street; drummers and spectators line the background.",
+        "ratings": {
+          "smol": {
+            "score": 1,
+            "reason": "Costumed pair performing on an open street matches street_dance; the label is correct and only a trailing period is added."
+          },
+          "qwen": {
+            "score": 1,
+            "reason": "Correct label for the dancers performing outdoors on a street, given in the exact requested form."
+          }
+        },
+        "response_sha256": "2bb90c6ef570d29ee1a34cd9d5bd25be2d29bd45b2e4dd34a63bae17586bad93"
+      },
+      {
+        "id": "vision_03",
+        "image_observations": "A small wet dog swims in a blue pool; a person's hand, forearm and legs in yellow-black shorts are visible at the upper right, and another hand at the right edge.",
+        "ratings": {
+          "smol": {
+            "score": 1,
+            "reason": "A human hand and legs are clearly visible at the top right, so yes is correct; capital letter and period are minor punctuation only."
+          },
+          "qwen": {
+            "score": 1,
+            "reason": "Correct: human arm, hand and legs appear at the right side of the frame; answered with exactly 'yes'."
+          }
+        },
+        "response_sha256": "e91410696bc6280555edc07a8ce62afd1dc789b7af9a264a7e4c975facb55c9f"
+      },
+      {
+        "id": "vision_04",
+        "image_observations": "Three people sit at a wooden picnic table under a red-and-white umbrella in front of a building painted with a Union Jack; white plastic chairs and another table are visible, no bicycle.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "No bicycle appears anywhere in the scene (table, chairs, umbrellas, building only); 'no' in the exact format."
+          },
+          "smol": {
+            "score": 1,
+            "reason": "Correct: no bicycle is visible; the capital letter and period are only minor punctuation."
+          }
+        },
+        "response_sha256": "152be9870f8cb2c75260567e1ac9303eb6953d0bd80457f69b81d2a014a8943e"
+      },
+      {
+        "id": "vision_05",
+        "image_observations": "White background with five red circles (three in the top row, two in the middle row) and three blue squares.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "There are exactly five red circles (3 top, 2 middle); answered with the integer only."
+          },
+          "smol": {
+            "score": 0,
+            "reason": "Answer 7 is wrong: only five red circles are visible; the three blue squares should not be counted."
+          }
+        },
+        "response_sha256": "e45dd3554a66f3d05ad98e02bbd9873728864d0ba587b2991cdcf38684baf27b"
+      },
+      {
+        "id": "vision_06",
+        "image_observations": "White background with four green triangles (three in the top row, one in the centre of the bottom row) and two blue circles.",
+        "ratings": {
+          "smol": {
+            "score": 0,
+            "reason": "Answer 5 over-counts; only four green triangles are visible (3 top, 1 bottom centre)."
+          },
+          "qwen": {
+            "score": 0,
+            "reason": "Answer 3 misses the bottom-centre triangle; four green triangles are visible."
+          }
+        },
+        "response_sha256": "343cbc32b4526e09c9b9309d432684816aec643494bd67643fe879c5d2d4a764"
+      },
+      {
+        "id": "vision_07",
+        "image_observations": "A red circle on the left side of the image and a blue square on the right, at the same height.",
+        "ratings": {
+          "smol": {
+            "score": 1,
+            "reason": "The red circle is to the left of the blue square; correct, with only capitalization/period added."
+          },
+          "qwen": {
+            "score": 1,
+            "reason": "Correct: the red circle sits left of the blue square; exact one-word answer."
+          }
+        },
+        "response_sha256": "b868732346e0d1fb1a2b85e3abf18048f8286d15368c104c7d273552897464d5"
+      },
+      {
+        "id": "vision_08",
+        "image_observations": "A green triangle near the top centre and a purple square directly below it near the bottom centre.",
+        "ratings": {
+          "smol": {
+            "score": 1,
+            "reason": "The green triangle is above the purple square; correct, with only capitalization/period added."
+          },
+          "qwen": {
+            "score": 1,
+            "reason": "Correct: the triangle is at the top and the square below it; exact one-word answer."
+          }
+        },
+        "response_sha256": "b0a21f0d917d18283a157606389ae5d0711a9ee4efb9a70e3b08d7f00276dd15"
+      },
+      {
+        "id": "vision_09",
+        "image_observations": "A yellow triangle on the left and a blue square on the right.",
+        "ratings": {
+          "smol": {
+            "score": 1,
+            "reason": "The only triangle is yellow; correct single-word answer."
+          },
+          "qwen": {
+            "score": 1,
+            "reason": "The only triangle is yellow; correct single-word answer."
+          }
+        },
+        "response_sha256": "999fea3610ba246c26550d6f261fdd63ed711bfc95110503174f069a24f14b7c"
+      },
+      {
+        "id": "vision_10",
+        "image_observations": "A purple circle on the left and an orange square on the right.",
+        "ratings": {
+          "smol": {
+            "score": 1,
+            "reason": "The orange shape is the square on the right; correct single-word answer."
+          },
+          "qwen": {
+            "score": 1,
+            "reason": "The orange shape is the square on the right; correct single-word answer."
+          }
+        },
+        "response_sha256": "5db9408fcbd29c5d6d32689817ad7a0882d57a029cf7b0a9b6eeadc6b588116f"
+      },
+      {
+        "id": "vision_11",
+        "image_observations": "A dark navy rounded rectangle with white text 'LAB 204', with a space between LAB and 204.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "Exact transcription 'LAB 204' including the space, with nothing else returned."
+          },
+          "smol": {
+            "score": 0.5,
+            "reason": "Characters are right but the visible space between 'LAB' and '204' is dropped, so the transcription is not exact; partially correct."
+          }
+        },
+        "response_sha256": "dbdacda4ec0a4a7d7903cc4150fc56a9c32344a9d8662a3e8277fa49bdbb053a"
+      },
+      {
+        "id": "vision_12",
+        "image_observations": "A white card with a black border showing 'ITEM PRICE' and below it '$18.50'.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "Exactly matches the printed price '$18.50' including the dollar sign; nothing extra."
+          },
+          "smol": {
+            "score": 0,
+            "reason": "'1850' drops the required dollar sign and the decimal point, turning $18.50 into a different value (1850); wrong price."
+          }
+        },
+        "response_sha256": "8c9b861a0cc20349b1fa8ae3798f6b30690a80935c2b5fef7917c3149870809b"
+      },
+      {
+        "id": "vision_13",
+        "image_observations": "Bar chart titled 'Units sold' with bars A≈3, B≈7, C≈5; B is the tallest.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "Bar B (≈7) is clearly the highest; correct single-letter answer."
+          },
+          "smol": {
+            "score": 1,
+            "reason": "Bar B is the highest; correct, with only a trailing period added."
+          }
+        },
+        "response_sha256": "535c0acf39f527d058a4f815bb49ac17ce04317aff5315eeb1906ddc14e3b6ae"
+      },
+      {
+        "id": "vision_14",
+        "image_observations": "Bar chart 'Units sold' with A=2, B=4, C=8 on gridlines at 0,2,4,6,8.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "C (8) minus A (2) = 6; correct integer only."
+          },
+          "smol": {
+            "score": 1,
+            "reason": "C (8) minus A (2) = 6; correct integer only."
+          }
+        },
+        "response_sha256": "fd0ef39906e8240eeb6f6a43e7dd75f935ca22e474ac4213cec3f91c75a567d4"
+      },
+      {
+        "id": "vision_15",
+        "image_observations": "A red rectangle in the upper-left/centre spanning about x 128–384 px and y 96–288 px of a 640×480 image (≈[200,200,600,600] normalized); a blue circle at lower right.",
+        "ratings": {
+          "qwen": {
+            "score": 0.5,
+            "reason": "The numbers 125,95,387,287 roughly match the red rectangle in pixel coordinates, so the target is right, but the output is a code-fenced nested array of strings, not a numeric [x_min,y_min,x_max,y_max] array, and it is not in the 0..1000 frame (as normalized it overlaps the true box with IoU≈0.08). Correct target, invalid format/frame."
+          },
+          "smol": {
+            "score": 0,
+            "reason": "[0,0,1000,1000] is the whole image, not a localization of the red rectangle (IoU≈0.16 and it would equally 'cover' the blue circle); no usable box."
+          }
+        },
+        "response_sha256": "203d87f951ac4f11c86e94cd82f03e917d322dab19426a9b9f424a37631c16f2"
+      },
+      {
+        "id": "vision_16",
+        "image_observations": "A green circle at upper right spanning about x 352–544 px and y 48–240 px of a 640×480 image (≈[550,100,850,500] normalized); a red square at lower left.",
+        "ratings": {
+          "smol": {
+            "score": 0,
+            "reason": "[0,0,1000,1000] is the whole frame and does not localize the green circle (IoU≈0.12); no usable box."
+          },
+          "qwen": {
+            "score": 0.5,
+            "reason": "bbox [353,47,548,242] labelled 'green circle' matches the circle in pixel coordinates, so the target is right, but it is wrapped in a code fence and an object list instead of a bare array, and it is not normalized to 0..1000 (as normalized it does not overlap the true box). Correct target, wrong format/frame."
+          }
+        },
+        "response_sha256": "967510cd39c4ea20ac51b4b49bbba087889c429aa729631234ab107c86f0d0d4"
+      },
+      {
+        "id": "vision_17",
+        "image_observations": "Two Doberman-type dogs rear up and wrestle/play-fight on snowy ground; a green metal fence and bare trees on a snowy slope are behind them.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "Mentions two dogs, playful interaction (play-fighting is visible) and the snowy setting with fence and trees; no major hallucination."
+          },
+          "smol": {
+            "score": 1,
+            "reason": "Mentions two dogs wrestling in the snow with fence and trees in the background; all required elements are correct."
+          }
+        },
+        "response_sha256": "5e8a8fede8d2542403bcba395a6456edce7b7ce45eedd214f19f183d720a50d0"
+      },
+      {
+        "id": "vision_18",
+        "image_observations": "Three adults sit at a wooden picnic table under a red-and-white 'LONDON PRIDE'/'FULLER'S' umbrella, outside a building painted with a Union Jack; drinks are on the table.",
+        "ratings": {
+          "qwen": {
+            "score": 0.5,
+            "reason": "Correctly describes people at an outdoor picnic table under a red-and-white umbrella beside a Union Jack building, but says 'a group of people' instead of the visible three people and adds an inferred 'enjoying' mood; a key detail is omitted."
+          },
+          "smol": {
+            "score": 1,
+            "reason": "States three people at a table under a red-and-white umbrella; 'London Pride' text and the British-flag building are actually visible, so no invention."
+          }
+        },
+        "response_sha256": "d8efc2709a343739b8603c42508d7ee22d5d3cab91bb15b0dad666f64a544261"
+      },
+      {
+        "id": "vision_19",
+        "image_observations": "A closed brown cardboard box with a tape strip and the caption 'Sealed opaque box'; the contents are not visible.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "The box is sealed and opaque, so contents cannot be determined; 'unknown' is correct and in the one-word format."
+          },
+          "smol": {
+            "score": 1,
+            "reason": "The box is sealed and opaque, so contents cannot be determined; 'unknown' is correct and in the one-word format."
+          }
+        },
+        "response_sha256": "d5e26962f771718b1089af777a71aac5906bc0ce4811c7c5d14a93a28a79d396"
+      },
+      {
+        "id": "vision_20",
+        "image_observations": "A grey card titled 'Secret number card' with a solid black rectangle covering the digits; caption below reads 'Digits fully covered'.",
+        "ratings": {
+          "qwen": {
+            "score": 1,
+            "reason": "The digits are completely covered by the black block, so 'unknown' is correct and one word."
+          },
+          "smol": {
+            "score": 0,
+            "reason": "'10000' guesses a number that cannot be seen; the digits are fully covered by the black block."
+          }
+        },
+        "response_sha256": "1d78f783c95dc3159b9f641cb06a76424aba6c3ff5b20ee58b087bc1464a3b5c"
+      }
+    ],
+    "means_percent": {
+      "qwen": 87.5,
+      "smol": 67.5
+    }
+  },
+  "commercial_category_percent": {
+    "qwen": {
+      "classification": 100.0,
+      "chart": 100.0,
+      "caption": 75.0,
+      "spatial": 100.0,
+      "uncertainty": 100.0,
+      "attributes": 100.0,
+      "grounding": 50.0,
+      "counting": 50.0,
+      "presence": 100.0,
+      "ocr": 100.0
+    },
+    "smol": {
+      "classification": 100.0,
+      "chart": 100.0,
+      "caption": 100.0,
+      "spatial": 100.0,
+      "uncertainty": 50.0,
+      "attributes": 100.0,
+      "grounding": 0.0,
+      "counting": 0.0,
+      "presence": 100.0,
+      "ocr": 25.0
+    }
+  },
+  "run_sha256": {
+    "qwen": "18410a16b656b99a65d78cdb0a0c1d33b8418fde846449962fb02eb82a00bad7",
+    "smol": "dbb10018b562aff8d4080a0f4cfcc8d7311e85513e656cac2d6dcc56ff825d2a"
+  }
+}

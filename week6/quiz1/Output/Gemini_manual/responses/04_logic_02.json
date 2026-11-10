@@ -1,0 +1,25 @@
+{
+  "question_id": "logic_02",
+  "ratings": [
+    {
+      "answer_id": "A",
+      "score": 1,
+      "reason": "合法JSON，僅含report與slides；report=是、slides=無法判定，兩欄皆正確。多行縮排不影響JSON合法性。"
+    },
+    {
+      "answer_id": "B",
+      "score": 1,
+      "reason": "合法單行JSON，鍵集合與值域正確；report=是、slides=無法判定，兩欄皆正確。"
+    },
+    {
+      "answer_id": "C",
+      "score": 1,
+      "reason": "合法JSON且無額外文字；兩欄值皆與參考答案一致。"
+    },
+    {
+      "answer_id": "D",
+      "score": 1,
+      "reason": "合法JSON且無額外文字；report與slides皆正確。"
+    }
+  ]
+}
