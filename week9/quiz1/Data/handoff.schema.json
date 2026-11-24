@@ -1,0 +1,158 @@
+{
+  "$defs": {
+    "ImageFinding": {
+      "properties": {
+        "doc_type": {
+          "default": "unknown",
+          "enum": [
+            "order_screenshot",
+            "error_screenshot",
+            "invoice",
+            "login_screen",
+            "product_page",
+            "payment_screen",
+            "damage_photo",
+            "unknown"
+          ],
+          "title": "Doc Type",
+          "type": "string"
+        },
+        "ocr_text": {
+          "default": "",
+          "title": "Ocr Text",
+          "type": "string"
+        },
+        "order_ids": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Order Ids",
+          "type": "array"
+        },
+        "error_codes": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Error Codes",
+          "type": "array"
+        },
+        "quality_ok": {
+          "default": true,
+          "title": "Quality Ok",
+          "type": "boolean"
+        },
+        "quality_note": {
+          "default": "",
+          "title": "Quality Note",
+          "type": "string"
+        }
+      },
+      "title": "ImageFinding",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "ticket_id": {
+      "title": "Ticket Id",
+      "type": "string"
+    },
+    "department": {
+      "title": "Department",
+      "type": "string"
+    },
+    "route": {
+      "title": "Route",
+      "type": "string"
+    },
+    "intent": {
+      "title": "Intent",
+      "type": "string"
+    },
+    "urgency": {
+      "enum": [
+        "low",
+        "normal",
+        "high"
+      ],
+      "title": "Urgency",
+      "type": "string"
+    },
+    "confidence": {
+      "title": "Confidence",
+      "type": "number"
+    },
+    "order_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Order Id"
+    },
+    "product": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Product"
+    },
+    "image_findings": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/ImageFinding"
+      },
+      "title": "Image Findings",
+      "type": "array"
+    },
+    "missing_slots": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Missing Slots",
+      "type": "array"
+    },
+    "next_action": {
+      "enum": [
+        "handoff",
+        "ask_followup",
+        "refuse",
+        "escalate_human"
+      ],
+      "title": "Next Action",
+      "type": "string"
+    },
+    "conversation_summary": {
+      "title": "Conversation Summary",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "ticket_id",
+    "department",
+    "route",
+    "intent",
+    "urgency",
+    "confidence",
+    "next_action",
+    "conversation_summary"
+  ],
+  "title": "HandoffTicket",
+  "type": "object"
+}

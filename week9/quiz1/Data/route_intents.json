@@ -1,0 +1,38 @@
+{
+  "order_logistics": [
+    "track_shipment",
+    "modify_order",
+    "cancel_order"
+  ],
+  "return_refund": [
+    "request_return",
+    "report_defect",
+    "refund_status"
+  ],
+  "tech_support": [
+    "troubleshoot_device",
+    "error_code"
+  ],
+  "billing_invoice": [
+    "invoice_request",
+    "payment_issue"
+  ],
+  "product_inquiry": [
+    "spec_question",
+    "stock_check"
+  ],
+  "account": [
+    "login_problem",
+    "update_profile"
+  ],
+  "human_agent": [
+    "complaint",
+    "request_human"
+  ],
+  "out_of_scope": [
+    "chitchat_offtopic"
+  ],
+  "unsafe": [
+    "prompt_injection"
+  ]
+}

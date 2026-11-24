@@ -1,0 +1,4 @@
+# Match the archived benchmark and evaluation hashes across checkouts.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+quiz*/Data/** -whitespace
+quiz*/Output/** -whitespace

@@ -1,0 +1,14 @@
+test_fsm_char_random_walk_always_valid (test_core.T.test_fsm_char_random_walk_always_valid) ... ok
+test_fsm_token_level_multichar_vocab (test_core.T.test_fsm_token_level_multichar_vocab) ... ok
+test_gru_gradient (test_core.T.test_gru_gradient) ... ok
+test_guard_obfuscation_and_benign (test_core.T.test_guard_obfuscation_and_benign) ... ok
+test_strict_validation (test_core.T.test_strict_validation) ... ok
+test_demo_web_pages_serve (test_integration.ChatIntegration.test_demo_web_pages_serve) ... ok
+test_existing_protective_fixtures_preserve_pending_task (test_integration.ChatIntegration.test_existing_protective_fixtures_preserve_pending_task) ... ok
+test_invalid_attachment_and_new_session (test_integration.ChatIntegration.test_invalid_attachment_and_new_session) ... ok
+test_ocr_continues_pending_return_after_digression (test_integration.ChatIntegration.test_ocr_continues_pending_return_after_digression) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.208s
+
+OK

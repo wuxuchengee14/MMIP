@@ -1,0 +1,241 @@
+{
+  "additionalProperties": false,
+  "description": "分流節點輸出。範例：\n{\"route\":\"return_refund\",\"intent\":\"report_defect\",\"urgency\":\"high\",\"confidence\":0.95}",
+  "properties": {
+    "route": {
+      "enum": [
+        "order_logistics",
+        "return_refund",
+        "tech_support",
+        "billing_invoice",
+        "product_inquiry",
+        "account",
+        "human_agent",
+        "out_of_scope",
+        "unsafe"
+      ],
+      "title": "Route",
+      "type": "string"
+    },
+    "intent": {
+      "enum": [
+        "track_shipment",
+        "modify_order",
+        "cancel_order",
+        "request_return",
+        "report_defect",
+        "refund_status",
+        "troubleshoot_device",
+        "error_code",
+        "invoice_request",
+        "payment_issue",
+        "spec_question",
+        "stock_check",
+        "login_problem",
+        "update_profile",
+        "complaint",
+        "request_human",
+        "chitchat_offtopic",
+        "prompt_injection"
+      ],
+      "title": "Intent",
+      "type": "string"
+    },
+    "urgency": {
+      "enum": [
+        "low",
+        "normal",
+        "high"
+      ],
+      "title": "Urgency",
+      "type": "string"
+    },
+    "confidence": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    }
+  },
+  "required": [
+    "route",
+    "intent",
+    "urgency",
+    "confidence"
+  ],
+  "title": "TriageOutput",
+  "type": "object",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "order_logistics"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "track_shipment",
+              "modify_order",
+              "cancel_order"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "return_refund"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "request_return",
+              "report_defect",
+              "refund_status"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "tech_support"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "troubleshoot_device",
+              "error_code"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "billing_invoice"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "invoice_request",
+              "payment_issue"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "product_inquiry"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "spec_question",
+              "stock_check"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "account"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "login_problem",
+              "update_profile"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "human_agent"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "complaint",
+              "request_human"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "out_of_scope"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "chitchat_offtopic"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "route": {
+            "const": "unsafe"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intent": {
+            "enum": [
+              "prompt_injection"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

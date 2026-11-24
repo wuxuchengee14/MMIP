@@ -38,3 +38,12 @@ week7/**/Output/**/processor/
 week7/**/Output/smoke*/
 week7/**/*.log
 week7/**/*.zip
+
+# Week 9 custom benchmarks and images are part of the submission.
+!week9/**/Data/**
+week9/.runtime/
+week9/quiz3/Code/results/
+week9/**/adapter/
+week9/**/*.pkl
+week9/**/*.log
+week9/**/*.zip

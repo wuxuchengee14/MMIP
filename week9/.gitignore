@@ -1,0 +1,7 @@
+.runtime/
+__pycache__/
+*.pyc
+*.pkl
+*.safetensors
+*.zip
+quiz3/Code/results/sft_work/

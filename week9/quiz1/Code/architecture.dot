@@ -1,0 +1,59 @@
+digraph G {
+  graph [rankdir=TB, fontname="Noto Sans CJK TC", fontsize=20, labelloc=t, pad=0.3, nodesep=0.35, ranksep=0.55, newrank=true, compound=true,
+         label="多模態多輪客服機器人：分流技術架構（實線 = 本作業已實作並實驗；虛線 = 設計中／需正式環境才能接上）"];
+  node  [fontname="Noto Sans CJK TC", fontsize=13, shape=box, style="rounded,filled", fillcolor="#ffffff", color="#475569", margin="0.14,0.08"];
+  edge  [fontname="Noto Sans CJK TC", fontsize=11, color="#475569"];
+
+  U  [label="使用者（Web 聊天室）\n文字 + 圖片(截圖/照片)", shape=box, fillcolor="#e0f2fe", color="#0369a1"];
+
+  subgraph cluster_guard { label="① 輸入安全層 Guard（文字與圖片 OCR 文字共用）"; style="rounded,filled"; fillcolor="#fef2f2"; color="#b91c1c"; fontname="Noto Sans CJK TC"; fontsize=14;
+    G0 [label="L0 正規化\nNFKC/零寬字元/長度上限"];
+    G1 [label="L1 規則\n中英注入句型・角色標記・輸出強制\n(含去空白緊縮比對)"];
+    G2 [label="L2 學習式分類器\n字元 n-gram LR\n(含 hard negative)"];
+    GB [label="攔截 → 安全回覆\n※ 不更新對話狀態（不污染上下文）", fillcolor="#fee2e2", color="#b91c1c"];
+    G0 -> G1 -> G2; G2 -> GB [label="命中", color="#b91c1c", fontcolor="#b91c1c"]; }
+
+  subgraph cluster_vis { label="② 感知層 Perception（可換成 VLM，介面同為 ImageFinding）"; style="rounded,filled"; fillcolor="#fffbeb"; color="#b45309"; fontname="Noto Sans CJK TC"; fontsize=14;
+    Q [label="品質檢查\n模糊(Laplacian)/過暗/過曝/低解析度"];
+    OCR [label="OCR(tesseract 繁中+英)\n→ 文件類型・訂單編號・錯誤碼"];
+    QF [label="品質不佳 → 請使用者重拍\n（保留文字與待辦）", fillcolor="#fef3c7"];
+    Q -> OCR [label="OK"]; Q -> QF [label="不佳"]; }
+
+  subgraph cluster_ctx { label="③ 上下文管理 Context Keeper"; style="rounded,filled"; fillcolor="#f0fdf4"; color="#15803d"; fontname="Noto Sans CJK TC"; fontsize=14;
+    CK [label="Session：槽位(order_id)・話題緩衝區(近3則)\n待辦 pending・awaiting・last_order_id・離題計數"];
+    CA [label="LRU 快取\n(相同輸入不重算分流)"]; }
+
+  subgraph cluster_route { label="④ 分流 Router（級聯：快 → 慢 → 澄清）"; style="rounded,filled"; fillcolor="#eff6ff"; color="#1d4ed8"; fontname="Noto Sans CJK TC"; fontsize=14;
+    S1 [label="System One（實驗 D）\nTF-IDF + LR，<1ms\n輸出 route/intent/urgency/confidence"];
+    S2 [label="慢路徑（實驗 B/C）\nSFT+DPO 生成節點 + FSM 約束解碼\n本機：GRU；正式：VLM/LLM + Structured Outputs", fillcolor="#dbeafe"];
+    VLM [label="（設計）VLM/LLM 慢路徑\n純視覺線索：外殼裂痕、損壞照片", style="rounded,dashed", fillcolor="#ffffff"];
+    MI [label="多意圖拆句\n一句多任務 → 分別分流 → 多張工單"];
+    S1 -> S2 [label="conf < τ"]; S2 -> VLM [style=dashed, label="需要看圖時"]; }
+
+  subgraph cluster_ood { label="⑤ 離題處理 OOD"; style="rounded,filled"; fillcolor="#faf5ff"; color="#7e22ce"; fontname="Noto Sans CJK TC"; fontsize=14;
+    O1 [label="硬離題：oos 類別有把握\n→ 導回服務範圍 + 功能選單"];
+    O2 [label="軟離題：低信心且無領域關鍵字\n→ 澄清（不建單）"];
+    O3 [label="連續離題 ≥ 3 次\n→ 提議轉真人"];
+    O1 -> O3 [style=dashed]; }
+
+  subgraph cluster_pol { label="⑥ Policy 政策層（規則，不交給模型）"; style="rounded,filled"; fillcolor="#f8fafc"; color="#334155"; fontname="Noto Sans CJK TC"; fontsize=14;
+    P1 [label="必填槽位檢查\n缺 order_id → 追問 / 沿用上一筆"];
+    P2 [label="UX：沿用訂單 (confirm | implicit)\n更正機制：「不是這筆」→ 改單"];
+    P3 [label="需要照片的 intent（瑕疵）→ 請上傳照片"];
+    P4 [label="投訴/要真人 → 直接升級真人"]; }
+
+  subgraph cluster_out { label="⑦ 輸出"; style="rounded,filled"; fillcolor="#ecfeff"; color="#0e7490"; fontname="Noto Sans CJK TC"; fontsize=14;
+    T [label="HandoffTicket（Pydantic 驗證）\n只收通過格式驗證的欄位"];
+    D [label="下游 7 個部門佇列\n訂單物流/退換貨/技術/帳務發票\n商品諮詢/會員/真人", style="rounded,dashed"];
+    R [label="Replier：模板回覆 + quick replies\n+ 話題銜接建議"]; }
+
+  OBS [label="觀測與降級（設計）\nP95 延遲・TTFT・串流輸出\n慢路徑逾時 → 降級回 System One；多人併發佇列", style="rounded,dashed", fillcolor="#f1f5f9"];
+
+  U -> G0; G2 -> Q [label="通過（有圖）"]; G2 -> CK [label="通過（純文字）"]; OCR -> G0 [label="OCR 文字\n再過 Guard", style=dashed, constraint=false, color="#b91c1c", fontcolor="#b91c1c"]; OCR -> CK;
+  CK -> CA [dir=both]; CK -> S1; S1 -> MI [style=dotted]; S1 -> O1 [label="oos"]; S1 -> O2 [label="低信心"]; S2 -> P1 [label="一致"]; S1 -> P1 [label="高信心"]; S2 -> O2 [label="不一致"];
+  MI -> P1; P1 -> P2; P2 -> P3; P3 -> T; S1 -> P4 [style=dotted]; P4 -> T; T -> D [style=dashed]; T -> R; O1 -> R; O2 -> R; GB -> R [style=dashed]; QF -> R [style=dashed];
+  R -> U [label="回覆", constraint=false];
+
+  CC [shape=note, fillcolor="#fffde7", color="#a16207", fontsize=12, label="涵蓋的角落情境（已實作並測試）\l① 照片模糊/過暗/低解析 → 請重拍\l② 圖片內藏注入文字 → OCR 後同樣攔截\l③ 只傳圖、沒有文字 → 以 OCR 內容分流\l④ 一句話含多個任務 → 拆句多張工單\l⑤ 補件中途離題 → 保留待辦，回答後可續\l⑥ 連續離題 → 提議轉真人\l⑦ 低信心/兩節點不一致 → 澄清而非亂猜\l⑧ 沿用的訂單其實不對 → 使用者可更正\l⑨ 模型輸出不合法 → FSM 保證合法；Pydantic 再驗證\l⑩ 攻擊輸入不更新對話狀態\l⑪ 相同輸入 → 快取\l⑫ 投訴/要真人 → 直接升級\l"];
+  CC -> OBS [style=invis];
+}
