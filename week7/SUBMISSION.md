@@ -1,4 +1,4 @@
-# Week 6 GitHub 提交範圍
+# Week 7 GitHub 提交範圍
 
 - 各題 AI/AI_usage.md、Code/、Data/README.md、自建 Benchmark 與圖片。
 - 各題 Output/report.md 及原始答案、記憶體樣本、評分、比較表與圖。

@@ -1,4 +1,4 @@
-# Week 6 Quiz 2：視覺多模態大模型（基礎 20 分）
+# Week 7 Quiz 2：視覺多模態大模型（基礎 20 分）
 
 此 GitHub 副本已包含兩模型各20題的正式結果、40筆商用評分與報告，入口為 [Output/report.md](Output/report.md)。下列操作步驟供重現使用。
 
@@ -36,17 +36,17 @@
 |---|---|---|
 | 1 | 切換 Quiz 1 使用的環境 | `conda activate MMIP_LLM` |
 | 2 | 補上 CUDA 12.8 對應的 torchvision；保持 torch 2.9.1 | `python -m pip install torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cu128` |
-| 3 | 安裝圖片處理與 SmolVLM 所需套件 | `python -m pip install -r week6/quiz2/requirements.txt` |
-| 4 | 驗證既有 20 題圖像資料 | `python week6/quiz2/Code/prepare_benchmark.py` |
-| 5 | 檢查環境、鎖定兩個模型版本，先測圖片處理器；只下載小型設定與 tokenizer，尚未下載權重 | `python week6/quiz2/Code/setup_vlm.py --check-processors` |
-| 6 | 下載並執行 Qwen 全部 20 題 | `python week6/quiz2/Code/run_vlm.py --model qwen` |
-| 7 | 下載並執行 SmolVLM 全部 20 題 | `python week6/quiz2/Code/run_vlm.py --model smol` |
-| 8 | 檢查兩模型是否各 20 題、圖與提示是否一致 | `python week6/quiz2/Code/quiz2_tasks.py status` |
-| 9 | 計算 18 題客觀指標 | `python week6/quiz2/Code/quiz2_tasks.py score` |
-| 10 | 匯出商用模型的 20 組原圖＋匿名雙答案 | `python week6/quiz2/Code/quiz2_tasks.py export-judge` |
-| 11 | 商用模型人工審核：每題新對話，上傳該題 image.png 並貼 prompt.txt；回覆 JSON 存回 responses/ | 見 `week6/quiz2/Output/Commercial_manual/README.md` |
-| 12 | 填實際評審模型名稱與日期（不要把範例字串當成名稱）；匯入全部 40 筆評分 | `python week6/quiz2/Code/quiz2_tasks.py import-judge --model-label "填實際模型名稱" --review-date "YYYY-MM-DD"` |
-| 13 | 產生比較報告與 20 分要求檢核 | `python week6/quiz2/Code/quiz2_tasks.py report` |
+| 3 | 安裝圖片處理與 SmolVLM 所需套件 | `python -m pip install -r week7/quiz2/requirements.txt` |
+| 4 | 驗證既有 20 題圖像資料 | `python week7/quiz2/Code/prepare_benchmark.py` |
+| 5 | 檢查環境、鎖定兩個模型版本，先測圖片處理器；只下載小型設定與 tokenizer，尚未下載權重 | `python week7/quiz2/Code/setup_vlm.py --check-processors` |
+| 6 | 下載並執行 Qwen 全部 20 題 | `python week7/quiz2/Code/run_vlm.py --model qwen` |
+| 7 | 下載並執行 SmolVLM 全部 20 題 | `python week7/quiz2/Code/run_vlm.py --model smol` |
+| 8 | 檢查兩模型是否各 20 題、圖與提示是否一致 | `python week7/quiz2/Code/quiz2_tasks.py status` |
+| 9 | 計算 18 題客觀指標 | `python week7/quiz2/Code/quiz2_tasks.py score` |
+| 10 | 匯出商用模型的 20 組原圖＋匿名雙答案 | `python week7/quiz2/Code/quiz2_tasks.py export-judge` |
+| 11 | 商用模型人工審核：每題新對話，上傳該題 image.png 並貼 prompt.txt；回覆 JSON 存回 responses/ | 見 `week7/quiz2/Output/Commercial_manual/README.md` |
+| 12 | 填實際評審模型名稱與日期（不要把範例字串當成名稱）；匯入全部 40 筆評分 | `python week7/quiz2/Code/quiz2_tasks.py import-judge --model-label "填實際模型名稱" --review-date "YYYY-MM-DD"` |
+| 13 | 產生比較報告與 20 分要求檢核 | `python week7/quiz2/Code/quiz2_tasks.py report` |
 
 第 12 步請把引號內替換為**介面實際顯示的支援看圖之商用模型名稱**與當天日期；也可先填 `Output/Commercial_manual/session.json` 的 `evaluator_model_label`、`review_date`，然後執行不帶參數的 `import-judge`。
 
@@ -57,22 +57,22 @@
 先完成安裝套件的步驟 1～3，再於專案根目錄的 **Git Bash** 執行：
 
 ```bash
-bash week6/quiz2/run_quiz2.sh
+bash week7/quiz2/run_quiz2.sh
 ```
 
 若在 PowerShell，請明確選擇 Git Bash，避免 Windows 把 `bash` 解析成 WSL：
 
 ```powershell
-& "C:/Program Files/Git/bin/bash.exe" "week6/quiz2/run_quiz2.sh"
+& "C:/Program Files/Git/bin/bash.exe" "week7/quiz2/run_quiz2.sh"
 ```
 
 腳本依序驗證環境／圖像、鎖版本與檢查處理器、執行兩個模型、計算客觀分數、匯出人工審核包；保留已成功的模型結果，不覆寫。最後會停在「等待商用模型手動審核」，這一步必須由你上傳圖片完成，之後再執行表格的匯入與報告指令。
 
 ### 重新執行與問題排除
 
-- 若有未完成的 `Output/full/qwen.json` 或 `smol.json`，檢視錯誤原因後，明確指定 `--overwrite` 重跑該模型。例如 `python week6/quiz2/Code/run_vlm.py --model smol --overwrite`。本版不做半途續跑；重跑全 20 題避免混合設定。
+- 若有未完成的 `Output/full/qwen.json` 或 `smol.json`，檢視錯誤原因後，明確指定 `--overwrite` 重跑該模型。例如 `python week7/quiz2/Code/run_vlm.py --model smol --overwrite`。本版不做半途續跑；重跑全 20 題避免混合設定。
 - 如需另一輪獨立結果，兩個模型與所有評分命令都帶相同 `--runs-dir`，審核另指定新的 `--judge-dir`。不要混用舊審核。
-- 只檢查套件與 CUDA：`python week6/quiz2/Code/setup_vlm.py --check-only`。缺 Pillow／num2words／torchvision 時，先完成步驟 2～3。
+- 只檢查套件與 CUDA：`python week7/quiz2/Code/setup_vlm.py --check-only`。缺 Pillow／num2words／torchvision 時，先完成步驟 2～3。
 - TLS 憑證錯誤：程式使用系統信任庫 truststore；企業代理仍須正確安裝信任的憑證，不要停用 TLS 驗證。
 - 不要升級成 Transformers 5.x；本專案依 4.57.6 的類別與處理器 API 實作。
 - 原生圖像處理器會花一些 CPU 時間；20 道 batch=1 推論也不會讓 RTX 5090 一直滿載，不能僅憑 GPU 使用率判斷是否成功。
@@ -95,7 +95,7 @@ bash week6/quiz2/run_quiz2.sh
 ## 離線工具驗證
 
 ```bash
-python -m unittest discover -s week6/quiz2/Code -p test_quiz2_tools.py -v
+python -m unittest discover -s week7/quiz2/Code -p test_quiz2_tools.py -v
 ```
 
 測試涵蓋 OCR／IoU、無效與重複 JSON、兩模型結果核對、完整匯出匯入報告流程、空白審核拒絕，以及圖片、提示、設定和答案變動後拒絕沿用舊結果。測試不會下載權重，也不代表實際模型推論已完成。

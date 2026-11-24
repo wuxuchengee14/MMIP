@@ -283,7 +283,7 @@ def report(benchmark,runs_dir,judge_dir):
     save(runs_dir/"completion.json",{"all_complete":all(c["complete"] for c in criteria),"covered_points":covered,"maximum_points":20,"criteria":criteria,
          "run_sha256":hashes(runs_dir),"benchmark_digest":digest(questions),"commercial_scores_sha256":sha(runs_dir/"commercial_scores.json"),
          "note":"Evidence coverage, not a guarantee of instructor grading. Commercial reviews are manually supplied; image_seen is a declaration, not API verification."})
-    lines = ["# Week 6 Quiz 2：視覺多模態大模型實驗報告", "",
+    lines = ["# Week 7 Quiz 2：視覺多模態大模型實驗報告", "",
         f"三項基礎要求的證據檢核涵蓋 {covered}/20 分（不是教師保證得分）。此作業沒有進階要求。若某模型全部為空答案，部署執行項目不會標記完成。", "",
         "## 實驗設計", "",
         "- 20 題、10 種能力，每種 2 題；18 張不同圖像（4 張 Flickr8k 照片、14 張自行繪製圖像）。部分自然照片用於不同題型。",

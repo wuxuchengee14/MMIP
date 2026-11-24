@@ -1,4 +1,4 @@
-# Week 6 Quiz 2：視覺多模態大模型實驗報告
+# Week 7 Quiz 2：視覺多模態大模型實驗報告
 
 三項基礎要求的證據檢核涵蓋 20/20 分（不是教師保證得分）。此作業沒有進階要求。若某模型全部為空答案，部署執行項目不會標記完成。
 
@@ -53,7 +53,7 @@ Qwen 減 Smol 的客觀正確率差為 +22.22 個百分點；商用平均分差�
 
 ### vision_01：自然照片：動物分類
 
-![原圖](../Data/images/image_01.png)
+![原圖](../../Data/images/image_01.png)
 
 Which animal category is most prominent? Answer with exactly one word: dogs, cats, horses, or birds.
 
@@ -75,7 +75,7 @@ Correct category (two dogs dominate the image). The trailing period is minor pun
 
 ### vision_02：自然照片：活動分類
 
-![原圖](../Data/images/image_02.png)
+![原圖](../../Data/images/image_02.png)
 
 Which activity best matches the foreground people? Answer with exactly one label: street_dance, swimming, skiing, or indoor_cooking.
 
@@ -97,7 +97,7 @@ Costumed pair performing on an open street matches street_dance; the label is co
 
 ### vision_03：自然照片：人物存在
 
-![原圖](../Data/images/image_03.png)
+![原圖](../../Data/images/image_03.png)
 
 Is any part of a human visible in this image? Answer only yes or no.
 
@@ -119,7 +119,7 @@ A human hand and legs are clearly visible at the top right, so yes is correct; c
 
 ### vision_04：自然照片：排除不存在物件
 
-![原圖](../Data/images/image_04.png)
+![原圖](../../Data/images/image_04.png)
 
 Is a bicycle visible in this image? Answer only yes or no.
 
@@ -141,7 +141,7 @@ Correct: no bicycle is visible; the capital letter and period are only minor pun
 
 ### vision_05：計數：圓形與干擾物
 
-![原圖](../Data/images/image_05.png)
+![原圖](../../Data/images/image_05.png)
 
 How many red circles are visible? Answer with an integer only.
 
@@ -163,7 +163,7 @@ Answer 7 is wrong: only five red circles are visible; the three blue squares sho
 
 ### vision_06：計數：三角形
 
-![原圖](../Data/images/image_06.png)
+![原圖](../../Data/images/image_06.png)
 
 How many green triangles are visible? Answer with an integer only.
 
@@ -185,7 +185,7 @@ Answer 5 over-counts; only four green triangles are visible (3 top, 1 bottom cen
 
 ### vision_07：空間：左右關係
 
-![原圖](../Data/images/image_07.png)
+![原圖](../../Data/images/image_07.png)
 
 Where is the red circle relative to the blue square? Answer only left or right.
 
@@ -207,7 +207,7 @@ The red circle is to the left of the blue square; correct, with only capitalizat
 
 ### vision_08：空間：上下關係
 
-![原圖](../Data/images/image_08.png)
+![原圖](../../Data/images/image_08.png)
 
 Where is the green triangle relative to the purple square? Answer only above or below.
 
@@ -229,7 +229,7 @@ The green triangle is above the purple square; correct, with only capitalization
 
 ### vision_09：屬性：形狀對應顏色
 
-![原圖](../Data/images/image_09.png)
+![原圖](../../Data/images/image_09.png)
 
 What color is the triangle? Answer with exactly one word: red, blue, yellow, or green.
 
@@ -251,7 +251,7 @@ The only triangle is yellow; correct single-word answer.
 
 ### vision_10：屬性：顏色對應形狀
 
-![原圖](../Data/images/image_10.png)
+![原圖](../../Data/images/image_10.png)
 
 What shape is orange? Answer with exactly one word: circle, square, or triangle.
 
@@ -273,7 +273,7 @@ The orange shape is the square on the right; correct single-word answer.
 
 ### vision_11：OCR：房號
 
-![原圖](../Data/images/image_11.png)
+![原圖](../../Data/images/image_11.png)
 
 Transcribe all the text on the dark sign exactly. Return only the text.
 
@@ -295,7 +295,7 @@ Characters are right but the visible space between 'LAB' and '204' is dropped, s
 
 ### vision_12：OCR：價格
 
-![原圖](../Data/images/image_12.png)
+![原圖](../../Data/images/image_12.png)
 
 Read the price on the card, including the dollar sign. Return only the price.
 
@@ -317,7 +317,7 @@ Exactly matches the printed price '$18.50' including the dollar sign; nothing ex
 
 ### vision_13：圖表：最大值
 
-![原圖](../Data/images/image_13.png)
+![原圖](../../Data/images/image_13.png)
 
 Which category has the highest units sold in the bar chart? Answer only A, B, or C.
 
@@ -339,7 +339,7 @@ Bar B is the highest; correct, with only a trailing period added.
 
 ### vision_14：圖表：兩類差值
 
-![原圖](../Data/images/image_14.png)
+![原圖](../../Data/images/image_14.png)
 
 In the bar chart, how many more units does category C have than category A? Answer with an integer only.
 
@@ -361,7 +361,7 @@ C (8) minus A (2) = 6; correct integer only.
 
 ### vision_15：物件定位：長方形
 
-![原圖](../Data/images/image_15.png)
+![原圖](../../Data/images/image_15.png)
 
 Locate the red rectangle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.
 
@@ -387,7 +387,7 @@ The numbers 125,95,387,287 roughly match the red rectangle in pixel coordinates,
 
 ### vision_16：物件定位：圓形
 
-![原圖](../Data/images/image_16.png)
+![原圖](../../Data/images/image_16.png)
 
 Locate the green circle with a tight bounding box. Return only a JSON array [x_min, y_min, x_max, y_max]. Use the full image as the coordinate frame, top-left origin, x increasing right, y increasing down, normalized to 0..1000 on each axis.
 
@@ -413,7 +413,7 @@ bbox [353,47,548,242] labelled 'green circle' matches the circle in pixel coordi
 
 ### vision_17：照片描述：狗與雪地
 
-![原圖](../Data/images/image_01.png)
+![原圖](../../Data/images/image_01.png)
 
 Describe the visible scene in one English sentence. Mention the main subjects, their action, and the setting. Do not invent hidden details.
 
@@ -435,7 +435,7 @@ Mentions two dogs wrestling in the snow with fence and trees in the background; 
 
 ### vision_18：照片描述：戶外桌旁人物
 
-![原圖](../Data/images/image_04.png)
+![原圖](../../Data/images/image_04.png)
 
 Describe the visible scene in one English sentence. Mention the main subjects and setting. Do not invent names or relationships.
 
@@ -457,7 +457,7 @@ States three people at a table under a red-and-white umbrella; 'London Pride' te
 
 ### vision_19：視覺限制：不透明盒子
 
-![原圖](../Data/images/image_19.png)
+![原圖](../../Data/images/image_19.png)
 
 What is inside the box? Answer with exactly one word: books, toys, shoes, or unknown. Choose unknown if the image does not provide enough evidence.
 
@@ -479,7 +479,7 @@ The box is sealed and opaque, so contents cannot be determined; 'unknown' is cor
 
 ### vision_20：視覺限制：完全遮蔽文字
 
-![原圖](../Data/images/image_20.png)
+![原圖](../../Data/images/image_20.png)
 
 Read the number on the card. If the image does not reveal it, answer only unknown. Otherwise answer only the visible number.
 
@@ -505,8 +505,3 @@ The digits are completely covered by the black block, so 'unknown' is correct an
 - HuggingFaceTB/SmolVLM2-2.2B-Instruct：`482adb537c021c86670beed01cd58990d01e72e4`。
 
 繳交 Code/、requirements.txt、README.md、Data/（圖片、題目、來源與 manifest）、Output/full/ 與 Output/Commercial_manual/。模型權重 models/ 不需提交。商用平台對話截圖可另放 Output/Commercial_manual/screenshots/，保留模型名稱及圖片上傳證據。
-
-
-## 原始實驗證據
-
-完整原始回答、指標與檢核見 [full/](full/)，商用評分採使用者手動提供的原始回覆。

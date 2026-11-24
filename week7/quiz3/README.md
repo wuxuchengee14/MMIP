@@ -1,4 +1,4 @@
-# Week 6 Quiz 3：LLM／VLM 偏好微調（基礎＋進階 40 分）
+# Week 7 Quiz 3：LLM／VLM 偏好微調（基礎＋進階 40 分）
 
 此 GitHub 副本已包含實際訓練紀錄、前後測試、評分與圖表。依儲存庫其他週的做法，adapter／checkpoint／tokenizer 檔案不提交；權重雜湊與參數更新證據保留於 training.json。本機完整作業仍保留這些權重。僅審閱已保存結果可使用根目錄的 `verify_saved_results.py`；重跑推論則須重新訓練或放回原 adapter。
 
@@ -36,42 +36,42 @@
 
 ```powershell
 conda activate MMIP_LLM
-python -m pip install -r week6/quiz3/requirements.txt
-& ./week6/quiz3/run_quiz3.ps1
+python -m pip install -r week7/quiz3/requirements.txt
+& ./week7/quiz3/run_quiz3.ps1
 ```
 
 Git Bash 也可以：
 
 ```bash
 conda activate MMIP_LLM
-bash week6/quiz3/run_quiz3.sh
+bash week7/quiz3/run_quiz3.sh
 ```
 
 如果 PowerShell 沒有切到正確 Python，可明確指定：
 
 ```powershell
-& ./week6/quiz3/run_quiz3.ps1 -PythonExecutable C:/Users/JerryWu/miniconda3/envs/MMIP_LLM/python.exe
+& ./week7/quiz3/run_quiz3.ps1 -PythonExecutable C:/Users/JerryWu/miniconda3/envs/MMIP_LLM/python.exe
 ```
 
 這題**沒有要求商用模型評估**，所有資料具有可驗證答案，全部使用客觀指標，不需要人工上傳 Gemini／Claude。腳本依序跑基準、微調、微調後測試，最後產生報告及圖表。每次只有一個程序使用 GPU，不同模型權重依序載入。
 
-你目前已完成 Quiz 1／2，因此會直接使用原有快取。若換到另一台電腦，先安裝同版 CUDA 12.8 torch 2.9.1／torchvision 0.24.1 與本 requirements，再執行 `python week6/quiz3/Code/download_models.py` 下載固定版本。此步只補基底模型，不取代 adapter 訓練。
+你目前已完成 Quiz 1／2，因此會直接使用原有快取。若換到另一台電腦，先安裝同版 CUDA 12.8 torch 2.9.1／torchvision 0.24.1 與本 requirements，再執行 `python week7/quiz3/Code/download_models.py` 下載固定版本。此步只補基底模型，不取代 adapter 訓練。
 
 | 步驟 | 工作內容 | 指令（專案根目錄） |
 |---|---|---|
-| 1 | 建立／驗證凍結資料 | `python week6/quiz3/Code/prepare_data.py` |
-| 2 | 檢查版本、CUDA、既有權重與處理器 | `python week6/quiz3/Code/preflight.py` |
-| 3 | LLM 微調前，100 目標＋100 通用題 | `python week6/quiz3/Code/evaluate.py --kind llm --stage before` |
-| 4 | LLM 正式偏好微調 | `python week6/quiz3/Code/train_dpo.py --kind llm` |
-| 5 | LLM 微調後相同兩組測試 | `python week6/quiz3/Code/evaluate.py --kind llm --stage after` |
-| 6 | VLM 微調前，50 張圖 × 5 條件 | `python week6/quiz3/Code/evaluate.py --kind vlm --stage before` |
-| 7 | VLM 正式偏好微調 | `python week6/quiz3/Code/train_dpo.py --kind vlm` |
-| 8 | VLM 微調後相同五條件測試 | `python week6/quiz3/Code/evaluate.py --kind vlm --stage after` |
-| 9 | 核對參數更新、計分、產生完整報告 | `python week6/quiz3/Code/score_report.py report` |
-| 10 | 產生訓練曲線與前後比較圖 | `python week6/quiz3/Code/plots.py` |
-| 11 | 查看是否執行完成 | `python week6/quiz3/Code/score_report.py status` |
+| 1 | 建立／驗證凍結資料 | `python week7/quiz3/Code/prepare_data.py` |
+| 2 | 檢查版本、CUDA、既有權重與處理器 | `python week7/quiz3/Code/preflight.py` |
+| 3 | LLM 微調前，100 目標＋100 通用題 | `python week7/quiz3/Code/evaluate.py --kind llm --stage before` |
+| 4 | LLM 正式偏好微調 | `python week7/quiz3/Code/train_dpo.py --kind llm` |
+| 5 | LLM 微調後相同兩組測試 | `python week7/quiz3/Code/evaluate.py --kind llm --stage after` |
+| 6 | VLM 微調前，50 張圖 × 5 條件 | `python week7/quiz3/Code/evaluate.py --kind vlm --stage before` |
+| 7 | VLM 正式偏好微調 | `python week7/quiz3/Code/train_dpo.py --kind vlm` |
+| 8 | VLM 微調後相同五條件測試 | `python week7/quiz3/Code/evaluate.py --kind vlm --stage after` |
+| 9 | 核對參數更新、計分、產生完整報告 | `python week7/quiz3/Code/score_report.py report` |
+| 10 | 產生訓練曲線與前後比較圖 | `python week7/quiz3/Code/plots.py` |
+| 11 | 查看是否執行完成 | `python week7/quiz3/Code/score_report.py status` |
 
-完整腳本最後也會產生 `quiz3_submission.zip`，包含資料、程式、最終 adapter、原始結果、報告及圖表，排除基底權重與中間 checkpoint。每個提交檔案的大小與 SHA-256 在 `Output/submission_manifest.json`。需要重新打包可執行 `python week6/quiz3/Code/package_submission.py`。
+完整腳本最後也會產生 `quiz3_submission.zip`，包含資料、程式、最終 adapter、原始結果、報告及圖表，排除基底權重與中間 checkpoint。每個提交檔案的大小與 SHA-256 在 `Output/submission_manifest.json`。需要重新打包可執行 `python week7/quiz3/Code/package_submission.py`。
 
 `run_all.py` 保留已完成結果並核對證據，不覆寫。若有中斷的 JSON 或 trainer 目錄，先查看錯誤並保留該次紀錄，再移到另一個備份目錄重新執行該階段；本版不把半途訓練當完成，也不混接不同設定。開始正式訓練後請保持資料凍結。
 
@@ -80,7 +80,7 @@ bash week6/quiz3/run_quiz3.sh
 ## 測試與檔案
 
 ```powershell
-python -m unittest discover -s week6/quiz3/Code -p test_quiz3_tools.py -v
+python -m unittest discover -s week7/quiz3/Code -p test_quiz3_tools.py -v
 ```
 
 可選 `train_dpo.py --kind llm --smoke` 或 `--kind vlm --smoke` 執行兩步實際反向傳播。結果只寫 `Output/smoke/`，不會納入正式完成檢核。離線單元測試中的模擬輸出只在暫存資料夾，不能代替實際模型執行。

@@ -173,7 +173,7 @@ def report():
     save(ROOT/'Output/completion.json',{'all_complete':all(c[2] for c in criteria),'covered_points':sum(c[1] for c in criteria if c[2]),'maximum_points':40,
         'criteria':[{'requirement':a,'points':b,'complete':c} for a,b,c in criteria],'metrics_sha256':sha(ROOT/'Output/metrics.json'),
         'note':'Evidence coverage, not a guarantee of grading or of positive performance gains. Synthetic rule-labelled preferences, DPO rather than PPO.'})
-    lines=['# Week 6 Quiz 3：偏好微調與視覺穩健性實驗','','## 作業要求與方法','','全部六項基礎／進階要求的執行證據已齊全，涵蓋 40 分。評分由授課教師決定，並不以改寫或挑選測試答案來製造提升。','',
+    lines=['# Week 7 Quiz 3：偏好微調與視覺穩健性實驗','','## 作業要求與方法','','全部六項基礎／進階要求的執行證據已齊全，涵蓋 40 分。評分由授課教師決定，並不以改寫或挑選測試答案來製造提升。','',
         'LLM：Qwen3-8B，NF4 基底＋BF16 計算＋LoRA；優化「依來源產生正確 JSON、缺失欄位用 null、不執行資料中的注入指令」。VLM：SmolVLM2-2.2B，BF16 基底＋僅語言注意力層 LoRA；優化「指定顏色與形狀的正確計數，缺少目標時回 0，降低虛構物件」。','',
         '兩者均以 DPO（sigmoid loss，beta=0.1）學習 chosen/rejected 偏好，採已有指令模型，不重新預訓練。這是偏好對齊方法，沒有宣稱執行 PPO、訓練獨立 reward model 或蒐集人工評分。標籤由可驗證的資料 schema 與繪圖物件清單產生。','',
         '每個模型 200 組訓練偏好＋20 組 dev 偏好。LLM 另有 100 題目標測試、100 題無關通用能力測試；VLM 另有 50 張獨立圖像，每張測 5 個條件。訓練／dev／測試提示與圖像無重複，測試未用於訓練或挑選 adapter；以最低 dev DPO loss 選 checkpoint。','',

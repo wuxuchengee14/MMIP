@@ -53,7 +53,7 @@ python Code/qwen_local.py --precision bf16 --revision $qwenBenchmarkRevision --q
 
 ```powershell
 conda activate MMIP_LLM
-Set-Location D:\projects\MMIP\week6_homework\quiz1
+Set-Location ./week7\quiz1
 $env:PYTHONUTF8 = "1"
 $qwenBenchmarkRevision = (Get-Content Output/demo.json -Raw -Encoding utf8 | ConvertFrom-Json).revision
 ```

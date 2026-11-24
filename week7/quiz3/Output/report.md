@@ -1,4 +1,4 @@
-# Week 6 Quiz 3：偏好微調與視覺穩健性實驗
+# Week 7 Quiz 3：偏好微調與視覺穩健性實驗
 
 GitHub 提交說明：此報告與原始測試結果完整保留；依其他週的格式排除基底權重、adapter safetensors、中間 checkpoint 與 tokenizer 複本。訓練設定、history、參數變化、權重雜湊及全部 before/after 回答仍可審閱；本機完整實驗與提交 zip 保留實際權重。
 

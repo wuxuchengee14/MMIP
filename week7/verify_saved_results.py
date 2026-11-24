@@ -1,4 +1,4 @@
-"""Read-only audit of submitted Week 6 evidence; no model weights, GPU, API, or file writes."""
+"""Read-only audit of submitted Week 7 evidence; no model weights, GPU, API, or file writes."""
 import argparse
 import hashlib
 import importlib.util
@@ -28,7 +28,7 @@ def module(name,path):
 def quiz1():
     folder=ROOT/'quiz1';runs_dir=folder/'Output/full';judge=folder/'Output/Gemini_manual'
     module('gpu_memory',folder/'Code/gpu_memory.py')
-    code=module('week6_quiz1_tasks',folder/'Code/quiz1_tasks.py')
+    code=module('week7_quiz1_tasks',folder/'Code/quiz1_tasks.py')
     args=SimpleNamespace(questions=folder/'Data/benchmark.json',runs_dir=runs_dir,judge_dir=judge)
     questions,runs,identity=code.load_runs(args)
     commercial=read(runs_dir/'gemini_scores.json');manifest=read(judge/'manifest.json')
@@ -58,7 +58,7 @@ def quiz1():
 def quiz2():
     folder=ROOT/'quiz2';runs_dir=folder/'Output/full';judge=folder/'Output/Commercial_manual'
     module('common',folder/'Code/common.py')
-    code=module('week6_quiz2_tasks',folder/'Code/quiz2_tasks.py')
+    code=module('week7_quiz2_tasks',folder/'Code/quiz2_tasks.py')
     questions,runs=code.validated(folder/'Data/benchmark.json',runs_dir)
     quantitative=code.quantitative(questions,runs)
     require(quantitative==read(runs_dir/'objective_scores.json'),'Quiz2: objective scores changed')
@@ -80,7 +80,7 @@ def quiz2():
 def quiz3():
     folder=ROOT/'quiz3'
     common=module('common',folder/'Code/common.py');common.validate_data()
-    code=module('week6_quiz3_scores',folder/'Code/score_report.py')
+    code=module('week7_quiz3_scores',folder/'Code/score_report.py')
     metrics=read(folder/'Output/metrics.json');per_question=read(folder/'Output/per_question_scores.json')
     completion=read(folder/'Output/completion.json')
     require(completion['metrics_sha256']==sha(folder/'Output/metrics.json'),'Quiz3: changed metrics')

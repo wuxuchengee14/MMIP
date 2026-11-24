@@ -6,7 +6,7 @@ GitHub 已包含四組各20題的正式實驗、全部商用評分及平均GPU�
 
 ```powershell
 conda activate MMIP_LLM
-Set-Location ./week6\quiz1
+Set-Location ./week7\quiz1
 $env:PYTHONUTF8 = "1"
 $qwenRevision = (Get-Content Output/full/bf16_basic.json -Raw -Encoding utf8 | ConvertFrom-Json).revision
 ```
